@@ -1,0 +1,3 @@
+[submodule "vscoq"]
+	path = vscoq
+	url = https://github.com/Duckapple/vscoq
