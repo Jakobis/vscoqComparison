@@ -2,11 +2,31 @@ import json
 import re
 import itertools
 import subprocess
+from subprocess import Popen, PIPE
 
 from lsp import Connection
 
-vscoqtop = subprocess.Popen("vscoqtop", stdin=subprocess.PIPE, stdout=subprocess.PIPE)
+vscoqtop = subprocess.Popen(
+    "vscoqtop", stdin=subprocess.PIPE, stdout=subprocess.PIPE)
 conn = Connection("client")
+
+ID = 1
+
+vsc = Popen(["vscoqtop"], stdin=PIPE, stdout=PIPE)
+
+
+def send_respond(method, params):
+    j = json.dumps({
+        "jsonrpc": "2.0", "id": ID, "method": method, "params": params
+    })
+    ID += 1
+    msg = f"Content-Length: {len(j)}\n\n{j}\n"
+    msg = bytes(msg, "utf-8")
+
+    vsc.stdin.write(msg)
+    vsc.stdin.flush()
+    return vsc.stdout.read().decode("utf-8").split("Content-Length: ")[1:]
+
 
 def sendToCoqtop(name, jsonData):
     payload = {
@@ -35,39 +55,37 @@ def printScores(ranks):
     ranks.sort()
     for key, group in itertools.groupby(ranks, lambda x: x[0]):
         group = list(group)
-        print(f"Average value for autocomplete with {key} letters known: {sum(group) / len(group)}")
-
+        print(
+            f"Average value for autocomplete with {key} letters known: {sum(group) / len(group)}")
 
 
 def benchmark(path):
     with open(path) as file:
-        #initialize
-        initializeJson = json.dumps(
-            {
-                "rootPath": "/home/jakobis/Documents/Skole/Prove/ProVe/testing",
-                "rootUri": "file:///home/jakobis/Documents/Skole/Prove/ProVe/testing"
-            })
-        sendToCoqtop("initialize", initializeJson)
+        # initialize
+        res = send_respond("initialize", {"processId": None, "rootUri": None,
+                                          "workspaceFolders": None, "capabilities": {}})
 
-        #open document
+        # open document
         contents = file.read()
         openJson = json.dumps(
             {
                 "textDocument": {
-                    "uri": path,  #todo ask if I should do anything to make the path look like this '"file:///home/jakobis/Documents/Skole/Prove/ProVe/testing/test.v",'
+                    "uri": path,  # todo ask if I should do anything to make the path look like this '"file:///home/jakobis/Documents/Skole/Prove/ProVe/testing/test.v",'
                     "text": contents
                 }
             }
         )
         sendToCoqtop("textDocument/didOpen", openJson)
 
-        #benchmark
+        # benchmark
         lines = contents.split("\n")
         keywords = ["apply", "rewrite", "rewrite <-"]
-        regex = f"({'|'.join(keywords)})" + r" (?<lemma>([a-zA-Z_][a-zA-Z_0-9]*)) "
-        ranks = [] # a list of tuples with results. First part of the tuple is how many letters it had to work with, second part is the score of the suggestions
+        regex = f"({'|'.join(keywords)})" + \
+            r" (?<lemma>([a-zA-Z_][a-zA-Z_0-9]*)) "
+        ranks = []  # a list of tuples with results. First part of the tuple is how many letters it had to work with, second part is the score of the suggestions
         for lineNumber, line in enumerate(lines):
-            groups = [(m.group("lemma"), m.span()) for m in re.finditer(regex, line)]
+            groups = [(m.group("lemma"), m.span())
+                      for m in re.finditer(regex, line)]
             for word, span in groups:
                 for i in range(span[0], span[1]):
                     completionJson = json.dumps(
@@ -75,7 +93,8 @@ def benchmark(path):
                             "textDocument": {
                                 "uri": path
                             },
-                            "position": {"line": line, "character": i} #todo check if python can convert ints to string in json
+                            # todo check if python can convert ints to string in json
+                            "position": {"line": line, "character": i}
                         }
                     )
                     sendToCoqtop("textDocument/completion", completionJson)
@@ -87,9 +106,11 @@ def benchmark(path):
         printScores(ranks)
 
 
-
 def test():
     conn = Connection("client")
-    data = conn.send_json({"jsonrpc": "2.0", "id": 1, "method": "initialize", "params": ""})
+    data = conn.send_json(
+        {"jsonrpc": "2.0", "id": 1, "method": "initialize", "params": ""})
     print(data)
+
+
 test()
