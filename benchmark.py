@@ -113,7 +113,4 @@ def benchmark(path):
         printScores(ranks)
 
 
-# try:
-benchmark("/home/monner/Projects/vscoqComparison/README.md")
-# except:
-#     print(vsc.stderr.read())
+benchmark("Basics.v")
