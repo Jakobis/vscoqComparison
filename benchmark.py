@@ -16,16 +16,28 @@ def send(method, params):
         "jsonrpc": "2.0", "id": ID, "method": method, "params": params
     })
     ID += 1
-    msg = f"Content-Length: {len(j)}\n\n{j}\n"
+    msg = f"Content-Length: {len(j)}\n\n{j}"
     # msg = bytes(msg, "utf-8")
 
     vsc.stdin.write(msg)
     vsc.stdin.flush()
 
 
+def get():
+    vsc.stdout.read(len("Content-Length: "))
+    leng = ""
+    c = ""
+    while c != "\n":
+        leng += c
+        c = vsc.stdout.read(1)
+    vsc.stdout.read(len("\n"))
+    out = vsc.stdout.read(int(leng))
+    return out
+
+
 def send_respond(method, params):
     send(method, params)
-    return vsc.stdout.read().split("Content-Length: ")[1:]
+    return get()
 
 
 def sendToCoqtop(name, jsonData):
@@ -62,7 +74,7 @@ def printScores(ranks):
 def benchmark(path):
     with open(path) as file:
         # initialize
-        res = send_respond("initialize", {
+        initResponse = send_respond("initialize", {
             "processId": None, "rootUri": None,
             "workspaceFolders": "/home/monner/Projects/vscoqComparison/",
             "capabilities": {},
@@ -74,21 +86,22 @@ def benchmark(path):
                 }
             }
         })
-        print(f"{res=}")
-        print(vsc.poll())
-        print(send("initialized", {}))
+        workspaceResponse = get()
+        print(f"{initResponse=}")
+        print(f"{workspaceResponse=}")
+        # send("initialized", {}) #  doesn't matter lol
+
         # open document
         contents = file.read()
-        openJson = json.dumps(
-            {
-                "textDocument": {
-                    "uri": path,  # todo ask if I should do anything to make the path look like this '"file:///home/jakobis/Documents/Skole/Prove/ProVe/testing/test.v",'
-                    "text": contents
-                }
+        openJson = {
+            "textDocument": {
+                "uri": path,  # todo ask if I should do anything to make the path look like this '"file:///home/jakobis/Documents/Skole/Prove/ProVe/testing/test.v",'
+                "text": contents
             }
-        )
-        res2 = send_respond("textDocument/didOpen", openJson)
-        print(f"{res2=}")
+        }
+        send("textDocument/didOpen", openJson)
+        # print(vsc.poll())
+        print(get())
 
         # benchmark
         lines = contents.split("\n")
@@ -119,7 +132,8 @@ def benchmark(path):
         printScores(ranks)
 
 
-try:
-    benchmark("Basics.v")
-except:
-    print(vsc.stderr.read())
+benchmark("Basics.v")
+# try:
+# except:
+#     pass
+# print(vsc.stderr.read())
