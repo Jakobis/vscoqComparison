@@ -7,7 +7,7 @@ from lsp import Connection
 conn = Connection("client")
 ID = 1
 vsc = Popen(
-    "vscoqtop", stdin=PIPE, stdout=PIPE)
+    ["vscoqtop", "-bt"], stdin=PIPE, stdout=PIPE, stderr=PIPE)
 
 
 def send_respond(method, params):
@@ -58,9 +58,19 @@ def printScores(ranks):
 def benchmark(path):
     with open(path) as file:
         # initialize
-        res = send_respond("initialize", {"processId": None, "rootUri": None,
-                                          "workspaceFolders": None, "capabilities": {}})
-        print(res)
+        res = send_respond("initialize", {
+            "processId": None, "rootUri": None,
+            "workspaceFolders": "/home/monner/Projects/vscoqComparison/",
+            "capabilities": {},
+            "initializationOptions": {
+                "proof": {
+                    "delegation": "None",
+                    "workers": 1,
+                    "mode": 1,
+                }
+            }
+        })
+        print(f"{res=}")
         # open document
         contents = file.read()
         openJson = json.dumps(
@@ -71,7 +81,8 @@ def benchmark(path):
                 }
             }
         )
-        sendToCoqtop("textDocument/didOpen", openJson)
+        res2 = send_respond("textDocument/didOpen", openJson)
+        print(f"{res2=}")
 
         # benchmark
         lines = contents.split("\n")
@@ -102,4 +113,7 @@ def benchmark(path):
         printScores(ranks)
 
 
-benchmark("/home/jakobis/Documents/vscoqComparison/vscoq/README.md")
+# try:
+benchmark("/home/monner/Projects/vscoqComparison/README.md")
+# except:
+#     print(vsc.stderr.read())
