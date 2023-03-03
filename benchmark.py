@@ -1,7 +1,6 @@
 import json
 import re
 import itertools
-import subprocess
 from subprocess import Popen, PIPE
 from lsp import Connection
 conn = Connection("client")
@@ -40,21 +39,11 @@ def send_respond(method, params):
     return get()
 
 
-def sendToCoqtop(name, jsonData):
-    payload = {
-        "jsonrpc": "2.0",
-        "id": 1,
-        "method": name,
-        "params": jsonData
-    }
-    data = conn.send_json(payload)
-    vsc.stdin.write(data)
-
-
-def receiveFromCoqtop():
-    data = vsc.stdout.read()
-    stuff = conn.receive(data)
-    return
+def get_skip():
+    result = json.loads(get())
+    while ("method" in result and (result["method"] == "vscoq/updateHighlights" or result["method"] == "textDocument/publishDiagnostics")):
+        result = json.loads(get())
+    return result
 
 
 def score(word, items):
@@ -100,8 +89,6 @@ def benchmark(path):
             }
         }
         send("textDocument/didOpen", openJson)
-        # print(vsc.poll())
-        print(get())
 
         # benchmark
         lines = contents.split("\n")
@@ -114,26 +101,20 @@ def benchmark(path):
                       for m in re.finditer(regex, line)]
             for word, span in groups:
                 for i in range(span[0], span[1]):
-                    completionJson = json.dumps(
-                        {
-                            "textDocument": {
-                                "uri": path
-                            },
-                            # todo check if python can convert ints to string in json
-                            "position": {"line": line, "character": i}
-                        }
-                    )
-                    sendToCoqtop("textDocument/completion", completionJson)
-                    receivedJson = receiveFromCoqtop()
-                    data = json.loads(receivedJson)
-                    items = [item["label"] for item in data["items"]][:10]
+                    completionJson = {
+                        "textDocument": {
+                            "uri": path
+                        },
+                        # todo check if python can convert ints to string in json
+                        "position": {"line": lineNumber, "character": i}
+                    }
+                    send("textDocument/completion", completionJson)
+                    data = get_skip()
+                    items = [item["label"]
+                             for item in data["result"]["items"]][:10]
                     currentScore = score(word, items)
                     ranks.append((i, currentScore))
         printScores(ranks)
 
 
-benchmark("Basics.v")
-# try:
-# except:
-#     pass
-# print(vsc.stderr.read())
+benchmark("MoreBasic.v")
