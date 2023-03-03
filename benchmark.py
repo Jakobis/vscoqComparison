@@ -55,7 +55,7 @@ def score(word, items):
 def printScores(ranks):
     ranks.sort()
     for key, group in itertools.groupby(ranks, lambda x: x[0]):
-        group = list(group)
+        group = [x[1] for x in group]
         print(
             f"Average value for autocomplete with {key} letters known: {sum(group) / len(group)}")
 
@@ -76,8 +76,6 @@ def benchmark(path):
             }
         })
         workspaceResponse = get()
-        print(f"{initResponse=}")
-        print(f"{workspaceResponse=}")
         # send("initialized", {}) #  doesn't matter lol
 
         # open document
@@ -92,15 +90,15 @@ def benchmark(path):
 
         # benchmark
         lines = contents.split("\n")
-        keywords = ["apply", "rewrite", "rewrite <-"]
-        regex = f"({'|'.join(keywords)})" + \
-            r" (?P<lemma>([a-zA-Z_][a-zA-Z_0-9]*)) "
+        regex = r"(apply|rewrite|rewrite <-) (?P<lemma>([a-zA-Z_][a-zA-Z_0-9]*))"
         ranks = []  # a list of tuples with results. First part of the tuple is how many letters it had to work with, second part is the score of the suggestions
         for lineNumber, line in enumerate(lines):
             groups = [(m.group("lemma"), m.span())
                       for m in re.finditer(regex, line)]
             for word, span in groups:
-                for i in range(span[0], span[1]):
+                print(word, span)
+                trueSpan0 = span[1] - len(word)
+                for i in range(trueSpan0, span[1]):
                     completionJson = {
                         "textDocument": {
                             "uri": path
@@ -110,10 +108,9 @@ def benchmark(path):
                     }
                     send("textDocument/completion", completionJson)
                     data = get_skip()
-                    items = [item["label"]
-                             for item in data["result"]["items"]][:10]
+                    items = [item["label"] for item in data["result"]["items"]][:10]
                     currentScore = score(word, items)
-                    ranks.append((i, currentScore))
+                    ranks.append((i - trueSpan0, currentScore))
         printScores(ranks)
 
 
