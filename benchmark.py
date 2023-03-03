@@ -3,19 +3,15 @@ import re
 import itertools
 import subprocess
 from subprocess import Popen, PIPE
-
 from lsp import Connection
-
-vscoqtop = subprocess.Popen(
-    "vscoqtop", stdin=subprocess.PIPE, stdout=subprocess.PIPE)
 conn = Connection("client")
-
 ID = 1
-
-vsc = Popen(["vscoqtop"], stdin=PIPE, stdout=PIPE)
+vsc = Popen(
+    "vscoqtop", stdin=PIPE, stdout=PIPE)
 
 
 def send_respond(method, params):
+    global ID
     j = json.dumps({
         "jsonrpc": "2.0", "id": ID, "method": method, "params": params
     })
@@ -36,11 +32,11 @@ def sendToCoqtop(name, jsonData):
         "params": jsonData
     }
     data = conn.send_json(payload)
-    vscoqtop.stdin.write(data)
+    vsc.stdin.write(data)
 
 
 def receiveFromCoqtop():
-    data = vscoqtop.stdout.read()
+    data = vsc.stdout.read()
     stuff = conn.receive(data)
     return
 
@@ -64,7 +60,7 @@ def benchmark(path):
         # initialize
         res = send_respond("initialize", {"processId": None, "rootUri": None,
                                           "workspaceFolders": None, "capabilities": {}})
-
+        print(res)
         # open document
         contents = file.read()
         openJson = json.dumps(
@@ -81,7 +77,7 @@ def benchmark(path):
         lines = contents.split("\n")
         keywords = ["apply", "rewrite", "rewrite <-"]
         regex = f"({'|'.join(keywords)})" + \
-            r" (?<lemma>([a-zA-Z_][a-zA-Z_0-9]*)) "
+            r" (?P<lemma>([a-zA-Z_][a-zA-Z_0-9]*)) "
         ranks = []  # a list of tuples with results. First part of the tuple is how many letters it had to work with, second part is the score of the suggestions
         for lineNumber, line in enumerate(lines):
             groups = [(m.group("lemma"), m.span())
@@ -106,11 +102,4 @@ def benchmark(path):
         printScores(ranks)
 
 
-def test():
-    conn = Connection("client")
-    data = conn.send_json(
-        {"jsonrpc": "2.0", "id": 1, "method": "initialize", "params": ""})
-    print(data)
-
-
-test()
+benchmark("/home/jakobis/Documents/vscoqComparison/vscoq/README.md")
