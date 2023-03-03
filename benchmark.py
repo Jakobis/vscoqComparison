@@ -7,21 +7,25 @@ from lsp import Connection
 conn = Connection("client")
 ID = 1
 vsc = Popen(
-    ["vscoqtop", "-bt"], stdin=PIPE, stdout=PIPE, stderr=PIPE)
+    ["vscoqtop", "-bt"], stdin=PIPE, stdout=PIPE, stderr=PIPE, text=True)
 
 
-def send_respond(method, params):
+def send(method, params):
     global ID
     j = json.dumps({
         "jsonrpc": "2.0", "id": ID, "method": method, "params": params
     })
     ID += 1
     msg = f"Content-Length: {len(j)}\n\n{j}\n"
-    msg = bytes(msg, "utf-8")
+    # msg = bytes(msg, "utf-8")
 
     vsc.stdin.write(msg)
     vsc.stdin.flush()
-    return vsc.stdout.read().decode("utf-8").split("Content-Length: ")[1:]
+
+
+def send_respond(method, params):
+    send(method, params)
+    return vsc.stdout.read().split("Content-Length: ")[1:]
 
 
 def sendToCoqtop(name, jsonData):
@@ -71,6 +75,8 @@ def benchmark(path):
             }
         })
         print(f"{res=}")
+        print(vsc.poll())
+        print(send("initialized", {}))
         # open document
         contents = file.read()
         openJson = json.dumps(
@@ -113,4 +119,7 @@ def benchmark(path):
         printScores(ranks)
 
 
-benchmark("Basics.v")
+try:
+    benchmark("Basics.v")
+except:
+    print(vsc.stderr.read())
