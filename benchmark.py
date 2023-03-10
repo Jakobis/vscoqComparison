@@ -5,6 +5,8 @@ from subprocess import Popen, PIPE
 from os import getcwd
 from os.path import exists
 from sys import argv
+from shutil import which
+from io import TextIOWrapper
 ID = 1
 
 
@@ -41,10 +43,10 @@ def get_skip(vsc):
     return result
 
 
-def score(word, items):
+def score(word, items, index):
     if word not in items:
         return 0
-    return 1 / (items.index(word) + 1)
+    return 1 / (index + 1)
 
 
 def printScores(ranks):
@@ -55,7 +57,17 @@ def printScores(ranks):
             f"Average value for autocomplete with {key} letters known: {sum(group) / len(group)}")
 
 
-def benchmark(path, vsc, csv):
+def appendCsv(
+    csv: TextIOWrapper,
+    file_name, algorithm, line: int, character: int,
+    keyword, expected_lemma, lemma_position: int,
+    top_10_results: list[str]
+):
+    csv.write(";".join([file_name, algorithm, str(line), str(character),
+                        keyword, expected_lemma, str(lemma_position), *top_10_results]) + "\n")
+
+
+def benchmark(file_name, vsc, csv):
     # initialize
     initResponse = send_respond(vsc, "initialize", {
         "processId": None, "rootUri": None,
@@ -76,14 +88,14 @@ def benchmark(path, vsc, csv):
 
     contents = ""
     lines = []
-    with open(path) as file:
+    with open(file_name) as file:
         contents = file.read()
         lines = contents.split("\n")
 
     # open document
     openJson = {
         "textDocument": {
-            "uri": path,  # todo ask if I should do anything to make the path look like this '"file:///home/jakobis/Documents/Skole/Prove/ProVe/testing/test.v",'
+            "uri": file_name,  # todo ask if I should do anything to make the path look like this '"file:///home/jakobis/Documents/Skole/Prove/ProVe/testing/test.v",'
             "text": contents
         }
     }
@@ -100,7 +112,7 @@ def benchmark(path, vsc, csv):
             for i in range(span[0], span[1]):
                 completionJson = {
                     "textDocument": {
-                        "uri": path
+                        "uri": file_name
                     },
                     # todo check if python can convert ints to string in json
                     "position": {"line": lineNumber, "character": i}
@@ -109,21 +121,38 @@ def benchmark(path, vsc, csv):
                 data = get_skip(vsc)
                 items = [item["label"]
                          for item in data["result"]["items"]][:10]
-                currentScore = score(word, items)
+                lemma_position = items.index(word) if word in items else -1
+                appendCsv(
+                    csv,
+                    file_name, "wow", lineNumber, i,
+                    tactic, word, lemma_position,
+                    items
+                )
+                currentScore = score(word, items, lemma_position)
                 ranks.append((i - span[0], currentScore))
     printScores(ranks)
 
 
 if __name__ == "__main__":
     if len(argv) < 3:
-        print("Usage: benchmark.py <benchfile> <outfile> [<vscoqtop>]")
+        print("Usage: benchmark.py <benchfile> <outfile> [<vscoqtop path>]")
         print(len(argv))
-        exit()
+        exit(1)
     _, bench, csvFile, *rest = argv
-    header = ""
+    vscoqtop_path = "vscoqtop"
+    if len(rest) > 0:
+        vscoqtop_path = rest[0]
+        if not exists(vscoqtop_path):
+            vscoqtop_path = which(vscoqtop_path)
+        if not exists(vscoqtop_path or ""):
+            print(
+                f"vscoqtop path must exist if specified! Couldn't find '{rest[0]}'")
+            exit(1)
+    csv_header = ""
     if not exists(csvFile):
-        header = f"File Name;Algorithm;Line;Character;Keywords Before;Expected Lemma;Lemma Position;Result {';Result '.join(map(str,range(1, 11)))}\n"
+        csv_header = f"File Name;Algorithm;Line;Character;Keywords Before;Expected Lemma;Lemma Position;Result {';Result '.join(map(str,range(1, 11)))}\n"
     with open(csvFile, "a") as csv:
-        with Popen(["vscoqtop", "-bt"], stdin=PIPE, stdout=PIPE, stderr=PIPE, text=True) as vsc:
-            csv.write(header)
+        with Popen([vscoqtop_path, "-bt"], stdin=PIPE, stdout=PIPE, stderr=PIPE, text=True) as vsc:
+            print(vsc.args)
+            csv.write(csv_header)
             benchmark("MoreBasic.v", vsc, csv)
