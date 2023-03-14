@@ -67,7 +67,7 @@ def appendCsv(
                         keyword, expected_lemma, str(lemma_position), *top_10_results]) + "\n")
 
 
-def benchmark(file_name, vsc, csv):
+def benchmark(file_name, algo, vsc, csv):
     # initialize
     initResponse = send_respond(vsc, "initialize", {
         "processId": None, "rootUri": None,
@@ -78,7 +78,8 @@ def benchmark(file_name, vsc, csv):
                 "delegation": "None",
                 "workers": 1,
                 "mode": 1,
-            }
+            },
+            "completionAlgorithm": algo,
         }
     })
     print(initResponse)
@@ -124,7 +125,7 @@ def benchmark(file_name, vsc, csv):
                 lemma_position = items.index(word) if word in items else -1
                 appendCsv(
                     csv,
-                    file_name, "wow", lineNumber, i,
+                    file_name, algo, lineNumber, i,
                     tactic, word, lemma_position,
                     items
                 )
@@ -134,11 +135,12 @@ def benchmark(file_name, vsc, csv):
 
 
 if __name__ == "__main__":
-    if len(argv) < 3:
-        print("Usage: benchmark.py <benchfile> <outfile> [<vscoqtop path>]")
+    if len(argv) < 4:
+        print(
+            "Usage: benchmark.py <benchfile> <algorithm> <outfile> [<vscoqtop path>]")
         print(len(argv))
         exit(1)
-    _, bench, csvFile, *rest = argv
+    _, bench, algo, csvFile, *rest = argv
     vscoqtop_path = "vscoqtop"
     if len(rest) > 0:
         vscoqtop_path = rest[0]
@@ -155,4 +157,4 @@ if __name__ == "__main__":
         with Popen([vscoqtop_path, "-bt"], stdin=PIPE, stdout=PIPE, stderr=PIPE, text=True) as vsc:
             print(vsc.args)
             csv.write(csv_header)
-            benchmark("MoreBasic.v", vsc, csv)
+            benchmark("MoreBasic.v", algo, vsc, csv)
