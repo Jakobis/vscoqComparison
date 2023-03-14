@@ -1,3 +1,4 @@
+from datetime import datetime
 import json
 import re
 import itertools
@@ -135,20 +136,22 @@ def benchmark(file_name, algo, vsc, csv):
 
 
 if __name__ == "__main__":
-    if len(argv) < 4:
+    if len(argv) < 3:
         print(
-            "Usage: benchmark.py <benchfile> <algorithm> <outfile> [<vscoqtop path>]")
-        print(len(argv))
+            "Usage: benchmark.py <benchfile> <algorithm> [<outfile>] [<vscoqtop path>]")
         exit(1)
-    _, bench, algo, csvFile, *rest = argv
+    _, bench, algo, *rest = argv
+    csvFile = f"{algo}-{datetime.now()}.csv"
     vscoqtop_path = "vscoqtop"
     if len(rest) > 0:
-        vscoqtop_path = rest[0]
+        csvFile = rest[0]
+    if len(rest) > 1:
+        vscoqtop_path = rest[1]
         if not exists(vscoqtop_path):
             vscoqtop_path = which(vscoqtop_path)
         if not exists(vscoqtop_path or ""):
             print(
-                f"vscoqtop path must exist if specified! Couldn't find '{rest[0]}'")
+                f"vscoqtop path must exist if specified! Couldn't find '{rest[1]}'")
             exit(1)
     csv_header = ""
     if not exists(csvFile):
