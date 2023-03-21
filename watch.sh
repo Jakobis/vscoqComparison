@@ -1,0 +1,1 @@
+cd vscode && yarn watch

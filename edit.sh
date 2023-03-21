@@ -1,0 +1,1 @@
+code -r ./vscode/src/vs/editor/contrib/suggest/test/browser/hello.test.ts
