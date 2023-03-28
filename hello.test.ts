@@ -252,7 +252,17 @@ suite("Test algorithms", function () {
 	});
 
 	test("Test algorithms", async function () {
-		const csv = await promisify(open)("../out.csv", "a");
+		enum RankingAlgorithm {
+			SimpleTypeIntersection,
+			SplitTypeIntersection,
+			StructuredTypeEvaluation,
+		}
+		const ranking: RankingAlgorithm = RankingAlgorithm.SimpleTypeIntersection;
+		const file = "MoreBasic.v";
+		const csv = await promisify(open)(
+			`../out/${Object.keys(RankingAlgorithm)[ranking]}-${file}.csv`,
+			"a"
+		);
 		appendCsv(
 			csv,
 			"File Name",
@@ -265,13 +275,6 @@ suite("Test algorithms", function () {
 			"Position",
 			...new Array(10).fill("").map((_, i) => `Result ${i + 1}`)
 		);
-		enum RankingAlgorithm {
-			SimpleTypeIntersection = 0,
-			SplitTypeIntersection = 1,
-			StructuredTypeEvaluation = 2,
-		}
-		const ranking: RankingAlgorithm = RankingAlgorithm.SimpleTypeIntersection;
-		const file = "MoreBasic.v";
 
 		const vsc = spawn(
 			"/home/monner/Projects/vscoq/language-server/_build/install/default/bin/vscoqtop",
@@ -365,18 +368,19 @@ suite("Test algorithms", function () {
 					type Cast = {
 						_completionModel: typeof controller.model["_completionModel"];
 					};
-					const topTen =
-						(controller.model as unknown as Cast)._completionModel?.items
-							.slice(0, TOP_RESULTS)
-							.map(({ textLabel }) => textLabel) ?? [];
+					const items =
+						(controller.model as unknown as Cast)._completionModel?.items ?? [];
+					const topTen = items
+						.slice(0, TOP_RESULTS)
+						.map(({ textLabel }) => textLabel);
 					console.log("result: ", topTen);
-					const score = 0;
+					const score = items.findIndex(({ textLabel }) => textLabel === lemma);
 					appendCsv(
 						csv,
 						file,
 						ranking,
-						i,
-						tacticEnd + x + 1,
+						i + 1,
+						tacticEnd + x + OFFSET,
 						tactic,
 						lemma,
 						score,
