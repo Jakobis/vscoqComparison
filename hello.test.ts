@@ -2,10 +2,15 @@
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
-/* eslint-disable local/code-layering, local/code-import-patterns */
-import * as assert from "assert";
+/* eslint-disable local/code-import-patterns */
 import { spawn } from "child_process";
-import { readFileSync } from "fs";
+import {
+	readFileSync,
+	appendFile,
+	open,
+	close,
+	PathOrFileDescriptor,
+} from "fs";
 import type { Readable, Writable } from "stream";
 import { Event } from "vs/base/common/event";
 import { DisposableStore } from "vs/base/common/lifecycle";
@@ -42,6 +47,7 @@ import { IWorkspaceContextService } from "vs/platform/workspace/common/workspace
 import { SuggestController } from "../../browser/suggestController";
 import { Position } from "vs/editor/common/core/position";
 import { ILanguageService } from "vs/editor/common/languages/language";
+import { promisify } from "util";
 
 let ID = 1;
 type Vsc = { stdin: Writable; stdout: Readable };
@@ -105,11 +111,44 @@ class Queue {
 	async dequeueSkip<T>() {
 		let res = await this.dequeue<{ method?: string }>();
 		while (res?.method && this.skipMethods.includes(res.method)) {
-			console.log("skipped", res.method);
 			res = await this.dequeue<{ method?: string }>();
 		}
 		return res as T;
 	}
+}
+
+const TOP_RESULTS = 10;
+
+function appendCsv(
+	csv: PathOrFileDescriptor,
+	file_name: string,
+	algorithm: number | string,
+	line: number | string,
+	character: number | string,
+	keyword: string,
+	expected_lemma: string,
+	lemma_position: number | string,
+	...top_results: string[]
+) {
+	if (top_results.length < TOP_RESULTS) {
+		top_results = [
+			...top_results,
+			...new Array(TOP_RESULTS - top_results.length).fill(""),
+		];
+	}
+	promisify(appendFile)(
+		csv,
+		[
+			file_name,
+			algorithm,
+			line,
+			character,
+			keyword,
+			expected_lemma,
+			lemma_position,
+			...top_results,
+		].join(";") + "\n"
+	);
 }
 
 suite("Test algorithms", function () {
@@ -213,7 +252,25 @@ suite("Test algorithms", function () {
 	});
 
 	test("Test algorithms", async function () {
-		const ranking = 0;
+		const csv = await promisify(open)("../out.csv", "a");
+		appendCsv(
+			csv,
+			"File Name",
+			"Algorithm",
+			"Line",
+			"Character",
+			"Keywords Before",
+			"Expected Lemma",
+			"Lemma",
+			"Position",
+			...new Array(10).fill("").map((_, i) => `Result ${i + 1}`)
+		);
+		enum RankingAlgorithm {
+			SimpleTypeIntersection = 0,
+			SplitTypeIntersection = 1,
+			StructuredTypeEvaluation = 2,
+		}
+		const ranking: RankingAlgorithm = RankingAlgorithm.SimpleTypeIntersection;
 		const file = "MoreBasic.v";
 
 		const vsc = spawn(
@@ -268,7 +325,7 @@ suite("Test algorithms", function () {
 		});
 
 		const regex = /(apply|rewrite|rewrite <-) ([a-zA-Z_][a-zA-Z_0-9]*)/;
-		const ranks = [];
+		const ranks: [number, number][] = [];
 
 		const suggestResolver = { res: (d: unknown) => {} };
 
@@ -308,12 +365,23 @@ suite("Test algorithms", function () {
 					type Cast = {
 						_completionModel: typeof controller.model["_completionModel"];
 					};
-					const topTen = (
-						controller.model as unknown as Cast
-					)._completionModel?.items
-						.slice(0, 10)
-						.map(({ textLabel }) => textLabel);
+					const topTen =
+						(controller.model as unknown as Cast)._completionModel?.items
+							.slice(0, TOP_RESULTS)
+							.map(({ textLabel }) => textLabel) ?? [];
 					console.log("result: ", topTen);
+					const score = 0;
+					appendCsv(
+						csv,
+						file,
+						ranking,
+						i,
+						tacticEnd + x + 1,
+						tactic,
+						lemma,
+						score,
+						...topTen
+					);
 				}
 
 				// console.log(
@@ -330,9 +398,8 @@ suite("Test algorithms", function () {
 
 		await new Promise((res, rej) =>
 			setTimeout(() => {
-				console.log("Killed at", process.cwd());
 				vsc.kill();
-				res(null);
+				close(csv, () => res(null));
 			}, 1000)
 		);
 	});
