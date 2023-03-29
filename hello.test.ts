@@ -72,7 +72,7 @@ class Queue {
 		"vscoq/updateHighlights",
 		"textDocument/publishDiagnostics",
 	];
-	private partial = "";
+	partial = "";
 	constructor(queueReady: (d: Queue) => void) {
 		this.queue = new Promise<LinkedPromise>((res) => {
 			this.resolve = res;
@@ -119,7 +119,7 @@ class Queue {
 
 const TOP_RESULTS = 10;
 
-function appendCsv(
+async function appendCsv(
 	csv: PathOrFileDescriptor,
 	file_name: string,
 	algorithm: number | string,
@@ -136,7 +136,7 @@ function appendCsv(
 			...new Array(TOP_RESULTS - top_results.length).fill(""),
 		];
 	}
-	promisify(appendFile)(
+	await promisify(appendFile)(
 		csv,
 		[
 			file_name,
@@ -149,6 +149,90 @@ function appendCsv(
 			...top_results,
 		].join(";") + "\n"
 	);
+}
+
+const _ = {
+	range(i: number, j?: number) {
+		let x = 0;
+		if (j !== undefined) {
+			x = i;
+			i = j;
+		}
+		return new Array<number>(i - x).fill(i).map(() => x++);
+	},
+	sum: (items: number[]) => items.reduce((a, b) => a + b),
+};
+
+class DoubleAssocWithDefault<T1 extends number, T2 extends number> {
+	constructor(
+		private map = new Map<T1, Map<T2, number>>(),
+		private counts: number[] = []
+	) {}
+
+	increment(t1: T1, t2: T2) {
+		let m1 = this.map.get(t1);
+		if (!m1) {
+			m1 = new Map<T2, number>();
+			this.map.set(t1, m1);
+		}
+		m1.set(t2, (m1.get(t2) ?? 0) + 1);
+		this.counts[t1] = (this.counts[t1] ?? 0) + 1;
+	}
+
+	toString() {
+		const res: Record<number, [T2, number][]> = {};
+		for (const [k, v] of this.map.entries()) {
+			res[k] = [...v.entries()];
+			res[k].sort(([i1], [i2]) => i1 - i2);
+		}
+		return JSON.stringify(res);
+	}
+	iter() {
+		const map = this.map;
+		const counts = this.counts;
+		const x = function* () {
+			for (const [k, v] of map.entries()) {
+				yield [counts[k], k, v] as const;
+			}
+		};
+		return x();
+	}
+}
+
+/**
+ * Calculate algorithm score based on [[Robbes & Lanza]](https://www.researchgate.net/publication/44848048).
+ *
+ * The algorithm is modified, s.t. all prefix lengths still matter when scoring,
+ * especially the case where no part of the word is typed yet.
+ *
+ * For a prefix = 0, grade matters ~32.2%.
+ * For a prefix = 1, grade matters ~16.1%.
+ * For a prefix = 2, grade matters ~10.7%, etc.
+ *
+ * in this way, our algorithm matters at least probably 50%, as VSCode
+ * filter/sort on word distance is pretty aggresive, prioritizing beginning of word
+ * over part of word over sorting order.
+ *
+ * Returns [score: `number`, grades: `number[]`]
+ */
+function score(ranks: DoubleAssocWithDefault<number, number>) {
+	const grades: number[] = [];
+	for (const [attempts, prefixLength, map] of ranks.iter()) {
+		const grade_i =
+			_.sum(_.range(10).map((j) => (map.get(j) ?? 0) / (j + 1))) / attempts;
+		grades[prefixLength] = grade_i;
+	}
+	const score =
+		(_.sum(grades.map((G_i, i) => G_i / (i + 1))) /
+			_.sum(_.range(grades.length).map((k) => 1 / (k + 1)))) *
+		100;
+	return [score, grades] as const;
+}
+
+enum RankingAlgorithm {
+	SimpleTypeIntersection,
+	SplitTypeIntersection,
+	StructuredTypeEvaluation,
 }
 
 suite("Test algorithms", function () {
@@ -252,15 +336,8 @@ suite("Test algorithms", function () {
 	});
 
 	test("Test algorithms", async function () {
-		enum RankingAlgorithm {
-			SimpleTypeIntersection,
-			SplitTypeIntersection,
-			StructuredTypeEvaluation,
-		}
-		const ranking: RankingAlgorithm = RankingAlgorithm.SimpleTypeIntersection;
-		const file = "MoreBasic.v";
 		const csv = await promisify(open)(
-			`../out/${Object.keys(RankingAlgorithm)[ranking]}-${file}.csv`,
+			`../out/${new Date().toISOString()}.csv`,
 			"a"
 		);
 		appendCsv(
@@ -272,9 +349,26 @@ suite("Test algorithms", function () {
 			"Keywords Before",
 			"Expected Lemma",
 			"Lemma",
-			"Position",
+			"Index",
 			...new Array(10).fill("").map((_, i) => `Result ${i + 1}`)
 		);
+		for (const file of ["MoreBasic.v"]) {
+			for (const ranking of [
+				RankingAlgorithm.SimpleTypeIntersection,
+				RankingAlgorithm.SplitTypeIntersection,
+				RankingAlgorithm.StructuredTypeEvaluation,
+			]) {
+				await runTest(csv, ranking, file);
+			}
+		}
+		await new Promise((res) => (close(csv), res(null)));
+	});
+	async function runTest(
+		csv: PathOrFileDescriptor,
+		ranking: RankingAlgorithm,
+		file: string
+	) {
+		console.log(`Running ${RankingAlgorithm[ranking]} on ${file}...`);
 
 		const vsc = spawn(
 			"/home/monner/Projects/vscoq/language-server/_build/install/default/bin/vscoqtop",
@@ -293,9 +387,9 @@ suite("Test algorithms", function () {
 			const decoded = decoder.decode(d).split(/Content-Length: \d+\r?\n\r?\n/);
 			decoded.forEach(queue.enqueue);
 		});
-		vsc.stderr.on("data", (d) => {
-			console.error(decoder.decode(d));
-		});
+		// vsc.stderr.on("data", (d) => {
+		// 	console.error(decoder.decode(d));
+		// });
 
 		send(vsc, "initialize", {
 			processId: null,
@@ -328,7 +422,7 @@ suite("Test algorithms", function () {
 		});
 
 		const regex = /(apply|rewrite|rewrite <-) ([a-zA-Z_][a-zA-Z_0-9]*)/;
-		const ranks: [number, number][] = [];
+		const ranks = new DoubleAssocWithDefault<number, number>();
 
 		const suggestResolver = { res: (d: unknown) => {} };
 
@@ -345,7 +439,8 @@ suite("Test algorithms", function () {
 				const tacticEnd = tacticStart + tactic.length;
 
 				// TODO: Determine whether we use word under cursor on backend
-				// ...as completion provider is invoked on every suggest trigger
+				// as completion provider is invoked on every suggest trigger
+				await new Promise((res) => setTimeout(res, 100));
 				send(vsc, "textDocument/completion", {
 					textDocument: {
 						uri: file,
@@ -356,12 +451,18 @@ suite("Test algorithms", function () {
 				// TODO: Time this
 				completionItems.items = data["result"]["items"];
 
-				for (let x = 0; x <= lemma.length; x++) {
+				for (
+					let lemmaPosition = 0;
+					lemmaPosition <= lemma.length;
+					lemmaPosition++
+				) {
 					// Promise which can be resolved when suggestions are done
 					const suggest = new Promise((res) => (suggestResolver.res = res));
 
 					const OFFSET = 2; // position in editor is 1-indexed, and include space
-					editor.setPosition(new Position(i + 1, tacticEnd + x + OFFSET));
+					editor.setPosition(
+						new Position(i + 1, tacticEnd + lemmaPosition + OFFSET)
+					);
 
 					controller.triggerSuggest();
 					await suggest;
@@ -373,38 +474,47 @@ suite("Test algorithms", function () {
 					const topTen = items
 						.slice(0, TOP_RESULTS)
 						.map(({ textLabel }) => textLabel);
-					console.log("result: ", topTen);
-					const score = items.findIndex(({ textLabel }) => textLabel === lemma);
-					appendCsv(
+
+					const resultIndex = items.findIndex(
+						({ textLabel }) => textLabel === lemma
+					);
+					ranks.increment(lemmaPosition, resultIndex);
+
+					await appendCsv(
 						csv,
 						file,
-						ranking,
+						RankingAlgorithm[ranking],
 						i + 1,
-						tacticEnd + x + OFFSET,
+						tacticEnd + lemmaPosition + OFFSET,
 						tactic,
 						lemma,
-						score,
+						resultIndex,
 						...topTen
 					);
 				}
-
-				// console.log(
-				// 	search,
-				// 	tacticStart,
-				// 	tacticEnd,
-				// 	JSON.stringify([_sentence, tactic, lemma]),
-				// 	line.slice(tacticEnd)
-				// );
 
 				search = line.slice(++tacticStart).search(regex);
 			}
 		}
 
-		await new Promise((res, rej) =>
+		const [S, grades] = score(ranks);
+		const round = (i: number, ds = 2) => (
+			(ds = Math.pow(10, ds)), Math.round(i * ds) / ds
+		);
+
+		console.log(
+			`${RankingAlgorithm[ranking]} scored ${round(S)}, grades ${JSON.stringify(
+				grades.map((i) => round(i))
+			)}`
+		);
+
+		await new Promise((res) =>
 			setTimeout(() => {
 				vsc.kill();
-				close(csv, () => res(null));
-			}, 1000)
+				res(null);
+			}, 500)
 		);
-	});
+
+		return S;
+	}
 });
