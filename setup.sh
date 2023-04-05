@@ -1,6 +1,6 @@
 git submodule init
 git submodule update
-ln -s $(pwd)/hello.test.ts $(pwd)/vscode/src/vs/editor/contrib/suggest/test/browser/hello.test.ts
+ln -s $(pwd)/runSuite.test.ts $(pwd)/vscode/src/vs/editor/contrib/suggest/test/browser/runSuite.test.ts
 
 cd vscode
 yarn install
