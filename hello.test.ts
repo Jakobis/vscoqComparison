@@ -49,6 +49,10 @@ import { Position } from "vs/editor/common/core/position";
 import { ILanguageService } from "vs/editor/common/languages/language";
 import { promisify } from "util";
 
+const round = (i: number, ds = 2) => (
+	(ds = Math.pow(10, ds)), Math.round(i * ds) / ds
+);
+
 let ID = 1;
 type Vsc = { stdin: Writable; stdout: Readable };
 function send(vsc: Vsc, method: unknown, params: unknown) {
@@ -233,7 +237,17 @@ enum RankingAlgorithm {
 	SimpleTypeIntersection,
 	SplitTypeIntersection,
 	StructuredTypeEvaluation,
+	SelectiveUnification,
+	SelectiveSplitUnification,
 }
+
+const rankingAlgortihms = [
+	RankingAlgorithm.SimpleTypeIntersection,
+	RankingAlgorithm.SplitTypeIntersection,
+	RankingAlgorithm.StructuredTypeEvaluation,
+	RankingAlgorithm.SelectiveUnification,
+	RankingAlgorithm.SelectiveSplitUnification,
+];
 
 suite("Test algorithms", function () {
 	let model: TextModel;
@@ -247,6 +261,7 @@ suite("Test algorithms", function () {
 	let controller: SuggestController;
 
 	setup(function () {
+		// process.stdin.addListener("data", console.log);
 		languageService = disposables.add(new LanguageService());
 		const serviceCollection = new ServiceCollection(
 			[ILanguageFeaturesService, languageFeaturesService],
@@ -336,10 +351,9 @@ suite("Test algorithms", function () {
 	});
 
 	test("Test algorithms", async function () {
-		const csv = await promisify(open)(
-			`../out/${new Date().toISOString()}.csv`,
-			"a"
-		);
+		const append = promisify(appendFile);
+		const now = new Date().toISOString();
+		const csv = await promisify(open)(`../out/${now}.csv`, "a");
 		appendCsv(
 			csv,
 			"File Name",
@@ -352,16 +366,18 @@ suite("Test algorithms", function () {
 			"Index",
 			...new Array(10).fill("").map((_, i) => `Result ${i + 1}`)
 		);
+		const scoreCsv = await promisify(open)(`../out/scores-${now}.csv`, "a");
+		await append(scoreCsv, "File Name;Algorithm;Score\n");
 		for (const file of ["MoreBasic.v"]) {
-			for (const ranking of [
-				RankingAlgorithm.SimpleTypeIntersection,
-				RankingAlgorithm.SplitTypeIntersection,
-				RankingAlgorithm.StructuredTypeEvaluation,
-			]) {
-				await runTest(csv, ranking, file);
+			for (const ranking of rankingAlgortihms) {
+				const score = await runTest(csv, ranking, file);
+				await append(
+					scoreCsv,
+					`${file};${RankingAlgorithm[ranking]};${score}\n`
+				);
 			}
 		}
-		await new Promise((res) => (close(csv), res(null)));
+		await new Promise((res) => (close(csv), close(scoreCsv), res(null)));
 	});
 	async function runTest(
 		csv: PathOrFileDescriptor,
@@ -370,14 +386,11 @@ suite("Test algorithms", function () {
 	) {
 		console.log(`Running ${RankingAlgorithm[ranking]} on ${file}...`);
 
-		const vsc = spawn(
-			"/home/monner/Projects/vscoq/language-server/_build/install/default/bin/vscoqtop",
-			[
-				"-bt",
-				"-coqlib",
-				"/home/monner/Projects/vscoq/language-server/_build/default/coq",
-			]
-		);
+		const vsc = spawn("/home/monner/.opam/4.14.0/bin/vscoqtop", [
+			"-bt",
+			"-coqlib",
+			"/home/monner/.opam/4.14.0/lib/coq",
+		]);
 
 		const queue = await new Promise<Queue>((res) => new Queue(res));
 
@@ -387,9 +400,9 @@ suite("Test algorithms", function () {
 			const decoded = decoder.decode(d).split(/Content-Length: \d+\r?\n\r?\n/);
 			decoded.forEach(queue.enqueue);
 		});
-		// vsc.stderr.on("data", (d) => {
-		// 	console.error(decoder.decode(d));
-		// });
+		vsc.stderr.on("data", (d) => {
+			console.error(decoder.decode(d));
+		});
 
 		send(vsc, "initialize", {
 			processId: null,
@@ -498,9 +511,6 @@ suite("Test algorithms", function () {
 		}
 
 		const [S, grades] = score(ranks);
-		const round = (i: number, ds = 2) => (
-			(ds = Math.pow(10, ds)), Math.round(i * ds) / ds
-		);
 
 		console.log(
 			`${RankingAlgorithm[ranking]} scored ${round(S)}, grades ${JSON.stringify(
