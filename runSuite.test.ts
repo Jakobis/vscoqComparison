@@ -90,10 +90,6 @@ class Queue {
 		// 	this.partial.slice(0, 300),
 		// 	this.partial.slice(this.partial.length - 200)
 		// );
-		if (this.partial.includes(`}{\n  "jsonrpc`)) {
-			this.partial = "";
-			this.enqueueObject({ error: { message: "bad request lmao" } });
-		}
 		if (
 			msg.includes("vscoq/updateHighlights") ||
 			msg.includes("textDocument/publishDiagnostics")
