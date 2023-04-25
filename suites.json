@@ -1,1 +1,4 @@
-[{ "root": "coq-100-theorems", "files": "." }]
+[
+    { "root": "software_foundations/lf", "files": "."},
+    { "root": "coq-100-theorems", "files": "." }
+]

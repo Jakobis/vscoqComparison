@@ -550,6 +550,7 @@ suite("Test algorithms", function () {
 					}
 				);
 				if (res.error !== undefined) {
+					console.log(`Got Error ${res.error}`);
 					continue;
 				}
 				console.log(`Got response for ${_sentence}...`);

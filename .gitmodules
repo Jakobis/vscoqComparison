@@ -8,3 +8,8 @@
 	url = https://github.com/coq-community/coq-100-theorems
 	ignore = all
 	shallow = true
+[submodule "software_foundations"]
+	path = software_foundations
+	url = https://github.com/marshall-lee/software_foundations
+	ignore = all
+	shallow = true
