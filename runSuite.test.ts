@@ -460,11 +460,9 @@ suite("Test algorithms", function () {
 
 		const startTime = Date.now();
 
-		const vsc = spawn("/home/monner/.opam/4.14.0/bin/vscoqtop", [
-			"-bt",
-			"-coqlib",
-			"/home/monner/.opam/4.14.0/lib/coq",
-		]);
+		const coqLibPath = process.env.COQLIB ?? "";
+
+		const vsc = spawn("vscoqtop", ["-bt", "-coqlib", coqLibPath]);
 
 		const queue = await new Promise<Queue>((res) => new Queue(res));
 
