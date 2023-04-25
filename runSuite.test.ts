@@ -386,7 +386,7 @@ suite("Test algorithms", function () {
 	) {
 		console.log(`Running ${RankingAlgorithm[ranking]} on ${file}...`);
 
-		const coqLibPath = process.env.COQLIB;
+		const coqLibPath = process.env.COQLIB ?? "";
 
 		const vsc = spawn("vscoqtop", [
 			"-bt",
