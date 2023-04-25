@@ -386,10 +386,12 @@ suite("Test algorithms", function () {
 	) {
 		console.log(`Running ${RankingAlgorithm[ranking]} on ${file}...`);
 
-		const vsc = spawn("/home/monner/.opam/4.14.0/bin/vscoqtop", [
+		const coqLibPath = process.env.COQLIB;
+
+		const vsc = spawn("vscoqtop", [
 			"-bt",
 			"-coqlib",
-			"/home/monner/.opam/4.14.0/lib/coq",
+			coqLibPath,
 		]);
 
 		const queue = await new Promise<Queue>((res) => new Queue(res));
