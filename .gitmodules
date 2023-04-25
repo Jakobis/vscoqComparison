@@ -3,3 +3,8 @@
 	url = https://github.com/microsoft/vscode
 	ignore = all
 	shallow = true
+[submodule "coq-100-theorems"]
+	path = coq-100-theorems
+	url = https://github.com/coq-community/coq-100-theorems
+	ignore = all
+	shallow = true

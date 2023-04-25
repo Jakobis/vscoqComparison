@@ -3,15 +3,17 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 /* eslint-disable local/code-import-patterns */
-import { spawn } from "child_process";
+import { spawn } from "node:child_process";
 import {
 	readFileSync,
 	appendFile,
 	open,
 	close,
 	PathOrFileDescriptor,
-} from "fs";
-import type { Readable, Writable } from "stream";
+	opendirSync,
+	Dirent,
+} from "node:fs";
+import type { Readable, Writable } from "node:stream";
 import { Event } from "vs/base/common/event";
 import { DisposableStore } from "vs/base/common/lifecycle";
 import * as languages from "vs/editor/common/languages";
@@ -47,7 +49,7 @@ import { IWorkspaceContextService } from "vs/platform/workspace/common/workspace
 import { SuggestController } from "../../browser/suggestController";
 import { Position } from "vs/editor/common/core/position";
 import { ILanguageService } from "vs/editor/common/languages/language";
-import { promisify } from "util";
+import { promisify } from "node:util";
 
 const round = (i: number, ds = 2) => (
 	(ds = Math.pow(10, ds)), Math.round(i * ds) / ds
@@ -62,9 +64,9 @@ function send(vsc: Vsc, method: unknown, params: unknown) {
 		method: method,
 		params: params,
 	};
-	ID += 1;
 	const txt = JSON.stringify(msg);
 	vsc.stdin.write(`Content-Length: ${txt.length}\n\n${txt}`);
+	return ID++;
 }
 
 type LinkedPromise = { data: unknown; next: Promise<LinkedPromise> };
@@ -84,20 +86,31 @@ class Queue {
 		});
 	}
 	enqueue = (msg: string) => {
+		// console.log(
+		// 	this.partial.slice(0, 300),
+		// 	this.partial.slice(this.partial.length - 200)
+		// );
+		if (this.partial.includes(`}{\n  "jsonrpc`)) {
+			this.partial = "";
+			this.enqueueObject({ error: { message: "bad request lmao" } });
+		}
 		if (
 			msg.includes("vscoq/updateHighlights") ||
 			msg.includes("textDocument/publishDiagnostics")
 		) {
 			return;
 		}
-		if (this.partial) {
-			msg = this.partial + msg;
-		}
 		try {
 			this.enqueueObject(JSON.parse(msg));
 			this.partial = "";
-		} catch (err) {
-			this.partial = msg;
+		} catch {
+			msg = this.partial + msg;
+			try {
+				this.enqueueObject(JSON.parse(msg));
+				this.partial = "";
+			} catch {
+				this.partial = msg;
+			}
 		}
 	};
 	private enqueueObject = (obj: unknown) => {
@@ -119,6 +132,41 @@ class Queue {
 		}
 		return res as T;
 	}
+	// async waitForSkips() {
+	// 	await this.ready;
+	// }
+}
+
+async function sendRetry<T extends Record<string, any>>(
+	queue: Queue,
+	...args: Parameters<typeof send>
+): Promise<{ data: T; error: undefined } | { data: undefined; error: string }> {
+	type Err = { error: { message: string } };
+	const timeout = setTimeout(() => {
+		console.log("Request is taking a while...");
+		console.log(
+			queue.partial.slice(0, 300) +
+				queue.partial.slice(queue.partial.length - 300)
+		);
+	}, 10000);
+	send(...args);
+	let data = await queue.dequeueSkip<T | Err>();
+	clearTimeout(timeout);
+	if ("error" in data) {
+		console.log("retry 1");
+		send(...args);
+		data = await queue.dequeueSkip<T | Err>();
+	}
+	if ("error" in data) {
+		console.log("retry 2");
+		send(...args);
+		data = await queue.dequeueSkip<T | Err>();
+	}
+	if ("error" in data) {
+		return { error: data.error.message, data: undefined };
+	}
+
+	return { data, error: undefined };
 }
 
 const TOP_RESULTS = 10;
@@ -242,12 +290,17 @@ enum RankingAlgorithm {
 }
 
 const rankingAlgortihms = [
-	RankingAlgorithm.SimpleTypeIntersection,
-	RankingAlgorithm.SplitTypeIntersection,
-	RankingAlgorithm.StructuredTypeEvaluation,
-	RankingAlgorithm.SelectiveUnification,
+	// RankingAlgorithm.SimpleTypeIntersection,
+	// RankingAlgorithm.SplitTypeIntersection,
+	// RankingAlgorithm.StructuredTypeEvaluation,
+	// RankingAlgorithm.SelectiveUnification,
 	RankingAlgorithm.SelectiveSplitUnification,
 ];
+
+enum ProofMode {
+	Manual = 0,
+	Continuous = 1,
+}
 
 suite("Test algorithms", function () {
 	let model: TextModel;
@@ -351,9 +404,10 @@ suite("Test algorithms", function () {
 	});
 
 	test("Test algorithms", async function () {
+		process.chdir("..");
 		const append = promisify(appendFile);
 		const now = new Date().toISOString();
-		const csv = await promisify(open)(`../out/${now}.csv`, "a");
+		const csv = await promisify(open)(`out/${now}.csv`, "a");
 		appendCsv(
 			csv,
 			"File Name",
@@ -366,25 +420,45 @@ suite("Test algorithms", function () {
 			"Index",
 			...new Array(10).fill("").map((_, i) => `Result ${i + 1}`)
 		);
-		const scoreCsv = await promisify(open)(`../out/scores-${now}.csv`, "a");
-		await append(scoreCsv, "File Name;Algorithm;Score\n");
-		for (const file of ["MoreBasic.v"]) {
-			for (const ranking of rankingAlgortihms) {
-				const score = await runTest(csv, ranking, file);
-				await append(
-					scoreCsv,
-					`${file};${RankingAlgorithm[ranking]};${score}\n`
-				);
+		const scoreCsv = await promisify(open)(`out/scores-${now}.csv`, "a");
+		await append(scoreCsv, "File Name;Algorithm;Score;Time\n");
+		const testRoot = process.cwd();
+		const config: Record<"root" | "files", string>[] = JSON.parse(
+			readFileSync("suites.json").toString()
+		);
+		console.log(JSON.stringify(config, null, 2));
+		for (const { files, root } of config) {
+			process.chdir(root);
+			const thisDir = process.cwd();
+			const d = opendirSync(files);
+			let next: Dirent | null;
+			while ((next = d.readSync())) {
+				if (!next.name.endsWith(".v")) {
+					continue;
+				}
+				const file = files + "/" + next.name;
+				const uri = "file://" + thisDir + "/" + next.name;
+				for (const ranking of rankingAlgortihms) {
+					const { score, time } = await runTest(csv, ranking, file, uri);
+					await append(
+						scoreCsv,
+						`${file};${RankingAlgorithm[ranking]};${score};${time}\n`
+					);
+				}
 			}
+			process.chdir(testRoot);
 		}
 		await new Promise((res) => (close(csv), close(scoreCsv), res(null)));
 	});
 	async function runTest(
 		csv: PathOrFileDescriptor,
 		ranking: RankingAlgorithm,
-		file: string
+		file: string,
+		uri: string
 	) {
 		console.log(`Running ${RankingAlgorithm[ranking]} on ${file}...`);
+
+		const startTime = Date.now();
 
 		const vsc = spawn("/home/monner/.opam/4.14.0/bin/vscoqtop", [
 			"-bt",
@@ -403,6 +477,11 @@ suite("Test algorithms", function () {
 		vsc.stderr.on("data", (d) => {
 			console.error(decoder.decode(d));
 		});
+		vsc.on("exit", (c) =>
+			console.log(
+				`vsc exited for ${RankingAlgorithm[ranking]} on ${file}, code ${c}`
+			)
+		);
 
 		send(vsc, "initialize", {
 			processId: null,
@@ -413,28 +492,31 @@ suite("Test algorithms", function () {
 				proof: {
 					delegation: "None",
 					workers: 1,
-					mode: 1,
+					mode: ProofMode.Continuous,
 				},
 				ranking,
 			},
 		});
 
 		await queue.dequeue(); // initialize
-		await queue.dequeue(); // workspace/configuration
+		console.log(JSON.stringify(await queue.dequeue())); // workspace/configuration
 
-		const contents = readFileSync(`../${file}`, "utf-8");
+		const contents = readFileSync(file, "utf-8");
 		const lines = contents.split("\n");
 
+		// editor.setModel()
 		model.setValue(contents);
 
 		send(vsc, "textDocument/didOpen", {
 			textDocument: {
-				uri: file,
+				uri,
+				languageId: "coq",
 				text: contents,
 			},
 		});
 
-		const regex = /(apply|rewrite|rewrite <-) ([a-zA-Z_][a-zA-Z_0-9]*)/;
+		const regex =
+			/(apply|rewrite|rewrite <-) ((?:[^\s.,;]\.[^\s.,;]|[^\s.,;])*)/;
 		const ranks = new DoubleAssocWithDefault<number, number>();
 
 		const suggestResolver = { res: (d: unknown) => {} };
@@ -451,18 +533,30 @@ suite("Test algorithms", function () {
 					regex.exec(line.slice(tacticStart)) ?? [];
 				const tacticEnd = tacticStart + tactic.length;
 
+				search = line.slice(++tacticStart).search(regex);
+
 				// TODO: Determine whether we use word under cursor on backend
 				// as completion provider is invoked on every suggest trigger
 				await new Promise((res) => setTimeout(res, 100));
-				send(vsc, "textDocument/completion", {
-					textDocument: {
-						uri: file,
-					},
-					position: { line: i, character: tacticEnd },
-				});
-				const data = await queue.dequeueSkip<{ result: { items: [] } }>();
 				// TODO: Time this
-				completionItems.items = data["result"]["items"];
+				console.log(`Trying ${_sentence}...`);
+				const res = await sendRetry<{ result: { items: [] } }>(
+					queue,
+					vsc,
+					"textDocument/completion",
+					{
+						textDocument: {
+							uri,
+						},
+						position: { line: i, character: tacticEnd },
+					}
+				);
+				if (res.error !== undefined) {
+					continue;
+				}
+				console.log(`Got response for ${_sentence}...`);
+
+				completionItems.items = res.data.result.items ?? [];
 
 				for (
 					let lemmaPosition = 0;
@@ -480,16 +574,16 @@ suite("Test algorithms", function () {
 					controller.triggerSuggest();
 					await suggest;
 					type Cast = {
-						_completionModel: typeof controller.model["_completionModel"];
+						_completionModel: (typeof controller.model)["_completionModel"];
 					};
 					const items =
 						(controller.model as unknown as Cast)._completionModel?.items ?? [];
 					const topTen = items
 						.slice(0, TOP_RESULTS)
-						.map(({ textLabel }) => textLabel);
+						.map(({ completion: { insertText } }) => insertText);
 
 					const resultIndex = items.findIndex(
-						({ textLabel }) => textLabel === lemma
+						({ completion: { insertText } }) => insertText === lemma
 					);
 					ranks.increment(lemmaPosition, resultIndex);
 
@@ -505,8 +599,6 @@ suite("Test algorithms", function () {
 						...topTen
 					);
 				}
-
-				search = line.slice(++tacticStart).search(regex);
 			}
 		}
 
@@ -525,6 +617,6 @@ suite("Test algorithms", function () {
 			}, 500)
 		);
 
-		return S;
+		return { score: S, time: Date.now() - startTime };
 	}
 });
