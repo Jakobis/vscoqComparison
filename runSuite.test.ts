@@ -65,7 +65,8 @@ function send(vsc: Vsc, method: unknown, params: unknown) {
 		params: params,
 	};
 	const txt = JSON.stringify(msg);
-	vsc.stdin.write(`Content-Length: ${txt.length}\n\n${txt}`);
+	const encoded = Buffer.from(txt, "utf8");
+	vsc.stdin.write(`Content-Length: ${encoded.length}\n\n${encoded}`);
 	return ID++;
 }
 
