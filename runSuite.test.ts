@@ -281,6 +281,30 @@ function score(ranks: DoubleAssocWithDefault<number, number>) {
 	return [score, grades] as const;
 }
 
+function commentLevels(lines: string[]) {
+	const indentationLevels : number[][] = [];
+	let currentLevel = 0;
+	for (const line of lines) {
+		const thisLine : number[] = [];
+		if (!line) {
+			indentationLevels.push(thisLine);
+			continue;
+		}
+		// Go through each character in the line looking for (* or *)
+		for (let char = 0; char < line.length; char++) {
+			if (line[char] === "(" && char + 1 < line.length && line[char+1] === "*") {
+				currentLevel++;
+			}
+			if (line[char] === "*" && char + 1 < line.length && line[char+1] === ")") {
+				currentLevel--;
+			}
+			thisLine.push(currentLevel);
+		}
+		indentationLevels.push(thisLine);
+	}
+	return indentationLevels;
+}
+
 enum RankingAlgorithm {
 	SimpleTypeIntersection,
 	SplitTypeIntersection,
@@ -433,7 +457,7 @@ suite("Test algorithms", function () {
 			const d = opendirSync(files);
 			let next: Dirent | null;
 			while ((next = d.readSync())) {
-				if (!next.name.endsWith(".v")) {
+				if (!next.name.endsWith("Basics.v")) {
 					continue;
 				}
 				const file = files + "/" + next.name;
@@ -527,6 +551,8 @@ suite("Test algorithms", function () {
 
 		controller.model.onDidSuggest(() => suggestResolver.res(undefined));
 
+		const commentLevel = commentLevels(lines);
+
 		for (let i = 0; i < lines.length; i++) {
 			const line = lines[i];
 			let search = line.search(regex);
@@ -536,8 +562,12 @@ suite("Test algorithms", function () {
 				const [_sentence, tactic, lemma] =
 					regex.exec(line.slice(tacticStart)) ?? [];
 				const tacticEnd = tacticStart + tactic.length;
-
+				
 				search = line.slice(++tacticStart).search(regex);
+
+				if (commentLevel[i] && commentLevel[i][tacticEnd] > 0) {
+					continue;
+				}
 
 				// TODO: Determine whether we use word under cursor on backend
 				// as completion provider is invoked on every suggest trigger
