@@ -148,21 +148,24 @@ async function sendRetry<T extends Record<string, any>>(
 	}, 10000);
 	send(...args);
 	let data = await queue.dequeueSkip<T | Err>();
-	clearTimeout(timeout);
 	if ("error" in data) {
+		await new Promise((res) => setTimeout(res, 200));
 		console.log("retry 1");
 		send(...args);
 		data = await queue.dequeueSkip<T | Err>();
 	}
 	if ("error" in data) {
+		await new Promise((res) => setTimeout(res, 400));
 		console.log("retry 2");
 		send(...args);
 		data = await queue.dequeueSkip<T | Err>();
 	}
 	if ("error" in data) {
+		clearTimeout(timeout);
 		return { error: data.error.message, data: undefined };
 	}
 
+	clearTimeout(timeout);
 	return { data, error: undefined };
 }
 
@@ -484,9 +487,10 @@ suite("Test algorithms", function () {
 		);
 
 		send(vsc, "initialize", {
-			processId: null,
-			rootUri: null,
-			workspaceFolders: process.cwd(),
+			processId: process.pid,
+			rootUri: "file://" + process.cwd(),
+			rootPath: process.cwd(),
+			workspaceFolders: [{ uri: process.cwd(), name: "workspace" }],
 			capabilities: {},
 			initializationOptions: {
 				proof: {
@@ -516,7 +520,7 @@ suite("Test algorithms", function () {
 		});
 
 		const regex =
-			/(apply|rewrite|rewrite <-) ((?:[^\s.,;]\.[^\s.,;]|[^\s.,;])*)/;
+			/(apply|rewrite(?: +(?:->|<-))?) ((?:[^\s.,;]\.[^\s.,;]|[^\s.,;])*)/;
 		const ranks = new DoubleAssocWithDefault<number, number>();
 
 		const suggestResolver = { res: (d: unknown) => {} };
