@@ -8,6 +8,7 @@ import {
 	readFileSync,
 	appendFile,
 	open,
+	mkdir,
 	close,
 	PathOrFileDescriptor,
 	opendirSync,
@@ -282,20 +283,28 @@ function score(ranks: DoubleAssocWithDefault<number, number>) {
 }
 
 function commentLevels(lines: string[]) {
-	const indentationLevels : number[][] = [];
+	const indentationLevels: number[][] = [];
 	let currentLevel = 0;
 	for (const line of lines) {
-		const thisLine : number[] = [];
+		const thisLine: number[] = [];
 		if (!line) {
 			indentationLevels.push(thisLine);
 			continue;
 		}
 		// Go through each character in the line looking for (* or *)
 		for (let char = 0; char < line.length; char++) {
-			if (line[char] === "(" && char + 1 < line.length && line[char+1] === "*") {
+			if (
+				line[char] === "(" &&
+				char + 1 < line.length &&
+				line[char + 1] === "*"
+			) {
 				currentLevel++;
 			}
-			if (line[char] === "*" && char + 1 < line.length && line[char+1] === ")") {
+			if (
+				line[char] === "*" &&
+				char + 1 < line.length &&
+				line[char + 1] === ")"
+			) {
 				currentLevel--;
 			}
 			thisLine.push(currentLevel);
@@ -326,7 +335,7 @@ enum ProofMode {
 	Continuous = 1,
 }
 
-suite("Test algorithms", function () {
+suite("Test algorithms", async function () {
 	let model: TextModel;
 	const languageFeaturesService = new LanguageFeaturesService();
 	let languageService: ILanguageService;
@@ -336,6 +345,8 @@ suite("Test algorithms", function () {
 	};
 	let editor: ITestCodeEditor;
 	let controller: SuggestController;
+	const outFolder = "out-" + new Date().toISOString();
+	const append = promisify(appendFile);
 
 	setup(function () {
 		// process.stdin.addListener("data", console.log);
@@ -427,44 +438,57 @@ suite("Test algorithms", function () {
 		disposables.clear();
 	});
 
-	test("Test algorithms", async function () {
-		process.chdir("..");
-		const append = promisify(appendFile);
-		const now = new Date().toISOString();
-		const csv = await promisify(open)(`out/${now}.csv`, "a");
-		appendCsv(
-			csv,
-			"File Name",
-			"Algorithm",
-			"Line",
-			"Character",
-			"Keywords Before",
-			"Expected Lemma",
-			"Lemma",
-			"Index",
-			...new Array(10).fill("").map((_, i) => `Result ${i + 1}`)
-		);
-		const scoreCsv = await promisify(open)(`out/scores-${now}.csv`, "a");
-		await append(scoreCsv, "File Name;Algorithm;Score;Time\n");
-		const testRoot = process.cwd();
-		const config: Record<"root" | "files", string>[] = JSON.parse(
-			readFileSync("suites.json").toString()
-		);
-		console.log(JSON.stringify(config, null, 2));
-		for (const { files, root } of config) {
-			process.chdir(root);
-			const thisDir = process.cwd();
-			const d = opendirSync(files);
-			let next: Dirent | null;
-			while ((next = d.readSync())) {
-				if (!next.name.endsWith(".v")) {
-					continue;
-				}
-				const file = files + "/" + next.name;
-				const uri = "file://" + thisDir + "/" + next.name;
+	process.chdir("..");
+	const testRoot = process.cwd();
+	const config: (Record<"root" | "files", string> & { name?: string })[] =
+		JSON.parse(readFileSync("suites.json").toString());
+	await promisify(mkdir)(outFolder);
+	console.log(JSON.stringify(config, null, 2));
+	for (const { files, root, name } of config) {
+		process.chdir(root);
+		const thisDir = process.cwd();
+		const d = opendirSync(files);
+		let next: Dirent | null;
+		while ((next = d.readSync())) {
+			if (!next.name.endsWith(".v")) {
+				continue;
+			}
+
+			const file = files + "/" + next.name;
+			const uri = "file://" + thisDir + "/" + next.name;
+			const goodName = (name ?? root) + "-" + next.name;
+
+			test(`Test file ${goodName}`, async () => {
+				const csv = await promisify(open)(
+					`${testRoot}/${outFolder}/${goodName}.csv`,
+					"a"
+				);
+				appendCsv(
+					csv,
+					"File Name",
+					"Algorithm",
+					"Line",
+					"Character",
+					"Keywords Before",
+					"Expected Lemma",
+					"Lemma",
+					"Index",
+					...new Array(10).fill("").map((_, i) => `Result ${i + 1}`)
+				);
+				const scoreCsv = await promisify(open)(
+					`${testRoot}/${outFolder}/scores-${goodName}.csv`,
+					"a"
+				);
+				await append(scoreCsv, "File Name;Algorithm;Score;Time\n");
 				for (const ranking of rankingAlgortihms) {
 					try {
-						const { score, time } = await runTest(csv, ranking, file, uri);
+						const { score, time } = await runTest(
+							csv,
+							ranking,
+							file,
+							uri,
+							thisDir
+						);
 						await append(
 							scoreCsv,
 							`${file};${RankingAlgorithm[ranking]};${score};${time}\n`
@@ -474,16 +498,18 @@ suite("Test algorithms", function () {
 						console.log("Failed to run test on " + file);
 					}
 				}
-			}
-			process.chdir(testRoot);
+				await new Promise((res) => (close(csv), close(scoreCsv), res(null)));
+			});
 		}
-		await new Promise((res) => (close(csv), close(scoreCsv), res(null)));
-	});
+		process.chdir(testRoot);
+	}
+
 	async function runTest(
 		csv: PathOrFileDescriptor,
 		ranking: RankingAlgorithm,
 		file: string,
-		uri: string
+		uri: string,
+		cwd: string
 	) {
 		console.log(`Running ${RankingAlgorithm[ranking]} on ${file}...`);
 
@@ -512,9 +538,9 @@ suite("Test algorithms", function () {
 
 		send(vsc, "initialize", {
 			processId: process.pid,
-			rootUri: "file://" + process.cwd(),
-			rootPath: process.cwd(),
-			workspaceFolders: [{ uri: process.cwd(), name: "workspace" }],
+			rootUri: "file://" + cwd,
+			rootPath: cwd,
+			workspaceFolders: [{ uri: cwd, name: "workspace" }],
 			capabilities: {},
 			initializationOptions: {
 				proof: {
@@ -529,7 +555,7 @@ suite("Test algorithms", function () {
 		await queue.dequeue(); // initialize
 		console.log(JSON.stringify(await queue.dequeue())); // workspace/configuration
 
-		const contents = readFileSync(file, "utf-8");
+		const contents = readFileSync(cwd + "/" + file, "utf-8");
 		const lines = contents.split("\n");
 
 		// editor.setModel()
@@ -562,7 +588,7 @@ suite("Test algorithms", function () {
 				const [_sentence, tactic, lemma] =
 					regex.exec(line.slice(tacticStart)) ?? [];
 				const tacticEnd = tacticStart + tactic.length;
-				
+
 				search = line.slice(++tacticStart).search(regex);
 
 				if (commentLevel[i] && commentLevel[i][tacticEnd] > 0) {
@@ -586,7 +612,9 @@ suite("Test algorithms", function () {
 					}
 				);
 				if (res.error !== undefined) {
-					console.log(`Got Error in file ${file} with ${_sentence}. Was: ${res.error} `);
+					console.log(
+						`Got Error in file ${file} with ${_sentence}. Was: ${res.error} `
+					);
 					continue;
 				}
 				console.log(`Got response for ${_sentence}...`);

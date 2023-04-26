@@ -1,4 +1,4 @@
 [
-    { "root": "software_foundations/lf", "files": "."},
-    { "root": "coq-100-theorems", "files": "." }
+  { "name": "lf", "root": "software_foundations/lf", "files": "." },
+  { "root": "coq-100-theorems", "files": "." }
 ]
