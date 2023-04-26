@@ -435,11 +435,16 @@ suite("Test algorithms", function () {
 				const file = files + "/" + next.name;
 				const uri = "file://" + thisDir + "/" + next.name;
 				for (const ranking of rankingAlgortihms) {
-					const { score, time } = await runTest(csv, ranking, file, uri);
-					await append(
-						scoreCsv,
-						`${file};${RankingAlgorithm[ranking]};${score};${time}\n`
-					);
+					try {
+						const { score, time } = await runTest(csv, ranking, file, uri);
+						await append(
+							scoreCsv,
+							`${file};${RankingAlgorithm[ranking]};${score};${time}\n`
+						);
+					} catch (e) {
+						console.log(e);
+						console.log("Failed to run test on " + file);
+					}
 				}
 			}
 			process.chdir(testRoot);
@@ -546,7 +551,7 @@ suite("Test algorithms", function () {
 					}
 				);
 				if (res.error !== undefined) {
-					console.log(`Got Error ${res.error}`);
+					console.log(`Got Error in file ${file} with ${_sentence}. Was: ${res.error} `);
 					continue;
 				}
 				console.log(`Got response for ${_sentence}...`);
