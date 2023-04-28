@@ -8,11 +8,11 @@ import {
 	readFileSync,
 	appendFile,
 	open,
-	mkdir,
 	close,
 	PathOrFileDescriptor,
 	opendirSync,
 	Dirent,
+	mkdirSync,
 } from "node:fs";
 import type { Readable, Writable } from "node:stream";
 import { Event } from "vs/base/common/event";
@@ -25,10 +25,7 @@ import {
 } from "vs/editor/common/languages/languageConfigurationRegistry";
 import { TextModel } from "vs/editor/common/model/textModel";
 import type { IUndoRedoService } from "vs/platform/undoRedo/common/undoRedo";
-import {
-	createTestCodeEditor,
-	ITestCodeEditor,
-} from "vs/editor/test/browser/testCodeEditor";
+import { createTestCodeEditor } from "vs/editor/test/browser/testCodeEditor";
 import { ILanguageFeaturesService } from "vs/editor/common/services/languageFeatures";
 import { LanguageFeaturesService } from "vs/editor/common/services/languageFeaturesService";
 import { ServiceCollection } from "vs/platform/instantiation/common/serviceCollection";
@@ -49,7 +46,6 @@ import { ILabelService } from "vs/platform/label/common/label";
 import { IWorkspaceContextService } from "vs/platform/workspace/common/workspace";
 import { SuggestController } from "../../browser/suggestController";
 import { Position } from "vs/editor/common/core/position";
-import { ILanguageService } from "vs/editor/common/languages/language";
 import { promisify } from "node:util";
 
 const round = (i: number, ds = 2) => (
@@ -213,7 +209,7 @@ const _ = {
 		}
 		return new Array<number>(i - x).fill(i).map(() => x++);
 	},
-	sum: (items: number[]) => items.reduce((a, b) => a + b),
+	sum: (items: number[]) => items.reduce((a, b) => a + b, 0),
 };
 
 class DoubleAssocWithDefault<T1 extends number, T2 extends number> {
@@ -314,6 +310,102 @@ function commentLevels(lines: string[]) {
 	return indentationLevels;
 }
 
+function createMocks(id = "coq") {
+	const languageFeaturesService = new LanguageFeaturesService();
+	const disposables = new DisposableStore();
+	const serviceCollection = new ServiceCollection(
+		[ILanguageFeaturesService, languageFeaturesService],
+		[ITelemetryService, NullTelemetryService],
+		[ILogService, new NullLogService()],
+		[IStorageService, new InMemoryStorageService()],
+		[IKeybindingService, new MockKeybindingService()],
+		[
+			IEditorWorkerService,
+			new (class extends mock<IEditorWorkerService>() {
+				override computeWordRanges() {
+					return Promise.resolve({});
+				}
+			})(),
+		],
+		[
+			ISuggestMemoryService,
+			new (class extends mock<ISuggestMemoryService>() {
+				override memorize(): void {}
+				override select(): number {
+					return 0;
+				}
+			})(),
+		],
+		[
+			IMenuService,
+			new (class extends mock<IMenuService>() {
+				override createMenu() {
+					return new (class extends mock<IMenu>() {
+						override onDidChange = Event.None;
+						override dispose() {}
+					})();
+				}
+			})(),
+		],
+		[ILabelService, new (class extends mock<ILabelService>() {})()],
+		[
+			IWorkspaceContextService,
+			new (class extends mock<IWorkspaceContextService>() {})(),
+		]
+	);
+	const languageService = disposables.add(new LanguageService());
+	const langConfig: ILanguageConfigurationService = {
+		onDidChange: Event.None,
+		register: (x, y) => ({ dispose() {} }),
+		_serviceBrand: undefined,
+		getLanguageConfiguration(languageId) {
+			return new ResolvedLanguageConfiguration(id, {});
+		},
+	};
+	const model = disposables.add(
+		new TextModel(
+			"",
+			id,
+			TextModel.DEFAULT_CREATION_OPTIONS,
+			undefined,
+			{
+				onDidChange: Event.None,
+				canUndo: () => false,
+				canRedo: () => false,
+				removeElements: () => {},
+			} as unknown as IUndoRedoService,
+			languageService,
+			langConfig
+		)
+	);
+	const completionItems = {
+		items: [] as languages.CompletionList["suggestions"],
+	};
+	const provider: languages.CompletionItemProvider = {
+		provideCompletionItems() {
+			return { suggestions: completionItems.items };
+		},
+	};
+	languageFeaturesService.completionProvider.register(
+		{ language: id },
+		provider
+	);
+	const editor = disposables.add(
+		createTestCodeEditor(model, { serviceCollection })
+	);
+	const controller = editor.registerAndInstantiateContribution(
+		SuggestController.ID,
+		SuggestController
+	);
+	return {
+		editor,
+		controller,
+		model,
+		completionItems,
+		disposables,
+	};
+}
+
 enum RankingAlgorithm {
 	SimpleTypeIntersection,
 	SplitTypeIntersection,
@@ -323,10 +415,10 @@ enum RankingAlgorithm {
 }
 
 const rankingAlgortihms = [
-	// RankingAlgorithm.SimpleTypeIntersection,
-	// RankingAlgorithm.SplitTypeIntersection,
-	// RankingAlgorithm.StructuredTypeEvaluation,
-	// RankingAlgorithm.SelectiveUnification,
+	RankingAlgorithm.SimpleTypeIntersection,
+	RankingAlgorithm.SplitTypeIntersection,
+	RankingAlgorithm.StructuredTypeEvaluation,
+	RankingAlgorithm.SelectiveUnification,
 	RankingAlgorithm.SelectiveSplitUnification,
 ];
 
@@ -335,114 +427,15 @@ enum ProofMode {
 	Continuous = 1,
 }
 
-suite("Test algorithms", async function () {
-	let model: TextModel;
-	const languageFeaturesService = new LanguageFeaturesService();
-	let languageService: ILanguageService;
-	const disposables = new DisposableStore();
-	const completionItems = {
-		items: [] as languages.CompletionList["suggestions"],
-	};
-	let editor: ITestCodeEditor;
-	let controller: SuggestController;
+suite("Test algorithms", function () {
 	const outFolder = "out-" + new Date().toISOString();
 	const append = promisify(appendFile);
-
-	setup(function () {
-		// process.stdin.addListener("data", console.log);
-		languageService = disposables.add(new LanguageService());
-		const serviceCollection = new ServiceCollection(
-			[ILanguageFeaturesService, languageFeaturesService],
-			[ITelemetryService, NullTelemetryService],
-			[ILogService, new NullLogService()],
-			[IStorageService, new InMemoryStorageService()],
-			[IKeybindingService, new MockKeybindingService()],
-			[
-				IEditorWorkerService,
-				new (class extends mock<IEditorWorkerService>() {
-					override computeWordRanges() {
-						return Promise.resolve({});
-					}
-				})(),
-			],
-			[
-				ISuggestMemoryService,
-				new (class extends mock<ISuggestMemoryService>() {
-					override memorize(): void {}
-					override select(): number {
-						return 0;
-					}
-				})(),
-			],
-			[
-				IMenuService,
-				new (class extends mock<IMenuService>() {
-					override createMenu() {
-						return new (class extends mock<IMenu>() {
-							override onDidChange = Event.None;
-							override dispose() {}
-						})();
-					}
-				})(),
-			],
-			[ILabelService, new (class extends mock<ILabelService>() {})()],
-			[
-				IWorkspaceContextService,
-				new (class extends mock<IWorkspaceContextService>() {})(),
-			]
-		);
-		const onDidChange: Event<any> = Event.None;
-		const langConfig: ILanguageConfigurationService = {
-			onDidChange,
-			register: (x, y) => ({ dispose() {} }),
-			_serviceBrand: undefined,
-			getLanguageConfiguration(languageId) {
-				return new ResolvedLanguageConfiguration("coq", {});
-			},
-		};
-		const no = () => false;
-		model = disposables.add(
-			new TextModel(
-				"",
-				"coq",
-				TextModel.DEFAULT_CREATION_OPTIONS,
-				undefined,
-				{
-					onDidChange,
-					canUndo: no,
-					canRedo: no,
-					removeElements: () => {},
-				} as unknown as IUndoRedoService,
-				languageService,
-				langConfig
-			)
-		);
-		const provider: languages.CompletionItemProvider = {
-			provideCompletionItems() {
-				return { suggestions: completionItems.items };
-			},
-		};
-		languageFeaturesService.completionProvider.register(
-			{ language: "coq" },
-			provider
-		);
-		editor = disposables.add(
-			createTestCodeEditor(model, { serviceCollection })
-		);
-		controller = editor.registerAndInstantiateContribution(
-			SuggestController.ID,
-			SuggestController
-		);
-	});
-	teardown(function () {
-		disposables.clear();
-	});
 
 	process.chdir("..");
 	const testRoot = process.cwd();
 	const config: (Record<"root" | "files", string> & { name?: string })[] =
 		JSON.parse(readFileSync("suites.json").toString());
-	await promisify(mkdir)(outFolder);
+	mkdirSync(outFolder);
 	console.log(JSON.stringify(config, null, 2));
 	for (const { files, root, name } of config) {
 		process.chdir(root);
@@ -450,6 +443,7 @@ suite("Test algorithms", async function () {
 		const d = opendirSync(files);
 		let next: Dirent | null;
 		while ((next = d.readSync())) {
+			if (!next.name.includes("AltAuto")) continue;
 			if (!next.name.endsWith(".v")) {
 				continue;
 			}
@@ -457,6 +451,8 @@ suite("Test algorithms", async function () {
 			const file = files + "/" + next.name;
 			const uri = "file://" + thisDir + "/" + next.name;
 			const goodName = (name ?? root) + "-" + next.name;
+
+			console.log(`Lets gooooo ${process.cwd()}`);
 
 			test(`Test file ${goodName}`, async () => {
 				const csv = await promisify(open)(
@@ -480,6 +476,8 @@ suite("Test algorithms", async function () {
 					"a"
 				);
 				await append(scoreCsv, "File Name;Algorithm;Score;Time\n");
+
+				const mocks = createMocks();
 				for (const ranking of rankingAlgortihms) {
 					try {
 						const { score, time } = await runTest(
@@ -487,7 +485,8 @@ suite("Test algorithms", async function () {
 							ranking,
 							file,
 							uri,
-							thisDir
+							thisDir,
+							mocks
 						);
 						await append(
 							scoreCsv,
@@ -498,7 +497,11 @@ suite("Test algorithms", async function () {
 						console.log("Failed to run test on " + file);
 					}
 				}
-				await new Promise((res) => (close(csv), close(scoreCsv), res(null)));
+				await new Promise(
+					(res) => (
+						mocks.disposables.dispose(), close(csv), close(scoreCsv), res(null)
+					)
+				);
 			});
 		}
 		process.chdir(testRoot);
@@ -509,7 +512,8 @@ suite("Test algorithms", async function () {
 		ranking: RankingAlgorithm,
 		file: string,
 		uri: string,
-		cwd: string
+		cwd: string,
+		mocks: ReturnType<typeof createMocks>
 	) {
 		console.log(`Running ${RankingAlgorithm[ranking]} on ${file}...`);
 
@@ -517,7 +521,7 @@ suite("Test algorithms", async function () {
 
 		const coqLibPath = process.env.COQLIB ?? "";
 
-		const vsc = spawn("vscoqtop", ["-bt", "-coqlib", coqLibPath]);
+		const vsc = spawn("vscoqtop", ["-bt", "-coqlib", coqLibPath], { cwd });
 
 		const queue = await new Promise<Queue>((res) => new Queue(res));
 
@@ -559,7 +563,7 @@ suite("Test algorithms", async function () {
 		const lines = contents.split("\n");
 
 		// editor.setModel()
-		model.setValue(contents);
+		mocks.model.setValue(contents);
 
 		send(vsc, "textDocument/didOpen", {
 			textDocument: {
@@ -575,7 +579,7 @@ suite("Test algorithms", async function () {
 
 		const suggestResolver = { res: (d: unknown) => {} };
 
-		controller.model.onDidSuggest(() => suggestResolver.res(undefined));
+		mocks.controller.model.onDidSuggest(() => suggestResolver.res(undefined));
 
 		const commentLevel = commentLevels(lines);
 
@@ -599,27 +603,30 @@ suite("Test algorithms", async function () {
 				// as completion provider is invoked on every suggest trigger
 				await new Promise((res) => setTimeout(res, 100));
 				// TODO: Time this
-				console.log(`Trying ${_sentence}...`);
+				// console.log(`Trying ${_sentence}...`);
+				const params = {
+					textDocument: {
+						uri,
+					},
+					position: { line: i, character: tacticEnd },
+				};
 				const res = await sendRetry<{ result: { items: [] } }>(
 					queue,
 					vsc,
 					"textDocument/completion",
-					{
-						textDocument: {
-							uri,
-						},
-						position: { line: i, character: tacticEnd },
-					}
+					params
 				);
 				if (res.error !== undefined) {
 					console.log(
-						`Got Error in file ${file} with ${_sentence}. Was: ${res.error} `
+						`Got Error in file ${file}:${i + 1}:${
+							tacticEnd + 2
+						} with ${_sentence}. Was: ${res.error} `
 					);
 					continue;
 				}
-				console.log(`Got response for ${_sentence}...`);
+				// console.log(`Got response for ${_sentence}...`);
 
-				completionItems.items = res.data.result.items ?? [];
+				mocks.completionItems.items = res.data.result.items ?? [];
 
 				for (
 					let lemmaPosition = 0;
@@ -630,17 +637,18 @@ suite("Test algorithms", async function () {
 					const suggest = new Promise((res) => (suggestResolver.res = res));
 
 					const OFFSET = 2; // position in editor is 1-indexed, and include space
-					editor.setPosition(
+					mocks.editor.setPosition(
 						new Position(i + 1, tacticEnd + lemmaPosition + OFFSET)
 					);
 
-					controller.triggerSuggest();
+					mocks.controller.triggerSuggest();
 					await suggest;
 					type Cast = {
-						_completionModel: (typeof controller.model)["_completionModel"];
+						_completionModel: (typeof mocks.controller.model)["_completionModel"];
 					};
 					const items =
-						(controller.model as unknown as Cast)._completionModel?.items ?? [];
+						(mocks.controller.model as unknown as Cast)._completionModel
+							?.items ?? [];
 					const topTen = items
 						.slice(0, TOP_RESULTS)
 						.map(({ completion: { insertText } }) => insertText);
@@ -673,12 +681,10 @@ suite("Test algorithms", async function () {
 			)}`
 		);
 
-		await new Promise((res) =>
-			setTimeout(() => {
-				vsc.kill();
-				res(null);
-			}, 500)
-		);
+		await new Promise((res) => {
+			vsc.kill();
+			res(null);
+		});
 
 		return { score: S, time: Date.now() - startTime };
 	}
