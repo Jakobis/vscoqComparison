@@ -443,7 +443,6 @@ suite("Test algorithms", function () {
 		const d = opendirSync(files);
 		let next: Dirent | null;
 		while ((next = d.readSync())) {
-			if (!next.name.includes("AltAuto")) continue;
 			if (!next.name.endsWith(".v")) {
 				continue;
 			}
