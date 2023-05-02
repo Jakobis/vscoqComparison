@@ -530,9 +530,9 @@ suite("Test algorithms", function () {
 			const decoded = decoder.decode(d).split(/Content-Length: \d+\r?\n\r?\n/);
 			decoded.forEach(queue.enqueue);
 		});
-		vsc.stderr.on("data", (d) => {
-			console.error(decoder.decode(d));
-		});
+		// vsc.stderr.on("data", (d) => {
+		// 	console.error(decoder.decode(d));
+		// });
 		vsc.on("exit", (c) =>
 			console.log(
 				`vsc exited for ${RankingAlgorithm[ranking]} on ${file}, code ${c}`
@@ -552,6 +552,8 @@ suite("Test algorithms", function () {
 					mode: ProofMode.Continuous,
 				},
 				ranking,
+				rankingFactor: 5,
+				sizeFactor: 2,
 			},
 		});
 
@@ -617,7 +619,7 @@ suite("Test algorithms", function () {
 				);
 				if (res.error !== undefined) {
 					console.log(
-						`Got Error in file ${file}:${i + 1}:${
+						`Got Error in file ${uri}:${i + 1}:${
 							tacticEnd + 2
 						} with ${_sentence}. Was: ${res.error} `
 					);
@@ -680,10 +682,7 @@ suite("Test algorithms", function () {
 			)}`
 		);
 
-		await new Promise((res) => {
-			vsc.kill();
-			res(null);
-		});
+		vsc.kill();
 
 		return { score: S, time: Date.now() - startTime };
 	}
