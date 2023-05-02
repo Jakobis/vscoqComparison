@@ -13,3 +13,8 @@
 	url = https://github.com/marshall-lee/software_foundations
 	ignore = all
 	shallow = true
+[submodule "CoqGym"]
+	path = CoqGym
+	url = https://github.com/princeton-vl/CoqGym
+	ignore = all
+	shallow = true
