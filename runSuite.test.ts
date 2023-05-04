@@ -10,9 +10,6 @@ import {
 	open,
 	close,
 	PathOrFileDescriptor,
-	opendirSync,
-	Dirent,
-	mkdirSync,
 } from "node:fs";
 import type { Readable, Writable } from "node:stream";
 import { Event } from "vs/base/common/event";
@@ -171,7 +168,11 @@ const TOP_RESULTS = 10;
 async function appendCsv(
 	csv: PathOrFileDescriptor,
 	file_name: string,
-	algorithm: number | string,
+	{
+		ranking,
+		rankingFactor,
+		sizeFactor,
+	}: RankingSetup | Record<keyof RankingSetup, string | number>,
 	line: number | string,
 	character: number | string,
 	keyword: string,
@@ -189,7 +190,9 @@ async function appendCsv(
 		csv,
 		[
 			file_name,
-			algorithm,
+			ranking,
+			rankingFactor,
+			sizeFactor,
 			line,
 			character,
 			keyword,
@@ -210,6 +213,23 @@ const _ = {
 		return new Array<number>(i - x).fill(i).map(() => x++);
 	},
 	sum: (items: number[]) => items.reduce((a, b) => a + b, 0),
+	/**
+	 * Split {@linkcode items} into {@linkcode n} arrays, distributing leftover
+	 * elements among the initial arrays.
+	 * @param items
+	 * @param n
+	 * @returns
+	 */
+	splitInto: <T>(items: T[], n: number) => {
+		const partLength = Math.floor(items.length / n);
+		const res = Array(n)
+			.fill(null)
+			.map((_, i) => items.slice(i * partLength, (i + 1) * partLength));
+		for (let i = partLength * n; i < items.length; i++) {
+			res[i - partLength * n].push(items[i]);
+		}
+		return res;
+	},
 };
 
 class DoubleAssocWithDefault<T1 extends number, T2 extends number> {
@@ -412,14 +432,40 @@ enum RankingAlgorithm {
 	StructuredTypeEvaluation,
 	SelectiveUnification,
 	SelectiveSplitUnification,
+	Basic,
 }
 
+type RankingSetup = {
+	ranking: RankingAlgorithm;
+	rankingFactor: number;
+	sizeFactor: number;
+};
+
+const basic = (ranking: RankingAlgorithm) =>
+	({
+		rankingFactor: 0,
+		sizeFactor: 0,
+		ranking,
+	} satisfies RankingSetup);
+
+const MATRIX_DEF = [1, 2, 5];
+
+const matrix = (ranking: RankingAlgorithm) =>
+	MATRIX_DEF.flatMap((rankingFactor) =>
+		MATRIX_DEF.map((sizeFactor) => ({
+			ranking,
+			sizeFactor,
+			rankingFactor,
+		}))
+	) satisfies RankingSetup[];
+
 const rankingAlgortihms = [
-	RankingAlgorithm.SimpleTypeIntersection,
-	RankingAlgorithm.SplitTypeIntersection,
-	RankingAlgorithm.StructuredTypeEvaluation,
-	RankingAlgorithm.SelectiveUnification,
-	RankingAlgorithm.SelectiveSplitUnification,
+	basic(RankingAlgorithm.SimpleTypeIntersection),
+	basic(RankingAlgorithm.SplitTypeIntersection),
+	...matrix(RankingAlgorithm.StructuredTypeEvaluation), // TODO: Matrix these
+	...matrix(RankingAlgorithm.SelectiveUnification), // TODO: Matrix these
+	...matrix(RankingAlgorithm.SelectiveSplitUnification), // TODO: Matrix these
+	basic(RankingAlgorithm.Basic),
 ];
 
 enum ProofMode {
@@ -427,101 +473,91 @@ enum ProofMode {
 	Continuous = 1,
 }
 
-suite("Test algorithms", function () {
-	const outFolder = "out-" + new Date().toISOString();
+export type WorkerData = {
+	fullOutFolder: string;
+	tests: {
+		cwd: string;
+		file: string;
+		name: string;
+		displayName: string;
+	}[];
+};
+
+suite(`Worker ${process.env.TEST_WORKER_ID}`, async function () {
+	process.chdir("..");
+	const rawMsg = readFileSync(`./in/${process.env.TEST_WORKER_ID}.in`, "utf-8");
+	const { fullOutFolder, tests } = JSON.parse(rawMsg) as WorkerData;
 	const append = promisify(appendFile);
 
-	process.chdir("..");
-	const testRoot = process.cwd();
-	const config: (Record<"root" | "files", string> & { name?: string })[] =
-		JSON.parse(readFileSync("suites.json").toString());
-	mkdirSync(outFolder);
-	console.log(JSON.stringify(config, null, 2));
-	for (const { files, root, name } of config) {
-		process.chdir(root);
-		const thisDir = process.cwd();
-		const d = opendirSync(files);
-		let next: Dirent | null;
-		while ((next = d.readSync())) {
-			if (!next.name.endsWith(".v")) {
-				continue;
-			}
+	for (const { cwd, displayName, file, name } of tests) {
+		test(`Test file ${displayName}`, async () => {
+			const uri = "file://" + cwd + "/" + name;
+			const csv = await promisify(open)(
+				`${fullOutFolder}/${displayName}.csv`,
+				"a"
+			);
+			appendCsv(
+				csv,
+				"File Name",
+				{
+					ranking: "Algorithm",
+					rankingFactor: "Ranking Factor",
+					sizeFactor: "Size Factor",
+				},
+				"Line",
+				"Character",
+				"Keywords Before",
+				"Expected Lemma",
+				"Lemma",
+				"Index",
+				...new Array(10).fill("").map((_, i) => `Result ${i + 1}`)
+			);
+			const scoreCsv = await promisify(open)(
+				`${fullOutFolder}/scores-${displayName}.csv`,
+				"a"
+			);
+			await append(
+				scoreCsv,
+				"File Name;Algorithm;Ranking Factor;Size Factor;Score;Time\n"
+			);
 
-			const file = files + "/" + next.name;
-			const uri = "file://" + thisDir + "/" + next.name;
-			const goodName = (name ?? root) + "-" + next.name;
-
-			console.log(`Lets gooooo ${process.cwd()}`);
-
-			test(`Test file ${goodName}`, async () => {
-				const csv = await promisify(open)(
-					`${testRoot}/${outFolder}/${goodName}.csv`,
-					"a"
-				);
-				appendCsv(
-					csv,
-					"File Name",
-					"Algorithm",
-					"Line",
-					"Character",
-					"Keywords Before",
-					"Expected Lemma",
-					"Lemma",
-					"Index",
-					...new Array(10).fill("").map((_, i) => `Result ${i + 1}`)
-				);
-				const scoreCsv = await promisify(open)(
-					`${testRoot}/${outFolder}/scores-${goodName}.csv`,
-					"a"
-				);
-				await append(scoreCsv, "File Name;Algorithm;Score;Time\n");
-
-				const mocks = createMocks();
-				for (const ranking of rankingAlgortihms) {
-					try {
-						const { score, time } = await runTest(
-							csv,
-							ranking,
-							file,
-							uri,
-							thisDir,
-							mocks
-						);
-						await append(
-							scoreCsv,
-							`${file};${RankingAlgorithm[ranking]};${score};${time}\n`
-						);
-					} catch (e) {
-						console.log(e);
-						console.log("Failed to run test on " + file);
-					}
+			for (const suite of rankingAlgortihms) {
+				try {
+					const { score, time } = await runTest(csv, suite, file, uri, cwd);
+					await append(
+						scoreCsv,
+						`${file};${RankingAlgorithm[suite.ranking]};${
+							suite.rankingFactor
+						};${suite.sizeFactor};${score};${time}\n`
+					);
+				} catch (e) {
+					console.log(e);
+					console.log("Failed to run test on " + file);
 				}
-				await new Promise(
-					(res) => (
-						mocks.disposables.dispose(), close(csv), close(scoreCsv), res(null)
-					)
-				);
-			});
-		}
-		process.chdir(testRoot);
+			}
+			await new Promise((res) => (close(csv), close(scoreCsv), res(null)));
+		});
 	}
+});
 
-	async function runTest(
-		csv: PathOrFileDescriptor,
-		ranking: RankingAlgorithm,
-		file: string,
-		uri: string,
-		cwd: string,
-		mocks: ReturnType<typeof createMocks>
-	) {
-		console.log(`Running ${RankingAlgorithm[ranking]} on ${file}...`);
+async function runTest(
+	csv: PathOrFileDescriptor,
+	{ ranking, rankingFactor, sizeFactor }: RankingSetup,
+	file: string,
+	uri: string,
+	cwd: string
+) {
+	console.log(`Running ${RankingAlgorithm[ranking]} on ${file}...`);
 
-		const startTime = Date.now();
+	const coqLibPath = process.env.COQLIB ?? "";
 
-		const coqLibPath = process.env.COQLIB ?? "";
+	const vsc = spawn("vscoqtop", ["-bt", "-coqlib", coqLibPath], { cwd });
 
-		const vsc = spawn("vscoqtop", ["-bt", "-coqlib", coqLibPath], { cwd });
+	const mocks = createMocks();
 
+	const startTime = Date.now();
+
+	try {
 		const queue = await new Promise<Queue>((res) => new Queue(res));
 
 		const decoder = new TextDecoder("utf-8");
@@ -552,8 +588,8 @@ suite("Test algorithms", function () {
 					mode: ProofMode.Continuous,
 				},
 				ranking,
-				rankingFactor: 5,
-				sizeFactor: 2,
+				rankingFactor,
+				sizeFactor,
 			},
 		});
 
@@ -621,7 +657,7 @@ suite("Test algorithms", function () {
 					console.log(
 						`Got Error in file ${uri}:${i + 1}:${
 							tacticEnd + 2
-						} with ${_sentence}. Was: ${res.error} `
+						} with ${_sentence}. Was: ${res.error}`
 					);
 					continue;
 				}
@@ -662,7 +698,11 @@ suite("Test algorithms", function () {
 					await appendCsv(
 						csv,
 						file,
-						RankingAlgorithm[ranking],
+						{
+							ranking: RankingAlgorithm[ranking],
+							rankingFactor: rankingFactor || "",
+							sizeFactor: sizeFactor || "",
+						},
 						i + 1,
 						tacticEnd + lemmaPosition + OFFSET,
 						tactic,
@@ -681,9 +721,9 @@ suite("Test algorithms", function () {
 				grades.map((i) => round(i))
 			)}`
 		);
-
-		vsc.kill();
-
 		return { score: S, time: Date.now() - startTime };
+	} finally {
+		mocks.disposables.dispose();
+		vsc.kill();
 	}
-});
+}
