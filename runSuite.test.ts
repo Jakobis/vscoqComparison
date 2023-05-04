@@ -594,7 +594,7 @@ async function runTest(
 		});
 
 		await queue.dequeue(); // initialize
-		console.log(JSON.stringify(await queue.dequeue())); // workspace/configuration
+		await queue.dequeue(); // workspace/configuration
 
 		const contents = readFileSync(cwd + "/" + file, "utf-8");
 		const lines = contents.split("\n");
