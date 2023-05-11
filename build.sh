@@ -1,0 +1,2 @@
+cd vscode
+yarn compile

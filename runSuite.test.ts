@@ -10,6 +10,7 @@ import {
 	open,
 	close,
 	PathOrFileDescriptor,
+	existsSync,
 } from "node:fs";
 import type { Readable, Writable } from "node:stream";
 import { Event } from "vs/base/common/event";
@@ -427,12 +428,17 @@ function createMocks(id = "coq") {
 }
 
 enum RankingAlgorithm {
+	Basic,
+	Shuffle,
 	SimpleTypeIntersection,
 	SplitTypeIntersection,
 	StructuredTypeEvaluation,
-	SelectiveUnification,
-	SelectiveSplitUnification,
-	Basic,
+	StructuredUnification,
+	StructuredSplitUnification,
+	SimpleUnification,
+	SimpleSplitUnification,
+	SplitTypeUnification,
+	SplitTypeSplitUnification,
 }
 
 type RankingSetup = {
@@ -441,10 +447,10 @@ type RankingSetup = {
 	sizeFactor: number;
 };
 
-const basic = (ranking: RankingAlgorithm) =>
+const basic = (ranking: RankingAlgorithm, rankingFactor = 0, sizeFactor = 0) =>
 	({
-		rankingFactor: 0,
-		sizeFactor: 0,
+		rankingFactor,
+		sizeFactor,
 		ranking,
 	} satisfies RankingSetup);
 
@@ -459,13 +465,19 @@ const matrix = (ranking: RankingAlgorithm) =>
 		}))
 	) satisfies RankingSetup[];
 
-const rankingAlgortihms = [
+const rankingAlgorthims = [
 	basic(RankingAlgorithm.SimpleTypeIntersection),
 	basic(RankingAlgorithm.SplitTypeIntersection),
-	...matrix(RankingAlgorithm.StructuredTypeEvaluation), // TODO: Matrix these
-	...matrix(RankingAlgorithm.SelectiveUnification), // TODO: Matrix these
-	...matrix(RankingAlgorithm.SelectiveSplitUnification), // TODO: Matrix these
+	...matrix(RankingAlgorithm.StructuredTypeEvaluation),
+	...matrix(RankingAlgorithm.StructuredUnification),
+	...matrix(RankingAlgorithm.StructuredSplitUnification),
+	basic(RankingAlgorithm.StructuredTypeEvaluation, 10, 10),
 	basic(RankingAlgorithm.Basic),
+	basic(RankingAlgorithm.SimpleUnification),
+	basic(RankingAlgorithm.SimpleSplitUnification),
+	basic(RankingAlgorithm.SplitTypeUnification),
+	basic(RankingAlgorithm.SplitTypeSplitUnification),
+	basic(RankingAlgorithm.Shuffle),
 ];
 
 enum ProofMode {
@@ -496,32 +508,52 @@ suite(`Worker ${process.env.TEST_WORKER_ID}`, async function () {
 				`${fullOutFolder}/${displayName}.csv`,
 				"a"
 			);
-			appendCsv(
-				csv,
-				"File Name",
-				{
-					ranking: "Algorithm",
-					rankingFactor: "Ranking Factor",
-					sizeFactor: "Size Factor",
-				},
-				"Line",
-				"Character",
-				"Keywords Before",
-				"Expected Lemma",
-				"Lemma",
-				"Index",
-				...new Array(10).fill("").map((_, i) => `Result ${i + 1}`)
-			);
-			const scoreCsv = await promisify(open)(
-				`${fullOutFolder}/scores-${displayName}.csv`,
-				"a"
-			);
-			await append(
-				scoreCsv,
-				"File Name;Algorithm;Ranking Factor;Size Factor;Score;Time\n"
-			);
+			const scoreOutName = `${fullOutFolder}/scores-${displayName}.csv`;
+			const scoreOutExists = existsSync(scoreOutName);
+			let index = 0;
+			if (scoreOutExists) {
+				// Non-empty lines in the file
+				const scoreSoFar = readFileSync(scoreOutName)
+					.toString()
+					.split("\n")
+					.filter(Boolean);
+				const [r, rf, sf] = scoreSoFar
+					.at(-1)
+					?.match(/[./a-zA-Z_-]+;(\w+);(\d);(\d)/)
+					?.slice(1, 4) ?? ["", "", ""];
+				const rCasted = RankingAlgorithm[r as "Shuffle"];
+				index =
+					rankingAlgorthims.findIndex(
+						({ ranking, rankingFactor, sizeFactor }) =>
+							ranking === rCasted &&
+							rankingFactor === Number(rf) &&
+							sizeFactor === Number(sf)
+					) + 1;
+			}
+			const scoreCsv = await promisify(open)(scoreOutName, "a");
+			if (!scoreOutExists) {
+				await append(
+					scoreCsv,
+					"File Name;Algorithm;Ranking Factor;Size Factor;Score;Time\n"
+				);
+				appendCsv(
+					csv,
+					"File Name",
+					{
+						ranking: "Algorithm",
+						rankingFactor: "Ranking Factor",
+						sizeFactor: "Size Factor",
+					},
+					"Line",
+					"Character",
+					"Keywords Before",
+					"Lemma",
+					"Index",
+					...new Array(10).fill("").map((_, i) => `Result ${i + 1}`)
+				);
+			}
 
-			for (const suite of rankingAlgortihms) {
+			for (const suite of rankingAlgorthims.slice(index)) {
 				try {
 					const { score, time } = await runTest(csv, suite, file, uri, cwd);
 					await append(

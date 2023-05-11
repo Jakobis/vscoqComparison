@@ -36,7 +36,7 @@ function splitInto(items, n) {
   return res;
 }
 
-const outFolder = "out-" + new Date().toISOString();
+const outFolder = "out";
 
 const testRoot = process.cwd();
 
@@ -44,47 +44,52 @@ const testRoot = process.cwd();
 const config = JSON.parse(readFileSync("suites.json").toString());
 
 if (!existsSync("in")) mkdirSync("in");
+if (!existsSync(outFolder)) mkdirSync(outFolder);
 
-mkdirSync(outFolder);
 const fullOutFolder = `${testRoot}/${outFolder}`;
 
 /** @type {WorkerData["tests"]} */
-const tests = [];
+let tests = [];
 
-for (const { files, root, name } of config) {
-  // @ts-ignore
-  const configName = name ?? root.replaceAll("/", "-");
-  process.chdir(root);
-  const cwd = process.cwd();
-  const d = opendirSync(files);
-  /** @type {Dirent | null} */
-  let next;
-  let shouldCopyToCoqProject = true;
-  let hasMake = false;
-  while ((next = d.readSync())) {
-    if (next.name === "_CoqProject") shouldCopyToCoqProject = false;
-    if (next.name === "Make") hasMake = true;
-    if (!next.name.endsWith(".v")) {
-      continue;
+if (!process.argv.includes("--skipConfig") || !existsSync("in/all.in")) {
+  for (const { files, root, name } of config) {
+    // @ts-ignore
+    const configName = name ?? root.replaceAll("/", "-");
+    process.chdir(root);
+    const cwd = process.cwd();
+    const d = opendirSync(files);
+    /** @type {Dirent | null} */
+    let next;
+    let shouldCopyToCoqProject = true;
+    let hasMake = false;
+    while ((next = d.readSync())) {
+      if (next.name === "_CoqProject") shouldCopyToCoqProject = false;
+      if (next.name === "Make") hasMake = true;
+      if (!next.name.endsWith(".v")) {
+        continue;
+      }
+
+      const file = files + "/" + next.name;
+      const displayName = configName + "-" + next.name;
+
+      tests.push({
+        cwd,
+        displayName,
+        file,
+        name: next.name,
+      });
     }
-
-    const file = files + "/" + next.name;
-    const displayName = configName + "-" + next.name;
-
-    tests.push({
-      cwd,
-      displayName,
-      file,
-      name: next.name,
-    });
+    d.closeSync();
+    if (shouldCopyToCoqProject && hasMake) copyFileSync("Make", "_CoqProject");
+    process.chdir(testRoot);
   }
-  d.closeSync();
-  if (shouldCopyToCoqProject && hasMake) copyFileSync("Make", "_CoqProject");
-  process.chdir(testRoot);
+}
+if (existsSync("in/all.in")) {
+  tests = JSON.parse(readFileSync("in/all.in").toString()).tests;
 }
 
 const workerCount = Math.floor((cpus().length - 1) / 2);
-// const workerCount = 1;
+// const workerCount = 3;
 process.chdir("vscode");
 const splitTests = splitInto(tests, workerCount);
 for (let i = 0; i < workerCount; i++) {
