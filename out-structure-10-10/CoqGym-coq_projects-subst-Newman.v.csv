@@ -1,0 +1,61 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Line;Character;Keywords Before;Lemma;Index;Result 1;Result 2;Result 3;Result 4;Result 5;Result 6;Result 7;Result 8;Result 9;Result 10
+./Newman.v;StructuredTypeEvaluation;10;10;42;11;apply;(noetherian_induction1;-1;N;C;inclus_conf;strong_conf_conf;noether_inclus;explicit_rel_plus_sind;explicit_rel_plus_ind;explicit_comp_rel_sind;explicit_comp_rel_ind;explicit_star_sind
+./Newman.v;StructuredTypeEvaluation;10;10;42;12;apply;(noetherian_induction1;-1;;;;;;;;;;
+./Newman.v;StructuredTypeEvaluation;10;10;42;13;apply;(noetherian_induction1;-1;;;;;;;;;;
+./Newman.v;StructuredTypeEvaluation;10;10;42;14;apply;(noetherian_induction1;-1;;;;;;;;;;
+./Newman.v;StructuredTypeEvaluation;10;10;42;15;apply;(noetherian_induction1;-1;;;;;;;;;;
+./Newman.v;StructuredTypeEvaluation;10;10;42;16;apply;(noetherian_induction1;-1;;;;;;;;;;
+./Newman.v;StructuredTypeEvaluation;10;10;42;17;apply;(noetherian_induction1;-1;;;;;;;;;;
+./Newman.v;StructuredTypeEvaluation;10;10;42;18;apply;(noetherian_induction1;-1;;;;;;;;;;
+./Newman.v;StructuredTypeEvaluation;10;10;42;19;apply;(noetherian_induction1;-1;;;;;;;;;;
+./Newman.v;StructuredTypeEvaluation;10;10;42;20;apply;(noetherian_induction1;-1;;;;;;;;;;
+./Newman.v;StructuredTypeEvaluation;10;10;42;21;apply;(noetherian_induction1;-1;;;;;;;;;;
+./Newman.v;StructuredTypeEvaluation;10;10;42;22;apply;(noetherian_induction1;-1;;;;;;;;;;
+./Newman.v;StructuredTypeEvaluation;10;10;42;23;apply;(noetherian_induction1;-1;;;;;;;;;;
+./Newman.v;StructuredTypeEvaluation;10;10;42;24;apply;(noetherian_induction1;-1;;;;;;;;;;
+./Newman.v;StructuredTypeEvaluation;10;10;42;25;apply;(noetherian_induction1;-1;;;;;;;;;;
+./Newman.v;StructuredTypeEvaluation;10;10;42;26;apply;(noetherian_induction1;-1;;;;;;;;;;
+./Newman.v;StructuredTypeEvaluation;10;10;42;27;apply;(noetherian_induction1;-1;;;;;;;;;;
+./Newman.v;StructuredTypeEvaluation;10;10;42;28;apply;(noetherian_induction1;-1;;;;;;;;;;
+./Newman.v;StructuredTypeEvaluation;10;10;42;29;apply;(noetherian_induction1;-1;;;;;;;;;;
+./Newman.v;StructuredTypeEvaluation;10;10;42;30;apply;(noetherian_induction1;-1;;;;;;;;;;
+./Newman.v;StructuredTypeEvaluation;10;10;42;31;apply;(noetherian_induction1;-1;;;;;;;;;;
+./Newman.v;StructuredTypeEvaluation;10;10;42;32;apply;(noetherian_induction1;-1;;;;;;;;;;
+./Newman.v;StructuredTypeEvaluation;10;10;42;33;apply;(noetherian_induction1;-1;;;;;;;;;;
+./Newman.v;StructuredTypeEvaluation;10;10;46;10;apply;star_refl;6;H2;H3;Rplus_Rstar;star_step1;star_trans;star_trans1;star_refl;inclus_reg_star;inclus_star;noetherian_course_of_values
+./Newman.v;StructuredTypeEvaluation;10;10;46;11;apply;star_refl;4;S;star_step1;star_trans;star_trans1;star_refl;sub;strong_confluence_en;sumor;sumbool;sigT2
+./Newman.v;StructuredTypeEvaluation;10;10;46;12;apply;star_refl;3;star_step1;star_trans;star_trans1;star_refl;strong_confluence_en;sigT;sigT2;CompSpecT;inclus_star;subrelation
+./Newman.v;StructuredTypeEvaluation;10;10;46;13;apply;star_refl;3;star_step1;star_trans;star_trans1;star_refl;inclus_star;explicit_star;subrelation;inclus_reg_star;;
+./Newman.v;StructuredTypeEvaluation;10;10;46;14;apply;star_refl;3;star_step1;star_trans;star_trans1;star_refl;inclus_star;explicit_star;inclus_reg_star;;;
+./Newman.v;StructuredTypeEvaluation;10;10;46;15;apply;star_refl;3;star_step1;star_trans;star_trans1;star_refl;;;;;;
+./Newman.v;StructuredTypeEvaluation;10;10;46;16;apply;star_refl;0;star_refl;star_trans;star_trans1;;;;;;;
+./Newman.v;StructuredTypeEvaluation;10;10;46;17;apply;star_refl;0;star_refl;;;;;;;;;
+./Newman.v;StructuredTypeEvaluation;10;10;46;18;apply;star_refl;0;star_refl;;;;;;;;;
+./Newman.v;StructuredTypeEvaluation;10;10;46;19;apply;star_refl;0;star_refl;;;;;;;;;
+./Newman.v;StructuredTypeEvaluation;10;10;47;15;rewrite <-;H4;-1;H2;H3;Rplus_Rstar;star_step1;star_trans;star_trans1;star_refl;inclus_reg_star;inclus_star;noetherian_course_of_values
+./Newman.v;StructuredTypeEvaluation;10;10;47;16;rewrite <-;H4;-1;H2;H3;Hexadecimal.Little.succ_double;Hexadecimal.Little.double;Hexadecimal.Little.succ;Hexadecimal.del_tail_int;Hexadecimal.del_tail;Hexadecimal.del_head_int;Hexadecimal.del_head;Hexadecimal.app_int
+./Newman.v;StructuredTypeEvaluation;10;10;47;17;rewrite <-;H4;-1;Hexadecimal.D4;;;;;;;;;
+./Newman.v;StructuredTypeEvaluation;10;10;50;15;rewrite <-;H5;-1;H3;H2;Rplus_Rstar;star_step1;star_trans;star_trans1;star_refl;inclus_reg_star;inclus_star;noetherian_course_of_values
+./Newman.v;StructuredTypeEvaluation;10;10;50;16;rewrite <-;H5;-1;H3;H2;Hexadecimal.Little.succ_double;Hexadecimal.Little.double;Hexadecimal.Little.succ;Hexadecimal.del_tail_int;Hexadecimal.del_tail;Hexadecimal.del_head_int;Hexadecimal.del_head;Hexadecimal.app_int
+./Newman.v;StructuredTypeEvaluation;10;10;50;17;rewrite <-;H5;-1;Hexadecimal.D5;;;;;;;;;
+./Newman.v;StructuredTypeEvaluation;10;10;51;10;apply;star_refl;6;H3;H2;Rplus_Rstar;star_step1;star_trans;star_trans1;star_refl;inclus_reg_star;inclus_star;noetherian_course_of_values
+./Newman.v;StructuredTypeEvaluation;10;10;51;11;apply;star_refl;4;S;star_step1;star_trans;star_trans1;star_refl;sub;strong_confluence_en;sumor;sumbool;sigT2
+./Newman.v;StructuredTypeEvaluation;10;10;51;12;apply;star_refl;3;star_step1;star_trans;star_trans1;star_refl;strong_confluence_en;sigT;sigT2;CompSpecT;inclus_star;subrelation
+./Newman.v;StructuredTypeEvaluation;10;10;51;13;apply;star_refl;3;star_step1;star_trans;star_trans1;star_refl;inclus_star;explicit_star;subrelation;inclus_reg_star;;
+./Newman.v;StructuredTypeEvaluation;10;10;51;14;apply;star_refl;3;star_step1;star_trans;star_trans1;star_refl;inclus_star;explicit_star;inclus_reg_star;;;
+./Newman.v;StructuredTypeEvaluation;10;10;51;15;apply;star_refl;3;star_step1;star_trans;star_trans1;star_refl;;;;;;
+./Newman.v;StructuredTypeEvaluation;10;10;51;16;apply;star_refl;0;star_refl;star_trans;star_trans1;;;;;;;
+./Newman.v;StructuredTypeEvaluation;10;10;51;17;apply;star_refl;0;star_refl;;;;;;;;;
+./Newman.v;StructuredTypeEvaluation;10;10;51;18;apply;star_refl;0;star_refl;;;;;;;;;
+./Newman.v;StructuredTypeEvaluation;10;10;51;19;apply;star_refl;0;star_refl;;;;;;;;;
+./Newman.v;StructuredTypeEvaluation;10;10;61;10;apply;star_trans;17;H16;H19;H20;H15;H18;H2;H3;H8;H11;H13
+./Newman.v;StructuredTypeEvaluation;10;10;61;11;apply;star_trans;2;S;star_step1;star_trans;star_trans1;star_refl;sub;strong_confluence_en;sumor;sumbool;sigT2
+./Newman.v;StructuredTypeEvaluation;10;10;61;12;apply;star_trans;1;star_step1;star_trans;star_trans1;star_refl;strong_confluence_en;sigT;sigT2;CompSpecT;inclus_star;subrelation
+./Newman.v;StructuredTypeEvaluation;10;10;61;13;apply;star_trans;1;star_step1;star_trans;star_trans1;star_refl;inclus_star;explicit_star;subrelation;inclus_reg_star;;
+./Newman.v;StructuredTypeEvaluation;10;10;61;14;apply;star_trans;1;star_step1;star_trans;star_trans1;star_refl;inclus_star;explicit_star;inclus_reg_star;;;
+./Newman.v;StructuredTypeEvaluation;10;10;61;15;apply;star_trans;1;star_step1;star_trans;star_trans1;star_refl;;;;;;
+./Newman.v;StructuredTypeEvaluation;10;10;61;16;apply;star_trans;0;star_trans;star_trans1;star_step1;;;;;;;
+./Newman.v;StructuredTypeEvaluation;10;10;61;17;apply;star_trans;0;star_trans;star_trans1;;;;;;;;
+./Newman.v;StructuredTypeEvaluation;10;10;61;18;apply;star_trans;0;star_trans;star_trans1;;;;;;;;
+./Newman.v;StructuredTypeEvaluation;10;10;61;19;apply;star_trans;0;star_trans;star_trans1;;;;;;;;
+./Newman.v;StructuredTypeEvaluation;10;10;61;20;apply;star_trans;0;star_trans;star_trans1;;;;;;;;

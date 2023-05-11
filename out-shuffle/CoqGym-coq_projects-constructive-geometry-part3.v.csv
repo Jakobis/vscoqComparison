@@ -1,0 +1,365 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Line;Character;Keywords Before;Lemma;Index;Result 1;Result 2;Result 3;Result 4;Result 5;Result 6;Result 7;Result 8;Result 9;Result 10
+./part3.v;Shuffle;;;34;8;apply;(el_ax;-1;Nat.sqrt;sumor_sind;eq_ex2_eta;Decimal.internal_decimal_dec_lb;sigT_of_prod;Hexadecimal.uint_beq;Nat.to_num_hex_uint;Acc_intro;Colinearity_is_equivalence;ConLn
+./part3.v;Shuffle;;;34;9;apply;(el_ax;-1;;;;;;;;;;
+./part3.v;Shuffle;;;34;10;apply;(el_ax;-1;;;;;;;;;;
+./part3.v;Shuffle;;;34;11;apply;(el_ax;-1;;;;;;;;;;
+./part3.v;Shuffle;;;34;12;apply;(el_ax;-1;;;;;;;;;;
+./part3.v;Shuffle;;;34;13;apply;(el_ax;-1;;;;;;;;;;
+./part3.v;Shuffle;;;34;14;apply;(el_ax;-1;;;;;;;;;;
+./part3.v;Shuffle;;;40;9;rewrite;(auxs2;-1;Byte.x3d;rew_swap;f_equal4;Byte.x96;Byte.x3f;Lt;Decimal.D0;and_sind;Transitive;Equivalence_sind
+./part3.v;Shuffle;;;40;10;rewrite;(auxs2;-1;;;;;;;;;;
+./part3.v;Shuffle;;;40;11;rewrite;(auxs2;-1;;;;;;;;;;
+./part3.v;Shuffle;;;40;12;rewrite;(auxs2;-1;;;;;;;;;;
+./part3.v;Shuffle;;;40;13;rewrite;(auxs2;-1;;;;;;;;;;
+./part3.v;Shuffle;;;40;14;rewrite;(auxs2;-1;;;;;;;;;;
+./part3.v;Shuffle;;;40;15;rewrite;(auxs2;-1;;;;;;;;;;
+./part3.v;Shuffle;;;51;8;apply;(el_ax;-1;projT1_of_sigT2_eq;Byte.xcb;f_equal_dep;eq_true_rect;sigT_of_sigT2_eq;proj1;Byte.x61;Decimal.internal_uint_dec_lb;Byte.x23;Nat.square
+./part3.v;Shuffle;;;51;9;apply;(el_ax;-1;;;;;;;;;;
+./part3.v;Shuffle;;;51;10;apply;(el_ax;-1;;;;;;;;;;
+./part3.v;Shuffle;;;51;11;apply;(el_ax;-1;;;;;;;;;;
+./part3.v;Shuffle;;;51;12;apply;(el_ax;-1;;;;;;;;;;
+./part3.v;Shuffle;;;51;13;apply;(el_ax;-1;;;;;;;;;;
+./part3.v;Shuffle;;;51;14;apply;(el_ax;-1;;;;;;;;;;
+./part3.v;Shuffle;;;58;12;rewrite <-;(ext_rev;-1;eq_sigT_rect_uncurried;eq_id_comm_r;Byte.x52;eq_sigT_rect_existT;max_l;Byte.x80;rew_opp_l;f_equal5;sig_of_sig2;eq_trans_sym_inv_l
+./part3.v;Shuffle;;;58;13;rewrite <-;(ext_rev;-1;;;;;;;;;;
+./part3.v;Shuffle;;;58;14;rewrite <-;(ext_rev;-1;;;;;;;;;;
+./part3.v;Shuffle;;;58;15;rewrite <-;(ext_rev;-1;;;;;;;;;;
+./part3.v;Shuffle;;;58;16;rewrite <-;(ext_rev;-1;;;;;;;;;;
+./part3.v;Shuffle;;;58;17;rewrite <-;(ext_rev;-1;;;;;;;;;;
+./part3.v;Shuffle;;;58;18;rewrite <-;(ext_rev;-1;;;;;;;;;;
+./part3.v;Shuffle;;;58;19;rewrite <-;(ext_rev;-1;;;;;;;;;;
+./part3.v;Shuffle;;;58;20;rewrite <-;(ext_rev;-1;;;;;;;;;;
+./part3.v;Shuffle;;;59;12;rewrite <-;(auxs1;-1;eq_ex_ind;eq_sig2_uncurried_iff;Apartness_rec;sigT_ind;thm4_3a;negb;is_eq_true;Decimal.internal_uint_dec_bl;Byte.x98;Nat.tail_addmul
+./part3.v;Shuffle;;;59;13;rewrite <-;(auxs1;-1;;;;;;;;;;
+./part3.v;Shuffle;;;59;14;rewrite <-;(auxs1;-1;;;;;;;;;;
+./part3.v;Shuffle;;;59;15;rewrite <-;(auxs1;-1;;;;;;;;;;
+./part3.v;Shuffle;;;59;16;rewrite <-;(auxs1;-1;;;;;;;;;;
+./part3.v;Shuffle;;;59;17;rewrite <-;(auxs1;-1;;;;;;;;;;
+./part3.v;Shuffle;;;59;18;rewrite <-;(auxs1;-1;;;;;;;;;;
+./part3.v;Shuffle;;;61;7;apply;cong_eqln_diln;-1;eq_ex_rect;eq_ex2_hprop;subrelation;Nat.to_num_int;iff_refl;proj1_sig_of_sig2_eq;Number.Hexadecimal;rew_sigT2;inright;nil
+./part3.v;Shuffle;;;61;8;apply;cong_eqln_diln;-1;conj;comparison_eq_stable;connect1;cmp_con_diln;cong_eqln_inc;cong_eqln_con;CompLt;CompareSpec2Type;CompSpecT;CompareSpec
+./part3.v;Shuffle;;;61;9;apply;cong_eqln_diln;-1;conj;comparison_eq_stable;connect1;cong_eqln_inc;cong_eqln_con;CompLt;CompareSpec2Type;CompSpecT;CompareSpec;CompareSpecT_sind
+./part3.v;Shuffle;;;61;10;apply;cong_eqln_diln;-1;conj;connect1;cong_eqln_inc;cong_eqln_con;comparison_eq_stable;Tri_cond;rew_const;Twol_cond;cmp_con_diln;CompareSpec_ind
+./part3.v;Shuffle;;;61;11;apply;cong_eqln_diln;-1;cong_eqln_inc;cong_eqln_con;;;;;;;;
+./part3.v;Shuffle;;;61;12;apply;cong_eqln_diln;-1;cong_eqln_inc;cong_eqln_con;;;;;;;;
+./part3.v;Shuffle;;;61;13;apply;cong_eqln_diln;-1;cong_eqln_inc;cong_eqln_con;;;;;;;;
+./part3.v;Shuffle;;;61;14;apply;cong_eqln_diln;-1;cong_eqln_inc;cong_eqln_con;;;;;;;;
+./part3.v;Shuffle;;;61;15;apply;cong_eqln_diln;-1;cong_eqln_inc;cong_eqln_con;;;;;;;;
+./part3.v;Shuffle;;;61;16;apply;cong_eqln_diln;-1;cong_eqln_inc;cong_eqln_con;;;;;;;;
+./part3.v;Shuffle;;;61;17;apply;cong_eqln_diln;-1;cong_eqln_inc;cong_eqln_con;;;;;;;;
+./part3.v;Shuffle;;;61;18;apply;cong_eqln_diln;-1;;;;;;;;;;
+./part3.v;Shuffle;;;61;19;apply;cong_eqln_diln;-1;;;;;;;;;;
+./part3.v;Shuffle;;;61;20;apply;cong_eqln_diln;-1;;;;;;;;;;
+./part3.v;Shuffle;;;61;21;apply;cong_eqln_diln;-1;;;;;;;;;;
+./part3.v;Shuffle;;;69;7;apply;cong_eqln_apt;-1;line1_flip;eq_sig2_rect;eq_rect;ex_proj2;proj3_sig_eq;colinear;eq_sigT_hprop_iff;CompEq;rew_sigT2;sumbool_ind
+./part3.v;Shuffle;;;69;8;apply;cong_eqln_apt;-1;colinear;cong_eqpt_dipt;cmp_apt_dipt;cong_eqln_diln;cong_eqpt_inc;comparison_rect;cons;comparison_eq_stable;cong_par_con;conj
+./part3.v;Shuffle;;;69;9;apply;cong_eqln_apt;-1;colinear;cong_eqpt_dipt;cong_eqln_diln;cong_eqpt_inc;comparison_rect;cons;comparison_eq_stable;cong_par_con;conj;cong_eqln_par
+./part3.v;Shuffle;;;69;10;apply;cong_eqln_apt;-1;cong_eqpt_dipt;cong_eqln_diln;cong_eqpt_inc;cons;cong_par_con;conj;cong_eqln_par;ConLn;colinear;Colinearity_is_equivalence
+./part3.v;Shuffle;;;69;11;apply;cong_eqln_apt;-1;cong_eqpt_dipt;cong_eqln_diln;cong_eqpt_inc;cong_par_con;cong_eqln_par;eq_existT_curried_congr;;;;
+./part3.v;Shuffle;;;69;12;apply;cong_eqln_apt;-1;cong_eqpt_dipt;cong_eqln_diln;cong_eqpt_inc;cong_par_con;cong_eqln_par;;;;;
+./part3.v;Shuffle;;;69;13;apply;cong_eqln_apt;-1;cong_eqpt_dipt;cong_eqln_diln;cong_eqpt_inc;cong_eqln_par;;;;;;
+./part3.v;Shuffle;;;69;14;apply;cong_eqln_apt;-1;cong_eqpt_dipt;cong_eqln_diln;cong_eqpt_inc;cong_eqln_par;;;;;;
+./part3.v;Shuffle;;;69;15;apply;cong_eqln_apt;-1;cong_eqln_diln;cong_eqln_par;;;;;;;;
+./part3.v;Shuffle;;;69;16;apply;cong_eqln_apt;-1;cong_eqln_diln;cong_eqln_par;;;;;;;;
+./part3.v;Shuffle;;;69;17;apply;cong_eqln_apt;-1;cong_eqln_diln;cong_eqln_par;;;;;;;;
+./part3.v;Shuffle;;;69;18;apply;cong_eqln_apt;-1;cong_eqln_par;;;;;;;;;
+./part3.v;Shuffle;;;69;19;apply;cong_eqln_apt;-1;;;;;;;;;;
+./part3.v;Shuffle;;;69;20;apply;cong_eqln_apt;-1;;;;;;;;;;
+./part3.v;Shuffle;;;93;14;apply;cong_eqpt_inc;249;Decimal.nztail_int;dependent_choice;Decimal.signed_int_eq_dec;or_ind;proj3_sig;Byte.x90;eq_exist2_r;or_intror;Nat.odd;le_S
+./part3.v;Shuffle;;;93;15;apply;cong_eqpt_inc;2;cmp_con_diln;comparison_sind;cong_eqpt_inc;curry;connect1;comparison_eq_stable;cong_eqpt_dipt;cmp_apt_diln;comparison;cong_eqpt_apt
+./part3.v;Shuffle;;;93;16;apply;cong_eqpt_inc;1;comparison_sind;cong_eqpt_inc;connect1;comparison_eq_stable;cong_eqpt_dipt;comparison;cong_eqpt_apt;cong_eqln_par;comparison_rect;CompareSpecT_rec
+./part3.v;Shuffle;;;93;17;apply;cong_eqpt_inc;0;cong_eqpt_inc;connect1;cong_eqpt_dipt;cong_eqpt_apt;cong_eqln_par;Convergent_imp_distinct;Colinearity_is_equivalence;comparison_sind;comparison_eq_stable;comparison
+./part3.v;Shuffle;;;93;18;apply;cong_eqpt_inc;0;cong_eqpt_inc;cong_eqpt_dipt;cong_eqpt_apt;cong_eqln_par;Convergent_imp_distinct;;;;;
+./part3.v;Shuffle;;;93;19;apply;cong_eqpt_inc;0;cong_eqpt_inc;cong_eqpt_dipt;cong_eqpt_apt;cong_eqln_par;Convergent_imp_distinct;;;;;
+./part3.v;Shuffle;;;93;20;apply;cong_eqpt_inc;0;cong_eqpt_inc;cong_eqpt_dipt;cong_eqpt_apt;cong_eqln_par;Convergent_imp_distinct;;;;;
+./part3.v;Shuffle;;;93;21;apply;cong_eqpt_inc;0;cong_eqpt_inc;cong_eqpt_dipt;cong_eqpt_apt;cong_eqln_par;;;;;;
+./part3.v;Shuffle;;;93;22;apply;cong_eqpt_inc;0;cong_eqpt_inc;cong_eqpt_dipt;cong_eqpt_apt;cong_eqln_par;;;;;;
+./part3.v;Shuffle;;;93;23;apply;cong_eqpt_inc;0;cong_eqpt_inc;cong_eqpt_dipt;cong_eqpt_apt;;;;;;;
+./part3.v;Shuffle;;;93;24;apply;cong_eqpt_inc;0;cong_eqpt_inc;cong_eqpt_dipt;cong_eqpt_apt;;;;;;;
+./part3.v;Shuffle;;;93;25;apply;cong_eqpt_inc;0;cong_eqpt_inc;cong_eqpt_dipt;;;;;;;;
+./part3.v;Shuffle;;;93;26;apply;cong_eqpt_inc;0;cong_eqpt_inc;;;;;;;;;
+./part3.v;Shuffle;;;93;27;apply;cong_eqpt_inc;0;cong_eqpt_inc;;;;;;;;;
+./part3.v;Shuffle;;;101;7;apply;Uniqueness_of_constructed_points;-1;Decimal.uint_rec;ex2_rec;eq_sigT2_ind;Byte.x9e;comparison_eq_stable;eq_ex2_rect_ex_intro2_l;Byte.x6e;map_subst;sig;auxs3
+./part3.v;Shuffle;;;101;8;apply;Uniqueness_of_constructed_points;-1;prod_uncurry_subdef;eq_ex_uncurried;Number.uint;Nat.of_uint;Nat.of_uint_acc;Nat.to_uint;Number.uint_beq;Decimal.uint_rec;Decimal.uint;Decimal.uint_of_uint
+./part3.v;Shuffle;;;101;9;apply;Uniqueness_of_constructed_points;-1;prod_uncurry_subdef;eq_ex_uncurried;Decimal.unorm;eq_sigT_uncurried_iff;eq_exist_uncurried;eq_sigT2_uncurried;eq_sigT2_uncurried_iff;eq_sig_ind_uncurried;eq_ex2_ind_uncurried;eq_existT2_uncurried
+./part3.v;Shuffle;;;101;10;apply;Uniqueness_of_constructed_points;-1;Number.uint;Nat.of_uint;Nat.of_uint_acc;Nat.to_uint;Number.uint_beq;Decimal.uint_rec;Decimal.uint;Decimal.uint_of_uint;Decimal.uint_sind;Nat.of_hex_uint_acc
+./part3.v;Shuffle;;;101;11;apply;Uniqueness_of_constructed_points;-1;Number.uint_beq;forall_exists_coincide_unique_domain;Hexadecimal.uint_eq_dec;;;;;;;
+./part3.v;Shuffle;;;101;12;apply;Uniqueness_of_constructed_points;-1;forall_exists_coincide_unique_domain;;;;;;;;;
+./part3.v;Shuffle;;;101;13;apply;Uniqueness_of_constructed_points;-1;forall_exists_coincide_unique_domain;;;;;;;;;
+./part3.v;Shuffle;;;101;14;apply;Uniqueness_of_constructed_points;-1;forall_exists_coincide_unique_domain;;;;;;;;;
+./part3.v;Shuffle;;;101;15;apply;Uniqueness_of_constructed_points;-1;;;;;;;;;;
+./part3.v;Shuffle;;;101;16;apply;Uniqueness_of_constructed_points;-1;;;;;;;;;;
+./part3.v;Shuffle;;;101;17;apply;Uniqueness_of_constructed_points;-1;;;;;;;;;;
+./part3.v;Shuffle;;;101;18;apply;Uniqueness_of_constructed_points;-1;;;;;;;;;;
+./part3.v;Shuffle;;;101;19;apply;Uniqueness_of_constructed_points;-1;;;;;;;;;;
+./part3.v;Shuffle;;;101;20;apply;Uniqueness_of_constructed_points;-1;;;;;;;;;;
+./part3.v;Shuffle;;;101;21;apply;Uniqueness_of_constructed_points;-1;;;;;;;;;;
+./part3.v;Shuffle;;;101;22;apply;Uniqueness_of_constructed_points;-1;;;;;;;;;;
+./part3.v;Shuffle;;;101;23;apply;Uniqueness_of_constructed_points;-1;;;;;;;;;;
+./part3.v;Shuffle;;;101;24;apply;Uniqueness_of_constructed_points;-1;;;;;;;;;;
+./part3.v;Shuffle;;;101;25;apply;Uniqueness_of_constructed_points;-1;;;;;;;;;;
+./part3.v;Shuffle;;;101;26;apply;Uniqueness_of_constructed_points;-1;;;;;;;;;;
+./part3.v;Shuffle;;;101;27;apply;Uniqueness_of_constructed_points;-1;;;;;;;;;;
+./part3.v;Shuffle;;;101;28;apply;Uniqueness_of_constructed_points;-1;;;;;;;;;;
+./part3.v;Shuffle;;;101;29;apply;Uniqueness_of_constructed_points;-1;;;;;;;;;;
+./part3.v;Shuffle;;;101;30;apply;Uniqueness_of_constructed_points;-1;;;;;;;;;;
+./part3.v;Shuffle;;;101;31;apply;Uniqueness_of_constructed_points;-1;;;;;;;;;;
+./part3.v;Shuffle;;;101;32;apply;Uniqueness_of_constructed_points;-1;;;;;;;;;;
+./part3.v;Shuffle;;;101;33;apply;Uniqueness_of_constructed_points;-1;;;;;;;;;;
+./part3.v;Shuffle;;;101;34;apply;Uniqueness_of_constructed_points;-1;;;;;;;;;;
+./part3.v;Shuffle;;;101;35;apply;Uniqueness_of_constructed_points;-1;;;;;;;;;;
+./part3.v;Shuffle;;;101;36;apply;Uniqueness_of_constructed_points;-1;;;;;;;;;;
+./part3.v;Shuffle;;;101;37;apply;Uniqueness_of_constructed_points;-1;;;;;;;;;;
+./part3.v;Shuffle;;;101;38;apply;Uniqueness_of_constructed_points;-1;;;;;;;;;;
+./part3.v;Shuffle;;;101;39;apply;Uniqueness_of_constructed_points;-1;;;;;;;;;;
+./part3.v;Shuffle;;;119;8;apply;(thm4_6;-1;rew_opp_l;Byte.x75;eq_sig_uncurried_iff;comparison_rec;cong_eqln_par;eq_ex_intro_hprop;implb;Byte.xe5;Hexadecimal.abs;Decimal.int_of_int
+./part3.v;Shuffle;;;119;9;apply;(thm4_6;-1;;;;;;;;;;
+./part3.v;Shuffle;;;119;10;apply;(thm4_6;-1;;;;;;;;;;
+./part3.v;Shuffle;;;119;11;apply;(thm4_6;-1;;;;;;;;;;
+./part3.v;Shuffle;;;119;12;apply;(thm4_6;-1;;;;;;;;;;
+./part3.v;Shuffle;;;119;13;apply;(thm4_6;-1;;;;;;;;;;
+./part3.v;Shuffle;;;119;14;apply;(thm4_6;-1;;;;;;;;;;
+./part3.v;Shuffle;;;119;15;apply;(thm4_6;-1;;;;;;;;;;
+./part3.v;Shuffle;;;129;8;apply;(thm4_6;-1;Decimal.revapp;Decimal.unorm;Byte.x34;flip_defines_samept;Byte.x46;prod_of_sigT;Hexadecimal.D9;H';eq_existT2_l;Byte.xe4
+./part3.v;Shuffle;;;129;9;apply;(thm4_6;-1;;;;;;;;;;
+./part3.v;Shuffle;;;129;10;apply;(thm4_6;-1;;;;;;;;;;
+./part3.v;Shuffle;;;129;11;apply;(thm4_6;-1;;;;;;;;;;
+./part3.v;Shuffle;;;129;12;apply;(thm4_6;-1;;;;;;;;;;
+./part3.v;Shuffle;;;129;13;apply;(thm4_6;-1;;;;;;;;;;
+./part3.v;Shuffle;;;129;14;apply;(thm4_6;-1;;;;;;;;;;
+./part3.v;Shuffle;;;129;15;apply;(thm4_6;-1;;;;;;;;;;
+./part3.v;Shuffle;;;139;7;apply;cong_eqln_inc;-1;Byte.xc8;eq_sig_ind_uncurried;eq_exist2_uncurried;f_equal2_mult;option_sind;Symmetry_of_Apart;sumbool_rec;eq_existT_curried_congr;f_equal_compose;eq_sigT2_rec_uncurried
+./part3.v;Shuffle;;;139;8;apply;cong_eqln_inc;-1;cons;cong_eqln_par;cong_eqpt_dipt;cong_eqln_con;cong_eqln_diln;connect2;comparison_ind;CompLtT;CompareSpecT_ind;Convergent_imp_distinct
+./part3.v;Shuffle;;;139;9;apply;cong_eqln_inc;-1;cons;cong_eqln_par;cong_eqpt_dipt;cong_eqln_con;cong_eqln_diln;connect2;comparison_ind;CompLtT;CompareSpecT_ind;Convergent_imp_distinct
+./part3.v;Shuffle;;;139;10;apply;cong_eqln_inc;-1;cons;cong_eqln_par;cong_eqpt_dipt;cong_eqln_con;cong_eqln_diln;connect2;Convergent_imp_distinct;ConLn;Colinearity_is_equivalence;comparison_ind
+./part3.v;Shuffle;;;139;11;apply;cong_eqln_inc;-1;cong_eqln_par;cong_eqpt_dipt;cong_eqln_con;cong_eqln_diln;Convergent_imp_distinct;eq_existT_curried_congr;;;;
+./part3.v;Shuffle;;;139;12;apply;cong_eqln_inc;-1;cong_eqln_par;cong_eqpt_dipt;cong_eqln_con;cong_eqln_diln;Convergent_imp_distinct;;;;;
+./part3.v;Shuffle;;;139;13;apply;cong_eqln_inc;-1;cong_eqln_par;cong_eqpt_dipt;cong_eqln_con;cong_eqln_diln;Convergent_imp_distinct;;;;;
+./part3.v;Shuffle;;;139;14;apply;cong_eqln_inc;-1;cong_eqln_par;cong_eqpt_dipt;cong_eqln_con;cong_eqln_diln;;;;;;
+./part3.v;Shuffle;;;139;15;apply;cong_eqln_inc;-1;cong_eqln_par;cong_eqln_con;cong_eqln_diln;;;;;;;
+./part3.v;Shuffle;;;139;16;apply;cong_eqln_inc;-1;cong_eqln_par;cong_eqln_con;cong_eqln_diln;;;;;;;
+./part3.v;Shuffle;;;139;17;apply;cong_eqln_inc;-1;cong_eqln_par;cong_eqln_con;cong_eqln_diln;;;;;;;
+./part3.v;Shuffle;;;139;18;apply;cong_eqln_inc;-1;cong_eqln_diln;;;;;;;;;
+./part3.v;Shuffle;;;139;19;apply;cong_eqln_inc;-1;cong_eqln_diln;;;;;;;;;
+./part3.v;Shuffle;;;139;20;apply;cong_eqln_inc;-1;;;;;;;;;;
+./part3.v;Shuffle;;;148;7;apply;thm4_1c;163;eq_existT_curried_trans;bool_ind;nat_double_ind;Nat.modulo;Byte.xe3;ex_eta;le_S_n;left;eq_sigT_rec;Byte.xf3
+./part3.v;Shuffle;;;148;8;apply;thm4_1c;4;thm4_7ii;thm4_6;thm4_5ia;thm4_7iii;thm4_1c;thm4_1a;tt;thm4_7i;thm4_1d;Triangle_axioms_ii
+./part3.v;Shuffle;;;148;9;apply;thm4_1c;4;thm4_7ii;thm4_6;thm4_5ia;thm4_7iii;thm4_1c;thm4_1a;thm4_7i;thm4_1d;Nat.to_hex_int;Nat.to_hex_uint
+./part3.v;Shuffle;;;148;10;apply;thm4_1c;4;thm4_7ii;thm4_6;thm4_5ia;thm4_7iii;thm4_1c;thm4_1a;thm4_7i;thm4_1d;;
+./part3.v;Shuffle;;;148;11;apply;thm4_1c;4;thm4_7ii;thm4_6;thm4_5ia;thm4_7iii;thm4_1c;thm4_1a;thm4_7i;thm4_1d;;
+./part3.v;Shuffle;;;148;12;apply;thm4_1c;4;thm4_7ii;thm4_6;thm4_5ia;thm4_7iii;thm4_1c;thm4_1a;thm4_7i;thm4_1d;;
+./part3.v;Shuffle;;;148;13;apply;thm4_1c;0;thm4_1c;thm4_1a;thm4_1d;;;;;;;
+./part3.v;Shuffle;;;148;14;apply;thm4_1c;0;thm4_1c;;;;;;;;;
+./part3.v;Shuffle;;;149;7;apply;sym_DiPt;-1;Byte.x5c;inc_pt2;eq_sigT_rect_existT_l;Decimal.Little.double;y;or_cancel_r;CompOpp;Hexadecimal.Dd;Byte.x2d;Hexadecimal.uint_rec
+./part3.v;Shuffle;;;149;8;apply;sym_DiPt;-1;sigT2;sig2;sym_EqLn;sig_eta;sigT2_rec;sigT;sigT2_eta;sig2_sind;side1;sumbool_rect
+./part3.v;Shuffle;;;149;9;apply;sym_DiPt;-1;sym_EqLn;sym_DiLn;sym_ConLn;sym_EqPt;Symmetry_of_Apart;eq_sym_involutive;eq_sym_map_distr;eq_trans_sym_inv_r;eq_trans_sym_distr;eq_trans_sym_inv_l
+./part3.v;Shuffle;;;149;10;apply;sym_DiPt;-1;sym_EqLn;sym_DiLn;sym_ConLn;sym_EqPt;Symmetry_of_Apart;eq_sym_involutive;eq_sym_map_distr;eq_trans_sym_inv_r;eq_trans_sym_distr;eq_trans_sym_inv_l
+./part3.v;Shuffle;;;149;11;apply;sym_DiPt;-1;sym_EqLn;sym_DiLn;sym_ConLn;sym_EqPt;Symmetry_of_Apart;eq_sym_involutive;eq_sym_map_distr;eq_trans_sym_inv_r;eq_trans_sym_distr;eq_trans_sym_inv_l
+./part3.v;Shuffle;;;149;12;apply;sym_DiPt;-1;sym_DiLn;eq_trans_sym_distr;eq_sym_map_distr;;;;;;;
+./part3.v;Shuffle;;;149;13;apply;sym_DiPt;-1;sym_DiLn;eq_trans_sym_distr;eq_sym_map_distr;;;;;;;
+./part3.v;Shuffle;;;149;14;apply;sym_DiPt;-1;;;;;;;;;;
+./part3.v;Shuffle;;;149;15;apply;sym_DiPt;-1;;;;;;;;;;
+./part3.v;Shuffle;;;156;8;apply;(cmp_apt_diln;-1;cong_eqln_par;Byte.x95;Byte.xf1;Uniqueness_of_constructed_lines;Byte.xe4;equiv_Par;Convergent_imp_distinct;value;eq_sig2_hprop;eq_sig2_nondep
+./part3.v;Shuffle;;;156;9;apply;(cmp_apt_diln;-1;;;;;;;;;;
+./part3.v;Shuffle;;;156;10;apply;(cmp_apt_diln;-1;;;;;;;;;;
+./part3.v;Shuffle;;;156;11;apply;(cmp_apt_diln;-1;;;;;;;;;;
+./part3.v;Shuffle;;;156;12;apply;(cmp_apt_diln;-1;;;;;;;;;;
+./part3.v;Shuffle;;;156;13;apply;(cmp_apt_diln;-1;;;;;;;;;;
+./part3.v;Shuffle;;;156;14;apply;(cmp_apt_diln;-1;;;;;;;;;;
+./part3.v;Shuffle;;;156;15;apply;(cmp_apt_diln;-1;;;;;;;;;;
+./part3.v;Shuffle;;;156;16;apply;(cmp_apt_diln;-1;;;;;;;;;;
+./part3.v;Shuffle;;;156;17;apply;(cmp_apt_diln;-1;;;;;;;;;;
+./part3.v;Shuffle;;;156;18;apply;(cmp_apt_diln;-1;;;;;;;;;;
+./part3.v;Shuffle;;;156;19;apply;(cmp_apt_diln;-1;;;;;;;;;;
+./part3.v;Shuffle;;;156;20;apply;(cmp_apt_diln;-1;;;;;;;;;;
+./part3.v;Shuffle;;;156;21;apply;(cmp_apt_diln;-1;;;;;;;;;;
+./part3.v;Shuffle;;;166;8;apply;(cmp_apt_diln;-1;or;le_sind;apart_diln;eq_sig2_hprop;Tri;Decimal.decimal_beq;nat_sind;or_comm;Byte.xb5;Nat.of_int
+./part3.v;Shuffle;;;166;9;apply;(cmp_apt_diln;-1;;;;;;;;;;
+./part3.v;Shuffle;;;166;10;apply;(cmp_apt_diln;-1;;;;;;;;;;
+./part3.v;Shuffle;;;166;11;apply;(cmp_apt_diln;-1;;;;;;;;;;
+./part3.v;Shuffle;;;166;12;apply;(cmp_apt_diln;-1;;;;;;;;;;
+./part3.v;Shuffle;;;166;13;apply;(cmp_apt_diln;-1;;;;;;;;;;
+./part3.v;Shuffle;;;166;14;apply;(cmp_apt_diln;-1;;;;;;;;;;
+./part3.v;Shuffle;;;166;15;apply;(cmp_apt_diln;-1;;;;;;;;;;
+./part3.v;Shuffle;;;166;16;apply;(cmp_apt_diln;-1;;;;;;;;;;
+./part3.v;Shuffle;;;166;17;apply;(cmp_apt_diln;-1;;;;;;;;;;
+./part3.v;Shuffle;;;166;18;apply;(cmp_apt_diln;-1;;;;;;;;;;
+./part3.v;Shuffle;;;166;19;apply;(cmp_apt_diln;-1;;;;;;;;;;
+./part3.v;Shuffle;;;166;20;apply;(cmp_apt_diln;-1;;;;;;;;;;
+./part3.v;Shuffle;;;166;21;apply;(cmp_apt_diln;-1;;;;;;;;;;
+./part3.v;Shuffle;;;179;8;apply;(Convergent_imp_distinct;-1;S;Decimal.decimal;thm4_7ii;Decimal.internal_signed_int_dec_lb;Byte.x18;Number.Hexadecimal;Choice2;sig_rect;Triangle;Nat.lxor
+./part3.v;Shuffle;;;179;9;apply;(Convergent_imp_distinct;-1;;;;;;;;;;
+./part3.v;Shuffle;;;179;10;apply;(Convergent_imp_distinct;-1;;;;;;;;;;
+./part3.v;Shuffle;;;179;11;apply;(Convergent_imp_distinct;-1;;;;;;;;;;
+./part3.v;Shuffle;;;179;12;apply;(Convergent_imp_distinct;-1;;;;;;;;;;
+./part3.v;Shuffle;;;179;13;apply;(Convergent_imp_distinct;-1;;;;;;;;;;
+./part3.v;Shuffle;;;179;14;apply;(Convergent_imp_distinct;-1;;;;;;;;;;
+./part3.v;Shuffle;;;179;15;apply;(Convergent_imp_distinct;-1;;;;;;;;;;
+./part3.v;Shuffle;;;179;16;apply;(Convergent_imp_distinct;-1;;;;;;;;;;
+./part3.v;Shuffle;;;179;17;apply;(Convergent_imp_distinct;-1;;;;;;;;;;
+./part3.v;Shuffle;;;179;18;apply;(Convergent_imp_distinct;-1;;;;;;;;;;
+./part3.v;Shuffle;;;179;19;apply;(Convergent_imp_distinct;-1;;;;;;;;;;
+./part3.v;Shuffle;;;179;20;apply;(Convergent_imp_distinct;-1;;;;;;;;;;
+./part3.v;Shuffle;;;179;21;apply;(Convergent_imp_distinct;-1;;;;;;;;;;
+./part3.v;Shuffle;;;179;22;apply;(Convergent_imp_distinct;-1;;;;;;;;;;
+./part3.v;Shuffle;;;179;23;apply;(Convergent_imp_distinct;-1;;;;;;;;;;
+./part3.v;Shuffle;;;179;24;apply;(Convergent_imp_distinct;-1;;;;;;;;;;
+./part3.v;Shuffle;;;179;25;apply;(Convergent_imp_distinct;-1;;;;;;;;;;
+./part3.v;Shuffle;;;179;26;apply;(Convergent_imp_distinct;-1;;;;;;;;;;
+./part3.v;Shuffle;;;179;27;apply;(Convergent_imp_distinct;-1;;;;;;;;;;
+./part3.v;Shuffle;;;179;28;apply;(Convergent_imp_distinct;-1;;;;;;;;;;
+./part3.v;Shuffle;;;179;29;apply;(Convergent_imp_distinct;-1;;;;;;;;;;
+./part3.v;Shuffle;;;179;30;apply;(Convergent_imp_distinct;-1;;;;;;;;;;
+./part3.v;Shuffle;;;179;31;apply;(Convergent_imp_distinct;-1;;;;;;;;;;
+./part3.v;Shuffle;;;179;32;apply;(Convergent_imp_distinct;-1;;;;;;;;;;
+./part3.v;Shuffle;;;187;7;apply;(inc_ln1;-1;CompSpec;Nat.ltb;inc_pt1;Byte.xee;Acc_inv_dep;Decimal.nzhead;Empty_set_ind;Nat.sqrt;eq_sig_uncurried_iff;Byte.xc5
+./part3.v;Shuffle;;;187;8;apply;(inc_ln1;-1;;;;;;;;;;
+./part3.v;Shuffle;;;187;9;apply;(inc_ln1;-1;;;;;;;;;;
+./part3.v;Shuffle;;;187;10;apply;(inc_ln1;-1;;;;;;;;;;
+./part3.v;Shuffle;;;187;11;apply;(inc_ln1;-1;;;;;;;;;;
+./part3.v;Shuffle;;;187;12;apply;(inc_ln1;-1;;;;;;;;;;
+./part3.v;Shuffle;;;187;13;apply;(inc_ln1;-1;;;;;;;;;;
+./part3.v;Shuffle;;;187;14;apply;(inc_ln1;-1;;;;;;;;;;
+./part3.v;Shuffle;;;187;15;apply;(inc_ln1;-1;;;;;;;;;;
+./part3.v;Shuffle;;;187;31;rewrite <-;H'0;-1;Decimal.del_head;Negation;IDProp;Byte.x81;Decimal.uint_beq;CompareSpecT_sind;Byte.x21;not;thm4_3a;Lt
+./part3.v;Shuffle;;;187;32;rewrite <-;H'0;-1;H;H'4;Hexadecimal.D2;Hexadecimal.internal_signed_int_dec_lb0;H'1;H';Hexadecimal.rev;Hexadecimal.HexadecimalExp;Hexadecimal.nztail_int;Hexadecimal.nzhead
+./part3.v;Shuffle;;;187;33;rewrite <-;H'0;-1;H';H'4;H'1;H'2;;;;;;
+./part3.v;Shuffle;;;187;34;rewrite <-;H'0;-1;;;;;;;;;;
+./part3.v;Shuffle;;;189;7;apply;(inc_ln1;-1;Hexadecimal.uint_rect;Hexadecimal.D1;proj2_sig;eq_ex2_nondep;eq_ex2_eta;Byte.x7d;Decimal.internal_signed_int_dec_bl;Byte.xd0;sigT_eta;inhabited_sind
+./part3.v;Shuffle;;;189;8;apply;(inc_ln1;-1;;;;;;;;;;
+./part3.v;Shuffle;;;189;9;apply;(inc_ln1;-1;;;;;;;;;;
+./part3.v;Shuffle;;;189;10;apply;(inc_ln1;-1;;;;;;;;;;
+./part3.v;Shuffle;;;189;11;apply;(inc_ln1;-1;;;;;;;;;;
+./part3.v;Shuffle;;;189;12;apply;(inc_ln1;-1;;;;;;;;;;
+./part3.v;Shuffle;;;189;13;apply;(inc_ln1;-1;;;;;;;;;;
+./part3.v;Shuffle;;;189;14;apply;(inc_ln1;-1;;;;;;;;;;
+./part3.v;Shuffle;;;189;15;apply;(inc_ln1;-1;;;;;;;;;;
+./part3.v;Shuffle;;;189;31;rewrite <-;H'1;488;or;Byte.xf0;Number.int_of_int;Hexadecimal.internal_uint_dec_bl0;Hexadecimal.D1;Decimal.opp;eq_sigT_uncurried;Nat.to_num_int;Nat.shiftl;Decimal.uint_sind
+./part3.v;Shuffle;;;189;32;rewrite <-;H'1;28;H;Hexadecimal.internal_uint_dec_bl0;Hexadecimal.D1;Hexadecimal.hexadecimal_eq_dec;Hexadecimal.unorm;Hexadecimal.internal_hexadecimal_dec_bl;Hexadecimal.norm;Hexadecimal.uint_beq;Hexadecimal.D7;Hexadecimal.De
+./part3.v;Shuffle;;;189;33;rewrite <-;H'1;1;H'2;H'1;;;;;;;;
+./part3.v;Shuffle;;;189;34;rewrite <-;H'1;0;H'1;;;;;;;;;
+./part3.v;Shuffle;;;189;47;rewrite <-;H';-1;parsides_i;Negation;Symmetry_of_Apart;cmp_con_diln;Decimal.nztail_int;thm4_9b;Byte.x04;Byte.xe5;f_equal_nat;eq_existT_curried_map
+./part3.v;Shuffle;;;189;48;rewrite <-;H';-1;H;Hexadecimal.uint_eq_dec;Hexadecimal.opp;Hexadecimal.signed_int;Hexadecimal.nb_digits;Hexadecimal.D5;Hexadecimal.D6;Hexadecimal.Dd;Hexadecimal.app_int;Hexadecimal.D7
+./part3.v;Shuffle;;;189;49;rewrite <-;H';-1;H'0;H'1;;;;;;;;
+./part3.v;Shuffle;;;207;7;apply;(inc_pt1;-1;unique;Byte.x11;eq_true_rect;sumor_ind;Byte.xc0;list_rect;Decimal.D2;Byte.xc2;CompOpp;Decimal.Nil
+./part3.v;Shuffle;;;207;8;apply;(inc_pt1;-1;;;;;;;;;;
+./part3.v;Shuffle;;;207;9;apply;(inc_pt1;-1;;;;;;;;;;
+./part3.v;Shuffle;;;207;10;apply;(inc_pt1;-1;;;;;;;;;;
+./part3.v;Shuffle;;;207;11;apply;(inc_pt1;-1;;;;;;;;;;
+./part3.v;Shuffle;;;207;12;apply;(inc_pt1;-1;;;;;;;;;;
+./part3.v;Shuffle;;;207;13;apply;(inc_pt1;-1;;;;;;;;;;
+./part3.v;Shuffle;;;207;14;apply;(inc_pt1;-1;;;;;;;;;;
+./part3.v;Shuffle;;;207;15;apply;(inc_pt1;-1;;;;;;;;;;
+./part3.v;Shuffle;;;207;31;rewrite <-;H'0;-1;thm4_3c;Hexadecimal.Hexadecimal;connect2;Nat.succ;nat_sind;Byte.xce;Hexadecimal.uint;Par;eq_ex_rect;Byte.x30
+./part3.v;Shuffle;;;207;32;rewrite <-;H'0;-1;Hexadecimal.Hexadecimal;Hexadecimal.uint;Hexadecimal.signed_int_eq_dec;Hexadecimal.signed_int;Hexadecimal.signed_int_beq;Hexadecimal.Nil;Hexadecimal.nzhead;Hexadecimal.Neg;Hexadecimal.D8;Hexadecimal.rev
+./part3.v;Shuffle;;;207;33;rewrite <-;H'0;-1;H'2;;;;;;;;;
+./part3.v;Shuffle;;;207;34;rewrite <-;H'0;-1;;;;;;;;;;
+./part3.v;Shuffle;;;208;7;apply;(inc_pt1;-1;sym_EqLn;eq_ex2_rect_ex_intro2_r;Byte.x66;Acc_intro;forall_exists_unique_domain_coincide;Lt;Byte.xc6;Hexadecimal.del_head;prod_curry_subdef;decide_right
+./part3.v;Shuffle;;;208;8;apply;(inc_pt1;-1;;;;;;;;;;
+./part3.v;Shuffle;;;208;9;apply;(inc_pt1;-1;;;;;;;;;;
+./part3.v;Shuffle;;;208;10;apply;(inc_pt1;-1;;;;;;;;;;
+./part3.v;Shuffle;;;208;11;apply;(inc_pt1;-1;;;;;;;;;;
+./part3.v;Shuffle;;;208;12;apply;(inc_pt1;-1;;;;;;;;;;
+./part3.v;Shuffle;;;208;13;apply;(inc_pt1;-1;;;;;;;;;;
+./part3.v;Shuffle;;;208;14;apply;(inc_pt1;-1;;;;;;;;;;
+./part3.v;Shuffle;;;208;15;apply;(inc_pt1;-1;;;;;;;;;;
+./part3.v;Shuffle;;;208;31;rewrite <-;H'1;104;Number.signed_int;le_0_n;inhabited_sig_to_exists;parsides_i;Byte.xa2;True_rec;Byte.xb1;Byte.x53;Tri_cond;Acc_rec
+./part3.v;Shuffle;;;208;32;rewrite <-;H'1;3;Hexadecimal.D2;Hexadecimal.uint;Hexadecimal.internal_uint_dec_lb0;H'1;Hexadecimal.app;Hexadecimal.Db;Hexadecimal.Nil;Hexadecimal.uint_eq_dec;H'2;Hexadecimal.internal_signed_int_dec_lb0
+./part3.v;Shuffle;;;208;33;rewrite <-;H'1;1;H';H'1;H'2;;;;;;;
+./part3.v;Shuffle;;;208;34;rewrite <-;H'1;0;H'1;;;;;;;;;
+./part3.v;Shuffle;;;208;47;rewrite <-;H';176;Number.Hexadecimal;eq_sig2_ind;Byte.x23;eq_ex_rec;summit;Byte.x2b;absurd_set;Byte.x08;Nat.to_hex_int;Hexadecimal.D0
+./part3.v;Shuffle;;;208;48;rewrite <-;H';8;Hexadecimal.D0;Hexadecimal.Nil;Hexadecimal.Pos;Hexadecimal.signed_int_eq_dec;Hexadecimal.D9;Hexadecimal.nztail;Hexadecimal.D1;Hexadecimal.del_head_int;H';Hexadecimal.hexadecimal_beq
+./part3.v;Shuffle;;;208;49;rewrite <-;H';0;H';H'0;;;;;;;;
+./part3.v;Shuffle;;;215;27;apply;Uniqueness_of_constructed_lines;263;sigT_of_prod;mult_n_Sm;eq_ex_ind;Hexadecimal.del_tail_int;Byte.x7f;Hexadecimal.HexadecimalExp;Byte.x39;Byte.xb5;eq_sig_rect_exist_r;eq_sigT2_hprop
+./part3.v;Shuffle;;;215;28;apply;Uniqueness_of_constructed_lines;0;Uniqueness_of_constructed_lines;uniqueness;unique_existence;Number.UIntDecimal;Number.UIntHexadecimal;prod_uncurry_subdef;eq_ex_uncurried_iff;Number.uint_beq;eq_sig_uncurried;Nat.to_uint
+./part3.v;Shuffle;;;215;29;apply;Uniqueness_of_constructed_lines;0;Uniqueness_of_constructed_lines;uniqueness;unique_existence;prod_uncurry_subdef;eq_ex_uncurried_iff;eq_sig_uncurried;Decimal.unorm;eq_sig2_uncurried;eq_exist_uncurried;eq_exist2_uncurried
+./part3.v;Shuffle;;;215;30;apply;Uniqueness_of_constructed_lines;0;Uniqueness_of_constructed_lines;uniqueness;unique_existence;Number.UIntDecimal;Number.UIntHexadecimal;Number.uint_beq;Nat.to_uint;Number.uint_eq_dec;Nat.of_uint_acc;Decimal.uint_of_uint
+./part3.v;Shuffle;;;215;31;apply;Uniqueness_of_constructed_lines;0;Uniqueness_of_constructed_lines;uniqueness;unique_existence;forall_exists_unique_domain_coincide;Number.uint_eq_dec;Number.uint_beq;Decimal.uint_beq;forall_exists_coincide_unique_domain;;
+./part3.v;Shuffle;;;215;32;apply;Uniqueness_of_constructed_lines;0;Uniqueness_of_constructed_lines;uniqueness;unique_existence;forall_exists_unique_domain_coincide;forall_exists_coincide_unique_domain;;;;;
+./part3.v;Shuffle;;;215;33;apply;Uniqueness_of_constructed_lines;0;Uniqueness_of_constructed_lines;uniqueness;unique_existence;forall_exists_unique_domain_coincide;forall_exists_coincide_unique_domain;;;;;
+./part3.v;Shuffle;;;215;34;apply;Uniqueness_of_constructed_lines;0;Uniqueness_of_constructed_lines;uniqueness;unique_existence;forall_exists_unique_domain_coincide;forall_exists_coincide_unique_domain;;;;;
+./part3.v;Shuffle;;;215;35;apply;Uniqueness_of_constructed_lines;0;Uniqueness_of_constructed_lines;uniqueness;unique_existence;forall_exists_unique_domain_coincide;;;;;;
+./part3.v;Shuffle;;;215;36;apply;Uniqueness_of_constructed_lines;0;Uniqueness_of_constructed_lines;uniqueness;;;;;;;;
+./part3.v;Shuffle;;;215;37;apply;Uniqueness_of_constructed_lines;1;uniqueness;Uniqueness_of_constructed_lines;;;;;;;;
+./part3.v;Shuffle;;;215;38;apply;Uniqueness_of_constructed_lines;0;Uniqueness_of_constructed_lines;;;;;;;;;
+./part3.v;Shuffle;;;215;39;apply;Uniqueness_of_constructed_lines;0;Uniqueness_of_constructed_lines;;;;;;;;;
+./part3.v;Shuffle;;;215;40;apply;Uniqueness_of_constructed_lines;0;Uniqueness_of_constructed_lines;;;;;;;;;
+./part3.v;Shuffle;;;215;41;apply;Uniqueness_of_constructed_lines;0;Uniqueness_of_constructed_lines;;;;;;;;;
+./part3.v;Shuffle;;;215;42;apply;Uniqueness_of_constructed_lines;0;Uniqueness_of_constructed_lines;;;;;;;;;
+./part3.v;Shuffle;;;215;43;apply;Uniqueness_of_constructed_lines;0;Uniqueness_of_constructed_lines;;;;;;;;;
+./part3.v;Shuffle;;;215;44;apply;Uniqueness_of_constructed_lines;0;Uniqueness_of_constructed_lines;;;;;;;;;
+./part3.v;Shuffle;;;215;45;apply;Uniqueness_of_constructed_lines;0;Uniqueness_of_constructed_lines;;;;;;;;;
+./part3.v;Shuffle;;;215;46;apply;Uniqueness_of_constructed_lines;0;Uniqueness_of_constructed_lines;;;;;;;;;
+./part3.v;Shuffle;;;215;47;apply;Uniqueness_of_constructed_lines;0;Uniqueness_of_constructed_lines;;;;;;;;;
+./part3.v;Shuffle;;;215;48;apply;Uniqueness_of_constructed_lines;0;Uniqueness_of_constructed_lines;;;;;;;;;
+./part3.v;Shuffle;;;215;49;apply;Uniqueness_of_constructed_lines;0;Uniqueness_of_constructed_lines;;;;;;;;;
+./part3.v;Shuffle;;;215;50;apply;Uniqueness_of_constructed_lines;0;Uniqueness_of_constructed_lines;;;;;;;;;
+./part3.v;Shuffle;;;215;51;apply;Uniqueness_of_constructed_lines;0;Uniqueness_of_constructed_lines;;;;;;;;;
+./part3.v;Shuffle;;;215;52;apply;Uniqueness_of_constructed_lines;0;Uniqueness_of_constructed_lines;;;;;;;;;
+./part3.v;Shuffle;;;215;53;apply;Uniqueness_of_constructed_lines;0;Uniqueness_of_constructed_lines;;;;;;;;;
+./part3.v;Shuffle;;;215;54;apply;Uniqueness_of_constructed_lines;0;Uniqueness_of_constructed_lines;;;;;;;;;
+./part3.v;Shuffle;;;215;55;apply;Uniqueness_of_constructed_lines;0;Uniqueness_of_constructed_lines;;;;;;;;;
+./part3.v;Shuffle;;;215;56;apply;Uniqueness_of_constructed_lines;0;Uniqueness_of_constructed_lines;;;;;;;;;
+./part3.v;Shuffle;;;215;57;apply;Uniqueness_of_constructed_lines;0;Uniqueness_of_constructed_lines;;;;;;;;;
+./part3.v;Shuffle;;;215;58;apply;Uniqueness_of_constructed_lines;0;Uniqueness_of_constructed_lines;;;;;;;;;
+./part3.v;Shuffle;;;218;7;apply;cong_eqpt_inc;-1;neg_false;ex_intro2;f_equal_compose;inleft;eq_trans_refl_r;Byte.xda;sym_ConLn;Nat.to_little_uint;Byte.x2e;list_rect
+./part3.v;Shuffle;;;218;8;apply;cong_eqpt_inc;-1;c;conj;comparison_rec;cong_par_con;comparison_rect;cong_eqln_inc;curry;connect2;cong_eqln_con;cong_eqln_apt
+./part3.v;Shuffle;;;218;9;apply;cong_eqpt_inc;-1;conj;comparison_rec;cong_par_con;comparison_rect;cong_eqln_inc;connect2;cong_eqln_con;cong_eqln_apt;cong_eqln_spar;CompOpp_involutive
+./part3.v;Shuffle;;;218;10;apply;cong_eqpt_inc;-1;conj;cong_par_con;cong_eqln_inc;connect2;cong_eqln_con;cong_eqln_apt;cong_eqln_spar;Convergent_imp_distinct;comparison_rec;comparison_rect
+./part3.v;Shuffle;;;218;11;apply;cong_eqpt_inc;-1;cong_par_con;cong_eqln_inc;cong_eqln_con;cong_eqln_apt;cong_eqln_spar;Convergent_imp_distinct;;;;
+./part3.v;Shuffle;;;218;12;apply;cong_eqpt_inc;-1;cong_par_con;cong_eqln_inc;cong_eqln_con;cong_eqln_apt;cong_eqln_spar;Convergent_imp_distinct;;;;
+./part3.v;Shuffle;;;218;13;apply;cong_eqpt_inc;-1;cong_eqln_inc;cong_eqln_con;cong_eqln_apt;cong_eqln_spar;Convergent_imp_distinct;;;;;
+./part3.v;Shuffle;;;218;14;apply;cong_eqpt_inc;-1;cong_eqln_inc;cong_eqln_con;cong_eqln_apt;cong_eqln_spar;;;;;;
+./part3.v;Shuffle;;;218;15;apply;cong_eqpt_inc;-1;cong_eqln_apt;cong_eqln_spar;;;;;;;;
+./part3.v;Shuffle;;;218;16;apply;cong_eqpt_inc;-1;cong_eqln_apt;;;;;;;;;
+./part3.v;Shuffle;;;218;17;apply;cong_eqpt_inc;-1;;;;;;;;;;
+./part3.v;Shuffle;;;218;18;apply;cong_eqpt_inc;-1;;;;;;;;;;
+./part3.v;Shuffle;;;218;19;apply;cong_eqpt_inc;-1;;;;;;;;;;
+./part3.v;Shuffle;;;218;20;apply;cong_eqpt_inc;-1;;;;;;;;;;
+./part3.v;Shuffle;;;225;27;apply;Uniqueness_of_constructed_points;-1;Byte.x2e;lt;Decimal.uint;Seg;Triangle;Byte.x4a;Byte.x07;Byte.xdd;Number.number_beq;BoolSpecT
+./part3.v;Shuffle;;;225;28;apply;Uniqueness_of_constructed_points;-1;unique_existence;unit_ind;unit;prod_uncurry_subdef;Number.UIntHexadecimal;eq_ex_uncurried_iff;Nat.of_uint;eq_ex2_uncurried_iff;Number.uint_beq;Nat.of_uint_acc
+./part3.v;Shuffle;;;225;29;apply;Uniqueness_of_constructed_points;-1;unique_existence;unit_ind;unit;prod_uncurry_subdef;eq_ex_uncurried_iff;eq_ex2_uncurried_iff;eq_sig2_uncurried;eq_exist2_uncurried;eq_ex2_ind_uncurried;eq_existT2_uncurried
+./part3.v;Shuffle;;;225;30;apply;Uniqueness_of_constructed_points;-1;unique_existence;unit_ind;unit;Number.UIntHexadecimal;Nat.of_uint;Number.uint_beq;Nat.of_uint_acc;Decimal.uint;Decimal.uint_sind;Decimal.uint_rec
+./part3.v;Shuffle;;;225;31;apply;Uniqueness_of_constructed_points;-1;unique_existence;Number.uint_beq;Hexadecimal.uint_beq;;;;;;;
+./part3.v;Shuffle;;;225;32;apply;Uniqueness_of_constructed_points;-1;unique_existence;;;;;;;;;
+./part3.v;Shuffle;;;225;33;apply;Uniqueness_of_constructed_points;-1;unique_existence;;;;;;;;;
+./part3.v;Shuffle;;;225;34;apply;Uniqueness_of_constructed_points;-1;unique_existence;;;;;;;;;
+./part3.v;Shuffle;;;225;35;apply;Uniqueness_of_constructed_points;-1;unique_existence;;;;;;;;;
+./part3.v;Shuffle;;;225;36;apply;Uniqueness_of_constructed_points;-1;;;;;;;;;;
+./part3.v;Shuffle;;;225;37;apply;Uniqueness_of_constructed_points;-1;;;;;;;;;;
+./part3.v;Shuffle;;;225;38;apply;Uniqueness_of_constructed_points;-1;;;;;;;;;;
+./part3.v;Shuffle;;;225;39;apply;Uniqueness_of_constructed_points;-1;;;;;;;;;;
+./part3.v;Shuffle;;;225;40;apply;Uniqueness_of_constructed_points;-1;;;;;;;;;;
+./part3.v;Shuffle;;;225;41;apply;Uniqueness_of_constructed_points;-1;;;;;;;;;;
+./part3.v;Shuffle;;;225;42;apply;Uniqueness_of_constructed_points;-1;;;;;;;;;;
+./part3.v;Shuffle;;;225;43;apply;Uniqueness_of_constructed_points;-1;;;;;;;;;;
+./part3.v;Shuffle;;;225;44;apply;Uniqueness_of_constructed_points;-1;;;;;;;;;;
+./part3.v;Shuffle;;;225;45;apply;Uniqueness_of_constructed_points;-1;;;;;;;;;;
+./part3.v;Shuffle;;;225;46;apply;Uniqueness_of_constructed_points;-1;;;;;;;;;;
+./part3.v;Shuffle;;;225;47;apply;Uniqueness_of_constructed_points;-1;;;;;;;;;;
+./part3.v;Shuffle;;;225;48;apply;Uniqueness_of_constructed_points;-1;;;;;;;;;;
+./part3.v;Shuffle;;;225;49;apply;Uniqueness_of_constructed_points;-1;;;;;;;;;;
+./part3.v;Shuffle;;;225;50;apply;Uniqueness_of_constructed_points;-1;;;;;;;;;;
+./part3.v;Shuffle;;;225;51;apply;Uniqueness_of_constructed_points;-1;;;;;;;;;;
+./part3.v;Shuffle;;;225;52;apply;Uniqueness_of_constructed_points;-1;;;;;;;;;;
+./part3.v;Shuffle;;;225;53;apply;Uniqueness_of_constructed_points;-1;;;;;;;;;;
+./part3.v;Shuffle;;;225;54;apply;Uniqueness_of_constructed_points;-1;;;;;;;;;;
+./part3.v;Shuffle;;;225;55;apply;Uniqueness_of_constructed_points;-1;;;;;;;;;;
+./part3.v;Shuffle;;;225;56;apply;Uniqueness_of_constructed_points;-1;;;;;;;;;;
+./part3.v;Shuffle;;;225;57;apply;Uniqueness_of_constructed_points;-1;;;;;;;;;;
+./part3.v;Shuffle;;;225;58;apply;Uniqueness_of_constructed_points;-1;;;;;;;;;;
+./part3.v;Shuffle;;;225;59;apply;Uniqueness_of_constructed_points;-1;;;;;;;;;;
+./part3.v;Shuffle;;;228;7;apply;cong_eqln_inc;-1;Fix_F_2;Byte.x70;eq_ex2_rect_ex_intro2_r;Byte.x56;cmp_apt_diln;auxs4;eq_sigT_rect;Hexadecimal.Da;Transitive;Definition_of_apartness
+./part3.v;Shuffle;;;228;8;apply;cong_eqln_inc;-1;cmp_apt_diln;colinear;comparison_sind;cong_par_con;cong_eqpt_inc;cong_eqln_spar;cong_eqln_par;cmp_apt_dipt;conj;comparison_rec
+./part3.v;Shuffle;;;228;9;apply;cong_eqln_inc;-1;colinear;comparison_sind;cong_par_con;cong_eqpt_inc;cong_eqln_spar;cong_eqln_par;conj;comparison_rec;comparison;CompOpp_iff
+./part3.v;Shuffle;;;228;10;apply;cong_eqln_inc;-1;cong_par_con;cong_eqpt_inc;cong_eqln_spar;cong_eqln_par;conj;Convergent_imp_distinct;colinear;comparison_sind;comparison_rec;comparison
+./part3.v;Shuffle;;;228;11;apply;cong_eqln_inc;-1;cong_par_con;cong_eqpt_inc;cong_eqln_spar;cong_eqln_par;Convergent_imp_distinct;eq_existT_curried_congr;;;;
+./part3.v;Shuffle;;;228;12;apply;cong_eqln_inc;-1;cong_par_con;cong_eqpt_inc;cong_eqln_spar;cong_eqln_par;Convergent_imp_distinct;;;;;
+./part3.v;Shuffle;;;228;13;apply;cong_eqln_inc;-1;cong_eqpt_inc;cong_eqln_spar;cong_eqln_par;Convergent_imp_distinct;;;;;;
+./part3.v;Shuffle;;;228;14;apply;cong_eqln_inc;-1;cong_eqpt_inc;cong_eqln_spar;cong_eqln_par;;;;;;;
+./part3.v;Shuffle;;;228;15;apply;cong_eqln_inc;-1;cong_eqln_spar;cong_eqln_par;;;;;;;;
+./part3.v;Shuffle;;;228;16;apply;cong_eqln_inc;-1;cong_eqln_spar;cong_eqln_par;;;;;;;;
+./part3.v;Shuffle;;;228;17;apply;cong_eqln_inc;-1;cong_eqln_spar;cong_eqln_par;;;;;;;;
+./part3.v;Shuffle;;;228;18;apply;cong_eqln_inc;-1;;;;;;;;;;
+./part3.v;Shuffle;;;228;19;apply;cong_eqln_inc;-1;;;;;;;;;;
+./part3.v;Shuffle;;;228;20;apply;cong_eqln_inc;-1;;;;;;;;;;

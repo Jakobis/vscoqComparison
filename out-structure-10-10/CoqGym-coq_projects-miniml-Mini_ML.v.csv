@@ -1,0 +1,887 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Line;Character;Keywords Before;Lemma;Index;Result 1;Result 2;Result 3;Result 4;Result 5;Result 6;Result 7;Result 8;Result 9;Result 10
+./Mini_ML.v;StructuredTypeEvaluation;10;10;116;7;apply;H1;0;H1;eq_stepl;eq_trans_r;eq_trans;eq_sym;eq_refl;not_eq_sym;rew_const;rew_swap;f_equal_dep
+./Mini_ML.v;StructuredTypeEvaluation;10;10;116;8;apply;H1;0;H1;Hexadecimal.internal_hexadecimal_dec_bl;Hexadecimal.internal_signed_int_dec_bl0;H0;Hexadecimal.internal_hexadecimal_dec_lb;Hexadecimal.internal_signed_int_dec_lb0;H2;Hexadecimal.hexadecimal_eq_dec;Hexadecimal.signed_int_eq_dec;Hexadecimal.uint_eq_dec
+./Mini_ML.v;StructuredTypeEvaluation;10;10;116;9;apply;H1;0;H1;Hexadecimal.D1;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;200;33;apply;(determ_VAL_OF;-1;determ_VAL_OF;eq_stepl;eq_trans_r;eq_trans;eq_sym;eq_refl;not_eq_sym;rew_const;rew_swap;f_equal_dep
+./Mini_ML.v;StructuredTypeEvaluation;10;10;200;34;apply;(determ_VAL_OF;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;200;35;apply;(determ_VAL_OF;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;200;36;apply;(determ_VAL_OF;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;200;37;apply;(determ_VAL_OF;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;200;38;apply;(determ_VAL_OF;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;200;39;apply;(determ_VAL_OF;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;200;40;apply;(determ_VAL_OF;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;200;41;apply;(determ_VAL_OF;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;200;42;apply;(determ_VAL_OF;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;200;43;apply;(determ_VAL_OF;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;200;44;apply;(determ_VAL_OF;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;200;45;apply;(determ_VAL_OF;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;200;46;apply;(determ_VAL_OF;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;200;47;apply;(determ_VAL_OF;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;222;7;apply;H5;0;H5;determ_VAL_OF;H3;H12;H1;HH;eq_stepl;eq_trans_r;eq_trans;eq_sym
+./Mini_ML.v;StructuredTypeEvaluation;10;10;222;8;apply;H5;0;H5;H3;H12;H1;HH;Hexadecimal.internal_hexadecimal_dec_bl;Hexadecimal.internal_signed_int_dec_bl0;H6;H10;H11
+./Mini_ML.v;StructuredTypeEvaluation;10;10;222;9;apply;H5;0;H5;Hexadecimal.D5;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;223;13;rewrite;H6;-1;H4;H9;H;H2;H8;H10;IDENT;APPml2;APPml1;Sem_OP
+./Mini_ML.v;StructuredTypeEvaluation;10;10;223;14;rewrite;H6;-1;H;H4;H9;H2;H8;H10;H0;H1;H7;HH
+./Mini_ML.v;StructuredTypeEvaluation;10;10;223;15;rewrite;H6;-1;Hexadecimal.D6;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;223;29;rewrite;H10;5;H4;H9;H;H2;H8;H10;IDENT;APPml2;APPml1;Sem_OP
+./Mini_ML.v;StructuredTypeEvaluation;10;10;223;30;rewrite;H10;5;H;H4;H9;H2;H8;H10;H0;H1;H7;HH
+./Mini_ML.v;StructuredTypeEvaluation;10;10;223;31;rewrite;H10;1;H1;H10;Hexadecimal.D1;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;223;32;rewrite;H10;0;H10;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;223;46;rewrite;H11;-1;H4;H9;H;H2;H8;H10;IDENT;APPml2;APPml1;Sem_OP
+./Mini_ML.v;StructuredTypeEvaluation;10;10;223;47;rewrite;H11;-1;H;H4;H9;H2;H8;H10;H0;H1;H7;HH
+./Mini_ML.v;StructuredTypeEvaluation;10;10;223;48;rewrite;H11;-1;H1;H10;Hexadecimal.D1;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;223;49;rewrite;H11;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;223;63;rewrite;H12;-1;H4;H9;H;H2;H8;H10;IDENT;APPml2;APPml1;Sem_OP
+./Mini_ML.v;StructuredTypeEvaluation;10;10;223;64;rewrite;H12;-1;H;H4;H9;H2;H8;H10;H0;H1;H7;HH
+./Mini_ML.v;StructuredTypeEvaluation;10;10;223;65;rewrite;H12;-1;H1;H10;Hexadecimal.D1;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;223;66;rewrite;H12;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;242;7;apply;H5;0;H5;determ_VAL_OF;H3;H6;H1;HH;eq_stepl;eq_trans_r;eq_trans;eq_sym
+./Mini_ML.v;StructuredTypeEvaluation;10;10;242;8;apply;H5;0;H5;H3;H6;H1;HH;Hexadecimal.internal_hexadecimal_dec_bl;Hexadecimal.internal_signed_int_dec_bl0;H10;H11;H12
+./Mini_ML.v;StructuredTypeEvaluation;10;10;242;9;apply;H5;0;H5;Hexadecimal.D5;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;243;13;rewrite;H6;-1;H4;H9;H;H2;H8;H12;IDENT;APPml2;APPml1;Sem_OP
+./Mini_ML.v;StructuredTypeEvaluation;10;10;243;14;rewrite;H6;-1;H;H4;H9;H2;H8;H12;H0;H7;Hexadecimal.Little.succ_double;Hexadecimal.Little.double
+./Mini_ML.v;StructuredTypeEvaluation;10;10;243;15;rewrite;H6;-1;Hexadecimal.D6;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;243;29;rewrite;H10;-1;H4;H9;H;H2;H8;H12;IDENT;APPml2;APPml1;Sem_OP
+./Mini_ML.v;StructuredTypeEvaluation;10;10;243;30;rewrite;H10;-1;H;H4;H9;H2;H8;H12;H0;H7;Hexadecimal.Little.succ_double;Hexadecimal.Little.double
+./Mini_ML.v;StructuredTypeEvaluation;10;10;243;31;rewrite;H10;-1;H12;Hexadecimal.D1;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;243;32;rewrite;H10;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;243;46;rewrite;H11;-1;H4;H9;H;H2;H8;H12;IDENT;APPml2;APPml1;Sem_OP
+./Mini_ML.v;StructuredTypeEvaluation;10;10;243;47;rewrite;H11;-1;H;H4;H9;H2;H8;H12;H0;H7;Hexadecimal.Little.succ_double;Hexadecimal.Little.double
+./Mini_ML.v;StructuredTypeEvaluation;10;10;243;48;rewrite;H11;-1;H12;Hexadecimal.D1;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;243;49;rewrite;H11;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;243;63;rewrite;H12;5;H4;H9;H;H2;H8;H12;IDENT;APPml2;APPml1;Sem_OP
+./Mini_ML.v;StructuredTypeEvaluation;10;10;243;64;rewrite;H12;5;H;H4;H9;H2;H8;H12;H0;H7;Hexadecimal.Little.succ_double;Hexadecimal.Little.double
+./Mini_ML.v;StructuredTypeEvaluation;10;10;243;65;rewrite;H12;0;H12;Hexadecimal.D1;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;243;66;rewrite;H12;0;H12;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;244;14;rewrite;H13;-1;H4;H9;H;H2;H8;H12;IDENT;APPml2;APPml1;Sem_OP
+./Mini_ML.v;StructuredTypeEvaluation;10;10;244;15;rewrite;H13;-1;H;H4;H9;H2;H8;H12;H0;H7;Hexadecimal.Little.succ_double;Hexadecimal.Little.double
+./Mini_ML.v;StructuredTypeEvaluation;10;10;244;16;rewrite;H13;-1;H12;Hexadecimal.D1;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;244;17;rewrite;H13;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;265;13;rewrite;H4;141;determ_VAL_OF;H1;HH1;H3;APPml_op;HH;eq_stepl;eq_trans_r;eq_trans;eq_sym
+./Mini_ML.v;StructuredTypeEvaluation;10;10;265;14;rewrite;H4;6;H1;HH1;H3;HH;Hexadecimal.internal_hexadecimal_dec_bl;Hexadecimal.internal_signed_int_dec_bl0;H4;H7;H8;Hexadecimal.internal_hexadecimal_dec_lb
+./Mini_ML.v;StructuredTypeEvaluation;10;10;265;15;rewrite;H4;0;H4;Hexadecimal.D4;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;265;29;rewrite;H7;142;determ_VAL_OF;H1;HH1;H3;APPml_op;HH;eq_stepl;eq_trans_r;eq_trans;eq_sym
+./Mini_ML.v;StructuredTypeEvaluation;10;10;265;30;rewrite;H7;7;H1;HH1;H3;HH;Hexadecimal.internal_hexadecimal_dec_bl;Hexadecimal.internal_signed_int_dec_bl0;H4;H7;H8;Hexadecimal.internal_hexadecimal_dec_lb
+./Mini_ML.v;StructuredTypeEvaluation;10;10;265;31;rewrite;H7;0;H7;Hexadecimal.D7;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;265;45;rewrite;H8;143;determ_VAL_OF;H1;HH1;H3;APPml_op;HH;eq_stepl;eq_trans_r;eq_trans;eq_sym
+./Mini_ML.v;StructuredTypeEvaluation;10;10;265;46;rewrite;H8;8;H1;HH1;H3;HH;Hexadecimal.internal_hexadecimal_dec_bl;Hexadecimal.internal_signed_int_dec_bl0;H4;H7;H8;Hexadecimal.internal_hexadecimal_dec_lb
+./Mini_ML.v;StructuredTypeEvaluation;10;10;265;47;rewrite;H8;0;H8;Hexadecimal.D8;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;273;7;apply;H3;0;H3;determ_VAL_OF;H1;H4;eq_stepl;eq_trans_r;eq_trans;eq_sym;eq_refl;not_eq_sym
+./Mini_ML.v;StructuredTypeEvaluation;10;10;273;8;apply;H3;0;H3;H1;H4;Hexadecimal.internal_hexadecimal_dec_bl;Hexadecimal.internal_signed_int_dec_bl0;Hexadecimal.internal_hexadecimal_dec_lb;Hexadecimal.internal_signed_int_dec_lb0;H6;Hexadecimal.hexadecimal_eq_dec;Hexadecimal.signed_int_eq_dec
+./Mini_ML.v;StructuredTypeEvaluation;10;10;273;9;apply;H3;0;H3;Hexadecimal.D3;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;274;13;rewrite;H4;-1;H2;H6;H;H0;H5;IDENT;APPml2;APPml1;Sem_OP;NUM
+./Mini_ML.v;StructuredTypeEvaluation;10;10;274;14;rewrite;H4;-1;H;H2;H6;H0;H5;Hexadecimal.Little.succ_double;Hexadecimal.Little.double;Hexadecimal.Little.succ;Hexadecimal.del_tail_int;Hexadecimal.del_tail
+./Mini_ML.v;StructuredTypeEvaluation;10;10;274;15;rewrite;H4;-1;Hexadecimal.D4;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;279;7;apply;H1;0;H1;determ_VAL_OF;eq_stepl;eq_trans_r;eq_trans;eq_sym;eq_refl;not_eq_sym;rew_const;rew_swap
+./Mini_ML.v;StructuredTypeEvaluation;10;10;279;8;apply;H1;0;H1;Hexadecimal.internal_hexadecimal_dec_bl;Hexadecimal.internal_signed_int_dec_bl0;Hexadecimal.internal_hexadecimal_dec_lb;Hexadecimal.internal_signed_int_dec_lb0;Hexadecimal.hexadecimal_eq_dec;Hexadecimal.signed_int_eq_dec;Hexadecimal.uint_eq_dec;H3;Hexadecimal.Little.succ_double
+./Mini_ML.v;StructuredTypeEvaluation;10;10;279;9;apply;H1;0;H1;Hexadecimal.D1;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;445;13;rewrite;H7;1;H12;H7;H2;H6;H11;eq_stepl;eq_trans_r;eq_trans;eq_sym;eq_refl
+./Mini_ML.v;StructuredTypeEvaluation;10;10;445;14;rewrite;H7;2;H;H12;H7;H2;H6;H11;H4;Habite_inject;Hexadecimal.internal_hexadecimal_dec_bl;Hexadecimal.internal_signed_int_dec_bl0
+./Mini_ML.v;StructuredTypeEvaluation;10;10;445;15;rewrite;H7;0;H7;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;445;32;rewrite <-;H2;2;H12;H7;H2;H6;H11;eq_stepl;eq_trans_r;eq_trans;eq_sym;eq_refl
+./Mini_ML.v;StructuredTypeEvaluation;10;10;445;33;rewrite <-;H2;3;H;H12;H7;H2;H6;H11;H4;Habite_inject;Hexadecimal.internal_hexadecimal_dec_bl;Hexadecimal.internal_signed_int_dec_bl0
+./Mini_ML.v;StructuredTypeEvaluation;10;10;445;34;rewrite <-;H2;0;H2;H12;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;445;48;rewrite;H6;3;H12;H7;H2;H6;H11;eq_stepl;eq_trans_r;eq_trans;eq_sym;eq_refl
+./Mini_ML.v;StructuredTypeEvaluation;10;10;445;49;rewrite;H6;4;H;H12;H7;H2;H6;H11;H4;Habite_inject;Hexadecimal.internal_hexadecimal_dec_bl;Hexadecimal.internal_signed_int_dec_bl0
+./Mini_ML.v;StructuredTypeEvaluation;10;10;445;50;rewrite;H6;0;H6;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;445;67;rewrite <-;H11;4;H12;H7;H2;H6;H11;eq_stepl;eq_trans_r;eq_trans;eq_sym;eq_refl
+./Mini_ML.v;StructuredTypeEvaluation;10;10;445;68;rewrite <-;H11;5;H;H12;H7;H2;H6;H11;H4;Habite_inject;Hexadecimal.internal_hexadecimal_dec_bl;Hexadecimal.internal_signed_int_dec_bl0
+./Mini_ML.v;StructuredTypeEvaluation;10;10;445;69;rewrite <-;H11;1;H12;H11;H10;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;445;70;rewrite <-;H11;0;H11;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;446;13;rewrite;H4;51;H6;H;eq_stepl;eq_trans_r;eq_trans;eq_sym;eq_refl;not_eq_sym;rew_const;rew_swap
+./Mini_ML.v;StructuredTypeEvaluation;10;10;446;14;rewrite;H4;5;H;H6;Habite_inject;Hexadecimal.internal_hexadecimal_dec_bl;Hexadecimal.internal_signed_int_dec_bl0;H4;Hexadecimal.internal_hexadecimal_dec_lb;Hexadecimal.internal_signed_int_dec_lb0;H0;H5
+./Mini_ML.v;StructuredTypeEvaluation;10;10;446;15;rewrite;H4;0;H4;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;451;16;rewrite <-;H2;2;H8;H4;H2;H11;H13;eq_stepl;eq_trans_r;eq_trans;eq_sym;eq_refl
+./Mini_ML.v;StructuredTypeEvaluation;10;10;451;17;rewrite <-;H2;3;H;H8;H4;H2;H11;H13;H7;Habite_inject;Hexadecimal.internal_hexadecimal_dec_bl;Hexadecimal.internal_signed_int_dec_bl0
+./Mini_ML.v;StructuredTypeEvaluation;10;10;451;18;rewrite <-;H2;0;H2;H12;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;451;32;rewrite;H11;3;H8;H4;H2;H11;H13;eq_stepl;eq_trans_r;eq_trans;eq_sym;eq_refl
+./Mini_ML.v;StructuredTypeEvaluation;10;10;451;33;rewrite;H11;4;H;H8;H4;H2;H11;H13;H7;Habite_inject;Hexadecimal.internal_hexadecimal_dec_bl;Hexadecimal.internal_signed_int_dec_bl0
+./Mini_ML.v;StructuredTypeEvaluation;10;10;451;34;rewrite;H11;0;H11;H13;H10;H12;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;451;35;rewrite;H11;0;H11;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;451;52;rewrite <-;H13;4;H8;H4;H2;H11;H13;eq_stepl;eq_trans_r;eq_trans;eq_sym;eq_refl
+./Mini_ML.v;StructuredTypeEvaluation;10;10;451;53;rewrite <-;H13;5;H;H8;H4;H2;H11;H13;H7;Habite_inject;Hexadecimal.internal_hexadecimal_dec_bl;Hexadecimal.internal_signed_int_dec_bl0
+./Mini_ML.v;StructuredTypeEvaluation;10;10;451;54;rewrite <-;H13;1;H11;H13;H10;H12;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;451;55;rewrite <-;H13;0;H13;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;452;13;rewrite;H7;53;H6;H;H9;eq_stepl;eq_trans_r;eq_trans;eq_sym;eq_refl;not_eq_sym;rew_const
+./Mini_ML.v;StructuredTypeEvaluation;10;10;452;14;rewrite;H7;7;H;H6;H9;Habite_inject;Hexadecimal.internal_hexadecimal_dec_bl;Hexadecimal.internal_signed_int_dec_bl0;H4;H7;Hexadecimal.internal_hexadecimal_dec_lb;Hexadecimal.internal_signed_int_dec_lb0
+./Mini_ML.v;StructuredTypeEvaluation;10;10;452;15;rewrite;H7;0;H7;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;455;13;rewrite;HH1;54;H6;H;H9;eq_stepl;eq_trans_r;eq_trans;eq_sym;eq_refl;not_eq_sym;rew_const
+./Mini_ML.v;StructuredTypeEvaluation;10;10;455;14;rewrite;HH1;8;H;H6;H9;Habite_inject;Hexadecimal.internal_hexadecimal_dec_bl;Hexadecimal.internal_signed_int_dec_bl0;H4;H7;HH1;HH2
+./Mini_ML.v;StructuredTypeEvaluation;10;10;455;15;rewrite;HH1;0;HH1;HH2;HH3;Hexadecimal.hexadecimal_eq_dec;Hexadecimal.hexadecimal_beq;Hexadecimal.del_head_int;Hexadecimal.del_head;Hexadecimal.nzhead;Hexadecimal.internal_hexadecimal_dec_bl;Hexadecimal.internal_hexadecimal_dec_lb
+./Mini_ML.v;StructuredTypeEvaluation;10;10;455;16;rewrite;HH1;0;HH1;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;455;30;rewrite;HH3;56;H6;H;H9;eq_stepl;eq_trans_r;eq_trans;eq_sym;eq_refl;not_eq_sym;rew_const
+./Mini_ML.v;StructuredTypeEvaluation;10;10;455;31;rewrite;HH3;10;H;H6;H9;Habite_inject;Hexadecimal.internal_hexadecimal_dec_bl;Hexadecimal.internal_signed_int_dec_bl0;H4;H7;HH1;HH2
+./Mini_ML.v;StructuredTypeEvaluation;10;10;455;32;rewrite;HH3;2;HH1;HH2;HH3;Hexadecimal.hexadecimal_eq_dec;Hexadecimal.hexadecimal_beq;Hexadecimal.del_head_int;Hexadecimal.del_head;Hexadecimal.nzhead;Hexadecimal.internal_hexadecimal_dec_bl;Hexadecimal.internal_hexadecimal_dec_lb
+./Mini_ML.v;StructuredTypeEvaluation;10;10;455;33;rewrite;HH3;0;HH3;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;456;16;rewrite <-;H6;0;H6;H;H9;eq_stepl;eq_trans_r;eq_trans;eq_sym;eq_refl;not_eq_sym;rew_const
+./Mini_ML.v;StructuredTypeEvaluation;10;10;456;17;rewrite <-;H6;1;H;H6;H9;Habite_inject;Hexadecimal.internal_hexadecimal_dec_bl;Hexadecimal.internal_signed_int_dec_bl0;H4;H7;HH1;HH2
+./Mini_ML.v;StructuredTypeEvaluation;10;10;456;18;rewrite <-;H6;0;H6;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;456;35;rewrite <-;H9;2;H6;H;H9;eq_stepl;eq_trans_r;eq_trans;eq_sym;eq_refl;not_eq_sym;rew_const
+./Mini_ML.v;StructuredTypeEvaluation;10;10;456;36;rewrite <-;H9;2;H;H6;H9;Habite_inject;Hexadecimal.internal_hexadecimal_dec_bl;Hexadecimal.internal_signed_int_dec_bl0;H4;H7;HH1;HH2
+./Mini_ML.v;StructuredTypeEvaluation;10;10;456;37;rewrite <-;H9;0;H9;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;469;7;apply;MLenv_ind;-1;Fix;Fix_F;well_founded_ind;well_founded_induction;well_founded_induction_type;Acc_sind;Acc_rec;Acc_ind;Acc_rect;error
+./Mini_ML.v;StructuredTypeEvaluation;10;10;469;8;apply;MLenv_ind;-1;MLexp;MLenv;MLval;ML_DS;mlpair;Nat.modulo;Nat.min;Nat.max;Nat.mul;option_map
+./Mini_ML.v;StructuredTypeEvaluation;10;10;469;9;apply;MLenv_ind;-1;MLexp;MLenv;MLval;ML_DS;mlpair;Nat.mul;Nat.modulo;Nat.tail_mul;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;469;10;apply;MLenv_ind;-1;MLexp;MLenv;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;469;11;apply;MLenv_ind;-1;MLenv;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;469;12;apply;MLenv_ind;-1;MLenv;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;469;13;apply;MLenv_ind;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;469;14;apply;MLenv_ind;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;469;15;apply;MLenv_ind;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;469;16;apply;MLenv_ind;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;667;7;apply;preuve_compilation;0;preuve_compilation;Fix;Fix_F;well_founded_ind;well_founded_induction;well_founded_induction_type;Acc_sind;Acc_rec;Acc_ind;Acc_rect
+./Mini_ML.v;StructuredTypeEvaluation;10;10;667;8;apply;preuve_compilation;0;preuve_compilation;proj1_sig_eq;projT1_eq;push;projT1;proj1_sig;proj2;proj1;prod_curry_subdef;prod_uncurry_subdef
+./Mini_ML.v;StructuredTypeEvaluation;10;10;667;9;apply;preuve_compilation;0;preuve_compilation;proj1_sig_eq;projT1_eq;projT1;proj1_sig;proj2;proj1;prod_curry_subdef;prod_uncurry_subdef;prod
+./Mini_ML.v;StructuredTypeEvaluation;10;10;667;10;apply;preuve_compilation;0;preuve_compilation;projT1_eq;proj1_sig_eq;Nat.pred;ex_proj1_eq;prod_curry_subdef;prod_uncurry_subdef;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;667;11;apply;preuve_compilation;0;preuve_compilation;prod_uncurry_subdef;prod_curry_subdef;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;667;12;apply;preuve_compilation;0;preuve_compilation;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;667;13;apply;preuve_compilation;0;preuve_compilation;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;667;14;apply;preuve_compilation;0;preuve_compilation;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;667;15;apply;preuve_compilation;0;preuve_compilation;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;667;16;apply;preuve_compilation;0;preuve_compilation;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;667;17;apply;preuve_compilation;0;preuve_compilation;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;667;18;apply;preuve_compilation;0;preuve_compilation;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;667;19;apply;preuve_compilation;0;preuve_compilation;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;667;20;apply;preuve_compilation;0;preuve_compilation;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;667;21;apply;preuve_compilation;0;preuve_compilation;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;667;22;apply;preuve_compilation;0;preuve_compilation;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;667;23;apply;preuve_compilation;0;preuve_compilation;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;667;24;apply;preuve_compilation;0;preuve_compilation;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;667;25;apply;preuve_compilation;0;preuve_compilation;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;685;7;apply;preuve_compilation;0;preuve_compilation;Proof_bool;Fix;Fix_F;well_founded_ind;well_founded_induction;well_founded_induction_type;Acc_sind;Acc_rec;Acc_ind
+./Mini_ML.v;StructuredTypeEvaluation;10;10;685;8;apply;preuve_compilation;0;preuve_compilation;proj1_sig_eq;projT1_eq;push;projT1;proj1_sig;proj2;proj1;prod_curry_subdef;prod_uncurry_subdef
+./Mini_ML.v;StructuredTypeEvaluation;10;10;685;9;apply;preuve_compilation;0;preuve_compilation;proj1_sig_eq;projT1_eq;projT1;proj1_sig;proj2;proj1;prod_curry_subdef;prod_uncurry_subdef;prod
+./Mini_ML.v;StructuredTypeEvaluation;10;10;685;10;apply;preuve_compilation;0;preuve_compilation;projT1_eq;proj1_sig_eq;Nat.pred;ex_proj1_eq;prod_curry_subdef;prod_uncurry_subdef;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;685;11;apply;preuve_compilation;0;preuve_compilation;prod_uncurry_subdef;prod_curry_subdef;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;685;12;apply;preuve_compilation;0;preuve_compilation;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;685;13;apply;preuve_compilation;0;preuve_compilation;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;685;14;apply;preuve_compilation;0;preuve_compilation;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;685;15;apply;preuve_compilation;0;preuve_compilation;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;685;16;apply;preuve_compilation;0;preuve_compilation;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;685;17;apply;preuve_compilation;0;preuve_compilation;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;685;18;apply;preuve_compilation;0;preuve_compilation;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;685;19;apply;preuve_compilation;0;preuve_compilation;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;685;20;apply;preuve_compilation;0;preuve_compilation;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;685;21;apply;preuve_compilation;0;preuve_compilation;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;685;22;apply;preuve_compilation;0;preuve_compilation;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;685;23;apply;preuve_compilation;0;preuve_compilation;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;685;24;apply;preuve_compilation;0;preuve_compilation;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;685;25;apply;preuve_compilation;0;preuve_compilation;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;705;7;apply;preuve_compilation;0;preuve_compilation;Proof_bool;Proof_int;Fix;Fix_F;well_founded_ind;well_founded_induction;well_founded_induction_type;Acc_sind;Acc_rec
+./Mini_ML.v;StructuredTypeEvaluation;10;10;705;8;apply;preuve_compilation;0;preuve_compilation;proj1_sig_eq;projT1_eq;push;projT1;proj1_sig;proj2;proj1;prod_curry_subdef;prod_uncurry_subdef
+./Mini_ML.v;StructuredTypeEvaluation;10;10;705;9;apply;preuve_compilation;0;preuve_compilation;proj1_sig_eq;projT1_eq;projT1;proj1_sig;proj2;proj1;prod_curry_subdef;prod_uncurry_subdef;prod
+./Mini_ML.v;StructuredTypeEvaluation;10;10;705;10;apply;preuve_compilation;0;preuve_compilation;projT1_eq;proj1_sig_eq;Nat.pred;ex_proj1_eq;prod_curry_subdef;prod_uncurry_subdef;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;705;11;apply;preuve_compilation;0;preuve_compilation;prod_uncurry_subdef;prod_curry_subdef;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;705;12;apply;preuve_compilation;0;preuve_compilation;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;705;13;apply;preuve_compilation;0;preuve_compilation;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;705;14;apply;preuve_compilation;0;preuve_compilation;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;705;15;apply;preuve_compilation;0;preuve_compilation;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;705;16;apply;preuve_compilation;0;preuve_compilation;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;705;17;apply;preuve_compilation;0;preuve_compilation;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;705;18;apply;preuve_compilation;0;preuve_compilation;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;705;19;apply;preuve_compilation;0;preuve_compilation;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;705;20;apply;preuve_compilation;0;preuve_compilation;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;705;21;apply;preuve_compilation;0;preuve_compilation;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;705;22;apply;preuve_compilation;0;preuve_compilation;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;705;23;apply;preuve_compilation;0;preuve_compilation;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;705;24;apply;preuve_compilation;0;preuve_compilation;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;705;25;apply;preuve_compilation;0;preuve_compilation;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;746;7;apply;preuve_compilation_id;0;preuve_compilation_id;Fix;Fix_F;well_founded_ind;well_founded_induction;well_founded_induction_type;Acc_sind;Acc_rec;Acc_ind;Acc_rect
+./Mini_ML.v;StructuredTypeEvaluation;10;10;746;8;apply;preuve_compilation_id;0;preuve_compilation_id;proj1_sig_eq;projT1_eq;push;projT1;proj1_sig;proj2;proj1;prod_curry_subdef;prod_uncurry_subdef
+./Mini_ML.v;StructuredTypeEvaluation;10;10;746;9;apply;preuve_compilation_id;0;preuve_compilation_id;proj1_sig_eq;projT1_eq;projT1;proj1_sig;proj2;proj1;prod_curry_subdef;prod_uncurry_subdef;prod
+./Mini_ML.v;StructuredTypeEvaluation;10;10;746;10;apply;preuve_compilation_id;0;preuve_compilation_id;projT1_eq;proj1_sig_eq;Nat.pred;ex_proj1_eq;prod_curry_subdef;prod_uncurry_subdef;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;746;11;apply;preuve_compilation_id;0;preuve_compilation_id;prod_uncurry_subdef;prod_curry_subdef;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;746;12;apply;preuve_compilation_id;0;preuve_compilation_id;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;746;13;apply;preuve_compilation_id;0;preuve_compilation_id;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;746;14;apply;preuve_compilation_id;0;preuve_compilation_id;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;746;15;apply;preuve_compilation_id;0;preuve_compilation_id;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;746;16;apply;preuve_compilation_id;0;preuve_compilation_id;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;746;17;apply;preuve_compilation_id;0;preuve_compilation_id;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;746;18;apply;preuve_compilation_id;0;preuve_compilation_id;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;746;19;apply;preuve_compilation_id;0;preuve_compilation_id;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;746;20;apply;preuve_compilation_id;0;preuve_compilation_id;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;746;21;apply;preuve_compilation_id;0;preuve_compilation_id;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;746;22;apply;preuve_compilation_id;0;preuve_compilation_id;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;746;23;apply;preuve_compilation_id;0;preuve_compilation_id;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;746;24;apply;preuve_compilation_id;0;preuve_compilation_id;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;746;25;apply;preuve_compilation_id;0;preuve_compilation_id;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;746;26;apply;preuve_compilation_id;0;preuve_compilation_id;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;746;27;apply;preuve_compilation_id;0;preuve_compilation_id;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;746;28;apply;preuve_compilation_id;0;preuve_compilation_id;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;757;16;rewrite <-;H3;-1;H;inhabited_sig_to_exists;forall_exists_unique_domain_coincide;eq_ex_hprop;eq_ex;eq_ex_uncurried;eq_ex_ind_uncurried;eq_ex_rec_uncurried;eq_ex_rect_uncurried;eq_ex_ind
+./Mini_ML.v;StructuredTypeEvaluation;10;10;757;17;rewrite <-;H3;-1;H;Habite;Hexadecimal.Little.succ_double;Hexadecimal.Little.double;Hexadecimal.Little.succ;Hexadecimal.del_tail_int;Hexadecimal.del_tail;Hexadecimal.del_head_int;Hexadecimal.del_head;Hexadecimal.app_int
+./Mini_ML.v;StructuredTypeEvaluation;10;10;757;18;rewrite <-;H3;-1;Hexadecimal.D3;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;757;32;rewrite;H7;-1;H;inhabited_sig_to_exists;forall_exists_unique_domain_coincide;eq_ex_hprop;eq_ex;eq_ex_uncurried;eq_ex_ind_uncurried;eq_ex_rec_uncurried;eq_ex_rect_uncurried;eq_ex_ind
+./Mini_ML.v;StructuredTypeEvaluation;10;10;757;33;rewrite;H7;-1;H;Habite;Hexadecimal.Little.succ_double;Hexadecimal.Little.double;Hexadecimal.Little.succ;Hexadecimal.del_tail_int;Hexadecimal.del_tail;Hexadecimal.del_head_int;Hexadecimal.del_head;Hexadecimal.app_int
+./Mini_ML.v;StructuredTypeEvaluation;10;10;757;34;rewrite;H7;-1;Hexadecimal.D7;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;763;16;rewrite <-;H4;-1;H;inhabited_sig_to_exists;forall_exists_unique_domain_coincide;eq_ex_hprop;eq_ex;eq_ex_uncurried;eq_ex_ind_uncurried;eq_ex_rec_uncurried;eq_ex_rect_uncurried;eq_ex_ind
+./Mini_ML.v;StructuredTypeEvaluation;10;10;763;17;rewrite <-;H4;-1;H;Habite;Hexadecimal.Little.succ_double;Hexadecimal.Little.double;Hexadecimal.Little.succ;Hexadecimal.del_tail_int;Hexadecimal.del_tail;Hexadecimal.del_head_int;Hexadecimal.del_head;Hexadecimal.app_int
+./Mini_ML.v;StructuredTypeEvaluation;10;10;763;18;rewrite <-;H4;-1;Hexadecimal.D4;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;763;32;rewrite;H6;-1;H;inhabited_sig_to_exists;forall_exists_unique_domain_coincide;eq_ex_hprop;eq_ex;eq_ex_uncurried;eq_ex_ind_uncurried;eq_ex_rec_uncurried;eq_ex_rect_uncurried;eq_ex_ind
+./Mini_ML.v;StructuredTypeEvaluation;10;10;763;33;rewrite;H6;-1;H;Habite;Hexadecimal.Little.succ_double;Hexadecimal.Little.double;Hexadecimal.Little.succ;Hexadecimal.del_tail_int;Hexadecimal.del_tail;Hexadecimal.del_head_int;Hexadecimal.del_head;Hexadecimal.app_int
+./Mini_ML.v;StructuredTypeEvaluation;10;10;763;34;rewrite;H6;-1;Hexadecimal.D6;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;767;14;apply;CDR;0;CDR;CAR;APPcam_op;APPcam2;APPcam1;PUSH;CONS;SWAP;o_DS;BRANCHF
+./Mini_ML.v;StructuredTypeEvaluation;10;10;767;15;apply;CDR;0;CDR;CAR;CONS;CUR_REC;CUR;Clos_rec;Clos;Commande;Cam_nil;Cam_clos_rec
+./Mini_ML.v;StructuredTypeEvaluation;10;10;767;16;apply;CDR;0;CDR;cdr;CAM_DS;Commande;compilation_id;compilation_id_rect;compilation_id_ind;compilation_id_rec;compilation_id_sind;compilation_ind
+./Mini_ML.v;StructuredTypeEvaluation;10;10;767;17;apply;CDR;0;CDR;cdr;compilation_id_rect;compilation_id_rec;prod_curry_subdef;eq_exist_curried;eq_existT_curried;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;771;13;rewrite;H5;-1;H;inhabited_sig_to_exists;forall_exists_unique_domain_coincide;eq_ex_hprop;eq_ex;eq_ex_uncurried;eq_ex_ind_uncurried;eq_ex_rec_uncurried;eq_ex_rect_uncurried;eq_ex_ind
+./Mini_ML.v;StructuredTypeEvaluation;10;10;771;14;rewrite;H5;-1;H;Habite;Hexadecimal.Little.succ_double;Hexadecimal.Little.double;Hexadecimal.Little.succ;Hexadecimal.del_tail_int;Hexadecimal.del_tail;Hexadecimal.del_head_int;Hexadecimal.del_head;Hexadecimal.app_int
+./Mini_ML.v;StructuredTypeEvaluation;10;10;771;15;rewrite;H5;-1;Hexadecimal.D5;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;771;29;rewrite;H7;-1;H;inhabited_sig_to_exists;forall_exists_unique_domain_coincide;eq_ex_hprop;eq_ex;eq_ex_uncurried;eq_ex_ind_uncurried;eq_ex_rec_uncurried;eq_ex_rect_uncurried;eq_ex_ind
+./Mini_ML.v;StructuredTypeEvaluation;10;10;771;30;rewrite;H7;-1;H;Habite;Hexadecimal.Little.succ_double;Hexadecimal.Little.double;Hexadecimal.Little.succ;Hexadecimal.del_tail_int;Hexadecimal.del_tail;Hexadecimal.del_head_int;Hexadecimal.del_head;Hexadecimal.app_int
+./Mini_ML.v;StructuredTypeEvaluation;10;10;771;31;rewrite;H7;-1;Hexadecimal.D7;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;771;45;rewrite;H6;-1;H;inhabited_sig_to_exists;forall_exists_unique_domain_coincide;eq_ex_hprop;eq_ex;eq_ex_uncurried;eq_ex_ind_uncurried;eq_ex_rec_uncurried;eq_ex_rect_uncurried;eq_ex_ind
+./Mini_ML.v;StructuredTypeEvaluation;10;10;771;46;rewrite;H6;-1;H;Habite;Hexadecimal.Little.succ_double;Hexadecimal.Little.double;Hexadecimal.Little.succ;Hexadecimal.del_tail_int;Hexadecimal.del_tail;Hexadecimal.del_head_int;Hexadecimal.del_head;Hexadecimal.app_int
+./Mini_ML.v;StructuredTypeEvaluation;10;10;771;47;rewrite;H6;-1;Hexadecimal.D6;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;771;61;rewrite;H0;-1;H;inhabited_sig_to_exists;forall_exists_unique_domain_coincide;eq_ex_hprop;eq_ex;eq_ex_uncurried;eq_ex_ind_uncurried;eq_ex_rec_uncurried;eq_ex_rect_uncurried;eq_ex_ind
+./Mini_ML.v;StructuredTypeEvaluation;10;10;771;62;rewrite;H0;-1;H;Habite;Hexadecimal.Little.succ_double;Hexadecimal.Little.double;Hexadecimal.Little.succ;Hexadecimal.del_tail_int;Hexadecimal.del_tail;Hexadecimal.del_head_int;Hexadecimal.del_head;Hexadecimal.app_int
+./Mini_ML.v;StructuredTypeEvaluation;10;10;771;63;rewrite;H0;-1;Hexadecimal.D0;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;776;28;rewrite;H10;-1;H;inhabited_sig_to_exists;forall_exists_unique_domain_coincide;eq_ex_hprop;eq_ex;eq_ex_uncurried;eq_ex_ind_uncurried;eq_ex_rec_uncurried;eq_ex_rect_uncurried;eq_ex_ind
+./Mini_ML.v;StructuredTypeEvaluation;10;10;776;29;rewrite;H10;-1;H;Habite;Hexadecimal.Little.succ_double;Hexadecimal.Little.double;Hexadecimal.Little.succ;Hexadecimal.del_tail_int;Hexadecimal.del_tail;Hexadecimal.del_head_int;Hexadecimal.del_head;Hexadecimal.app_int
+./Mini_ML.v;StructuredTypeEvaluation;10;10;776;30;rewrite;H10;-1;Hexadecimal.D1;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;776;31;rewrite;H10;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;779;13;rewrite;H13;-1;H;inhabited_sig_to_exists;forall_exists_unique_domain_coincide;eq_ex_hprop;eq_ex;eq_ex_uncurried;eq_ex_ind_uncurried;eq_ex_rec_uncurried;eq_ex_rect_uncurried;eq_ex_ind
+./Mini_ML.v;StructuredTypeEvaluation;10;10;779;14;rewrite;H13;-1;H;Habite;Hexadecimal.Little.succ_double;Hexadecimal.Little.double;Hexadecimal.Little.succ;Hexadecimal.del_tail_int;Hexadecimal.del_tail;Hexadecimal.del_head_int;Hexadecimal.del_head;Hexadecimal.app_int
+./Mini_ML.v;StructuredTypeEvaluation;10;10;779;15;rewrite;H13;-1;Hexadecimal.D1;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;779;16;rewrite;H13;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;779;57;rewrite;H12;-1;H;inhabited_sig_to_exists;forall_exists_unique_domain_coincide;eq_ex_hprop;eq_ex;eq_ex_uncurried;eq_ex_ind_uncurried;eq_ex_rec_uncurried;eq_ex_rect_uncurried;eq_ex_ind
+./Mini_ML.v;StructuredTypeEvaluation;10;10;779;58;rewrite;H12;-1;H;Habite;Hexadecimal.Little.succ_double;Hexadecimal.Little.double;Hexadecimal.Little.succ;Hexadecimal.del_tail_int;Hexadecimal.del_tail;Hexadecimal.del_head_int;Hexadecimal.del_head;Hexadecimal.app_int
+./Mini_ML.v;StructuredTypeEvaluation;10;10;779;59;rewrite;H12;-1;Hexadecimal.D1;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;779;60;rewrite;H12;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;779;74;rewrite;H10;-1;H;inhabited_sig_to_exists;forall_exists_unique_domain_coincide;eq_ex_hprop;eq_ex;eq_ex_uncurried;eq_ex_ind_uncurried;eq_ex_rec_uncurried;eq_ex_rect_uncurried;eq_ex_ind
+./Mini_ML.v;StructuredTypeEvaluation;10;10;779;75;rewrite;H10;-1;H;Habite;Hexadecimal.Little.succ_double;Hexadecimal.Little.double;Hexadecimal.Little.succ;Hexadecimal.del_tail_int;Hexadecimal.del_tail;Hexadecimal.del_head_int;Hexadecimal.del_head;Hexadecimal.app_int
+./Mini_ML.v;StructuredTypeEvaluation;10;10;779;76;rewrite;H10;-1;Hexadecimal.D1;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;779;77;rewrite;H10;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;780;16;rewrite <-;H15;-1;H;inhabited_sig_to_exists;forall_exists_unique_domain_coincide;eq_ex_hprop;eq_ex;eq_ex_uncurried;eq_ex_ind_uncurried;eq_ex_rec_uncurried;eq_ex_rect_uncurried;eq_ex_ind
+./Mini_ML.v;StructuredTypeEvaluation;10;10;780;17;rewrite <-;H15;-1;H;Habite;Hexadecimal.Little.succ_double;Hexadecimal.Little.double;Hexadecimal.Little.succ;Hexadecimal.del_tail_int;Hexadecimal.del_tail;Hexadecimal.del_head_int;Hexadecimal.del_head;Hexadecimal.app_int
+./Mini_ML.v;StructuredTypeEvaluation;10;10;780;18;rewrite <-;H15;-1;Hexadecimal.D1;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;780;19;rewrite <-;H15;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;795;7;apply;CAR;1;CDR;CAR;APPcam_op;APPcam2;APPcam1;PUSH;SWAP;CONS;o_DS;H22
+./Mini_ML.v;StructuredTypeEvaluation;10;10;795;8;apply;CAR;1;CDR;CAR;CONS;CUR_REC;CUR;Clos_rec;Clos;Commande;Cam_nil;Cam_clos_rec
+./Mini_ML.v;StructuredTypeEvaluation;10;10;795;9;apply;CAR;0;CAR;CAM_DS;Cam_nil;Cam_clos_rec;Cam_clos;Cam_pair;car;or_cancel_r;or_cancel_l;and_cancel_r
+./Mini_ML.v;StructuredTypeEvaluation;10;10;795;10;apply;CAR;0;CAR;car;Cam_clos_rec;Cam_pair;CompareSpecT;CompareSpec;or_cancel_r;comparison;and_cancel_r;compilation_rect
+./Mini_ML.v;StructuredTypeEvaluation;10;10;797;7;apply;Trad_var;0;Trad_var;H17;IDENT;Trad_lambda;Trad_clos;Trad_num;Bool_Trad;Trad_let;Trad_pair;Trad_app
+./Mini_ML.v;StructuredTypeEvaluation;10;10;797;8;apply;Trad_var;0;Trad_var;Trad_lambda;Trad_clos;Trad_num;Trad_let;Trad_pair;Trad_app;Trad_ite;Trad_let_rec;Traduction
+./Mini_ML.v;StructuredTypeEvaluation;10;10;797;9;apply;Trad_var;0;Trad_var;Trad_lambda;Trad_clos;Trad_num;Trad_let;Trad_pair;Trad_app;Trad_ite;Trad_let_rec;Traduction
+./Mini_ML.v;StructuredTypeEvaluation;10;10;797;10;apply;Trad_var;0;Trad_var;Trad_lambda;Trad_clos;Trad_num;Trad_let;Trad_pair;Trad_app;Trad_ite;Trad_let_rec;Traduction
+./Mini_ML.v;StructuredTypeEvaluation;10;10;797;11;apply;Trad_var;0;Trad_var;Trad_lambda;Trad_clos;Trad_num;Trad_let;Trad_pair;Trad_app;Trad_ite;Trad_let_rec;Traduction
+./Mini_ML.v;StructuredTypeEvaluation;10;10;797;12;apply;Trad_var;0;Trad_var;Trad_lambda;Trad_clos;Trad_num;Trad_let;Trad_pair;Trad_app;Trad_ite;Trad_let_rec;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;797;13;apply;Trad_var;0;Trad_var;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;797;14;apply;Trad_var;0;Trad_var;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;797;15;apply;Trad_var;0;Trad_var;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;799;7;apply;IDENT;1;H8;IDENT;H6;Trad_var;APPml2;APPml1;Sem_OP;NUM;BOOL;Sem_let
+./Mini_ML.v;StructuredTypeEvaluation;10;10;799;8;apply;IDENT;1;I;IDENT;ITE2;ITE1;IsSucc;IDProp;ID;ite;id;int
+./Mini_ML.v;StructuredTypeEvaluation;10;10;799;9;apply;IDENT;1;ID;IDENT;IDProp;id;idProp;eq_id_comm_l;Number.IntDecimal;Acc_inv_dep;inhabited_sind;inhabited_ind
+./Mini_ML.v;StructuredTypeEvaluation;10;10;799;10;apply;IDENT;0;IDENT;Number.IntDecimal;Acc_inv_dep;inhabited_sind;inhabited_ind;inhabited;Number.IntHexadecimal;compilation_id_rect;compilation_id_rec;eq_ex_ind_uncurried
+./Mini_ML.v;StructuredTypeEvaluation;10;10;799;11;apply;IDENT;0;IDENT;inhabited_ind;inhabited_sind;eq_ex_ind_uncurried;eq_sig_ind_uncurried;eq_ex2_ind_uncurried;eq_sig2_ind_uncurried;eq_sigT_ind_uncurried;eq_sigT2_ind_uncurried;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;799;12;apply;IDENT;0;IDENT;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;816;7;apply;preuve_compilation;0;preuve_compilation;Proof_bool;Proof_int;Proof_op;sumor_sind;sumor_rec;sumor_ind;sumor_rect;sumbool_sind;sumbool_rec
+./Mini_ML.v;StructuredTypeEvaluation;10;10;816;8;apply;preuve_compilation;0;preuve_compilation;prod_sind;prod_rec;prod_ind;prod_rect;proj1_sig_eq;projT1_eq;push;projT1;proj1_sig
+./Mini_ML.v;StructuredTypeEvaluation;10;10;816;9;apply;preuve_compilation;0;preuve_compilation;prod_sind;prod_rec;prod_ind;prod_rect;proj1_sig_eq;projT1_eq;projT1;proj1_sig;proj2
+./Mini_ML.v;StructuredTypeEvaluation;10;10;816;10;apply;preuve_compilation;0;preuve_compilation;projT1_eq;proj1_sig_eq;prod_rec;prod_rect;Nat.pred;ex_proj1_eq;prod_curry_subdef;prod_uncurry_subdef;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;816;11;apply;preuve_compilation;0;preuve_compilation;prod_uncurry_subdef;prod_curry_subdef;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;816;12;apply;preuve_compilation;0;preuve_compilation;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;816;13;apply;preuve_compilation;0;preuve_compilation;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;816;14;apply;preuve_compilation;0;preuve_compilation;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;816;15;apply;preuve_compilation;0;preuve_compilation;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;816;16;apply;preuve_compilation;0;preuve_compilation;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;816;17;apply;preuve_compilation;0;preuve_compilation;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;816;18;apply;preuve_compilation;0;preuve_compilation;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;816;19;apply;preuve_compilation;0;preuve_compilation;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;816;20;apply;preuve_compilation;0;preuve_compilation;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;816;21;apply;preuve_compilation;0;preuve_compilation;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;816;22;apply;preuve_compilation;0;preuve_compilation;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;816;23;apply;preuve_compilation;0;preuve_compilation;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;816;24;apply;preuve_compilation;0;preuve_compilation;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;816;25;apply;preuve_compilation;0;preuve_compilation;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;824;7;apply;(Eqclos;-1;Eqclos;Eq_op;Eqnum;Eqbool;Eqpair;Eqclos_rec;or_assoc;and_assoc;Acc_intro_generator;well_founded_induction_type_2
+./Mini_ML.v;StructuredTypeEvaluation;10;10;824;8;apply;(Eqclos;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;824;9;apply;(Eqclos;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;824;10;apply;(Eqclos;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;824;11;apply;(Eqclos;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;824;12;apply;(Eqclos;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;824;13;apply;(Eqclos;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;824;14;apply;(Eqclos;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;826;7;apply;CUR;0;CUR;QUO;CUR_REC;BRANCHF;BRANCHT;o_DS;APPcam2;APPcam1;PUSH;CDR
+./Mini_ML.v;StructuredTypeEvaluation;10;10;826;8;apply;CUR;0;CUR;CUR_REC;CDR;CAR;CONS;CompGtT;CompLtT;CompEqT;CompGt;CompLt
+./Mini_ML.v;StructuredTypeEvaluation;10;10;826;9;apply;CUR;0;CUR;CUR_REC;cur_rec;cur;curry;prod_curry_subdef;eq_exist_curried;cons_squelette;eq_exist2_curried;eq_existT_curried
+./Mini_ML.v;StructuredTypeEvaluation;10;10;826;10;apply;CUR;0;CUR;CUR_REC;cur;cur_rec;curry;prod_curry_subdef;eq_exist_curried;eq_exist2_curried;eq_existT_curried;eq_existT2_curried
+./Mini_ML.v;StructuredTypeEvaluation;10;10;956;7;apply;(BRANCHT;-1;BRANCHF;BRANCHT;CAM_C2;HH;CAM_C1;QUO;CUR_REC;CUR;HH';o_DS
+./Mini_ML.v;StructuredTypeEvaluation;10;10;956;8;apply;(BRANCHT;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;956;9;apply;(BRANCHT;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;956;10;apply;(BRANCHT;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;956;11;apply;(BRANCHT;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;956;12;apply;(BRANCHT;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;956;13;apply;(BRANCHT;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;956;14;apply;(BRANCHT;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;956;15;apply;(BRANCHT;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1000;7;apply;(BRANCHF;-1;BRANCHF;BRANCHT;CAM_C3;HH;CAM_C1;QUO;CUR_REC;CUR;HH';o_DS
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1000;8;apply;(BRANCHF;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1000;9;apply;(BRANCHF;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1000;10;apply;(BRANCHF;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1000;11;apply;(BRANCHF;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1000;12;apply;(BRANCHF;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1000;13;apply;(BRANCHF;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1000;14;apply;(BRANCHF;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1000;15;apply;(BRANCHF;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1022;7;apply;(Eqpair;-1;Eqpair;eq_u0_CV_E1;eq_v0_CV_E2;Eq_op;Eqnum;Eqbool;Eqenv2;Eqclos;Eqclos_rec;HH
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1022;8;apply;(Eqpair;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1022;9;apply;(Eqpair;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1022;10;apply;(Eqpair;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1022;11;apply;(Eqpair;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1022;12;apply;(Eqpair;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1022;13;apply;(Eqpair;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1022;14;apply;(Eqpair;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1027;7;apply;(PUSH;-1;PUSH;SWAP;CDR;CAR;CONS;APPcam_op;APPcam2;APPcam1;o_DS;CAM_C1
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1027;8;apply;(PUSH;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1027;9;apply;(PUSH;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1027;10;apply;(PUSH;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1027;11;apply;(PUSH;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1027;12;apply;(PUSH;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1031;7;apply;CAM_C1;0;CAM_C1;HH;CAM_C2;HH';QUO;CUR_REC;CUR;BRANCHF;BRANCHT;o_DS
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1031;8;apply;CAM_C1;0;CAM_C1;CAM_C2;CUR_REC;CUR;CDR;CAR;CONS;CompGtT;CompLtT;CompEqT
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1031;9;apply;CAM_C1;0;CAM_C1;CAM_C2;CAR;CAM_DS;Cam_nil;Cam_clos_rec;Cam_clos;Cam_pair;car;Commande
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1031;10;apply;CAM_C1;0;CAM_C1;CAM_C2;CAM_DS;Cam_nil;Cam_clos_rec;Cam_clos;Cam_pair;Commande;CompareSpecT;CompareSpec
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1031;11;apply;CAM_C1;0;CAM_C1;CAM_C2;CAM_DS;Cam_nil;Cam_clos_rec;Cam_clos;Cam_pair;compilation_rect;compilation_ind;compilation_rec
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1031;12;apply;CAM_C1;0;CAM_C1;CAM_C2;Cam_clos_rec;Cam_clos;compilation_rect;compilation_rec;compilation_id_rect;compilation_id_rec;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1031;13;apply;CAM_C1;0;CAM_C1;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1035;7;apply;SWAP;0;SWAP;PUSH;CONS;CDR;CAR;APPcam_op;APPcam2;APPcam1;o_DS;CAM_C1
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1035;8;apply;SWAP;1;S;SWAP;Squelette;sigT_of_sig;sig_of_sigT;sigT_of_sigT2;sig_of_sig2;sumor_sind;sumor_rec;sumor_ind
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1035;9;apply;SWAP;0;SWAP;swap;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1035;10;apply;SWAP;0;SWAP;swap;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1035;11;apply;SWAP;0;SWAP;swap;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1039;7;apply;CAM_C2;0;CAM_C2;HH';CAM_C1;HH;QUO;CUR_REC;CUR;BRANCHF;BRANCHT;o_DS
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1039;8;apply;CAM_C2;0;CAM_C2;CAM_C1;CUR_REC;CUR;CDR;CAR;CONS;CompGtT;CompLtT;CompEqT
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1039;9;apply;CAM_C2;0;CAM_C2;CAM_C1;CAR;CAM_DS;Cam_nil;Cam_clos_rec;Cam_clos;Cam_pair;car;Commande
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1039;10;apply;CAM_C2;0;CAM_C2;CAM_C1;CAM_DS;Cam_nil;Cam_clos_rec;Cam_clos;Cam_pair;Commande;CompareSpecT;CompareSpec
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1039;11;apply;CAM_C2;0;CAM_C2;CAM_C1;CAM_DS;Cam_nil;Cam_clos_rec;Cam_clos;Cam_pair;compilation_rect;compilation_ind;compilation_rec
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1039;12;apply;CAM_C2;0;CAM_C2;CAM_C1;Cam_clos_rec;Cam_clos;compilation_rect;compilation_rec;compilation_id_rect;compilation_id_rec;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1039;13;apply;CAM_C2;0;CAM_C2;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1040;7;apply;CONS;0;CONS;SWAP;PUSH;CDR;CAR;APPcam_op;APPcam2;APPcam1;o_DS;CAM_C1
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1040;8;apply;CONS;0;CONS;CDR;CAR;CAM_C1;CAM_C2;CUR_REC;CUR;Clos_rec;Clos;Commande
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1040;9;apply;CONS;0;CONS;Commande;CompSpecT;CompSpec;CompareSpecT;CompareSpec;CompOpp;conj;cons;cons_squelette
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1040;10;apply;CONS;0;CONS;conj;cons;cons_squelette;Commande;comparison;compilation;compilation_rect;compilation_ind;compilation_rec
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1040;11;apply;CONS;0;CONS;cons;cons_squelette;compilation_sind;compilation_id_sind;comparison;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1060;16;rewrite <-;eq1;-1;hyp_E1;hyp_E2;hyp_E0;inhabited_sig_to_exists;forall_exists_unique_domain_coincide;eq_ex_hprop;eq_ex;eq_ex_uncurried;eq_ex_ind_uncurried;eq_ex_rec_uncurried
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1060;17;rewrite <-;eq1;-1;eq_ex_hprop;eq_ex;eq_ex_uncurried;eq_ex_ind_uncurried;eq_ex_rec_uncurried;eq_ex_rect_uncurried;eq_ex_ind;eq_ex_rec;eq_ex_rect;ex_proj1_eq
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1060;18;rewrite <-;eq1;-1;eq;eq_ex_hprop;eq_ex;eq_ex_uncurried;eq_ex_ind_uncurried;eq_ex_rec_uncurried;eq_ex_rect_uncurried;eq_ex_ind;eq_ex_rec;eq_ex_rect
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1060;19;rewrite <-;eq1;-1;Eqenv1;ex_proj1_eq;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1060;36;rewrite <-;eq2;-1;hyp_E1;hyp_E2;hyp_E0;inhabited_sig_to_exists;forall_exists_unique_domain_coincide;eq_ex_hprop;eq_ex;eq_ex_uncurried;eq_ex_ind_uncurried;eq_ex_rec_uncurried
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1060;37;rewrite <-;eq2;-1;eq_ex_hprop;eq_ex;eq_ex_uncurried;eq_ex_ind_uncurried;eq_ex_rec_uncurried;eq_ex_rect_uncurried;eq_ex_ind;eq_ex_rec;eq_ex_rect;ex_proj1_eq
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1060;38;rewrite <-;eq2;-1;eq;eq_ex_hprop;eq_ex;eq_ex_uncurried;eq_ex_ind_uncurried;eq_ex_rec_uncurried;eq_ex_rect_uncurried;eq_ex_ind;eq_ex_rec;eq_ex_rect
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1060;39;rewrite <-;eq2;-1;eq_ex2_hprop_iff;eq_ex2_nondep;eq_ex2_hprop;eq_ex2;eq_ex2_uncurried;eq_ex2_ind_uncurried;eq_ex2_rec_uncurried;eq_ex2_rect_uncurried;eq_ex2_ind;eq_ex2_rec
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1060;56;rewrite <-;eq3;-1;hyp_E1;hyp_E2;hyp_E0;inhabited_sig_to_exists;forall_exists_unique_domain_coincide;eq_ex_hprop;eq_ex;eq_ex_uncurried;eq_ex_ind_uncurried;eq_ex_rec_uncurried
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1060;57;rewrite <-;eq3;-1;eq_ex_hprop;eq_ex;eq_ex_uncurried;eq_ex_ind_uncurried;eq_ex_rec_uncurried;eq_ex_rect_uncurried;eq_ex_ind;eq_ex_rec;eq_ex_rect;ex_proj1_eq
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1060;58;rewrite <-;eq3;-1;eq;eq_ex_hprop;eq_ex;eq_ex_uncurried;eq_ex_ind_uncurried;eq_ex_rec_uncurried;eq_ex_rect_uncurried;eq_ex_ind;eq_ex_rec;eq_ex_rect
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1060;59;rewrite <-;eq3;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1061;17;rewrite <-;eq4;-1;hyp_E1;hyp_E2;hyp_E0;inhabited_sig_to_exists;forall_exists_unique_domain_coincide;eq_ex_hprop;eq_ex;eq_ex_uncurried;eq_ex_ind_uncurried;eq_ex_rec_uncurried
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1061;18;rewrite <-;eq4;-1;eq_ex_hprop;eq_ex;eq_ex_uncurried;eq_ex_ind_uncurried;eq_ex_rec_uncurried;eq_ex_rect_uncurried;eq_ex_ind;eq_ex_rec;eq_ex_rect;ex_proj1_eq
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1061;19;rewrite <-;eq4;-1;eq;eq_ex_hprop;eq_ex;eq_ex_uncurried;eq_ex_ind_uncurried;eq_ex_rec_uncurried;eq_ex_rect_uncurried;eq_ex_ind;eq_ex_rec;eq_ex_rect
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1061;20;rewrite <-;eq4;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1063;27;rewrite <-;eq5;-1;hyp_E1;hyp_E2;hyp_E0;inhabited_sig_to_exists;forall_exists_unique_domain_coincide;eq_ex_hprop;eq_ex;eq_ex_uncurried;eq_ex_ind_uncurried;eq_ex_rec_uncurried
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1063;28;rewrite <-;eq5;-1;eq_ex_hprop;eq_ex;eq_ex_uncurried;eq_ex_ind_uncurried;eq_ex_rec_uncurried;eq_ex_rect_uncurried;eq_ex_ind;eq_ex_rec;eq_ex_rect;ex_proj1_eq
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1063;29;rewrite <-;eq5;-1;eq;eq_ex_hprop;eq_ex;eq_ex_uncurried;eq_ex_ind_uncurried;eq_ex_rec_uncurried;eq_ex_rect_uncurried;eq_ex_ind;eq_ex_rec;eq_ex_rect
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1063;30;rewrite <-;eq5;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1089;7;apply;PUSH;0;PUSH;SWAP;CDR;CAR;CONS;APPcam_op;APPcam2;APPcam1;o_DS;CAM_C2
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1089;8;apply;PUSH;0;PUSH;Pat;prod_of_sigT;pair;prod_sind;prod_rec;prod_ind;prod_rect;projT2;proj2_sig
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1089;9;apply;PUSH;0;PUSH;push;prod_uncurry_subdef;prod_curry_subdef;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1089;10;apply;PUSH;0;PUSH;push;prod_uncurry_subdef;prod_curry_subdef;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1089;11;apply;PUSH;0;PUSH;push;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1093;7;apply;CAM_C1;0;CAM_C1;HH4;CAM_C2;CUR;HH3;QUO;CAM_C0;CUR_REC;HH5;BRANCHF
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1093;8;apply;CAM_C1;0;CAM_C1;CAM_C2;CUR;CAM_C0;CUR_REC;CDR;CAR;CONS;CompGtT;CompLtT
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1093;9;apply;CAM_C1;0;CAM_C1;CAM_C2;CAM_C0;CAR;CAM_DS;Cam_nil;Cam_clos_rec;Cam_clos;Cam_pair;car
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1093;10;apply;CAM_C1;0;CAM_C1;CAM_C2;CAM_C0;CAM_DS;Cam_nil;Cam_clos_rec;Cam_clos;Cam_pair;Commande;CompareSpecT
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1093;11;apply;CAM_C1;0;CAM_C1;CAM_C2;CAM_C0;CAM_DS;Cam_nil;Cam_clos_rec;Cam_clos;Cam_pair;compilation_rect;compilation_ind
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1093;12;apply;CAM_C1;0;CAM_C1;CAM_C2;CAM_C0;Cam_clos_rec;Cam_clos;compilation_rect;compilation_rec;compilation_id_rect;compilation_id_rec;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1093;13;apply;CAM_C1;0;CAM_C1;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1098;7;apply;SWAP;0;SWAP;PUSH;CONS;CDR;CAR;APPcam_op;APPcam2;APPcam1;o_DS;CAM_C2
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1098;8;apply;SWAP;1;S;SWAP;Squelette;sigT_of_sig;sig_of_sigT;sigT_of_sigT2;sig_of_sig2;sumor_sind;sumor_rec;sumor_ind
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1098;9;apply;SWAP;0;SWAP;swap;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1098;10;apply;SWAP;0;SWAP;swap;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1098;11;apply;SWAP;0;SWAP;swap;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1103;7;apply;CAM_C2;0;CAM_C2;HH3;CAM_C1;HH4;QUO;CAM_C0;CUR_REC;CUR;HH5;BRANCHF
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1103;8;apply;CAM_C2;0;CAM_C2;CAM_C1;CAM_C0;CUR_REC;CUR;CDR;CAR;CONS;CompGtT;CompLtT
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1103;9;apply;CAM_C2;0;CAM_C2;CAM_C1;CAM_C0;CAR;CAM_DS;Cam_nil;Cam_clos_rec;Cam_clos;Cam_pair;car
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1103;10;apply;CAM_C2;0;CAM_C2;CAM_C1;CAM_C0;CAM_DS;Cam_nil;Cam_clos_rec;Cam_clos;Cam_pair;Commande;CompareSpecT
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1103;11;apply;CAM_C2;0;CAM_C2;CAM_C1;CAM_C0;CAM_DS;Cam_nil;Cam_clos_rec;Cam_clos;Cam_pair;compilation_rect;compilation_ind
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1103;12;apply;CAM_C2;0;CAM_C2;CAM_C1;CAM_C0;Cam_clos_rec;Cam_clos;compilation_rect;compilation_rec;compilation_id_rect;compilation_id_rec;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1103;13;apply;CAM_C2;0;CAM_C2;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1108;7;apply;CONS;0;CONS;SWAP;PUSH;CDR;CAR;APPcam_op;APPcam2;APPcam1;o_DS;CAM_C2
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1108;8;apply;CONS;0;CONS;CDR;CAR;CAM_C2;CAM_C1;CAM_C0;CUR_REC;CUR;Clos_rec;Clos
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1108;9;apply;CONS;0;CONS;Commande;CompSpecT;CompSpec;CompareSpecT;CompareSpec;CompOpp;conj;cons;cons_squelette
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1108;10;apply;CONS;0;CONS;conj;cons;cons_squelette;Commande;comparison;compilation;compilation_rect;compilation_ind;compilation_rec
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1108;11;apply;CONS;0;CONS;cons;cons_squelette;compilation_sind;compilation_id_sind;comparison;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1109;7;apply;(APPcam1;-1;APPcam1;CDR;CAR;APPcam_op;APPcam2;PUSH;SWAP;CONS;o_DS;CAM_C2
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1109;8;apply;(APPcam1;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1109;9;apply;(APPcam1;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1109;10;apply;(APPcam1;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1109;11;apply;(APPcam1;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1109;12;apply;(APPcam1;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1109;13;apply;(APPcam1;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1109;14;apply;(APPcam1;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1109;15;apply;(APPcam1;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1110;7;apply;CAM_C0;0;CAM_C0;HH5;CAM_C2;QUO;CAM_C1;CUR_REC;CUR;HH3;HH4;BRANCHF
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1110;8;apply;CAM_C0;0;CAM_C0;CAM_C2;CAM_C1;CUR_REC;CUR;CDR;CAR;CONS;CompGtT;CompLtT
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1110;9;apply;CAM_C0;0;CAM_C0;CAM_C2;CAM_C1;CAR;CAM_DS;Cam_nil;Cam_clos_rec;Cam_clos;Cam_pair;car
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1110;10;apply;CAM_C0;0;CAM_C0;CAM_C2;CAM_C1;CAM_DS;Cam_nil;Cam_clos_rec;Cam_clos;Cam_pair;Commande;CompareSpecT
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1110;11;apply;CAM_C0;0;CAM_C0;CAM_C2;CAM_C1;CAM_DS;Cam_nil;Cam_clos_rec;Cam_clos;Cam_pair;compilation_rect;compilation_ind
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1110;12;apply;CAM_C0;0;CAM_C0;CAM_C2;CAM_C1;Cam_clos_rec;Cam_clos;compilation_rect;compilation_rec;compilation_id_rect;compilation_id_rec;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1110;13;apply;CAM_C0;0;CAM_C0;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1111;7;apply;(Eqenv2;-1;hab_P_e1;Eqenv2;HH4;Eqenv1;eq_e0_CV0;H5;Eqpair;cons_habite;APPcam_op;or_assoc
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1111;8;apply;(Eqenv2;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1111;9;apply;(Eqenv2;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1111;10;apply;(Eqenv2;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1111;11;apply;(Eqenv2;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1111;12;apply;(Eqenv2;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1111;13;apply;(Eqenv2;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1111;14;apply;(Eqenv2;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1112;7;apply;(cons_habite;-1;cons_habite;HH4;triv_habite;hab;H6;Rule1;Eqenv2;or_assoc;and_assoc;Acc_intro_generator
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1112;8;apply;(cons_habite;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1112;9;apply;(cons_habite;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1112;10;apply;(cons_habite;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1112;11;apply;(cons_habite;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1112;12;apply;(cons_habite;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1112;13;apply;(cons_habite;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1112;14;apply;(cons_habite;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1112;15;apply;(cons_habite;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1112;16;apply;(cons_habite;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1112;17;apply;(cons_habite;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1112;18;apply;(cons_habite;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1112;19;apply;(cons_habite;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1113;7;apply;(ML_DS_determ;-1;determ_VAL_OF;ML_DS_determ;eq4;HH1;eq_stepl;eq_trans_r;eq_trans;eq_sym;eq_refl;not_eq_sym
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1113;8;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1113;9;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1113;10;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1113;11;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1113;12;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1113;13;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1113;14;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1113;15;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1113;16;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1113;17;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1113;18;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1113;19;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1113;20;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1115;7;apply;(ML_DS_determ;-1;determ_VAL_OF;ML_DS_determ;HH1;eq_stepl;eq_trans_r;eq_trans;eq_sym;eq_refl;not_eq_sym;rew_const
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1115;8;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1115;9;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1115;10;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1115;11;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1115;12;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1115;13;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1115;14;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1115;15;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1115;16;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1115;17;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1115;18;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1115;19;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1115;20;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1116;7;apply;(ML_DS_determ;-1;H2;determ_VAL_OF;ML_DS_determ;f_equal3;eq_stepl;eq_trans_r;eq_trans;eq_sym;eq_refl;not_eq_sym
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1116;8;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1116;9;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1116;10;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1116;11;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1116;12;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1116;13;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1116;14;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1116;15;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1116;16;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1116;17;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1116;18;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1116;19;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1116;20;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1119;7;apply;(ML_DS_determ;-1;H2;determ_VAL_OF;ML_DS_determ;f_equal4;f_equal3;eq_stepl;eq_trans_r;eq_trans;eq_sym;eq_refl
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1119;8;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1119;9;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1119;10;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1119;11;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1119;12;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1119;13;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1119;14;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1119;15;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1119;16;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1119;17;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1119;18;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1119;19;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1119;20;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1122;7;apply;(ML_DS_determ;-1;determ_VAL_OF;ML_DS_determ;H2;f_equal3;eq_stepl;eq_trans_r;eq_trans;eq_sym;eq_refl;not_eq_sym
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1122;8;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1122;9;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1122;10;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1122;11;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1122;12;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1122;13;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1122;14;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1122;15;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1122;16;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1122;17;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1122;18;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1122;19;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1122;20;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1137;7;apply;(ML_DS_determ;-1;ML_E0;H2;determ_VAL_OF;ML_DS_determ;eq_sym_involutive;f_equal4;f_equal3;eq_stepl;eq_trans_r;eq_trans
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1137;8;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1137;9;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1137;10;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1137;11;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1137;12;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1137;13;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1137;14;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1137;15;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1137;16;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1137;17;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1137;18;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1137;19;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1137;20;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1143;16;rewrite <-;eq1;-1;hyp_E1;hyp_E2;hyp_E0;inhabited_sig_to_exists;forall_exists_unique_domain_coincide;eq_ex_hprop;eq_ex;eq_ex_uncurried;eq_ex_ind_uncurried;eq_ex_rec_uncurried
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1143;17;rewrite <-;eq1;-1;eq_ex_hprop;eq_ex;eq_ex_uncurried;eq_ex_ind_uncurried;eq_ex_rec_uncurried;eq_ex_rect_uncurried;eq_ex_ind;eq_ex_rec;eq_ex_rect;ex_proj1_eq
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1143;18;rewrite <-;eq1;-1;eq;eq_ex_hprop;eq_ex;eq_ex_uncurried;eq_ex_ind_uncurried;eq_ex_rec_uncurried;eq_ex_rect_uncurried;eq_ex_ind;eq_ex_rec;eq_ex_rect
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1143;19;rewrite <-;eq1;-1;Eqenv1;ex_proj1_eq;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1143;36;rewrite <-;eq2;-1;hyp_E1;hyp_E2;hyp_E0;inhabited_sig_to_exists;forall_exists_unique_domain_coincide;eq_ex_hprop;eq_ex;eq_ex_uncurried;eq_ex_ind_uncurried;eq_ex_rec_uncurried
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1143;37;rewrite <-;eq2;-1;eq_ex_hprop;eq_ex;eq_ex_uncurried;eq_ex_ind_uncurried;eq_ex_rec_uncurried;eq_ex_rect_uncurried;eq_ex_ind;eq_ex_rec;eq_ex_rect;ex_proj1_eq
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1143;38;rewrite <-;eq2;-1;eq;eq_ex_hprop;eq_ex;eq_ex_uncurried;eq_ex_ind_uncurried;eq_ex_rec_uncurried;eq_ex_rect_uncurried;eq_ex_ind;eq_ex_rec;eq_ex_rect
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1143;39;rewrite <-;eq2;-1;eq_ex2_hprop_iff;eq_ex2_nondep;eq_ex2_hprop;eq_ex2;eq_ex2_uncurried;eq_ex2_ind_uncurried;eq_ex2_rec_uncurried;eq_ex2_rect_uncurried;eq_ex2_ind;eq_ex2_rec
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1143;56;rewrite <-;eq3;-1;hyp_E1;hyp_E2;hyp_E0;inhabited_sig_to_exists;forall_exists_unique_domain_coincide;eq_ex_hprop;eq_ex;eq_ex_uncurried;eq_ex_ind_uncurried;eq_ex_rec_uncurried
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1143;57;rewrite <-;eq3;-1;eq_ex_hprop;eq_ex;eq_ex_uncurried;eq_ex_ind_uncurried;eq_ex_rec_uncurried;eq_ex_rect_uncurried;eq_ex_ind;eq_ex_rec;eq_ex_rect;ex_proj1_eq
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1143;58;rewrite <-;eq3;-1;eq;eq_ex_hprop;eq_ex;eq_ex_uncurried;eq_ex_ind_uncurried;eq_ex_rec_uncurried;eq_ex_rect_uncurried;eq_ex_ind;eq_ex_rec;eq_ex_rect
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1143;59;rewrite <-;eq3;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1144;17;rewrite <-;eq4;-1;hyp_E1;hyp_E2;hyp_E0;inhabited_sig_to_exists;forall_exists_unique_domain_coincide;eq_ex_hprop;eq_ex;eq_ex_uncurried;eq_ex_ind_uncurried;eq_ex_rec_uncurried
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1144;18;rewrite <-;eq4;-1;eq_ex_hprop;eq_ex;eq_ex_uncurried;eq_ex_ind_uncurried;eq_ex_rec_uncurried;eq_ex_rect_uncurried;eq_ex_ind;eq_ex_rec;eq_ex_rect;ex_proj1_eq
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1144;19;rewrite <-;eq4;-1;eq;eq_ex_hprop;eq_ex;eq_ex_uncurried;eq_ex_ind_uncurried;eq_ex_rec_uncurried;eq_ex_rect_uncurried;eq_ex_ind;eq_ex_rec;eq_ex_rect
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1144;20;rewrite <-;eq4;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1146;27;rewrite <-;eq5;-1;hyp_E1;hyp_E2;hyp_E0;inhabited_sig_to_exists;forall_exists_unique_domain_coincide;eq_ex_hprop;eq_ex;eq_ex_uncurried;eq_ex_ind_uncurried;eq_ex_rec_uncurried
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1146;28;rewrite <-;eq5;-1;eq_ex_hprop;eq_ex;eq_ex_uncurried;eq_ex_ind_uncurried;eq_ex_rec_uncurried;eq_ex_rect_uncurried;eq_ex_ind;eq_ex_rec;eq_ex_rect;ex_proj1_eq
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1146;29;rewrite <-;eq5;-1;eq;eq_ex_hprop;eq_ex;eq_ex_uncurried;eq_ex_ind_uncurried;eq_ex_rec_uncurried;eq_ex_rect_uncurried;eq_ex_ind;eq_ex_rec;eq_ex_rect
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1146;30;rewrite <-;eq5;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1149;27;rewrite <-;eq6;-1;hyp_E1;hyp_E2;hyp_E0;inhabited_sig_to_exists;forall_exists_unique_domain_coincide;eq_ex_hprop;eq_ex;eq_ex_uncurried;eq_ex_ind_uncurried;eq_ex_rec_uncurried
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1149;28;rewrite <-;eq6;-1;eq_ex_hprop;eq_ex;eq_ex_uncurried;eq_ex_ind_uncurried;eq_ex_rec_uncurried;eq_ex_rect_uncurried;eq_ex_ind;eq_ex_rec;eq_ex_rect;ex_proj1_eq
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1149;29;rewrite <-;eq6;-1;eq;eq_ex_hprop;eq_ex;eq_ex_uncurried;eq_ex_ind_uncurried;eq_ex_rec_uncurried;eq_ex_rect_uncurried;eq_ex_ind;eq_ex_rec;eq_ex_rect
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1149;30;rewrite <-;eq6;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1164;13;rewrite;eq7;-1;hyp_E1;hyp_E2;hyp_E0;inhabited_sig_to_exists;forall_exists_unique_domain_coincide;eq_ex_hprop;eq_ex;eq_ex_uncurried;eq_ex_ind_uncurried;eq_ex_rec_uncurried
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1164;14;rewrite;eq7;-1;eq_ex_hprop;eq_ex;eq_ex_uncurried;eq_ex_ind_uncurried;eq_ex_rec_uncurried;eq_ex_rect_uncurried;eq_ex_ind;eq_ex_rec;eq_ex_rect;ex_proj1_eq
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1164;15;rewrite;eq7;-1;eq;eq_ex_hprop;eq_ex;eq_ex_uncurried;eq_ex_ind_uncurried;eq_ex_rec_uncurried;eq_ex_rect_uncurried;eq_ex_ind;eq_ex_rec;eq_ex_rect
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1164;16;rewrite;eq7;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1164;30;rewrite;eq8;-1;hyp_E1;hyp_E2;hyp_E0;inhabited_sig_to_exists;forall_exists_unique_domain_coincide;eq_ex_hprop;eq_ex;eq_ex_uncurried;eq_ex_ind_uncurried;eq_ex_rec_uncurried
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1164;31;rewrite;eq8;-1;eq_ex_hprop;eq_ex;eq_ex_uncurried;eq_ex_ind_uncurried;eq_ex_rec_uncurried;eq_ex_rect_uncurried;eq_ex_ind;eq_ex_rec;eq_ex_rect;ex_proj1_eq
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1164;32;rewrite;eq8;-1;eq;eq_ex_hprop;eq_ex;eq_ex_uncurried;eq_ex_ind_uncurried;eq_ex_rec_uncurried;eq_ex_rect_uncurried;eq_ex_ind;eq_ex_rec;eq_ex_rect
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1164;33;rewrite;eq8;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1164;47;rewrite;eq9;-1;hyp_E1;hyp_E2;hyp_E0;inhabited_sig_to_exists;forall_exists_unique_domain_coincide;eq_ex_hprop;eq_ex;eq_ex_uncurried;eq_ex_ind_uncurried;eq_ex_rec_uncurried
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1164;48;rewrite;eq9;-1;eq_ex_hprop;eq_ex;eq_ex_uncurried;eq_ex_ind_uncurried;eq_ex_rec_uncurried;eq_ex_rect_uncurried;eq_ex_ind;eq_ex_rec;eq_ex_rect;ex_proj1_eq
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1164;49;rewrite;eq9;-1;eq;eq_ex_hprop;eq_ex;eq_ex_uncurried;eq_ex_ind_uncurried;eq_ex_rec_uncurried;eq_ex_rect_uncurried;eq_ex_ind;eq_ex_rec;eq_ex_rect
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1164;50;rewrite;eq9;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1164;64;rewrite;eq10;-1;hyp_E1;hyp_E2;hyp_E0;inhabited_sig_to_exists;forall_exists_unique_domain_coincide;eq_ex_hprop;eq_ex;eq_ex_uncurried;eq_ex_ind_uncurried;eq_ex_rec_uncurried
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1164;65;rewrite;eq10;-1;eq_ex_hprop;eq_ex;eq_ex_uncurried;eq_ex_ind_uncurried;eq_ex_rec_uncurried;eq_ex_rect_uncurried;eq_ex_ind;eq_ex_rec;eq_ex_rect;ex_proj1_eq
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1164;66;rewrite;eq10;-1;eq;eq_ex_hprop;eq_ex;eq_ex_uncurried;eq_ex_ind_uncurried;eq_ex_rec_uncurried;eq_ex_rect_uncurried;eq_ex_ind;eq_ex_rec;eq_ex_rect
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1164;67;rewrite;eq10;-1;Eqenv1;ex_proj1_eq;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1164;68;rewrite;eq10;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1187;7;apply;PUSH;0;PUSH;SWAP;CDR;CAR;CONS;APPcam_op;APPcam2;APPcam1;o_DS;CAM_C2
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1187;8;apply;PUSH;0;PUSH;Pat;prod_of_sigT;pair;prod_sind;prod_rec;prod_ind;prod_rect;projT2;proj2_sig
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1187;9;apply;PUSH;0;PUSH;push;prod_uncurry_subdef;prod_curry_subdef;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1187;10;apply;PUSH;0;PUSH;push;prod_uncurry_subdef;prod_curry_subdef;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1187;11;apply;PUSH;0;PUSH;push;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1191;7;apply;CAM_C1;0;CAM_C1;HH2;CAM_C2;HH3;QUO;CUR_REC;CUR;CAM_C0;HH4;BRANCHF
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1191;8;apply;CAM_C1;0;CAM_C1;CAM_C2;CUR_REC;CUR;CAM_C0;CDR;CAR;CONS;CompGtT;CompLtT
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1191;9;apply;CAM_C1;0;CAM_C1;CAM_C2;CAM_C0;CAR;CAM_DS;Cam_nil;Cam_clos_rec;Cam_clos;Cam_pair;car
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1191;10;apply;CAM_C1;0;CAM_C1;CAM_C2;CAM_C0;CAM_DS;Cam_nil;Cam_clos_rec;Cam_clos;Cam_pair;Commande;CompareSpecT
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1191;11;apply;CAM_C1;0;CAM_C1;CAM_C2;CAM_C0;CAM_DS;Cam_nil;Cam_clos_rec;Cam_clos;Cam_pair;compilation_rect;compilation_ind
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1191;12;apply;CAM_C1;0;CAM_C1;CAM_C2;CAM_C0;Cam_clos_rec;Cam_clos;compilation_rect;compilation_rec;compilation_id_rect;compilation_id_rec;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1191;13;apply;CAM_C1;0;CAM_C1;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1195;7;apply;SWAP;0;SWAP;PUSH;CONS;CDR;CAR;APPcam_op;APPcam2;APPcam1;o_DS;CAM_C2
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1195;8;apply;SWAP;1;S;SWAP;Squelette;sigT_of_sig;sig_of_sigT;sigT_of_sigT2;sig_of_sig2;sumor_sind;sumor_rec;sumor_ind
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1195;9;apply;SWAP;0;SWAP;swap;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1195;10;apply;SWAP;0;SWAP;swap;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1195;11;apply;SWAP;0;SWAP;swap;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1199;7;apply;CAM_C2;0;CAM_C2;HH3;CAM_C1;HH2;QUO;CUR_REC;CUR;CAM_C0;HH4;BRANCHF
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1199;8;apply;CAM_C2;0;CAM_C2;CAM_C1;CUR_REC;CUR;CAM_C0;CDR;CAR;CONS;CompGtT;CompLtT
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1199;9;apply;CAM_C2;0;CAM_C2;CAM_C1;CAM_C0;CAR;CAM_DS;Cam_nil;Cam_clos_rec;Cam_clos;Cam_pair;car
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1199;10;apply;CAM_C2;0;CAM_C2;CAM_C1;CAM_C0;CAM_DS;Cam_nil;Cam_clos_rec;Cam_clos;Cam_pair;Commande;CompareSpecT
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1199;11;apply;CAM_C2;0;CAM_C2;CAM_C1;CAM_C0;CAM_DS;Cam_nil;Cam_clos_rec;Cam_clos;Cam_pair;compilation_rect;compilation_ind
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1199;12;apply;CAM_C2;0;CAM_C2;CAM_C1;CAM_C0;Cam_clos_rec;Cam_clos;compilation_rect;compilation_rec;compilation_id_rect;compilation_id_rec;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1199;13;apply;CAM_C2;0;CAM_C2;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1203;7;apply;CONS;0;CONS;SWAP;PUSH;CDR;CAR;APPcam_op;APPcam2;APPcam1;o_DS;CAM_C2
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1203;8;apply;CONS;0;CONS;CDR;CAR;CAM_C2;CAM_C1;CUR_REC;CUR;CAM_C0;Clos_rec;Clos
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1203;9;apply;CONS;0;CONS;Commande;CompSpecT;CompSpec;CompareSpecT;CompareSpec;CompOpp;conj;cons;cons_squelette
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1203;10;apply;CONS;0;CONS;conj;cons;cons_squelette;Commande;comparison;compilation;compilation_rect;compilation_ind;compilation_rec
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1203;11;apply;CONS;0;CONS;cons;cons_squelette;compilation_sind;compilation_id_sind;comparison;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1208;16;rewrite <-;H9;-1;CDR;CAR;APPcam_op;APPcam2;APPcam1;PUSH;SWAP;CONS;o_DS;CAM_C2
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1208;17;rewrite <-;H9;-1;HH3;HH2;HH4;Habite;Hexadecimal.Little.succ_double;Hexadecimal.Little.double;Hexadecimal.Little.succ;Hexadecimal.del_tail_int;Hexadecimal.del_tail;Hexadecimal.del_head_int
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1208;18;rewrite <-;H9;-1;Hexadecimal.D9;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1210;7;apply;(APPcam2;-1;APPcam2;CDR;CAR;APPcam_op;APPcam1;PUSH;SWAP;CONS;o_DS;CAM_C2
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1210;8;apply;(APPcam2;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1210;9;apply;(APPcam2;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1210;10;apply;(APPcam2;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1210;11;apply;(APPcam2;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1210;12;apply;(APPcam2;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1210;13;apply;(APPcam2;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1210;14;apply;(APPcam2;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1210;15;apply;(APPcam2;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1211;7;apply;Eqenv2;1;hab0;Eqenv2;Eqenv1;eq_e0_CV0;H5;Eqpair;cons_habite;CONS;APPcam_op;or_assoc
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1211;8;apply;Eqenv2;0;Eqenv2;Eqenv1;Eqpair;Econs;Enil;ETcons;Etat;Equiv_env;Equiv_val;Exc
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1211;9;apply;Eqenv2;1;Eq;Eqenv2;Eqenv1;Eqpair;Equiv_env;Equiv_val;eq;eq_e0_CV0;eq_ex_intro_l;eq_ex_rect_ex_intro_l
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1211;10;apply;Eqenv2;0;Eqenv2;Eqenv1;eq_e0_CV0;eq_ex_intro_l;eq_ex_rect_ex_intro_l;eq_exist_curried;eq_exist_uncurried;eq_existT_curried;eq_existT_uncurried;eq_ex_intro_hprop
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1211;11;apply;Eqenv2;0;Eqenv2;Eqenv1;Equiv_env;eq_ex_intro_l;eq_ex_intro_hprop;eq_ex_intro;eq_ex_intro_uncurried;eq_exist_uncurried;eq_existT_uncurried;eq_ex_intro2_hprop_nondep
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1211;12;apply;Eqenv2;0;Eqenv2;Eqenv1;Equiv_env;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1211;13;apply;Eqenv2;0;Eqenv2;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1212;7;apply;Eqenv2;0;Eqenv2;Eqenv1;eq_e0_CV0;H5;Eqpair;cons_habite;hab0;APPcam_op;or_assoc;and_assoc
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1212;8;apply;Eqenv2;0;Eqenv2;Eqenv1;Eqpair;Econs;Enil;ETcons;Etat;Equiv_env;Equiv_val;Exc
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1212;9;apply;Eqenv2;1;Eq;Eqenv2;Eqenv1;Eqpair;Equiv_env;Equiv_val;eq;eq_e0_CV0;eq_ex_intro_l;eq_ex_rect_ex_intro_l
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1212;10;apply;Eqenv2;0;Eqenv2;Eqenv1;eq_e0_CV0;eq_ex_intro_l;eq_ex_rect_ex_intro_l;eq_exist_curried;eq_exist_uncurried;eq_existT_curried;eq_existT_uncurried;eq_ex_intro_hprop
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1212;11;apply;Eqenv2;0;Eqenv2;Eqenv1;Equiv_env;eq_ex_intro_l;eq_ex_intro_hprop;eq_ex_intro;eq_ex_intro_uncurried;eq_exist_uncurried;eq_existT_uncurried;eq_ex_intro2_hprop_nondep
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1212;12;apply;Eqenv2;0;Eqenv2;Eqenv1;Equiv_env;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1212;13;apply;Eqenv2;0;Eqenv2;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1213;7;apply;cons_habite;0;cons_habite;triv_habite;hab;H6;Rule1;Eqenv2;H7;or_assoc;and_assoc;Acc_intro_generator
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1213;8;apply;cons_habite;0;cons_habite;conj;cur_rec;cur;cons;cdr;car;cons_squelette;compilation;compilation_rect
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1213;9;apply;cons_habite;0;cons_habite;conj;cons;cons_squelette;compilation;compilation_rect;compilation_ind;compilation_rec;compilation_sind;compilation_id
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1213;10;apply;cons_habite;0;cons_habite;conj;cons;cons_squelette;Commande;comparison;compilation;compilation_rect;compilation_ind;compilation_rec
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1213;11;apply;cons_habite;1;cons;cons_habite;cons_squelette;compilation_sind;compilation_id_sind;comparison;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1213;12;apply;cons_habite;0;cons_habite;cons_squelette;compilation_sind;compilation_id_sind;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1213;13;apply;cons_habite;0;cons_habite;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1213;14;apply;cons_habite;0;cons_habite;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1213;15;apply;cons_habite;0;cons_habite;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1213;16;apply;cons_habite;0;cons_habite;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1213;17;apply;cons_habite;0;cons_habite;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1213;18;apply;cons_habite;0;cons_habite;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1214;7;apply;cons_habite;0;cons_habite;H7;triv_habite;hab;H6;Rule1;Eqenv2;or_assoc;and_assoc;Acc_intro_generator
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1214;8;apply;cons_habite;0;cons_habite;conj;cur_rec;cur;cons;cdr;car;cons_squelette;compilation;compilation_rect
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1214;9;apply;cons_habite;0;cons_habite;conj;cons;cons_squelette;compilation;compilation_rect;compilation_ind;compilation_rec;compilation_sind;compilation_id
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1214;10;apply;cons_habite;0;cons_habite;conj;cons;cons_squelette;Commande;comparison;compilation;compilation_rect;compilation_ind;compilation_rec
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1214;11;apply;cons_habite;1;cons;cons_habite;cons_squelette;compilation_sind;compilation_id_sind;comparison;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1214;12;apply;cons_habite;0;cons_habite;cons_squelette;compilation_sind;compilation_id_sind;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1214;13;apply;cons_habite;0;cons_habite;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1214;14;apply;cons_habite;0;cons_habite;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1214;15;apply;cons_habite;0;cons_habite;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1214;16;apply;cons_habite;0;cons_habite;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1214;17;apply;cons_habite;0;cons_habite;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1214;18;apply;cons_habite;0;cons_habite;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1218;7;apply;(ML_DS_determ;-1;determ_VAL_OF;ML_DS_determ;HH1;eq_stepl;eq_trans_r;eq_trans;eq_sym;eq_refl;not_eq_sym;rew_const
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1218;8;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1218;9;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1218;10;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1218;11;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1218;12;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1218;13;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1218;14;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1218;15;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1218;16;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1218;17;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1218;18;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1218;19;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1218;20;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1224;7;apply;(ML_DS_determ;-1;ML_E1;determ_VAL_OF;ML_DS_determ;f_equal4;eq_ex_intro_r;eq_ex_rect_ex_intro_r;eq_stepl;eq_trans_r;eq_trans;eq_sym
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1224;8;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1224;9;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1224;10;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1224;11;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1224;12;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1224;13;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1224;14;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1224;15;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1224;16;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1224;17;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1224;18;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1224;19;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1224;20;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1254;16;rewrite <-;eq1;-1;hyp_E1;hyp_E2;inhabited_sig_to_exists;forall_exists_unique_domain_coincide;eq_ex_hprop;eq_ex;eq_ex_uncurried;eq_ex_ind_uncurried;eq_ex_rec_uncurried;eq_ex_rect_uncurried
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1254;17;rewrite <-;eq1;-1;eq_ex_hprop;eq_ex;eq_ex_uncurried;eq_ex_ind_uncurried;eq_ex_rec_uncurried;eq_ex_rect_uncurried;eq_ex_ind;eq_ex_rec;eq_ex_rect;ex_proj1_eq
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1254;18;rewrite <-;eq1;-1;eq;eq_ex_hprop;eq_ex;eq_ex_uncurried;eq_ex_ind_uncurried;eq_ex_rec_uncurried;eq_ex_rect_uncurried;eq_ex_ind;eq_ex_rec;eq_ex_rect
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1254;19;rewrite <-;eq1;-1;Eqenv1;ex_proj1_eq;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1254;36;rewrite <-;eq2;-1;hyp_E1;hyp_E2;inhabited_sig_to_exists;forall_exists_unique_domain_coincide;eq_ex_hprop;eq_ex;eq_ex_uncurried;eq_ex_ind_uncurried;eq_ex_rec_uncurried;eq_ex_rect_uncurried
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1254;37;rewrite <-;eq2;-1;eq_ex_hprop;eq_ex;eq_ex_uncurried;eq_ex_ind_uncurried;eq_ex_rec_uncurried;eq_ex_rect_uncurried;eq_ex_ind;eq_ex_rec;eq_ex_rect;ex_proj1_eq
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1254;38;rewrite <-;eq2;-1;eq;eq_ex_hprop;eq_ex;eq_ex_uncurried;eq_ex_ind_uncurried;eq_ex_rec_uncurried;eq_ex_rect_uncurried;eq_ex_ind;eq_ex_rec;eq_ex_rect
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1254;39;rewrite <-;eq2;-1;eq_ex2_hprop_iff;eq_ex2_nondep;eq_ex2_hprop;eq_ex2;eq_ex2_uncurried;eq_ex2_ind_uncurried;eq_ex2_rec_uncurried;eq_ex2_rect_uncurried;eq_ex2_ind;eq_ex2_rec
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1254;56;rewrite <-;eq3;-1;hyp_E1;hyp_E2;inhabited_sig_to_exists;forall_exists_unique_domain_coincide;eq_ex_hprop;eq_ex;eq_ex_uncurried;eq_ex_ind_uncurried;eq_ex_rec_uncurried;eq_ex_rect_uncurried
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1254;57;rewrite <-;eq3;-1;eq_ex_hprop;eq_ex;eq_ex_uncurried;eq_ex_ind_uncurried;eq_ex_rec_uncurried;eq_ex_rect_uncurried;eq_ex_ind;eq_ex_rec;eq_ex_rect;ex_proj1_eq
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1254;58;rewrite <-;eq3;-1;eq;eq_ex_hprop;eq_ex;eq_ex_uncurried;eq_ex_ind_uncurried;eq_ex_rec_uncurried;eq_ex_rect_uncurried;eq_ex_ind;eq_ex_rec;eq_ex_rect
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1254;59;rewrite <-;eq3;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1277;7;apply;PUSH;0;PUSH;SWAP;CDR;CAR;CONS;APPcam_op;APPcam2;APPcam1;o_DS;BRANCHF
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1277;8;apply;PUSH;0;PUSH;Pat;prod_of_sigT;pair;prod_sind;prod_rec;prod_ind;prod_rect;projT2;proj2_sig
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1277;9;apply;PUSH;0;PUSH;push;prod_uncurry_subdef;prod_curry_subdef;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1277;10;apply;PUSH;0;PUSH;push;prod_uncurry_subdef;prod_curry_subdef;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1277;11;apply;PUSH;0;PUSH;push;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1281;7;apply;CAM_C1;0;CAM_C1;HH3;QUO;CAM_C2;HH4;CUR_REC;CUR;BRANCHF;BRANCHT;o_DS
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1281;8;apply;CAM_C1;0;CAM_C1;CAM_C2;CUR_REC;CUR;CDR;CAR;CONS;CompGtT;CompLtT;CompEqT
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1281;9;apply;CAM_C1;0;CAM_C1;CAM_C2;CAR;CAM_DS;Cam_nil;Cam_clos_rec;Cam_clos;Cam_pair;car;Commande
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1281;10;apply;CAM_C1;0;CAM_C1;CAM_C2;CAM_DS;Cam_nil;Cam_clos_rec;Cam_clos;Cam_pair;Commande;CompareSpecT;CompareSpec
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1281;11;apply;CAM_C1;0;CAM_C1;CAM_C2;CAM_DS;Cam_nil;Cam_clos_rec;Cam_clos;Cam_pair;compilation_rect;compilation_ind;compilation_rec
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1281;12;apply;CAM_C1;0;CAM_C1;CAM_C2;Cam_clos_rec;Cam_clos;compilation_rect;compilation_rec;compilation_id_rect;compilation_id_rec;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1281;13;apply;CAM_C1;0;CAM_C1;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1285;7;apply;SWAP;0;SWAP;PUSH;CONS;CDR;CAR;APPcam_op;APPcam2;APPcam1;o_DS;BRANCHF
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1285;8;apply;SWAP;1;S;SWAP;Squelette;sigT_of_sig;sig_of_sigT;sigT_of_sigT2;sig_of_sig2;sumor_sind;sumor_rec;sumor_ind
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1285;9;apply;SWAP;0;SWAP;swap;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1285;10;apply;SWAP;0;SWAP;swap;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1285;11;apply;SWAP;0;SWAP;swap;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1290;7;apply;CAM_C2;0;CAM_C2;HH4;CAM_C1;HH3;QUO;CUR_REC;CUR;BRANCHF;BRANCHT;o_DS
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1290;8;apply;CAM_C2;0;CAM_C2;CAM_C1;CUR_REC;CUR;CDR;CAR;CONS;CompGtT;CompLtT;CompEqT
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1290;9;apply;CAM_C2;0;CAM_C2;CAM_C1;CAR;CAM_DS;Cam_nil;Cam_clos_rec;Cam_clos;Cam_pair;car;Commande
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1290;10;apply;CAM_C2;0;CAM_C2;CAM_C1;CAM_DS;Cam_nil;Cam_clos_rec;Cam_clos;Cam_pair;Commande;CompareSpecT;CompareSpec
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1290;11;apply;CAM_C2;0;CAM_C2;CAM_C1;CAM_DS;Cam_nil;Cam_clos_rec;Cam_clos;Cam_pair;compilation_rect;compilation_ind;compilation_rec
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1290;12;apply;CAM_C2;0;CAM_C2;CAM_C1;Cam_clos_rec;Cam_clos;compilation_rect;compilation_rec;compilation_id_rect;compilation_id_rec;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1290;13;apply;CAM_C2;0;CAM_C2;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1302;7;apply;CONS;0;CONS;APPcam_op;CDR;CAR;SWAP;APPcam2;APPcam1;PUSH;o_DS;BRANCHF
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1302;8;apply;CONS;0;CONS;CDR;CAR;CAM_C1;CUR_REC;CUR;CAM_C2;Clos_rec;Clos;Commande
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1302;9;apply;CONS;0;CONS;Commande;CompSpecT;CompSpec;CompareSpecT;CompareSpec;CompOpp;conj;cons;cons_squelette
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1302;10;apply;CONS;0;CONS;conj;cons;cons_squelette;Commande;comparison;compilation;compilation_rect;compilation_ind;compilation_rec
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1302;11;apply;CONS;0;CONS;cons;cons_squelette;compilation_sind;compilation_id_sind;comparison;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1303;7;apply;(APPcam_op;-1;APPcam_op;CDR;CAR;APPcam2;APPcam1;PUSH;SWAP;CONS;o_DS;BRANCHF
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1303;8;apply;(APPcam_op;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1303;9;apply;(APPcam_op;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1303;10;apply;(APPcam_op;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1303;11;apply;(APPcam_op;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1303;12;apply;(APPcam_op;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1303;13;apply;(APPcam_op;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1303;14;apply;(APPcam_op;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1303;15;apply;(APPcam_op;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1303;16;apply;(APPcam_op;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1303;17;apply;(APPcam_op;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1331;16;rewrite <-;eq1;-1;hyp_E2;hyp_E1;inhabited_sig_to_exists;forall_exists_unique_domain_coincide;eq_ex_hprop;eq_ex;eq_ex_uncurried;eq_ex_ind_uncurried;eq_ex_rec_uncurried;eq_ex_rect_uncurried
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1331;17;rewrite <-;eq1;-1;eq_ex_hprop;eq_ex;eq_ex_uncurried;eq_ex_ind_uncurried;eq_ex_rec_uncurried;eq_ex_rect_uncurried;eq_ex_ind;eq_ex_rec;eq_ex_rect;ex_proj1_eq
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1331;18;rewrite <-;eq1;-1;eq;eq_ex_hprop;eq_ex;eq_ex_uncurried;eq_ex_ind_uncurried;eq_ex_rec_uncurried;eq_ex_rect_uncurried;eq_ex_ind;eq_ex_rec;eq_ex_rect
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1331;19;rewrite <-;eq1;-1;Eqenv1;ex_proj1_eq;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1331;36;rewrite <-;eq2;-1;hyp_E2;hyp_E1;inhabited_sig_to_exists;forall_exists_unique_domain_coincide;eq_ex_hprop;eq_ex;eq_ex_uncurried;eq_ex_ind_uncurried;eq_ex_rec_uncurried;eq_ex_rect_uncurried
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1331;37;rewrite <-;eq2;-1;eq_ex_hprop;eq_ex;eq_ex_uncurried;eq_ex_ind_uncurried;eq_ex_rec_uncurried;eq_ex_rect_uncurried;eq_ex_ind;eq_ex_rec;eq_ex_rect;ex_proj1_eq
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1331;38;rewrite <-;eq2;-1;eq;eq_ex_hprop;eq_ex;eq_ex_uncurried;eq_ex_ind_uncurried;eq_ex_rec_uncurried;eq_ex_rect_uncurried;eq_ex_ind;eq_ex_rec;eq_ex_rect
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1331;39;rewrite <-;eq2;-1;eq_ex2_hprop_iff;eq_ex2_nondep;eq_ex2_hprop;eq_ex2;eq_ex2_uncurried;eq_ex2_ind_uncurried;eq_ex2_rec_uncurried;eq_ex2_rect_uncurried;eq_ex2_ind;eq_ex2_rec
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1349;7;apply;PUSH;0;PUSH;SWAP;CDR;CAR;CONS;APPcam_op;APPcam2;APPcam1;o_DS;CAM_C1
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1349;8;apply;PUSH;0;PUSH;Pat;prod_of_sigT;pair;prod_sind;prod_rec;prod_ind;prod_rect;projT2;proj2_sig
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1349;9;apply;PUSH;0;PUSH;push;prod_uncurry_subdef;prod_curry_subdef;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1349;10;apply;PUSH;0;PUSH;push;prod_uncurry_subdef;prod_curry_subdef;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1349;11;apply;PUSH;0;PUSH;push;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1353;7;apply;CAM_C1;0;CAM_C1;HH;QUO;CAM_C2;CUR_REC;CUR;HH2;BRANCHF;BRANCHT;o_DS
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1353;8;apply;CAM_C1;0;CAM_C1;CAM_C2;CUR_REC;CUR;CDR;CAR;CONS;CompGtT;CompLtT;CompEqT
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1353;9;apply;CAM_C1;0;CAM_C1;CAM_C2;CAR;CAM_DS;Cam_nil;Cam_clos_rec;Cam_clos;Cam_pair;car;Commande
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1353;10;apply;CAM_C1;0;CAM_C1;CAM_C2;CAM_DS;Cam_nil;Cam_clos_rec;Cam_clos;Cam_pair;Commande;CompareSpecT;CompareSpec
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1353;11;apply;CAM_C1;0;CAM_C1;CAM_C2;CAM_DS;Cam_nil;Cam_clos_rec;Cam_clos;Cam_pair;compilation_rect;compilation_ind;compilation_rec
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1353;12;apply;CAM_C1;0;CAM_C1;CAM_C2;Cam_clos_rec;Cam_clos;compilation_rect;compilation_rec;compilation_id_rect;compilation_id_rec;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1353;13;apply;CAM_C1;0;CAM_C1;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1357;7;apply;CONS;0;CONS;SWAP;PUSH;CDR;CAR;APPcam_op;APPcam2;APPcam1;o_DS;CAM_C1
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1357;8;apply;CONS;0;CONS;CDR;CAR;CAM_C1;CAM_C2;CUR_REC;CUR;Clos_rec;Clos;Commande
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1357;9;apply;CONS;0;CONS;Commande;CompSpecT;CompSpec;CompareSpecT;CompareSpec;CompOpp;conj;cons;cons_squelette
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1357;10;apply;CONS;0;CONS;conj;cons;cons_squelette;Commande;comparison;compilation;compilation_rect;compilation_ind;compilation_rec
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1357;11;apply;CONS;0;CONS;cons;cons_squelette;compilation_sind;compilation_id_sind;comparison;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1358;7;apply;CAM_C2;0;CAM_C2;HH2;CAM_C1;QUO;CUR_REC;CUR;HH;BRANCHF;BRANCHT;o_DS
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1358;8;apply;CAM_C2;0;CAM_C2;CAM_C1;CUR_REC;CUR;CDR;CAR;CONS;CompGtT;CompLtT;CompEqT
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1358;9;apply;CAM_C2;0;CAM_C2;CAM_C1;CAR;CAM_DS;Cam_nil;Cam_clos_rec;Cam_clos;Cam_pair;car;Commande
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1358;10;apply;CAM_C2;0;CAM_C2;CAM_C1;CAM_DS;Cam_nil;Cam_clos_rec;Cam_clos;Cam_pair;Commande;CompareSpecT;CompareSpec
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1358;11;apply;CAM_C2;0;CAM_C2;CAM_C1;CAM_DS;Cam_nil;Cam_clos_rec;Cam_clos;Cam_pair;compilation_rect;compilation_ind;compilation_rec
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1358;12;apply;CAM_C2;0;CAM_C2;CAM_C1;Cam_clos_rec;Cam_clos;compilation_rect;compilation_rec;compilation_id_rect;compilation_id_rec;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1358;13;apply;CAM_C2;0;CAM_C2;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1363;16;rewrite <-;eq3;2;determ_VAL_OF;ML_DS_determ;eq3;eq_stepl;eq_trans_r;eq_trans;eq_sym;eq_refl;not_eq_sym;rew_const
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1363;17;rewrite <-;eq3;0;eq3;eq_stepl;eq_trans_r;eq_trans;eq_sym;eq_refl;eq_sym_involutive;eq_trans_refl_r;eq_trans_refl_l;eq_trans_map
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1363;18;rewrite <-;eq3;1;eq;eq3;eq_stepl;eq_trans_r;eq_trans;eq_sym;eq_refl;eq_sym_involutive;eq_trans_refl_r;eq_trans_refl_l
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1363;19;rewrite <-;eq3;0;eq3;f_equal3;ex_proj3_eq;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1365;7;apply;(ML_DS_determ;-1;determ_VAL_OF;ML_DS_determ;eq3;eq_stepl;eq_trans_r;eq_trans;eq_sym;eq_refl;not_eq_sym;rew_const
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1365;8;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1365;9;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1365;10;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1365;11;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1365;12;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1365;13;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1365;14;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1365;15;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1365;16;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1365;17;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1365;18;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1365;19;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1365;20;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1366;7;apply;(ML_DS_determ;-1;determ_VAL_OF;ML_DS_determ;eq_stepl;eq_trans_r;eq_trans;eq_sym;eq_refl;not_eq_sym;rew_const;rew_swap
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1366;8;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1366;9;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1366;10;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1366;11;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1366;12;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1366;13;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1366;14;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1366;15;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1366;16;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1366;17;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1366;18;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1366;19;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1366;20;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1367;14;apply;(ML_DS_determ;-1;determ_VAL_OF;ML_DS_determ;eq_stepl;eq_trans_r;eq_trans;eq_sym;eq_refl;not_eq_sym;rew_const;rew_swap
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1367;15;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1367;16;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1367;17;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1367;18;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1367;19;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1367;20;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1367;21;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1367;22;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1367;23;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1367;24;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1367;25;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1367;26;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1367;27;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1372;16;rewrite <-;eq3;2;determ_VAL_OF;ML_DS_determ;eq3;eq_stepl;eq_trans_r;eq_trans;eq_sym;eq_refl;not_eq_sym;rew_const
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1372;17;rewrite <-;eq3;0;eq3;eq_stepl;eq_trans_r;eq_trans;eq_sym;eq_refl;eq_sym_involutive;eq_trans_refl_r;eq_trans_refl_l;eq_trans_map
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1372;18;rewrite <-;eq3;1;eq;eq3;eq_stepl;eq_trans_r;eq_trans;eq_sym;eq_refl;eq_sym_involutive;eq_trans_refl_r;eq_trans_refl_l
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1372;19;rewrite <-;eq3;0;eq3;f_equal3;ex_proj3_eq;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1374;7;apply;(ML_DS_determ;-1;determ_VAL_OF;ML_DS_determ;eq3;eq_stepl;eq_trans_r;eq_trans;eq_sym;eq_refl;not_eq_sym;rew_const
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1374;8;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1374;9;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1374;10;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1374;11;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1374;12;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1374;13;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1374;14;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1374;15;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1374;16;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1374;17;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1374;18;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1374;19;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1374;20;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1375;7;apply;(ML_DS_determ;-1;determ_VAL_OF;ML_DS_determ;eq_stepl;eq_trans_r;eq_trans;eq_sym;eq_refl;not_eq_sym;rew_const;rew_swap
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1375;8;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1375;9;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1375;10;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1375;11;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1375;12;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1375;13;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1375;14;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1375;15;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1375;16;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1375;17;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1375;18;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1375;19;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1375;20;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1389;16;rewrite <-;eq1;-1;hyp_E2;inhabited_sig_to_exists;forall_exists_unique_domain_coincide;eq_ex_hprop;eq_ex;eq_ex_uncurried;eq_ex_ind_uncurried;eq_ex_rec_uncurried;eq_ex_rect_uncurried;eq_ex_ind
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1389;17;rewrite <-;eq1;-1;eq_ex_hprop;eq_ex;eq_ex_uncurried;eq_ex_ind_uncurried;eq_ex_rec_uncurried;eq_ex_rect_uncurried;eq_ex_ind;eq_ex_rec;eq_ex_rect;ex_proj1_eq
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1389;18;rewrite <-;eq1;-1;eq;eq_ex_hprop;eq_ex;eq_ex_uncurried;eq_ex_ind_uncurried;eq_ex_rec_uncurried;eq_ex_rect_uncurried;eq_ex_ind;eq_ex_rec;eq_ex_rect
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1389;19;rewrite <-;eq1;-1;Eqenv1;ex_proj1_eq;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1405;7;apply;PUSH;0;PUSH;SWAP;CDR;CAR;CONS;APPcam_op;APPcam2;APPcam1;o_DS;BRANCHF
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1405;8;apply;PUSH;0;PUSH;Pat;prod_of_sigT;pair;prod_sind;prod_rec;prod_ind;prod_rect;projT2;proj2_sig
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1405;9;apply;PUSH;0;PUSH;push;prod_uncurry_subdef;prod_curry_subdef;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1405;10;apply;PUSH;0;PUSH;push;prod_uncurry_subdef;prod_curry_subdef;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1405;11;apply;PUSH;0;PUSH;push;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1410;7;apply;CUR_REC;0;CUR_REC;QUO;CUR;CAM_C2;HH;BRANCHF;BRANCHT;o_DS;APPcam2;APPcam1
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1410;8;apply;CUR_REC;0;CUR_REC;CUR;CAM_C2;CDR;CAR;CONS;CompGtT;CompLtT;CompEqT;CompGt
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1410;9;apply;CUR_REC;0;CUR_REC;CUR;cur_rec;cur;curry;prod_curry_subdef;eq_exist_curried;cons_squelette;eq_exist2_curried;eq_existT_curried
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1410;10;apply;CUR_REC;1;CUR;CUR_REC;cur;cur_rec;curry;prod_curry_subdef;eq_exist_curried;eq_exist2_curried;eq_existT_curried;eq_existT2_curried
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1410;11;apply;CUR_REC;0;CUR_REC;cur_rec;prod_curry_subdef;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1410;12;apply;CUR_REC;0;CUR_REC;cur_rec;prod_curry_subdef;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1410;13;apply;CUR_REC;0;CUR_REC;cur_rec;prod_curry_subdef;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1410;14;apply;CUR_REC;0;CUR_REC;cur_rec;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1415;7;apply;CONS;0;CONS;SWAP;PUSH;CDR;CAR;APPcam_op;APPcam2;APPcam1;o_DS;BRANCHF
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1415;8;apply;CONS;0;CONS;CDR;CAR;CUR_REC;CUR;CAM_C2;Clos_rec;Clos;Commande;Cam_nil
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1415;9;apply;CONS;0;CONS;Commande;CompSpecT;CompSpec;CompareSpecT;CompareSpec;CompOpp;conj;cons;cons_squelette
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1415;10;apply;CONS;0;CONS;conj;cons;cons_squelette;Commande;comparison;compilation;compilation_rect;compilation_ind;compilation_rec
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1415;11;apply;CONS;0;CONS;cons;cons_squelette;compilation_sind;compilation_id_sind;comparison;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1416;7;apply;CAM_C2;0;CAM_C2;HH;QUO;CUR_REC;CUR;BRANCHF;BRANCHT;o_DS;APPcam2;APPcam1
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1416;8;apply;CAM_C2;0;CAM_C2;CUR_REC;CUR;CDR;CAR;CONS;CompGtT;CompLtT;CompEqT;CompGt
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1416;9;apply;CAM_C2;0;CAM_C2;CAR;CAM_DS;Cam_nil;Cam_clos_rec;Cam_clos;Cam_pair;car;Commande;CompareSpecT
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1416;10;apply;CAM_C2;0;CAM_C2;CAM_DS;Cam_nil;Cam_clos_rec;Cam_clos;Cam_pair;Commande;CompareSpecT;CompareSpec;CSem_val
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1416;11;apply;CAM_C2;0;CAM_C2;CAM_DS;Cam_nil;Cam_clos_rec;Cam_clos;Cam_pair;compilation_rect;compilation_ind;compilation_rec;compilation_sind
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1416;12;apply;CAM_C2;0;CAM_C2;Cam_clos_rec;Cam_clos;compilation_rect;compilation_rec;compilation_id_rect;compilation_id_rec;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1416;13;apply;CAM_C2;0;CAM_C2;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1417;7;apply;(ML_DS_determ;-1;determ_VAL_OF;ML_DS_determ;eq_stepl;eq_trans_r;eq_trans;eq_sym;eq_refl;not_eq_sym;rew_const;rew_swap
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1417;8;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1417;9;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1417;10;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1417;11;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1417;12;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1417;13;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1417;14;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1417;15;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1417;16;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1417;17;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1417;18;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1417;19;apply;(ML_DS_determ;-1;;;;;;;;;;
+./Mini_ML.v;StructuredTypeEvaluation;10;10;1417;20;apply;(ML_DS_determ;-1;;;;;;;;;;

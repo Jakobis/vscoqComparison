@@ -1,0 +1,4 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Line;Character;Keywords Before;Lemma;Index;Result 1;Result 2;Result 3;Result 4;Result 5;Result 6;Result 7;Result 8;Result 9;Result 10
+./ex1_auto.v;Shuffle;;;58;7;apply;H';473;subrelation;sigT2_eta;ex_ind;BoolSpec_sind;Nat.testbit;comparison;eq_trans_map;eq_existT_curried_map;Acc_inv_dep;projT2_of_sigT2_eq
+./ex1_auto.v;Shuffle;;;58;8;apply;H';29;Hexadecimal.Dc;Hexadecimal.D7;Hexadecimal.nzhead;Hexadecimal.signed_int_eq_dec;Hexadecimal.uint_rec;Hexadecimal.Neg;Hexadecimal.app;Hexadecimal.del_tail;Hexadecimal.revapp;Hexadecimal.Df
+./ex1_auto.v;Shuffle;;;58;9;apply;H';0;H';;;;;;;;;

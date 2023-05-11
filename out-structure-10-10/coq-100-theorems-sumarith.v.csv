@@ -1,0 +1,5 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Line;Character;Keywords Before;Lemma;Index;Result 1;Result 2;Result 3;Result 4;Result 5;Result 6;Result 7;Result 8;Result 9;Result 10
+./sumarith.v;StructuredTypeEvaluation;10;10;36;9;rewrite;IHn;-1;Nat.add_shuffle0;Nat.add_b2n_double_div2;Nat.add_shuffle2;Nat.add_shuffle1;Nat.add_carry_div2;Nat.add_assoc;Arith_prebase.plus_assoc_reverse_stt;Nat.Private_NDivProp.Private_NZDiv.div_add;Nat.Private_NDivProp.div_add;Nat.div_add
+./sumarith.v;StructuredTypeEvaluation;10;10;36;10;rewrite;IHn;-1;in_int_p_Sq;BinInt.ZL0;eq_nat_is_eq;Nat.pow_inj_r;Nat.pow_inj_l;Nat.min_id;Nat.max_id;Nat.mul_id_r;Nat.mul_id_l;Nat.bits_inj
+./sumarith.v;StructuredTypeEvaluation;10;10;36;11;rewrite;IHn;-1;;;;;;;;;;
+./sumarith.v;StructuredTypeEvaluation;10;10;36;12;rewrite;IHn;-1;;;;;;;;;;

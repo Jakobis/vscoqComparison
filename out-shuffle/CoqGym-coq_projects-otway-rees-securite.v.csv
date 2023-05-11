@@ -1,0 +1,16 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Line;Character;Keywords Before;Lemma;Index;Result 1;Result 2;Result 3;Result 4;Result 5;Result 6;Result 7;Result 8;Result 9;Result 10
+./securite.v;Shuffle;;;148;7;apply;H1;-1;Bool.orb_prop_intro;PeanoNat.Nat.Odd_alt;Morphisms.normalizes;eq_sig_rect;Bool.orb_prop_elim;eq_sigT_rec_uncurried;ForallOrdPairs_ind;PeanoNat.Nat.Private_NZPow.pow_lt_mono;Nat.iter;CRelationClasses.partial_order_antisym
+./securite.v;Shuffle;;;148;8;apply;H1;-1;Hexadecimal.hexadecimal_beq;Hexadecimal.hexadecimal;Hexadecimal.D3;Hexadecimal.Df;Hexadecimal.uint_eq_dec;Hexadecimal.Neg;Hexadecimal.del_head;Hexadecimal.D0;Hexadecimal.uint_sind;Hexadecimal.Little.succ
+./securite.v;Shuffle;;;148;9;apply;H1;-1;;;;;;;;;;
+./securite.v;Shuffle;;;149;7;apply;(equivknown;-1;Decidable.not_true_iff;CRelationClasses.impl_Transitive_obligation_1;PeanoNat.Nat.le_ind;Byte.x2e;PeanoNat.Nat.Private_NZSqrt.sqrt_1;PeanoNat.Nat.mod_unique;Byte.x22;CRelationClasses.equivalence_rewrite_crelation;f_equal3;uniqueness
+./securite.v;Shuffle;;;149;8;apply;(equivknown;-1;;;;;;;;;;
+./securite.v;Shuffle;;;149;9;apply;(equivknown;-1;;;;;;;;;;
+./securite.v;Shuffle;;;149;10;apply;(equivknown;-1;;;;;;;;;;
+./securite.v;Shuffle;;;149;11;apply;(equivknown;-1;;;;;;;;;;
+./securite.v;Shuffle;;;149;12;apply;(equivknown;-1;;;;;;;;;;
+./securite.v;Shuffle;;;149;13;apply;(equivknown;-1;;;;;;;;;;
+./securite.v;Shuffle;;;149;14;apply;(equivknown;-1;;;;;;;;;;
+./securite.v;Shuffle;;;149;15;apply;(equivknown;-1;;;;;;;;;;
+./securite.v;Shuffle;;;149;16;apply;(equivknown;-1;;;;;;;;;;
+./securite.v;Shuffle;;;149;17;apply;(equivknown;-1;;;;;;;;;;
+./securite.v;Shuffle;;;149;18;apply;(equivknown;-1;;;;;;;;;;

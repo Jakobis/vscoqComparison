@@ -1,0 +1,82 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Line;Character;Keywords Before;Lemma;Index;Result 1;Result 2;Result 3;Result 4;Result 5;Result 6;Result 7;Result 8;Result 9;Result 10
+./Groups.v;Shuffle;;;105;36;rewrite;(l_sym;-1;inhabited_ind;projT1_eq;ex_of_ex2;option;Number.uint;comparison_eq_stable;eq_trans_map_distr;eq_sigT_rect;Decimal.Little.succ;eq_sigT2_hprop
+./Groups.v;Shuffle;;;105;37;rewrite;(l_sym;-1;;;;;;;;;;
+./Groups.v;Shuffle;;;105;38;rewrite;(l_sym;-1;;;;;;;;;;
+./Groups.v;Shuffle;;;105;39;rewrite;(l_sym;-1;;;;;;;;;;
+./Groups.v;Shuffle;;;105;40;rewrite;(l_sym;-1;;;;;;;;;;
+./Groups.v;Shuffle;;;105;41;rewrite;(l_sym;-1;;;;;;;;;;
+./Groups.v;Shuffle;;;105;42;rewrite;(l_sym;-1;;;;;;;;;;
+./Groups.v;Shuffle;;;107;12;rewrite;H;-1;Decimal.D1;CompareSpecT_rec;Byte.x97;Byte.xba;nat_rec;le_pred;max_r;Byte.xbd;Byte.x67;true
+./Groups.v;Shuffle;;;107;13;rewrite;H;-1;Hexadecimal.D6;Hexadecimal.uint_eq_dec;Hexadecimal.uint_ind;Hexadecimal.norm;Hexadecimal.Neg;Hexadecimal.internal_hexadecimal_dec_lb;Hexadecimal.Hexadecimal;Hexadecimal.internal_uint_dec_lb0;Hexadecimal.abs;Hexadecimal.rev
+./Groups.v;Shuffle;;;170;14;rewrite <-;eg';494;eq_sig_rect_exist_r;rew_swap;well_founded;eq_sig_rect_uncurried;false;o;map_subst_map;Byte.xda;Byte.x73;Decimal.decimal_eq_dec
+./Groups.v;Shuffle;;;170;15;rewrite <-;eg';93;E;eq_sig_rect_exist_r;eq_sig_rect_uncurried;eq_exist_curried;eq_ex_rect_ex_intro;eq_ex_ind;ex2_ind;eq_ex2_ind_uncurried;eq_ex_uncurried;eq_sigT_rect
+./Groups.v;Shuffle;;;170;16;rewrite <-;eg';1;eg;eg';eq_sig_rect_exist_r;eq_sig_rect_uncurried;eq_sigT_rect;eq_sigT_rect_existT;eq_sig2_uncurried;eq_sig_rec;eq_sig2_ind;eq_sigT_rect_existT_l
+./Groups.v;Shuffle;;;170;17;rewrite <-;eg';0;eg';;;;;;;;;
+./Groups.v;Shuffle;;;171;14;rewrite <-;(o_assoc;-1;Hexadecimal.uint_eq_dec;Byte.xcd;Hexadecimal.internal_uint_dec_lb0;eq_sig2_ind;Decimal.D6;Byte.xba;Byte.xbe;Decimal.revapp;projT1;eq_add_S
+./Groups.v;Shuffle;;;171;15;rewrite <-;(o_assoc;-1;;;;;;;;;;
+./Groups.v;Shuffle;;;171;16;rewrite <-;(o_assoc;-1;;;;;;;;;;
+./Groups.v;Shuffle;;;171;17;rewrite <-;(o_assoc;-1;;;;;;;;;;
+./Groups.v;Shuffle;;;171;18;rewrite <-;(o_assoc;-1;;;;;;;;;;
+./Groups.v;Shuffle;;;171;19;rewrite <-;(o_assoc;-1;;;;;;;;;;
+./Groups.v;Shuffle;;;171;20;rewrite <-;(o_assoc;-1;;;;;;;;;;
+./Groups.v;Shuffle;;;171;21;rewrite <-;(o_assoc;-1;;;;;;;;;;
+./Groups.v;Shuffle;;;171;22;rewrite <-;(o_assoc;-1;;;;;;;;;;
+./Groups.v;Shuffle;;;172;11;rewrite;eg;103;Byte.x91;Nat.to_hex_int;Decimal.del_tail_int;f_equal_pred;and_rec;sum;forall_exists_unique_domain_coincide;Byte.xce;Byte.x11;Byte.x98
+./Groups.v;Shuffle;;;172;12;rewrite;eg;16;eq_sigT_hprop_iff;eq_ex_rec_uncurried;ex_proj3_eq;eq_exist_r;eq_existT_r;eq_sigT2_rect_existT2;eq_ex2_hprop_iff;eq_sigT_rec_uncurried;eq_id_comm_l;eq_ex_rect_ex_intro_r
+./Groups.v;Shuffle;;;172;13;rewrite;eg;0;eg;eg';eq_sigT_hprop_iff;eq_sigT2_rect_existT2;eq_sigT_rec_uncurried;eq_sigT2_ind_uncurried;eq_sigT2_rect_uncurried;eq_sig_rect_uncurried;eq_sigT2_ind;eq_sig_rect_exist_l
+./Groups.v;Shuffle;;;202;13;rewrite <-;eg';102;Byte.x32;Byte.x4c;Byte.x17;Byte.x83;fst;sigT_of_sigT2;Byte.x9f;prod_rec;sig2_of_sigT2;inright
+./Groups.v;Shuffle;;;202;14;rewrite <-;eg';22;E;eq_sigT_hprop;eq_ex_rect_uncurried;eg;eq_sig;eq_sigT_nondep;eq_ex_intro_hprop;ex_intro;eq_sigT_rec;eq_sigT_rect_uncurried
+./Groups.v;Shuffle;;;202;15;rewrite <-;eg';1;eg;eg';eq_sigT_hprop;eq_sig;eq_sigT_nondep;eq_sigT_rec;eq_sigT_rect_uncurried;eq_sig_uncurried;eq_sigT_ind;eq_sig2_rect_exist2_l
+./Groups.v;Shuffle;;;202;16;rewrite <-;eg';0;eg';;;;;;;;;
+./Groups.v;Shuffle;;;203;10;rewrite;(o_assoc;-1;Decimal.internal_uint_dec_lb;Byte.xfb;Byte.xf2;Decimal.internal_signed_int_dec_bl;Byte.xbf;Acc_ind;Byte.xee;Empty_set_ind;Byte.x85;Byte.x01
+./Groups.v;Shuffle;;;203;11;rewrite;(o_assoc;-1;;;;;;;;;;
+./Groups.v;Shuffle;;;203;12;rewrite;(o_assoc;-1;;;;;;;;;;
+./Groups.v;Shuffle;;;203;13;rewrite;(o_assoc;-1;;;;;;;;;;
+./Groups.v;Shuffle;;;203;14;rewrite;(o_assoc;-1;;;;;;;;;;
+./Groups.v;Shuffle;;;203;15;rewrite;(o_assoc;-1;;;;;;;;;;
+./Groups.v;Shuffle;;;203;16;rewrite;(o_assoc;-1;;;;;;;;;;
+./Groups.v;Shuffle;;;203;17;rewrite;(o_assoc;-1;;;;;;;;;;
+./Groups.v;Shuffle;;;203;18;rewrite;(o_assoc;-1;;;;;;;;;;
+./Groups.v;Shuffle;;;204;10;rewrite;eg;-1;eq_sigT2_hprop_iff;eq_existT2_r;Byte.xb6;Byte.x30;Nat.gcd;Byte.x96;Byte.x03;eq_existT2_curried;option_sind;f_equal
+./Groups.v;Shuffle;;;204;11;rewrite;eg;-1;e;eq_sigT2_hprop_iff;eq_existT2_r;eq_existT2_curried;eq_trans_map;eq_sig2_rec;eq_trans_refl_l;eq_ex_intro2_hprop_nondep;eq_sigT2_uncurried_iff;eq_ex_eta
+./Groups.v;Shuffle;;;204;12;rewrite;eg;-1;eq_sigT2_hprop_iff;eq_sig2_rec;eq_sigT2_uncurried_iff;eq_sig2_uncurried;eq_sig;eq_sigT2_rect_uncurried;eq_sigT2_rect_existT2_l;eq_sigT2_rec_uncurried;eq_sigT_uncurried;eq_sigT2_ind
+./Groups.v;Shuffle;;;223;10;rewrite;e_eq_e';237;Nat.ltb;eq_ex2_ind_uncurried;le;Byte.x26;Decimal.D8;Byte.xec;mult_n_Sm;sumor;eq_sigT_uncurried;Nat.one
+./Groups.v;Shuffle;;;223;11;rewrite;e_eq_e';44;E;eq_ex2_ind_uncurried;eq_sigT_uncurried;eq_ex2_rect_ex_intro2_l;eq_ex2;ex2_of_sigT2;eq_sig_ind;ex_proj1;eq_sym_involutive;eq_exist_l
+./Groups.v;Shuffle;;;223;12;rewrite;e_eq_e';0;e_eq_e';eq_ex2_ind_uncurried;eq_sigT_uncurried;eq_ex2_rect_ex_intro2_l;eq_ex2;eq_sig_ind;ex_proj1;eq_sym_involutive;eq_exist_l;eq_true_ind_r
+./Groups.v;Shuffle;;;223;13;rewrite;e_eq_e';0;e_eq_e';eq_ex2_ind_uncurried;eq_ex2_rect_ex_intro2_l;eq_ex2;eq_exist_l;eq_ex2_rect;eq_ex_rect;eq_ex_ind_uncurried;eq_ex_hprop_iff;eq_existT2_uncurried
+./Groups.v;Shuffle;;;223;14;rewrite;e_eq_e';0;e_eq_e';ex_of_ex2_eq;ex_proj2_of_ex2_eq;ex_proj1_of_ex2_eq;;;;;;
+./Groups.v;Shuffle;;;223;15;rewrite;e_eq_e';0;e_eq_e';ex_of_ex2_eq;ex_proj2_of_ex2_eq;ex_proj1_of_ex2_eq;;;;;;
+./Groups.v;Shuffle;;;223;16;rewrite;e_eq_e';0;e_eq_e';;;;;;;;;
+./Groups.v;Shuffle;;;223;17;rewrite;e_eq_e';0;e_eq_e';;;;;;;;;
+./Groups.v;Shuffle;;;277;13;rewrite <-;eg';475;eq_rec;sigT_rect;Byte.x6e;option_map;iff;sigT_of_sig;tt;Number.uint_of_uint;dependent_choice;ex2_rect
+./Groups.v;Shuffle;;;277;14;rewrite <-;eg';95;E;eq_rec;ex2_rect;eq_ex2_hprop;eq_sig2;eq_ex2_rec_uncurried;exists_inhabited;eq_existT_curried_map;eq_trans_r;eq_sig
+./Groups.v;Shuffle;;;277;15;rewrite <-;eg';0;eg';eq_sig2;eq_sig;eq_sig2_rect_uncurried;eq_sigT_hprop;eq_sigT;eq_sigT2_ind_uncurried;eq_sigT_rect;eq_sigT_ind;eq_sig2_hprop
+./Groups.v;Shuffle;;;277;16;rewrite <-;eg';0;eg';;;;;;;;;
+./Groups.v;Shuffle;;;278;10;rewrite;(o_assoc;-1;ex2_rec;Byte.xb9;dependent_choice;Decimal.abs;Nat.of_num_int;Eq;Byte.x1c;eq_true_ind_r;ex2_sind;not
+./Groups.v;Shuffle;;;278;11;rewrite;(o_assoc;-1;;;;;;;;;;
+./Groups.v;Shuffle;;;278;12;rewrite;(o_assoc;-1;;;;;;;;;;
+./Groups.v;Shuffle;;;278;13;rewrite;(o_assoc;-1;;;;;;;;;;
+./Groups.v;Shuffle;;;278;14;rewrite;(o_assoc;-1;;;;;;;;;;
+./Groups.v;Shuffle;;;278;15;rewrite;(o_assoc;-1;;;;;;;;;;
+./Groups.v;Shuffle;;;278;16;rewrite;(o_assoc;-1;;;;;;;;;;
+./Groups.v;Shuffle;;;278;17;rewrite;(o_assoc;-1;;;;;;;;;;
+./Groups.v;Shuffle;;;278;18;rewrite;(o_assoc;-1;;;;;;;;;;
+./Groups.v;Shuffle;;;279;10;rewrite;eg;372;Decimal.uint_rect;Decimal.D6;Byte.x18;Byte.x2a;existT2;Decimal.nzhead;proj2_sig_eq;Byte.xc8;Nat.of_hex_int;le_ind
+./Groups.v;Shuffle;;;279;11;rewrite;eg;63;E;existT2;eq_sig_rect_uncurried;eq;eq_exist2_curried;eq_sigT_rect_uncurried;eq_sig2_uncurried_iff;eq_refl;eq_ex_rect_ex_intro_l;eq_ex_intro_r
+./Groups.v;Shuffle;;;279;12;rewrite;eg;0;eg;eq_sig_rect_uncurried;eq_sigT_rect_uncurried;eq_sig2_uncurried_iff;eq_sigT_nondep;eq_sig_rect_exist_l;eq_sig2_rec;eq_sig_rect;eq_sigT2_rect_existT2_r;eq_sigT2_rect_existT2_l
+./Groups.v;Shuffle;;;288;10;rewrite;s_eq_s';24;Byte.x4c;not_eq_S;sig;ex2_rec;Byte.xc2;well_founded_induction_type;proj2_sig;e';Nat.shiftr;Hexadecimal.uint_ind
+./Groups.v;Shuffle;;;288;11;rewrite;s_eq_s';3;S;sig;sig_rec;s_eq_s';sumor_rec;sum;sigT;sig2;subrelation;sigT2_ind
+./Groups.v;Shuffle;;;288;12;rewrite;s_eq_s';0;s_eq_s';sig_rec;sig_of_sig2;sum_ind;sig_ind;sum_rec;sum_sind;sig2_rec;sigT_rect;sigT_of_sigT2
+./Groups.v;Shuffle;;;288;13;rewrite;s_eq_s';0;s_eq_s';sig_rec;sum_rec;sig2_rec;sigT_rect;proj1_sig_eq;sumor_rec;sigT2_rec;eq_sig_rect_exist_r;eq_sigT_rect_existT_l
+./Groups.v;Shuffle;;;288;14;rewrite;s_eq_s';0;s_eq_s';proj1_sig_eq;projT2_of_sigT2_eq;projT1_of_sigT2_eq;proj2_sig_of_sig2_eq;Hexadecimal.signed_int_eq_dec;;;;
+./Groups.v;Shuffle;;;288;15;rewrite;s_eq_s';0;s_eq_s';Hexadecimal.signed_int_eq_dec;;;;;;;;
+./Groups.v;Shuffle;;;288;16;rewrite;s_eq_s';0;s_eq_s';;;;;;;;;
+./Groups.v;Shuffle;;;288;17;rewrite;s_eq_s';0;s_eq_s';;;;;;;;;
+./Groups.v;Shuffle;;;302;8;apply;mkgroup;213;eq_ex_intro_l;Byte.x3b;absurd;Hexadecimal.del_tail;Byte.x06;Decimal.D7;eq_rect;Nat.square;eq_ex_rect_ex_intro;Byte.x16
+./Groups.v;Shuffle;;;302;9;apply;mkgroup;3;map_subst;map_subst_map;min_l;mkgroup;mult_n_Sm;mult_n_O;max_r;rew_map;Nat.modulo;plus_Sn_m
+./Groups.v;Shuffle;;;302;10;apply;mkgroup;0;mkgroup;;;;;;;;;
+./Groups.v;Shuffle;;;302;11;apply;mkgroup;0;mkgroup;;;;;;;;;
+./Groups.v;Shuffle;;;302;12;apply;mkgroup;0;mkgroup;;;;;;;;;
+./Groups.v;Shuffle;;;302;13;apply;mkgroup;0;mkgroup;;;;;;;;;
+./Groups.v;Shuffle;;;302;14;apply;mkgroup;0;mkgroup;;;;;;;;;
+./Groups.v;Shuffle;;;302;15;apply;mkgroup;0;mkgroup;;;;;;;;;

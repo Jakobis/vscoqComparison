@@ -1,0 +1,204 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Line;Character;Keywords Before;Lemma;Index;Result 1;Result 2;Result 3;Result 4;Result 5;Result 6;Result 7;Result 8;Result 9;Result 10
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;40;9;apply;nat_ind;-1;PeanoNat.Nat.mul_0_r;PeanoNat.Nat.mul_0_l;mult_n_O;mul_0_r;mult_0_l;PeanoNat.Nat.Private_NZPow.pow_0_l';PeanoNat.Nat.Private_NZPow.pow_0_l;PeanoNat.Nat.Private_NDivProp.Private_NZDiv.mod_0_l;PeanoNat.Nat.Private_NDivProp.Private_NZDiv.div_0_l;PeanoNat.Nat.Private_NLcmProp.lcm_0_r
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;40;10;apply;nat_ind;-1;nat_rect_succ_r;nat_double_ind;not_true_is_false';not_true_is_false;n_lt_m__n_le_m;NatList.test_countoddmembers3;NatList.test_hd2;Nnat.N2Nat.inj_0;NatList.leb_n_Sn;Ndigits.Bv2N_Nsize
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;40;11;apply;nat_ind;-1;nat_rect_succ_r;nat_double_ind;NatList.test_countoddmembers3;NatList.test_hd2;NatList.leb_n_Sn;NatList.test_countoddmembers2;NatList.test_add2;NatList.test_remove_all2;NatList.test_remove_one2;NatList.test_count2
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;40;12;apply;nat_ind;-1;nat_rect_succ_r;nat_double_ind;NatList.test_countoddmembers3;NatList.test_hd2;NatList.leb_n_Sn;NatList.test_countoddmembers2;NatList.test_add2;NatList.test_remove_all2;NatList.test_remove_one2;NatList.test_count2
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;40;13;apply;nat_ind;-1;nat_rect_succ_r;nat_double_ind;NatList.leb_n_Sn;NatList.test_countoddmembers3;NatList.test_hd2;NatList.test_countoddmembers2;NatList.test_add2;NatList.test_remove_all2;NatList.test_remove_one2;NatList.test_count2
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;40;14;apply;nat_ind;-1;nat_double_ind;NatList.leb_n_Sn;NatList.test_countoddmembers3;NatList.test_hd2;NatList.test_countoddmembers2;NatList.test_add2;NatList.test_remove_all2;NatList.test_remove_one2;NatList.test_count2;NatList.test_remove_all1
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;40;15;apply;nat_ind;-1;nat_double_ind;NatList.leb_n_Sn;Fin.of_nat_to_nat_inv;BinNat.N.bits_inj_0;PeanoNat.Nat.lt_ind_rel;PeanoNat.Nat.le_ind_rel;Znat.Z2Nat.inj_neg;NatList.test_countoddmembers3;PeanoNat.Nat.bits_inj_0;NatList.test_countoddmembers2
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;40;16;apply;nat_ind;-1;nat_double_ind;PeanoNat.Nat.lt_ind_rel;PeanoNat.Nat.le_ind_rel;PeanoNat.Nat.double_induction;Wf_nat.lt_wf_double_ind;PeanoNat.Nat.two_dim_induction;NatList.test_countoddmembers3;NatList.test_countoddmembers2;PeanoNat.Nat.Private_NDivProp.Private_NZDiv.mod_0_l;PeanoNat.Nat.Private_NDivProp.mod_0_l
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;42;54;rewrite ->;IHn';0;IHn';PeanoNat.Nat.mul_0_r;PeanoNat.Nat.mul_0_l;mult_n_O;mul_0_r;mult_0_l;factor_is_O;and_example3;PeanoNat.Nat.eq_square_0;PeanoNat.Nat.mul_eq_0
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;42;55;rewrite ->;IHn';0;IHn';BinInt.Z.lor_eq_0_l;BinInt.Z.bits_inj_0;BinInt.Z.gcd_eq_0_r;BinInt.Z.gcd_eq_0_l;BinInt.Z.divide_0_l;BinInt.Z.sqrt_up_0;BinInt.Z.sqrt_0;BinInt.Z.pow_eq_0;BinInt.Z.odd_0
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;42;56;rewrite ->;IHn';0;IHn';BinInt.Z.shiftr_0_l;BinInt.Z.shiftl_0_l;;;;;;;
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;42;57;rewrite ->;IHn';0;IHn';BinInt.Z.shiftr_0_l;BinInt.Z.shiftl_0_l;;;;;;;
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;42;58;rewrite ->;IHn';0;IHn';;;;;;;;;
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;74;9;apply;nat_ind;-1;PeanoNat.Nat.add_1_r;PeanoNat.Nat.add_succ_r;PeanoNat.Nat.Private_NZGcdProp.gcd_1_r;PeanoNat.Nat.sub_1_r;PeanoNat.Nat.add_1_l;trans_eq_exercise;plus_1_l;PeanoNat.Nat.add_lnot_diag_low;plus_2_2_is_4;Playground.test_le3
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;74;10;apply;nat_ind;-1;n_Sn;not_eq_S;nat_rect_succ_r;nat_bin_nat;NatPlayground2.test_mult1;Ndigits.Bv2N_Nsize_1;Nnat.N2Nat.inj_succ;NatList.option_elim_hd;Nnat.N2Nat.inj_succ_double;Ndigits.N2Bv_sized_Bv2N
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;74;11;apply;nat_ind;-1;nat_rect_succ_r;nat_bin_nat;NatPlayground2.test_mult1;NatList.option_elim_hd;NatList.test_hd1;NatList.bag_count_sum;NatList.test_add1;NatList.test_count1;NatList.test_sum1;NatList.test_countoddmembers1
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;74;12;apply;nat_ind;-1;nat_rect_succ_r;nat_bin_nat;NatPlayground2.test_mult1;NatList.option_elim_hd;NatList.test_hd1;NatList.bag_count_sum;NatList.test_add1;NatList.test_count1;NatList.test_sum1;NatList.test_countoddmembers1
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;74;13;apply;nat_ind;-1;nat_rect_succ_r;nat_bin_nat;NatList.bag_count_sum;NatList.test_hd1;NatList.test_add1;NatList.test_count1;NatList.test_sum1;NatList.test_countoddmembers1;NatList.test_remove_all3;NatList.test_remove_one3
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;74;14;apply;nat_ind;-1;nat_bin_nat;NatList.involution_injective;NatList.bag_count_sum;NatList.test_hd1;NatList.test_add1;NatList.test_count1;NatList.test_sum1;NatList.test_countoddmembers1;NatList.test_remove_all3;NatList.test_remove_one3
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;74;15;apply;nat_ind;-1;nat_bin_nat;NatList.involution_injective;NatList.bag_count_sum;PeanoNat.Nat.pow_inj_r;PeanoNat.Nat.pow_inj_l;PeanoNat.Nat.succ_inj_wd;PeanoNat.Nat.succ_inj_wd_neg;NatList.test_count1;NatList.test_countoddmembers1;PeanoNat.Nat.bits_inj
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;74;16;apply;nat_ind;-1;NatList.test_countoddmembers1;PeanoNat.Nat.succ_inj_wd;PeanoNat.Nat.succ_inj_wd_neg;PeanoNat.Nat.max_min_distr;PeanoNat.Nat.Private_NDivProp.Private_NZDiv.mod_1_l;PeanoNat.Nat.Private_NDivProp.Private_NZDiv.mod_small;PeanoNat.Nat.Private_NDivProp.mod_1_l;PeanoNat.Nat.Private_NDivProp.mod_small;PeanoNat.Nat.Private_NDivProp.Private_NZDiv.mod_small_iff;PeanoNat.Nat.Private_NDivProp.mod_small_iff
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;76;36;rewrite;IHn';92;PeanoNat.Nat.two_succ;PeanoNat.Nat.log2_succ_double;PeanoNat.Nat.one_succ;Exercises.Church.two_church_peano;eq_implies_succ_equal';eq_implies_succ_equal;eq_S;PeanoNat.Nat.sqrt_up_2;Plus.n_SSn_stt;not_eq_S
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;76;37;rewrite;IHn';0;IHn';inversion_ex2;injection_ex1;BinInt.ZL0;S_injective';S_injective;eq_implies_succ_equal';eq_implies_succ_equal;plus_id_exercise;plus_id_example
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;76;38;rewrite;IHn';0;IHn';;;;;;;;;
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;76;39;rewrite;IHn';0;IHn';;;;;;;;;
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;76;40;rewrite;IHn';0;IHn';;;;;;;;;
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;419;9;apply;nat_ind;160;Props.ex_ev_Sn;Props.some_nat_is_even;PeanoNat.Nat.Private_NZSqrt.sqrt_spec_alt;PeanoNat.Nat.Private_NZSqrt.sqrt_spec_nonneg;PeanoNat.Nat.Private_NZGcdProp.divide_0_r;Pnat.Pos2Nat.is_succ;BinPosDef.Pos.shiftr_nat;BinPosDef.Pos.shiftl_nat;BinPos.Pos.shiftr_nat;BinPos.Pos.shiftl_nat
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;419;10;apply;nat_ind;3;nat_case;nat_sind;nat_rec;nat_ind;nat_rect;n_le_m__Sn_le_Sm;n_Sn;nat_bin_nat;not_eq_S;Ndigits.N2Bv_gen_deprecated
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;419;11;apply;nat_ind;3;nat_case;nat_sind;nat_rec;nat_ind;nat_rect;nat_bin_nat;Nat.shiftr;Nat.shiftl;Nat.of_num_int;Nat.of_hex_int
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;419;12;apply;nat_ind;3;nat_case;nat_sind;nat_rec;nat_ind;nat_rect;nat_bin_nat;Nat.shiftr;Nat.shiftl;Nat.of_num_int;Nat.of_hex_int
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;419;13;apply;nat_ind;3;nat_case;nat_sind;nat_rec;nat_ind;nat_rect;nat_bin_nat;Nat.of_num_int;Nat.of_hex_int;Nat.of_int;NatList.leb_n_Sn
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;419;14;apply;nat_ind;0;nat_ind;nat_sind;nat_bin_nat;Nat.of_int;Nat.of_num_int;Nat.of_hex_int;NatList.leb_n_Sn;Props.some_nat_is_even;Wf_nat.gt_wf_ind;Wf_nat.lt_wf_ind
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;419;15;apply;nat_ind;0;nat_ind;nat_sind;nat_bin_nat;Nat.of_int;Nat.of_num_int;Nat.of_hex_int;NatList.leb_n_Sn;Wf_nat.gt_wf_ind;Wf_nat.lt_wf_ind;PeanoNat.Nat.le_ind
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;419;16;apply;nat_ind;0;nat_ind;nat_sind;Wf_nat.gt_wf_ind;Wf_nat.lt_wf_ind;PeanoNat.Nat.le_ind;PeanoNat.Nat.lt_ind;PeanoNat.Nat.bi_induction;PeanoNat.Nat.pair_induction;PeanoNat.Nat.left_induction';PeanoNat.Nat.left_induction
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;424;53;apply;IHn;0;IHn;mul_0_r';PeanoNat.Nat.mul_0_r;PeanoNat.Nat.mul_0_l;mult_n_O;mul_0_r;mult_0_l;factor_is_O;and_example3;PeanoNat.Nat.eq_square_0
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;424;54;apply;IHn;0;IHn;BinInt.Z.lor_eq_0_l;BinInt.Z.bits_inj_0;BinInt.Z.gcd_eq_0_r;BinInt.Z.gcd_eq_0_l;BinInt.Z.divide_0_l;BinInt.Z.sqrt_up_0;BinInt.Z.sqrt_0;BinInt.Z.pow_eq_0;BinInt.Z.odd_0
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;424;55;apply;IHn;0;IHn;BinInt.Z.shiftr_0_l;BinInt.Z.shiftl_0_l;;;;;;;
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;424;56;apply;IHn;0;IHn;BinInt.Z.shiftr_0_l;BinInt.Z.shiftl_0_l;;;;;;;
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;477;23;rewrite ->;IHn';-1;PeanoNat.Nat.one_succ;PeanoNat.Nat.two_succ;eq_implies_succ_equal';eq_implies_succ_equal;eq_S;not_eq_S;PeanoNat.Nat.succ_add_discr;PeanoNat.Nat.add_succ_r;PeanoNat.Nat.add_succ_l;plus_Sn_m
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;477;24;rewrite ->;IHn';-1;inversion_ex2;injection_ex1;BinInt.ZL0;S_injective';S_injective;eq_implies_succ_equal';eq_implies_succ_equal;plus_id_exercise;plus_id_example;double_incr
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;477;25;rewrite ->;IHn';-1;;;;;;;;;;
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;477;26;rewrite ->;IHn';-1;;;;;;;;;;
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;477;27;rewrite ->;IHn';-1;;;;;;;;;;
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;486;38;rewrite ->;add_0_r;31;PeanoNat.Nat.add_comm;f_equal2_plus;add_comm;plus_id_exercise;plus_id_example;PeanoNat.Nat.add_succ_comm;Plus.plus_Snm_nSm_stt;add_assoc';PeanoNat.Nat.add_shuffle3;PeanoNat.Nat.add_shuffle0
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;486;39;rewrite ->;add_0_r;8;add_comm;add_assoc';add_comm3_take3;add_comm3_take2;add_shuffle3';add_shuffle3;add_assoc'';add_assoc;add_0_r;app_length
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;486;40;rewrite ->;add_0_r;8;add_comm;add_assoc';add_comm3_take3;add_comm3_take2;add_shuffle3';add_shuffle3;add_assoc'';add_assoc;add_0_r;and_example'
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;486;41;rewrite ->;add_0_r;8;add_comm;add_assoc';add_comm3_take3;add_comm3_take2;add_shuffle3';add_shuffle3;add_assoc'';add_assoc;add_0_r;eq_add_S
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;486;42;rewrite ->;add_0_r;8;add_comm;add_assoc';add_comm3_take3;add_comm3_take2;add_shuffle3';add_shuffle3;add_assoc'';add_assoc;add_0_r;eq_add_S
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;486;43;rewrite ->;add_0_r;0;add_0_r;PeanoNat.Nat.add_0_r;PeanoNat.Nat.add_0_l;PeanoNat.Nat.add_shuffle0;;;;;;
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;486;44;rewrite ->;add_0_r;0;add_0_r;PeanoNat.Nat.add_0_r;PeanoNat.Nat.add_0_l;;;;;;;
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;486;45;rewrite ->;add_0_r;0;add_0_r;PeanoNat.Nat.add_0_r;;;;;;;;
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;487;48;rewrite ->;IHn';37;Peano.plus_n_Sm;plus_n_Sm;BinInt.ZL0;PeanoNat.Nat.add_succ_comm;Plus.plus_Snm_nSm_stt;PeanoNat.Nat.double_add;PeanoNat.Nat.succ_min_distr;PeanoNat.Nat.succ_max_distr;silly_fact_2';silly_fact_2
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;487;49;rewrite ->;IHn';0;IHn';Induction.add_assoc';injection_ex1;BinInt.ZL0;S_injective';S_injective;eq_implies_succ_equal';eq_implies_succ_equal;plus_id_exercise;plus_id_example
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;487;50;rewrite ->;IHn';0;IHn';;;;;;;;;
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;487;51;rewrite ->;IHn';0;IHn';;;;;;;;;
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;487;52;rewrite ->;IHn';0;IHn';;;;;;;;;
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;488;16;rewrite <-;plus_n_Sm;1;Peano.plus_n_Sm;plus_n_Sm;BinInt.ZL0;PeanoNat.Nat.add_succ_comm;Plus.plus_Snm_nSm_stt;PeanoNat.Nat.double_add;PeanoNat.Nat.succ_min_distr;PeanoNat.Nat.succ_max_distr;silly_fact_2';silly_fact_2
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;488;17;rewrite <-;plus_n_Sm;0;plus_n_Sm;plus_n_O;plus_id_exercise;plus_id_example;plus_rearrange;plus_n_n_injective;plus_O_n'';plus_O_n';plus_O_n;pred_Sn
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;488;18;rewrite <-;plus_n_Sm;0;plus_n_Sm;plus_n_O;plus_id_exercise;plus_id_example;plus_rearrange;plus_n_n_injective;plus_O_n'';plus_O_n';plus_O_n;plus_one_r'
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;488;19;rewrite <-;plus_n_Sm;0;plus_n_Sm;plus_n_O;plus_id_exercise;plus_id_example;plus_rearrange;plus_n_n_injective;plus_O_n'';plus_O_n';plus_O_n;plus_one_r'
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;488;20;rewrite <-;plus_n_Sm;0;plus_n_Sm;plus_n_O;plus_id_exercise;plus_id_example;plus_rearrange;plus_n_n_injective;plus_O_n'';plus_O_n';plus_O_n;plus_one_r'
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;488;21;rewrite <-;plus_n_Sm;0;plus_n_Sm;plus_n_O;plus_id_exercise;plus_id_example;plus_rearrange;plus_n_n_injective;plus_O_n'';plus_O_n';plus_O_n;plus_one_r'
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;488;22;rewrite <-;plus_n_Sm;0;plus_n_Sm;plus_n_O;plus_n_n_injective;plus_O_n;plus_O_n'';plus_O_n';plus_one_r';plus_Sn_m;Plus.n_SSn_stt;Plus.n_SSSn_stt
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;488;23;rewrite <-;plus_n_Sm;0;plus_n_Sm;plus_n_O;plus_n_n_injective;plus_O_n;plus_O_n'';plus_O_n';plus_Sn_m;plus_one_r';Plus.n_SSn_stt;Plus.n_SSSn_stt
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;488;24;rewrite <-;plus_n_Sm;0;plus_n_Sm;Plus.n_SSn_stt;Plus.n_SSSn_stt;Plus.n_SSSSn_stt;Plus.plus_Snm_nSm_stt;Peano.plus_n_Sm;Arith_prebase.plus_minus_stt;Arith_prebase.le_plus_minus_stt;Arith_prebase.le_plus_minus_r_stt;
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;488;25;rewrite <-;plus_n_Sm;0;plus_n_Sm;Plus.plus_Snm_nSm_stt;Peano.plus_n_Sm;;;;;;;
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;504;35;rewrite ->;add_0_r;3;PeanoNat.Nat.add_0_r;PeanoNat.Nat.add_0_l;Peano.plus_O_n;add_0_r;plus_O_n'';plus_O_n';plus_O_n;PeanoNat.Nat.add_sub_eq_nz;plus_one_r';PeanoNat.Nat.add_1_r
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;504;36;rewrite ->;add_0_r;0;add_0_r;add_comm';add_comm;add_assoc';add_comm3_take3;add_comm3_take2;add_shuffle3';add_shuffle3;add_assoc'';add_assoc
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;504;37;rewrite ->;add_0_r;0;add_0_r;add_comm';add_comm;add_assoc';add_comm3_take3;add_comm3_take2;add_shuffle3';add_shuffle3;add_assoc'';add_assoc
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;504;38;rewrite ->;add_0_r;0;add_0_r;add_comm';add_comm;add_assoc';add_comm3_take3;add_comm3_take2;add_shuffle3';add_shuffle3;add_assoc'';add_assoc
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;504;39;rewrite ->;add_0_r;0;add_0_r;add_comm';add_comm;add_assoc';add_comm3_take3;add_comm3_take2;add_shuffle3';add_shuffle3;add_assoc'';add_assoc
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;504;40;rewrite ->;add_0_r;0;add_0_r;PeanoNat.Nat.add_0_r;PeanoNat.Nat.add_0_l;PeanoNat.Nat.add_shuffle0;;;;;;
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;504;41;rewrite ->;add_0_r;0;add_0_r;PeanoNat.Nat.add_0_r;PeanoNat.Nat.add_0_l;;;;;;;
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;504;42;rewrite ->;add_0_r;0;add_0_r;PeanoNat.Nat.add_0_r;;;;;;;;
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;505;38;rewrite <-;IHm';16;PeanoNat.Nat.add_succ_r;plus_one_r';PeanoNat.Nat.add_1_r;PeanoNat.Nat.add_succ_l;plus_Sn_m;plus_2_2_is_4;Playground.test_le3;discriminate_ex2;inversion_ex2;ev5_nonsense
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;505;39;rewrite <-;IHm';0;IHm';Induction.add_assoc';inversion_ex2;injection_ex1;BinInt.ZL0;S_injective';S_injective;eq_implies_succ_equal';eq_implies_succ_equal;plus_id_exercise
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;505;40;rewrite <-;IHm';0;IHm';;;;;;;;;
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;505;41;rewrite <-;IHm';0;IHm';;;;;;;;;
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;505;42;rewrite <-;IHm';0;IHm';;;;;;;;;
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;506;16;rewrite <-;plus_n_Sm;-1;PeanoNat.Nat.add_succ_r;plus_one_r';PeanoNat.Nat.add_1_r;PeanoNat.Nat.add_succ_l;plus_Sn_m;plus_2_2_is_4;Playground.test_le3;discriminate_ex2;inversion_ex2;ev5_nonsense
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;506;17;rewrite <-;plus_n_Sm;-1;plus_one_r';plus_Sn_m;plus_2_2_is_4;plus_1_l;plus_O_n'';plus_O_n';plus_O_n;plus_id_exercise;plus_id_example;plus_rearrange
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;506;18;rewrite <-;plus_n_Sm;-1;plus_one_r';plus_Sn_m;plus_2_2_is_4;plus_1_l;plus_O_n'';plus_O_n';plus_O_n;plus_id_exercise;plus_id_example;plus_rearrange
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;506;19;rewrite <-;plus_n_Sm;-1;plus_one_r';plus_Sn_m;plus_2_2_is_4;plus_1_l;plus_O_n'';plus_O_n';plus_O_n;plus_id_exercise;plus_id_example;plus_rearrange
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;506;20;rewrite <-;plus_n_Sm;-1;plus_one_r';plus_Sn_m;plus_2_2_is_4;plus_1_l;plus_O_n'';plus_O_n';plus_O_n;plus_id_exercise;plus_id_example;plus_rearrange
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;506;21;rewrite <-;plus_n_Sm;-1;plus_one_r';plus_Sn_m;plus_2_2_is_4;plus_1_l;plus_O_n'';plus_O_n';plus_O_n;plus_id_exercise;plus_id_example;plus_rearrange
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;506;22;rewrite <-;plus_n_Sm;-1;plus_n_n_injective;plus_n_O;plus_O_n;plus_O_n'';plus_O_n';plus_one_r';plus_Sn_m;Plus.n_SSn_stt;Plus.n_SSSn_stt;Plus.n_SSSSn_stt
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;506;23;rewrite <-;plus_n_Sm;-1;plus_n_n_injective;plus_n_O;plus_O_n;plus_Sn_m;plus_O_n'';plus_O_n';plus_one_r';Plus.n_SSn_stt;Plus.n_SSSn_stt;Plus.n_SSSSn_stt
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;506;24;rewrite <-;plus_n_Sm;-1;Plus.n_SSn_stt;Plus.n_SSSn_stt;Plus.n_SSSSn_stt;Plus.plus_Snm_nSm_stt;Peano.plus_n_Sm;Plus.plus_is_one_stt;Arith_prebase.plus_minus_stt;Arith_prebase.le_plus_minus_stt;Arith_prebase.le_plus_minus_r_stt;
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;506;25;rewrite <-;plus_n_Sm;-1;Plus.plus_Snm_nSm_stt;Peano.plus_n_Sm;;;;;;;;
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;524;38;rewrite ->;IHn';-1;PeanoNat.Nat.one_succ;PeanoNat.Nat.two_succ;eq_implies_succ_equal';eq_implies_succ_equal;eq_S;not_eq_S;PeanoNat.Nat.succ_add_discr;PeanoNat.Nat.add_succ_r;PeanoNat.Nat.add_succ_l;plus_Sn_m
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;524;39;rewrite ->;IHn';-1;inversion_ex2;injection_ex1;BinInt.ZL0;S_injective';S_injective;eq_implies_succ_equal';eq_implies_succ_equal;plus_id_exercise;plus_id_example;double_incr
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;524;40;rewrite ->;IHn';-1;;;;;;;;;;
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;524;41;rewrite ->;IHn';-1;;;;;;;;;;
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;524;42;rewrite ->;IHn';-1;;;;;;;;;;
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;530;40;rewrite ->;add_0_r;33;add_comm';add_comm'';PeanoNat.Nat.add_comm;f_equal2_plus;add_comm;plus_id_exercise;plus_id_example;PeanoNat.Nat.add_succ_comm;Plus.plus_Snm_nSm_stt;add_assoc'
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;530;41;rewrite ->;add_0_r;9;add_comm';add_comm'';add_comm;add_assoc';add_comm3_take3;add_comm3_take2;add_shuffle3';add_shuffle3;add_assoc;add_0_r
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;530;42;rewrite ->;add_0_r;9;add_comm';add_comm'';add_comm;add_assoc';add_comm3_take3;add_comm3_take2;add_shuffle3';add_shuffle3;add_assoc;add_0_r
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;530;43;rewrite ->;add_0_r;9;add_comm';add_comm'';add_comm;add_assoc';add_comm3_take3;add_comm3_take2;add_shuffle3';add_shuffle3;add_assoc;add_0_r
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;530;44;rewrite ->;add_0_r;9;add_comm';add_comm'';add_comm;add_assoc';add_comm3_take3;add_comm3_take2;add_shuffle3';add_shuffle3;add_assoc;add_0_r
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;530;45;rewrite ->;add_0_r;0;add_0_r;PeanoNat.Nat.add_0_r;PeanoNat.Nat.add_0_l;PeanoNat.Nat.add_shuffle0;;;;;;
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;530;46;rewrite ->;add_0_r;0;add_0_r;PeanoNat.Nat.add_0_r;PeanoNat.Nat.add_0_l;;;;;;;
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;530;47;rewrite ->;add_0_r;0;add_0_r;PeanoNat.Nat.add_0_r;;;;;;;;
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;531;47;rewrite ->;IHn';-1;Peano.plus_n_Sm;plus_n_Sm;BinInt.ZL0;PeanoNat.Nat.add_succ_comm;Plus.plus_Snm_nSm_stt;PeanoNat.Nat.double_add;PeanoNat.Nat.succ_min_distr;PeanoNat.Nat.succ_max_distr;silly_fact_2';silly_fact_2
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;531;48;rewrite ->;IHn';-1;Induction.add_assoc'';Induction.add_assoc';injection_ex1;BinInt.ZL0;S_injective';S_injective;eq_implies_succ_equal';eq_implies_succ_equal;plus_id_exercise;plus_id_example
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;531;49;rewrite ->;IHn';-1;;;;;;;;;;
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;531;50;rewrite ->;IHn';-1;;;;;;;;;;
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;531;51;rewrite ->;IHn';-1;;;;;;;;;;
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;532;16;rewrite <-;plus_n_Sm;1;Peano.plus_n_Sm;plus_n_Sm;BinInt.ZL0;PeanoNat.Nat.add_succ_comm;Plus.plus_Snm_nSm_stt;PeanoNat.Nat.double_add;PeanoNat.Nat.succ_min_distr;PeanoNat.Nat.succ_max_distr;silly_fact_2';silly_fact_2
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;532;17;rewrite <-;plus_n_Sm;0;plus_n_Sm;plus_n_O;plus_id_exercise;plus_id_example;plus_rearrange;plus_n_n_injective;plus_O_n'';plus_O_n';plus_O_n;pred_Sn
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;532;18;rewrite <-;plus_n_Sm;0;plus_n_Sm;plus_n_O;plus_id_exercise;plus_id_example;plus_rearrange;plus_n_n_injective;plus_O_n'';plus_O_n';plus_O_n;plus_one_r'
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;532;19;rewrite <-;plus_n_Sm;0;plus_n_Sm;plus_n_O;plus_id_exercise;plus_id_example;plus_rearrange;plus_n_n_injective;plus_O_n'';plus_O_n';plus_O_n;plus_one_r'
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;532;20;rewrite <-;plus_n_Sm;0;plus_n_Sm;plus_n_O;plus_id_exercise;plus_id_example;plus_rearrange;plus_n_n_injective;plus_O_n'';plus_O_n';plus_O_n;plus_one_r'
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;532;21;rewrite <-;plus_n_Sm;0;plus_n_Sm;plus_n_O;plus_id_exercise;plus_id_example;plus_rearrange;plus_n_n_injective;plus_O_n'';plus_O_n';plus_O_n;plus_one_r'
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;532;22;rewrite <-;plus_n_Sm;0;plus_n_Sm;plus_n_O;plus_n_n_injective;plus_O_n;plus_O_n'';plus_O_n';plus_one_r';plus_Sn_m;Plus.n_SSn_stt;Plus.n_SSSn_stt
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;532;23;rewrite <-;plus_n_Sm;0;plus_n_Sm;plus_n_O;plus_n_n_injective;plus_O_n;plus_O_n'';plus_O_n';plus_Sn_m;plus_one_r';Plus.n_SSn_stt;Plus.n_SSSn_stt
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;532;24;rewrite <-;plus_n_Sm;0;plus_n_Sm;Plus.n_SSn_stt;Plus.n_SSSn_stt;Plus.n_SSSSn_stt;Plus.plus_Snm_nSm_stt;Peano.plus_n_Sm;Arith_prebase.plus_minus_stt;Arith_prebase.le_plus_minus_stt;Arith_prebase.le_plus_minus_r_stt;
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;532;25;rewrite <-;plus_n_Sm;0;plus_n_Sm;Plus.plus_Snm_nSm_stt;Peano.plus_n_Sm;;;;;;;
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;580;9;apply;ev_ind;110;ev'_0;mul_0_r'';ev'_ind;ev'_sind;Props.ex_ev_Sn;Props.some_nat_is_even;PeanoNat.Nat.Private_NZSqrt.sqrt_spec_alt;PeanoNat.Nat.Private_NZSqrt.sqrt_spec_nonneg;PeanoNat.Nat.Private_NZGcdProp.divide_0_r;Pnat.Pos2Nat.is_succ
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;580;10;apply;ev_ind;4;ev'_0;ev'_ind;ev'_sind;ev_sind;ev_ind;even_double_conv;exists_example_2;ev_ev__ev;ev_Even;evSS_ev'
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;580;11;apply;ev_ind;4;ev'_0;ev'_ind;ev'_sind;ev_sind;ev_ind;even_double_conv;ev_ev__ev;ev_Even;evSS_ev';evSS_ev
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;580;12;apply;ev_ind;1;ev_sind;ev_ind;ev_ev__ev;ev_Even;ev_double;ev_SS;ev_Even_iff;ev_inversion;ev'_0;ev'_ind
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;580;13;apply;ev_ind;0;ev_ind;ev_inversion;ev'_ind;ev_Even_iff;ev_sind;ev'_sind;IndProp.ev_ind;IndProp.ev'_ind;IndProp.ev_sind;IndProp.ev'_sind
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;580;14;apply;ev_ind;0;ev_ind;ev_inversion;ev'_ind;ev_sind;ev_Even_iff;ev'_sind;IndProp.ev_ind;IndProp.ev'_ind;IndProp.ev_sind;IndProp.ev'_sind
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;580;15;apply;ev_ind;0;ev_ind;ev'_ind;ev_sind;ev'_sind;IndProp.ev_ind;IndProp.ev'_ind;IndProp.ev_sind;IndProp.ev'_sind;PeanoNat.Nat.Even_Odd_ind;PeanoNat.Nat.Odd_Even_ind
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;582;11;apply;ev'_0;0;ev'_0;ev'_2;ev'_sum;night;day;time;blue;green;red;rgb
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;582;12;apply;ev'_0;0;ev'_0;ev'_2;ev'_sum;ev';bt_empty;Props.ex_falso_quodlibet';NatList.eqblist;BinInt.Z.eqf;BinInt.Z.Even_Odd_False;BinInt.Z.Even
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;582;13;apply;ev'_0;0;ev'_0;ev'_2;ev'_sum;ev';BinInt.Z.Even_Odd_False;BinInt.Z.Even;BinInt.Z.even;BinIntDef.Z.even;PeanoNat.Nat.EvenT_0;PeanoNat.Nat.EvenT
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;582;14;apply;ev'_0;1;ev';ev'_0;ev'_2;ev'_sum;;;;;;
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;582;15;apply;ev'_0;0;ev'_0;ev'_2;ev'_sum;;;;;;;
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;582;16;apply;ev'_0;0;ev'_0;;;;;;;;;
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;585;11;apply;(ev'_sum;-1;ev'_2;PeanoNat.Nat.le_0_2;PeanoNat.Nat.lt_0_2;IndProp.ev'_2;PeanoNat.Nat.OddT_2;PeanoNat.Nat.EvenT_2;ev_SS;IndProp.ev_SS;PeanoNat.Nat.odd_2;PeanoNat.Nat.even_2
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;585;12;apply;(ev'_sum;-1;;;;;;;;;;
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;585;13;apply;(ev'_sum;-1;;;;;;;;;;
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;585;14;apply;(ev'_sum;-1;;;;;;;;;;
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;585;15;apply;(ev'_sum;-1;;;;;;;;;;
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;585;16;apply;(ev'_sum;-1;;;;;;;;;;
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;585;17;apply;(ev'_sum;-1;;;;;;;;;;
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;585;18;apply;(ev'_sum;-1;;;;;;;;;;
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;585;19;apply;(ev'_sum;-1;;;;;;;;;;
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;586;13;apply;ev'_2;0;ev'_2;PeanoNat.Nat.le_0_2;PeanoNat.Nat.lt_0_2;IndProp.ev'_2;PeanoNat.Nat.OddT_2;PeanoNat.Nat.EvenT_2;ev_SS;IndProp.ev_SS;PeanoNat.Nat.odd_2;PeanoNat.Nat.even_2
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;586;14;apply;ev'_2;0;ev'_2;ev_SS;ev_4''';ev_4'';ev_4';ev_4;ev_plus4'';ev_plus4';ev_plus4;ev_8'
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;586;15;apply;ev'_2;0;ev'_2;ev_SS;ev_4''';ev_4'';ev_4';ev_4;ev_plus4'';ev_plus4';ev_plus4;ev_8'
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;586;16;apply;ev'_2;0;ev'_2;ev'_0;ev'_sum;ev_4'';ev_4''';ev_4';ev_8';ev_plus4'';ev_plus4';IndProp.ev'_2
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;586;17;apply;ev'_2;0;ev'_2;ev'_0;ev'_sum;ev_4'';ev_4''';ev_4';ev_8';ev_plus4'';ev_plus4';IndProp.ev'_2
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;586;18;apply;ev'_2;0;ev'_2;IndProp.ev'_2;;;;;;;;
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;587;13;apply;IH;0;IH;ev'_0;Hm;ev'_2;ev'_sum;node;leaf;constr3;constr2;constr1
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;587;14;apply;IH;0;IH;inhabited_sig_to_exists;inhabited_covariant;inhabits;inst;in_split;BinInt.Z.measure_left_induction;BinInt.Z.measure_right_induction;eq_ind_r;eq_ind
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;587;15;apply;IH;0;IH;inhabited_sig_to_exists;inhabited_covariant;inhabits;exists_inhabited;exists_to_inhabited_sig;BinInt.Z.measure_right_induction;Operators_Properties.rt1n_ind_right;Operators_Properties.clos_refl_trans_ind_right;
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;897;11;apply;ev_0;0;ev_0;ev_SS;ev_4''';ev_4'';ev_4';ev_4;ev_plus4'';ev_plus4';ev_plus4;ev_8'
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;897;12;apply;ev_0;0;ev_0;ev_SS;ev_4''';ev_4'';ev_4';ev_4;ev_plus4'';ev_plus4';ev_plus4;ev_8'
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;897;13;apply;ev_0;0;ev_0;ev_SS;ev_4''';ev_4'';ev_4';ev_4;ev_plus4'';ev_plus4';ev_plus4;ev_8'
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;897;14;apply;ev_0;0;ev_0;ev_SS;ev_4''';ev_4'';ev_4';ev_4;ev_plus4'';ev_plus4';ev_plus4;ev_8'
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;897;15;apply;ev_0;0;ev_0;ev'_0;PeanoNat.Nat.EvenT_0;PeanoNat.Nat.Private_Parity.Even_0;;;;;;
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;901;13;apply;ev_SS;0;ev_SS;ev_4''';ev_4'';ev_4';ev_4;ev_8';ev_8;ev'_2;PeanoNat.Nat.le_0_2;PeanoNat.Nat.lt_0_2
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;901;14;apply;ev_SS;0;ev_SS;ev_4''';ev_4'';ev_4';ev_4;ev_8';ev_8;ev'_2;ev_plus4'';ev_plus4'
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;901;15;apply;ev_SS;0;ev_SS;ev_4''';ev_4'';ev_4';ev_4;ev_8';ev_8;ev'_2;ev_plus4'';ev_plus4'
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;901;16;apply;ev_SS;0;ev_SS;ev_4''';ev_4'';ev_4';ev_4;ev_8';ev_8;ev_plus4'';ev_plus4';ev_plus4
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;901;17;apply;ev_SS;0;ev_SS;even_S;ev_plus4'';ev_plus4';ev_plus4;IndProp.ev_SS;ev5_nonsense;IndProp.ev_plus4;PeanoNat.Nat.Even_succ_succ;PeanoNat.Nat.even_succ_succ
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;901;18;apply;ev_SS;0;ev_SS;IndProp.ev_SS;ev5_nonsense;PeanoNat.Nat.Even_succ_succ;PeanoNat.Nat.even_succ_succ;;;;;
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;940;11;apply;ev_0;0;ev_0;ev_SS;ev_4''';ev_4'';ev_4';ev_4;ev_plus4'';ev_plus4';ev_plus4;ev_8'
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;940;12;apply;ev_0;0;ev_0;ev_SS;ev_4''';ev_4'';ev_4';ev_4;ev_plus4'';ev_plus4';ev_plus4;ev_8'
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;940;13;apply;ev_0;0;ev_0;ev_SS;ev_4''';ev_4'';ev_4';ev_4;ev_plus4'';ev_plus4';ev_plus4;ev_8'
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;940;14;apply;ev_0;0;ev_0;ev_SS;ev_4''';ev_4'';ev_4';ev_4;ev_plus4'';ev_plus4';ev_plus4;ev_8'
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;940;15;apply;ev_0;0;ev_0;ev'_0;PeanoNat.Nat.EvenT_0;PeanoNat.Nat.Private_Parity.Even_0;;;;;;
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;944;11;apply;ev_SS;0;ev_SS;ev_4''';ev_4'';ev_4';ev_4;ev_8';ev_8;ev'_2;PeanoNat.Nat.le_0_2;PeanoNat.Nat.lt_0_2
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;944;12;apply;ev_SS;0;ev_SS;ev_4''';ev_4'';ev_4';ev_4;ev_8';ev_8;ev'_2;ev_plus4'';ev_plus4'
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;944;13;apply;ev_SS;0;ev_SS;ev_4''';ev_4'';ev_4';ev_4;ev_8';ev_8;ev'_2;ev_plus4'';ev_plus4'
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;944;14;apply;ev_SS;0;ev_SS;ev_4''';ev_4'';ev_4';ev_4;ev_8';ev_8;ev_plus4'';ev_plus4';ev_plus4
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;944;15;apply;ev_SS;0;ev_SS;even_S;ev_plus4'';ev_plus4';ev_plus4;IndProp.ev_SS;ev5_nonsense;IndProp.ev_plus4;PeanoNat.Nat.Even_succ_succ;PeanoNat.Nat.even_succ_succ
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;944;16;apply;ev_SS;0;ev_SS;IndProp.ev_SS;ev5_nonsense;PeanoNat.Nat.Even_succ_succ;PeanoNat.Nat.even_succ_succ;;;;;
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;945;11;apply;IHn';0;IHn';ev_0;ev_SS;H;ev_4''';ev_4'';ev_4';ev_4;ev_plus4'';ev_plus4'
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;945;12;apply;IHn';0;IHn';inhabited_sig_to_exists;inhabited_covariant;inhabits;inst;in_split;BinInt.Z.measure_left_induction;BinInt.Z.measure_right_induction;eq_ind_r;eq_ind
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;945;13;apply;IHn';0;IHn';inhabited_sig_to_exists;inhabited_covariant;inhabits;exists_inhabited;exists_to_inhabited_sig;BinInt.Z.measure_right_induction;Operators_Properties.rt1n_ind_right;Operators_Properties.clos_refl_trans_ind_right;
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;945;14;apply;IHn';0;IHn';inhabited_sig_to_exists;inhabited_covariant;inhabits;exists_inhabited;exists_to_inhabited_sig;BinInt.Z.measure_right_induction;Operators_Properties.rt1n_ind_right;Operators_Properties.clos_refl_trans_ind_right;
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;945;15;apply;IHn';0;IHn';;;;;;;;;
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;946;11;apply;H;0;H;even_double;even_bool_prop;even_42_bool;filter_exercise;NatList.test_eqblist1;constfun_example1;not_true_is_false';not_true_is_false;andb_true_elim2
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;946;12;apply;H;0;H;Hexadecimal.internal_hexadecimal_dec_bl;Hexadecimal.internal_signed_int_dec_bl0;NatList.test_hd_error1;NatList.test_hd2;;;;;
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;1020;9;apply;better_t_tree_ind;-1;rev_involutive;List.rev_involutive;ssrunder.Under_rel.Under_relE;discriminate_ex3;injection_ex3;trans_eq;proj1_sig_of_sig2_eq;projT1_of_sigT2_eq;functional_extensionality;ex_proj1_of_ex2_eq
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;1020;10;apply;better_t_tree_ind;-1;BinNat.N.recursion_0;Bool.negb_if;Bool.andb_if;Bool.if_negb;BinList.jump_tl;BinInt.Z.lor_eq_0_l;BinInt.Z.bits_inj_0;BinInt.Z.gcd_eq_0_r;BinInt.Z.gcd_eq_0_l;BinInt.Z.divide_0_l
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;1020;11;apply;better_t_tree_ind;-1;Bool.eq_true_negb_classical;BinInt.Z.even_0;BinInt.Z.eq_mul_0_r;BinInt.Z.eq_mul_0_l;BinNat.N.even_0;BinNat.N.eq_mul_0_r;BinNat.N.eq_mul_0_l;BinInt.Z.even_1;BinInt.Z.eq_stepl;BinInt.Z.eq_trans
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;1020;12;apply;better_t_tree_ind;-1;Bool.eq_true_negb_classical;BinInt.Z.eq_trans;BinInt.Z.testbit_0_l;Bool.absurd_eq_true;Bool.Is_true_eq_true;BinInt.Z.even_0;BinInt.Z.eq_mul_0_r;BinInt.Z.eq_mul_0_l;BinNat.N.even_0;BinNat.N.eq_mul_0_r
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;1020;13;apply;better_t_tree_ind;-1;Bool.Is_true_eq_true;BinInt.Z.testbit_0_l;BinInt.Z.eq_trans;BinInt.Z.eq_stepl;BinInt.Z.Private_OrderTac.Tac.not_neq_eq;BinInt.Z.Private_OrderTac.Tac.le_antisym;BinInt.Z.Private_OrderTac.Tac.eq_sym;BinInt.Z.Private_OrderTac.Tac.eq_refl;BinNat.N.Private_OrderTac.Tac.not_neq_eq;BinNat.N.Private_OrderTac.Tac.le_antisym
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;1020;14;apply;better_t_tree_ind;-1;Bool.Is_true_eq_true;BinInt.Z.eq_stepl;BinInt.Z.Private_OrderTac.Tac.eq_trans;BinInt.Z.Private_OrderTac.Tac.eq_sym;BinInt.Z.Private_OrderTac.Tac.eq_refl;BinNat.N.Private_OrderTac.Tac.eq_trans;BinNat.N.Private_OrderTac.Tac.eq_sym;BinNat.N.Private_OrderTac.Tac.eq_refl;Bool.not_false_is_true;BinInt.Z.Private_OrderTac.Tac.le_antisym
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;1020;15;apply;better_t_tree_ind;-1;BinInt.Z.Private_OrderTac.Tac.eq_refl;BinNat.N.Private_OrderTac.Tac.eq_refl;BinInt.Z.Private_OrderTac.Tac.eq_trans;BinNat.N.Private_OrderTac.Tac.eq_trans;;;;;;
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;1020;16;apply;better_t_tree_ind;-1;BinInt.Z.Private_OrderTac.Tac.eq_refl;BinNat.N.Private_OrderTac.Tac.eq_refl;BinInt.Z.Private_OrderTac.Tac.eq_trans;BinNat.N.Private_OrderTac.Tac.eq_trans;;;;;;
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;1020;17;apply;better_t_tree_ind;-1;;;;;;;;;;
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;1020;18;apply;better_t_tree_ind;-1;;;;;;;;;;
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;1020;19;apply;better_t_tree_ind;-1;;;;;;;;;;
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;1020;20;apply;better_t_tree_ind;-1;;;;;;;;;;
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;1020;21;apply;better_t_tree_ind;-1;;;;;;;;;;
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;1020;22;apply;better_t_tree_ind;-1;;;;;;;;;;
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;1020;23;apply;better_t_tree_ind;-1;;;;;;;;;;
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;1020;24;apply;better_t_tree_ind;-1;;;;;;;;;;
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;1020;25;apply;better_t_tree_ind;-1;;;;;;;;;;
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;1020;26;apply;better_t_tree_ind;-1;;;;;;;;;;
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;1022;42;rewrite;IHl;0;IHl;IHr;RelationClasses.complement_inverse;CRelationClasses.complement_inverse;pe_implies_or_eq;f_equal2;List.map_length;BinPos.Pos.iter_op_succ;ssrunder.Under_rel.Under_relE;map_rev
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;1022;43;rewrite;IHl;0;IHl;IHr;injective_projections;injection_ex3;in_not_nil;BinInt.Z.lor_eq_0_l;BinInt.Z.bits_inj_0;BinInt.Z.gcd_eq_0_r;BinInt.Z.gcd_eq_0_l;BinInt.Z.divide_0_l
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;1022;44;rewrite;IHl;0;IHl;IHr;List.app_inv_head;BinInt.Z.shiftr_0_l;BinInt.Z.shiftl_0_l;Vector.In_shiftin;VectorSpec.In_shiftin;Eqdep_dec.inj_right_pair;Eqdep_dec.inj_right_pair_on;
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;1022;45;rewrite;IHl;0;IHl;BinInt.Z.shiftr_0_l;BinInt.Z.shiftl_0_l;;;;;;;
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;1022;55;rewrite;IHr;1;IHl;IHr;RelationClasses.complement_inverse;CRelationClasses.complement_inverse;pe_implies_or_eq;f_equal2;List.map_length;BinPos.Pos.iter_op_succ;ssrunder.Under_rel.Under_relE;map_rev
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;1022;56;rewrite;IHr;1;IHl;IHr;injective_projections;injection_ex3;in_not_nil;BinInt.Z.lor_eq_0_l;BinInt.Z.bits_inj_0;BinInt.Z.gcd_eq_0_r;BinInt.Z.gcd_eq_0_l;BinInt.Z.divide_0_l
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;1022;57;rewrite;IHr;1;IHl;IHr;List.app_inv_head;BinInt.Z.shiftr_0_l;BinInt.Z.shiftl_0_l;Vector.In_shiftin;VectorSpec.In_shiftin;Eqdep_dec.inj_right_pair;Eqdep_dec.inj_right_pair_on;
+./IndPrinciples.v;StructuredTypeEvaluation;10;10;1022;58;rewrite;IHr;0;IHr;BinInt.Z.shiftr_0_l;Eqdep_dec.inj_right_pair;Eqdep_dec.inj_right_pair_on;;;;;;

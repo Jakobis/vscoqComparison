@@ -1,0 +1,82 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Line;Character;Keywords Before;Lemma;Index;Result 1;Result 2;Result 3;Result 4;Result 5;Result 6;Result 7;Result 8;Result 9;Result 10
+./Groups.v;StructuredTypeEvaluation;10;10;105;36;rewrite;(l_sym;-1;H;f_equal2;injective_projections;eq_stepl;eq_trans_r;eq_trans;eq_sym;eq_refl;not_eq_sym;proj1_sig_eq
+./Groups.v;StructuredTypeEvaluation;10;10;105;37;rewrite;(l_sym;-1;;;;;;;;;;
+./Groups.v;StructuredTypeEvaluation;10;10;105;38;rewrite;(l_sym;-1;;;;;;;;;;
+./Groups.v;StructuredTypeEvaluation;10;10;105;39;rewrite;(l_sym;-1;;;;;;;;;;
+./Groups.v;StructuredTypeEvaluation;10;10;105;40;rewrite;(l_sym;-1;;;;;;;;;;
+./Groups.v;StructuredTypeEvaluation;10;10;105;41;rewrite;(l_sym;-1;;;;;;;;;;
+./Groups.v;StructuredTypeEvaluation;10;10;105;42;rewrite;(l_sym;-1;;;;;;;;;;
+./Groups.v;StructuredTypeEvaluation;10;10;107;12;rewrite;H;0;H;eq_stepl;eq_trans_r;eq_trans;eq_sym;eq_refl;not_eq_sym;f_equal2;rew_const;proj1_sig_of_sig2_eq
+./Groups.v;StructuredTypeEvaluation;10;10;107;13;rewrite;H;0;H;Hexadecimal.internal_hexadecimal_dec_bl;Hexadecimal.internal_signed_int_dec_bl0;Hexadecimal.internal_hexadecimal_dec_lb;Hexadecimal.internal_signed_int_dec_lb0;Hexadecimal.hexadecimal_eq_dec;Hexadecimal.signed_int_eq_dec;Hexadecimal.uint_eq_dec;Hexadecimal.Little.succ_double;Hexadecimal.Little.double
+./Groups.v;StructuredTypeEvaluation;10;10;170;14;rewrite <-;eg';1;eg;eg';eq_stepl;eq_trans_r;eq_trans;eq_sym;eq_refl;not_eq_sym;f_equal2;rew_const
+./Groups.v;StructuredTypeEvaluation;10;10;170;15;rewrite <-;eg';2;e;eg;eg';eq_stepl;eq_trans_r;eq_trans;eq_sym;eq_refl;ex_proj1_eq;eq_sym_involutive
+./Groups.v;StructuredTypeEvaluation;10;10;170;16;rewrite <-;eg';1;eg;eg';eq_sig_hprop_iff;eq_sigT_hprop_iff;eq_sig_uncurried_iff;eq_sigT_uncurried_iff;eq_sig2_uncurried_iff;eq_sigT2_uncurried_iff;eq_sig2_nondep;eq_sig2_hprop
+./Groups.v;StructuredTypeEvaluation;10;10;170;17;rewrite <-;eg';0;eg';;;;;;;;;
+./Groups.v;StructuredTypeEvaluation;10;10;171;14;rewrite <-;(o_assoc;-1;eg;eg';f_equal2;injective_projections;eq_stepl;eq_trans_r;eq_trans;eq_sym;eq_refl;not_eq_sym
+./Groups.v;StructuredTypeEvaluation;10;10;171;15;rewrite <-;(o_assoc;-1;;;;;;;;;;
+./Groups.v;StructuredTypeEvaluation;10;10;171;16;rewrite <-;(o_assoc;-1;;;;;;;;;;
+./Groups.v;StructuredTypeEvaluation;10;10;171;17;rewrite <-;(o_assoc;-1;;;;;;;;;;
+./Groups.v;StructuredTypeEvaluation;10;10;171;18;rewrite <-;(o_assoc;-1;;;;;;;;;;
+./Groups.v;StructuredTypeEvaluation;10;10;171;19;rewrite <-;(o_assoc;-1;;;;;;;;;;
+./Groups.v;StructuredTypeEvaluation;10;10;171;20;rewrite <-;(o_assoc;-1;;;;;;;;;;
+./Groups.v;StructuredTypeEvaluation;10;10;171;21;rewrite <-;(o_assoc;-1;;;;;;;;;;
+./Groups.v;StructuredTypeEvaluation;10;10;171;22;rewrite <-;(o_assoc;-1;;;;;;;;;;
+./Groups.v;StructuredTypeEvaluation;10;10;172;11;rewrite;eg;1;eg';eg;f_equal2;injective_projections;proj1_sig_of_sig2_eq;projT1_of_sigT2_eq;ex_proj1_of_ex2_eq;eq_stepl;eq_trans_r;eq_trans
+./Groups.v;StructuredTypeEvaluation;10;10;172;12;rewrite;eg;2;e;eg';eg;ex_proj1_of_ex2_eq;eq_stepl;eq_trans_r;eq_trans;eq_sym;eq_refl;ex_proj1_eq
+./Groups.v;StructuredTypeEvaluation;10;10;172;13;rewrite;eg;0;eg;eg';eq_sig2_uncurried_iff;eq_sigT2_uncurried_iff;eq_sig_hprop_iff;eq_sigT_hprop_iff;eq_sig_uncurried_iff;eq_sigT_uncurried_iff;eq_sig2_hprop_iff;eq_sigT2_hprop_iff
+./Groups.v;StructuredTypeEvaluation;10;10;202;13;rewrite <-;eg';1;eg;eg';r_neutral;eq_stepl;eq_trans_r;eq_trans;eq_sym;eq_refl;not_eq_sym;f_equal2
+./Groups.v;StructuredTypeEvaluation;10;10;202;14;rewrite <-;eg';2;e;eg;eg';eq_stepl;eq_trans_r;eq_trans;eq_sym;eq_refl;ex_proj1_eq;eq_sym_involutive
+./Groups.v;StructuredTypeEvaluation;10;10;202;15;rewrite <-;eg';1;eg;eg';eq_sig_hprop_iff;eq_sigT_hprop_iff;eq_sig_uncurried_iff;eq_sigT_uncurried_iff;eq_sig2_uncurried_iff;eq_sigT2_uncurried_iff;eq_sig2_nondep;eq_sig2_hprop
+./Groups.v;StructuredTypeEvaluation;10;10;202;16;rewrite <-;eg';0;eg';;;;;;;;;
+./Groups.v;StructuredTypeEvaluation;10;10;203;10;rewrite;(o_assoc;-1;eg;eg';r_neutral;f_equal2;injective_projections;proj1_sig_of_sig2_eq;projT1_of_sigT2_eq;ex_proj1_of_ex2_eq;eq_stepl;eq_trans_r
+./Groups.v;StructuredTypeEvaluation;10;10;203;11;rewrite;(o_assoc;-1;;;;;;;;;;
+./Groups.v;StructuredTypeEvaluation;10;10;203;12;rewrite;(o_assoc;-1;;;;;;;;;;
+./Groups.v;StructuredTypeEvaluation;10;10;203;13;rewrite;(o_assoc;-1;;;;;;;;;;
+./Groups.v;StructuredTypeEvaluation;10;10;203;14;rewrite;(o_assoc;-1;;;;;;;;;;
+./Groups.v;StructuredTypeEvaluation;10;10;203;15;rewrite;(o_assoc;-1;;;;;;;;;;
+./Groups.v;StructuredTypeEvaluation;10;10;203;16;rewrite;(o_assoc;-1;;;;;;;;;;
+./Groups.v;StructuredTypeEvaluation;10;10;203;17;rewrite;(o_assoc;-1;;;;;;;;;;
+./Groups.v;StructuredTypeEvaluation;10;10;203;18;rewrite;(o_assoc;-1;;;;;;;;;;
+./Groups.v;StructuredTypeEvaluation;10;10;204;10;rewrite;eg;1;eg';eg;r_neutral;f_equal2;injective_projections;eq_stepl;eq_trans_r;eq_trans;eq_sym;eq_refl
+./Groups.v;StructuredTypeEvaluation;10;10;204;11;rewrite;eg;2;e;eg';eg;eq_stepl;eq_trans_r;eq_trans;eq_sym;eq_refl;ex_proj1_eq;ex_proj1_of_ex2_eq
+./Groups.v;StructuredTypeEvaluation;10;10;204;12;rewrite;eg;0;eg;eg';eq_sig_hprop_iff;eq_sigT_hprop_iff;eq_sig_uncurried_iff;eq_sigT_uncurried_iff;eq_sig2_uncurried_iff;eq_sigT2_uncurried_iff;eq_sig2_hprop_iff;eq_sigT2_hprop_iff
+./Groups.v;StructuredTypeEvaluation;10;10;223;10;rewrite;e_eq_e';3;r_neutral;e'_l_neutral;group_l_neutral;e_eq_e';Acc_inv;Acc_intro;ex2_of_sigT2;ex2_of_sig2;sigT2_of_sig2;sig2_of_sigT2
+./Groups.v;StructuredTypeEvaluation;10;10;223;11;rewrite;e_eq_e';2;e;e'_l_neutral;e_eq_e';ex2_of_sigT2;ex2_of_sig2;existT2;exist2;eq_stepl;eq_trans_r;eq_trans
+./Groups.v;StructuredTypeEvaluation;10;10;223;12;rewrite;e_eq_e';0;e_eq_e';e'_l_neutral;eq_stepl;eq_trans_r;eq_trans;eq_sym;eq_refl;ex_intro2;ex_proj3;eq_exist2_l
+./Groups.v;StructuredTypeEvaluation;10;10;223;13;rewrite;e_eq_e';0;e_eq_e';eq_exist2_l;eq_existT2_l;eq_ex_intro2_l;eq_ex2_rect_ex_intro2_l;eq_exist_r;eq_exist_l;eq_existT_r;eq_existT_l;eq_exist2_curried
+./Groups.v;StructuredTypeEvaluation;10;10;223;14;rewrite;e_eq_e';0;e_eq_e';ex_proj1_eq;;;;;;;;
+./Groups.v;StructuredTypeEvaluation;10;10;223;15;rewrite;e_eq_e';0;e_eq_e';;;;;;;;;
+./Groups.v;StructuredTypeEvaluation;10;10;223;16;rewrite;e_eq_e';0;e_eq_e';;;;;;;;;
+./Groups.v;StructuredTypeEvaluation;10;10;223;17;rewrite;e_eq_e';0;e_eq_e';;;;;;;;;
+./Groups.v;StructuredTypeEvaluation;10;10;277;13;rewrite <-;eg';1;eg;eg';r_neutral;e'_l_neutral;e_eq_e';l_neutral;eq_stepl;eq_trans_r;eq_trans;eq_sym
+./Groups.v;StructuredTypeEvaluation;10;10;277;14;rewrite <-;eg';2;e;eg;eg';e'_l_neutral;e_eq_e';eq_stepl;eq_trans_r;eq_trans;eq_sym;eq_refl
+./Groups.v;StructuredTypeEvaluation;10;10;277;15;rewrite <-;eg';1;eg;eg';eq_sig_hprop_iff;eq_sigT_hprop_iff;eq_sig_uncurried_iff;eq_sigT_uncurried_iff;eq_sig2_uncurried_iff;eq_sigT2_uncurried_iff;eq_sig2_nondep;eq_sig2_hprop
+./Groups.v;StructuredTypeEvaluation;10;10;277;16;rewrite <-;eg';0;eg';;;;;;;;;
+./Groups.v;StructuredTypeEvaluation;10;10;278;10;rewrite;(o_assoc;-1;eg;eg';r_neutral;e'_l_neutral;e_eq_e';l_neutral;eq_stepl;eq_trans_r;eq_trans;eq_sym
+./Groups.v;StructuredTypeEvaluation;10;10;278;11;rewrite;(o_assoc;-1;;;;;;;;;;
+./Groups.v;StructuredTypeEvaluation;10;10;278;12;rewrite;(o_assoc;-1;;;;;;;;;;
+./Groups.v;StructuredTypeEvaluation;10;10;278;13;rewrite;(o_assoc;-1;;;;;;;;;;
+./Groups.v;StructuredTypeEvaluation;10;10;278;14;rewrite;(o_assoc;-1;;;;;;;;;;
+./Groups.v;StructuredTypeEvaluation;10;10;278;15;rewrite;(o_assoc;-1;;;;;;;;;;
+./Groups.v;StructuredTypeEvaluation;10;10;278;16;rewrite;(o_assoc;-1;;;;;;;;;;
+./Groups.v;StructuredTypeEvaluation;10;10;278;17;rewrite;(o_assoc;-1;;;;;;;;;;
+./Groups.v;StructuredTypeEvaluation;10;10;278;18;rewrite;(o_assoc;-1;;;;;;;;;;
+./Groups.v;StructuredTypeEvaluation;10;10;279;10;rewrite;eg;1;eg';eg;r_neutral;e'_l_neutral;e_eq_e';l_neutral;eq_stepl;eq_trans_r;eq_trans;eq_sym
+./Groups.v;StructuredTypeEvaluation;10;10;279;11;rewrite;eg;2;e;eg';eg;e'_l_neutral;e_eq_e';eq_stepl;eq_trans_r;eq_trans;eq_sym;eq_refl
+./Groups.v;StructuredTypeEvaluation;10;10;279;12;rewrite;eg;0;eg;eg';eq_sig_hprop_iff;eq_sigT_hprop_iff;eq_sig_uncurried_iff;eq_sigT_uncurried_iff;eq_sig2_uncurried_iff;eq_sigT2_uncurried_iff;eq_sig2_nondep;eq_sig2_hprop
+./Groups.v;StructuredTypeEvaluation;10;10;288;10;rewrite;s_eq_s';4;r_neutral;l_neutral;e'_l_neutral;e_eq_e';s_eq_s';eq_stepl;eq_trans_r;eq_trans;eq_sym;eq_refl
+./Groups.v;StructuredTypeEvaluation;10;10;288;11;rewrite;s_eq_s';1;s;s_eq_s';solve_equation;sig_of_sig2_eq;sigT_of_sigT2_eq;ssx;surjective_pairing;sigT_prod_sigT;sig_eta;sigT_eta
+./Groups.v;StructuredTypeEvaluation;10;10;288;12;rewrite;s_eq_s';0;s_eq_s';sig_of_sig2_eq;sig_eta;sigT_of_sigT2_eq;sigT_prod_sigT;sigT_eta;sig2_eta;sig2_of_sigT2;sig2_sind;sig2_rec
+./Groups.v;StructuredTypeEvaluation;10;10;288;13;rewrite;s_eq_s';0;s_eq_s';sig_eta;sigT_eta;sig2_eta;solve_equation;sigT2_eta;sig_of_sig2_eq;sigT_of_sigT2_eq;proj1_sig_eq;proj2_sig_eq
+./Groups.v;StructuredTypeEvaluation;10;10;288;14;rewrite;s_eq_s';0;s_eq_s';solve_equation;sig_of_sig2_eq;sigT_of_sigT2_eq;proj1_sig_eq;proj2_sig_eq;proj3_sig_eq;projT1_of_sigT2_eq;projT2_of_sigT2_eq;proj1_sig_of_sig2_eq
+./Groups.v;StructuredTypeEvaluation;10;10;288;15;rewrite;s_eq_s';0;s_eq_s';Number.signed_int_eq_dec;Decimal.signed_int_eq_dec;Hexadecimal.signed_int_eq_dec;;;;;;
+./Groups.v;StructuredTypeEvaluation;10;10;288;16;rewrite;s_eq_s';0;s_eq_s';;;;;;;;;
+./Groups.v;StructuredTypeEvaluation;10;10;288;17;rewrite;s_eq_s';0;s_eq_s';;;;;;;;;
+./Groups.v;StructuredTypeEvaluation;10;10;302;8;apply;mkgroup;0;mkgroup;group_assoc;solve_equation;group_l_neutral;group_r_neutral;ssx;Ea;E'a;lsym;rsym
+./Groups.v;StructuredTypeEvaluation;10;10;302;9;apply;mkgroup;0;mkgroup;Nat.modulo;Nat.min;Nat.max;Nat.mul;option_map;Nat.tail_mul;;;
+./Groups.v;StructuredTypeEvaluation;10;10;302;10;apply;mkgroup;0;mkgroup;;;;;;;;;
+./Groups.v;StructuredTypeEvaluation;10;10;302;11;apply;mkgroup;0;mkgroup;;;;;;;;;
+./Groups.v;StructuredTypeEvaluation;10;10;302;12;apply;mkgroup;0;mkgroup;;;;;;;;;
+./Groups.v;StructuredTypeEvaluation;10;10;302;13;apply;mkgroup;0;mkgroup;;;;;;;;;
+./Groups.v;StructuredTypeEvaluation;10;10;302;14;apply;mkgroup;0;mkgroup;;;;;;;;;
+./Groups.v;StructuredTypeEvaluation;10;10;302;15;apply;mkgroup;0;mkgroup;;;;;;;;;

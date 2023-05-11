@@ -1,0 +1,841 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Line;Character;Keywords Before;Lemma;Index;Result 1;Result 2;Result 3;Result 4;Result 5;Result 6;Result 7;Result 8;Result 9;Result 10
+./DepMapFactsImplementation.v;Shuffle;;;32;32;rewrite;Heq;-1;BinNat.N.div2_double;Byte.x37;POrderedType.Positive_as_OT.min_le_compat_r;OrdersEx.N_as_OT.max_lub_lt_iff;BinInt.Z.sqrt_up_lt_cancel;POrderedType.Positive_as_OT.compare_refl;PeanoNat.Nat.Private_Tac.le_antisym;OrdersEx.Positive_as_OT.pred_sub;OrdersEx.Z_as_OT.mul_divide_mono_r;Ndigits.Nshiftl_nat_spec_low
+./DepMapFactsImplementation.v;Shuffle;;;32;33;rewrite;Heq;-1;Hexadecimal.Df;eq_sigT2_hprop;BinPosDef.Pos.of_hex_uint;Znumtheory.extgcd_rec_helper;OrdersEx.Nat_as_OT.to_hex_uint;PeanoNat.Nat.mul_pow2_bits_high;OrdersEx.Nat_as_DT.shiftl_spec_high;POrderedType.Positive_as_OT.of_hex_int;;
+./DepMapFactsImplementation.v;Shuffle;;;32;34;rewrite;Heq;-1;Hexadecimal.Df;BinPosDef.Pos.of_hex_uint;Znumtheory.extgcd_rec_helper;OrdersEx.Nat_as_OT.to_hex_uint;POrderedType.Positive_as_OT.of_hex_int;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;32;35;rewrite;Heq;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;36;38;rewrite;Heq₁;-1;OrdersEx.N_as_DT.lt_gt;OrdersEx.Z_as_OT.sqrt_up_add_le;OrdersEx.Positive_as_DT.sub_mask_nul_iff;OrdersEx.Nat_as_OT.pow_le_mono_l_iff;Nnat.Nat2N.inj_mod;OrdersEx.Positive_as_OT.sub_le;Zdiv.Zmod_1_l;OrdersEx.Nat_as_DT.eq_stepl;OrdersEx.Nat_as_DT.add_b2n_double_div2;POrderedType.Positive_as_OT.of_hex_int
+./DepMapFactsImplementation.v;Shuffle;;;36;39;rewrite;Heq₁;-1;HdRel_inv;Hexadecimal.revapp;OrdersEx.Nat_as_OT.of_hex_uint_acc;BinInt.Z.mod_pow2_bits_high;OrdersEx.Nat_as_OT.to_little_hex_uint;POrderedType.Positive_as_OT.of_hex_int;POrderedType.Positive_as_DT.to_hex_uint;OrderedTypeEx.Ascii_as_OT.compare_helper_eq;POrderedType.Positive_as_OT.to_num_hex_int;
+./DepMapFactsImplementation.v;Shuffle;;;36;40;rewrite;Heq₁;-1;Hexadecimal.revapp;HdRel_inv;OrdersEx.Nat_as_OT.of_hex_uint_acc;OrdersEx.Nat_as_OT.to_little_hex_uint;POrderedType.Positive_as_OT.of_hex_int;POrderedType.Positive_as_DT.to_hex_uint;OrderedTypeEx.Ascii_as_OT.compare_helper_eq;POrderedType.Positive_as_OT.to_num_hex_int;;
+./DepMapFactsImplementation.v;Shuffle;;;36;41;rewrite;Heq₁;-1;OrderedTypeEx.Ascii_as_OT.compare_helper_eq;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;36;42;rewrite;Heq₁;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;41;29;rewrite;Heq;-1;BoolOrder.le_refl;BinInt.Z.to_N;Choice2;OrdersEx.N_as_OT.succ_double_inj;OrdersEx.N_as_OT.testbit_unique;BinInt.Z.testbit_0_r;Ring_polynom.mkmult_c;POrderedType.Positive_as_OT.PeanoView_iter;OrdersEx.Nat_as_DT.succ;BinPos.Pos.sub_decr
+./DepMapFactsImplementation.v;Shuffle;;;41;30;rewrite;Heq;-1;Hexadecimal.nzhead;Hexadecimal.del_head;Hexadecimal.D4;Hexadecimal.D0;Number.Hexadecimal;Tauto.hold;OrdersEx.N_as_DT.to_hex_int;OrdersEx.N_as_DT.to_hex_uint;OrdersEx.Nat_as_OT.of_hex_int;BinNat.N.mod_pow2_bits_high
+./DepMapFactsImplementation.v;Shuffle;;;41;31;rewrite;Heq;-1;Hexadecimal.nzhead;Hexadecimal.del_head;Hexadecimal.D4;Hexadecimal.D0;Number.Hexadecimal;OrdersEx.N_as_DT.to_hex_int;OrdersEx.N_as_DT.to_hex_uint;OrdersEx.Nat_as_OT.of_hex_int;OrdersEx.Nat_as_OT.to_num_hex_uint;
+./DepMapFactsImplementation.v;Shuffle;;;41;32;rewrite;Heq;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;42;37;rewrite;Heq₁;-1;Wf_nat.lt_wf_rec;OrdersEx.Nat_as_DT.sqrt_lt_cancel;PeanoNat.Nat.Private_OrderTac.Tac.neq_sym;OrdersEx.N_as_OT.sqrt_sqrt_up_spec;OrdersEx.N_as_OT.div_0_r;Hexadecimal.nb_digits;BinNat.N.max_lub;Tauto.ror_cnf;OrdersEx.Z_as_DT.abs_nonneg;ZifyInst.Op_ge
+./DepMapFactsImplementation.v;Shuffle;;;42;38;rewrite;Heq₁;-1;Hexadecimal.nb_digits;Hexadecimal.hexadecimal_eq_dec;Hexadecimal.norm;OrdersEx.N_as_OT.to_hex_int;OrdersEx.Positive_as_OT.to_hex_int;OrdersEx.Positive_as_DT.to_num_hex_int;;;;
+./DepMapFactsImplementation.v;Shuffle;;;42;39;rewrite;Heq₁;-1;Hexadecimal.nb_digits;Hexadecimal.hexadecimal_eq_dec;Hexadecimal.norm;OrdersEx.N_as_OT.to_hex_int;OrdersEx.Positive_as_OT.to_hex_int;OrdersEx.Positive_as_DT.to_num_hex_int;;;;
+./DepMapFactsImplementation.v;Shuffle;;;42;40;rewrite;Heq₁;-1;Hexadecimal.hexadecimal_eq_dec;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;42;41;rewrite;Heq₁;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;58;43;apply;Hle₂;-1;Ndec.Nleb_antisym;PeanoNat.Nat.iter_succ_r;BinNat.N.succ_wd;PeanoNat.Nat.log2_iter_spec;BinNat.N.log2_pos;BinInt.Z.mod_small;OrdersEx.N_as_OT.Private_Tac.le_lt_trans;OrdersEx.N_as_DT.Private_NDivProp.div_same;PeanoNat.Nat.square_le_simpl_nonneg;Field_theory.rdiv4
+./DepMapFactsImplementation.v;Shuffle;;;58;44;apply;Hle₂;-1;Hexadecimal.D5;Hexadecimal.internal_signed_int_dec_lb0;Wf_nat.has_unique_least_element;BinPosDef.Pos.to_hex_int;OrdersEx.N_as_OT.to_hex_int;QArith_base.IQmake_to_hexadecimal;OrdersEx.Nat_as_OT.to_little_hex_uint;;;
+./DepMapFactsImplementation.v;Shuffle;;;58;45;apply;Hle₂;-1;Hexadecimal.D5;Wf_nat.has_unique_least_element;Hexadecimal.internal_signed_int_dec_lb0;QArith_base.IQmake_to_hexadecimal;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;58;46;apply;Hle₂;-1;Hexadecimal.D5;Wf_nat.has_unique_least_element;Hexadecimal.internal_signed_int_dec_lb0;QArith_base.IQmake_to_hexadecimal;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;58;47;apply;Hle₂;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;65;20;rewrite <-;Heq;-1;OrdersEx.Nat_as_DT.sqrt_up_succ_le;BinInt.Z.mul_shuffle0;OrdersEx.Positive_as_DT.sub_xI_xI;OrdersEx.Z_as_DT.div_add_l;OrdersEx.N_as_OT.shiftl_1_l;OrdersEx.Z_as_DT.pow_succ_r;EqdepFacts.eq_dep;Ring_polynom.mkopp_pow;EnvRing.PNSubst1_ok;POrderedType.Positive_as_DT.sub_lt_mono_l
+./DepMapFactsImplementation.v;Shuffle;;;65;21;rewrite <-;Heq;-1;Hexadecimal.uint_sind;Hexadecimal.Db;hd_error;hd_error_some_nil;BinNat.N.to_hex_uint;OrdersEx.Nat_as_DT.to_hex_uint;POrderedType.Positive_as_OT.to_hex_int;;;
+./DepMapFactsImplementation.v;Shuffle;;;65;22;rewrite <-;Heq;-1;Hexadecimal.uint_sind;Hexadecimal.Db;hd_error;hd_error_some_nil;BinNat.N.to_hex_uint;OrdersEx.Nat_as_DT.to_hex_uint;POrderedType.Positive_as_OT.to_hex_int;;;
+./DepMapFactsImplementation.v;Shuffle;;;65;23;rewrite <-;Heq;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;66;17;rewrite;Heq;-1;Dom.equal;PeanoNat.Nat.mul_nonneg_cancel_l;OrdersEx.Nat_as_OT.tail_addmul;BinInt.Z2Pos.inj_succ;OrdersEx.Nat_as_OT.testbit_even_succ';PeanoNat.Nat.pow_0_r;BinNat.N.Private_NZPow.pow_le_mono_l;OrdersEx.N_as_DT.land_wd;RingMicromega.rle_morph_Proper;OrdersEx.N_as_DT.sqrt_up_spec
+./DepMapFactsImplementation.v;Shuffle;;;66;18;rewrite;Heq;-1;Hexadecimal.uint_eq_dec;OrdersEx.Nat_as_DT.ones_spec_high;OrdersEx.N_as_DT.shiftl_spec_high';OrdersEx.N_as_OT.mul_pow2_bits_high;POrderedType.Positive_as_DT.of_hex_uint_acc;OrdersEx.Nat_as_DT.shiftl_specif_high;OrdersEx.Nat_as_DT.mod_pow2_bits_high;;;
+./DepMapFactsImplementation.v;Shuffle;;;66;19;rewrite;Heq;-1;Hexadecimal.uint_eq_dec;POrderedType.Positive_as_DT.of_hex_uint_acc;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;66;20;rewrite;Heq;-1;Hexadecimal.uint_eq_dec;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;68;11;apply;Heq;-1;OrdersEx.Positive_as_OT.mul_sub_distr_l;OrdersEx.Z_as_DT.shiftl_1_l;OrdersEx.Nat_as_DT.Private_NZSqrt.sqrt_0;OrdersEx.N_as_DT.testbit_succ_r;PeanoNat.Nat.Private_OrderTac.Tac.interp_ord;OrdersEx.Z_as_OT.Private_NZDiv.mul_succ_div_gt;OrdersEx.Z_as_DT.Private_OrderTac.IsTotal.lt_compat;OrdersEx.Positive_as_OT.min_case;BinNatDef.N.succ_pos;OrdersEx.Z_as_OT.land
+./DepMapFactsImplementation.v;Shuffle;;;68;12;apply;Heq;-1;Hexadecimal.internal_signed_int_dec_lb0;Tauto.hold_eEQ;respectful_hetero;OrdersEx.Positive_as_DT.of_hex_uint_acc;OrdersEx.Nat_as_OT.ones_spec_high;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;68;13;apply;Heq;-1;Hexadecimal.internal_signed_int_dec_lb0;Tauto.hold_eEQ;respectful_hetero;OrdersEx.Positive_as_DT.of_hex_uint_acc;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;68;14;apply;Heq;-1;Tauto.hold_eEQ;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;68;32;rewrite;Hin₁;-1;BinInt.Z.add_move_r;BinNat.N.sqrt_up_pos;POrderedType.Positive_as_OT.sub_mask_carry;BinNatDef.N.size;BinInt.Z.lor_land_distr_l;BinInt.Z.shiftr_shiftl_r;BinNat.N.Private_NZPow.pow_pos_nonneg;Number.signed_int;OrdersEx.Z_as_DT.le_sub_nonneg;OrdersEx.N_as_DT.add_shuffle3
+./DepMapFactsImplementation.v;Shuffle;;;68;33;rewrite;Hin₁;-1;eq_sigT_hprop_iff;OrdersEx.N_as_DT.to_hex_int;BinNat.N.mul_pow2_bits_high;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;68;34;rewrite;Hin₁;-1;eq_sigT_hprop_iff;BinNat.N.mul_pow2_bits_high;OrdersEx.N_as_DT.to_hex_int;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;68;35;rewrite;Hin₁;-1;OrdersEx.N_as_DT.to_hex_int;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;68;36;rewrite;Hin₁;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;69;11;apply;Heq;-1;Forall_Exists_neg;OrdersEx.N_as_DT.lcm_eq_0;BinInt.Z.peano_ind;POrderedType.Positive_as_DT.Private_Dec.max_case;OrdersEx.Positive_as_OT.mask;OrdersEx.N_as_OT.mul_pow2_bits_low;OrdersEx.Z_as_DT.max_unicity_ext;OrdersEx.N_as_OT.b2n_bit0;BinNat.N.iter;OrdersEx.Nat_as_DT.b2n_inj
+./DepMapFactsImplementation.v;Shuffle;;;69;12;apply;Heq;-1;Hexadecimal.Da;Hexadecimal.del_tail_int;app_inv_head;Exists_cons_hd;PeanoNat.Nat.of_hex_uint;OrdersEx.N_as_OT.lnot_spec_high;POrderedType.Positive_as_OT.to_little_hex_uint;;;
+./DepMapFactsImplementation.v;Shuffle;;;69;13;apply;Heq;-1;Hexadecimal.Da;Hexadecimal.del_tail_int;app_inv_head;PeanoNat.Nat.of_hex_uint;POrderedType.Positive_as_OT.to_little_hex_uint;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;69;14;apply;Heq;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;69;32;rewrite;Hin₁;-1;PeanoNat.Nat.Private_OrderTac.IsTotal.lt_compat;OrdersEx.Nat_as_OT.Private_Tac.not_gt_le;OrdersEx.Positive_as_OT.Private_Tac.lt_eq;BinInt.Z.right_induction';OrdersEx.Z_as_DT.pos_sub_lt;OrdersEx.Nat_as_OT.Private_NZGcdProp.divide_1_l;OrderedTypeEx.Ascii_as_OT.cmp_lt_nat;Vector.append_splitat;BinInt.Z.lor_neg;POrderedType.Positive_as_DT.SubMaskSpec
+./DepMapFactsImplementation.v;Shuffle;;;69;33;rewrite;Hin₁;-1;Hexadecimal.HexadecimalExp;Hexadecimal.opp;HdRel_nil;Lt_hd;Tauto.hold_eiff;Decimal.del_head;BinInt.Z.mod_pow2_bits_high;OrdersEx.Nat_as_DT.to_little_hex_uint;POrderedType.Positive_as_DT.to_little_hex_uint;
+./DepMapFactsImplementation.v;Shuffle;;;69;34;rewrite;Hin₁;-1;Hexadecimal.HexadecimalExp;Hexadecimal.opp;HdRel_nil;Tauto.hold_eiff;BinInt.Z.mod_pow2_bits_high;OrdersEx.Nat_as_DT.to_little_hex_uint;POrderedType.Positive_as_DT.to_little_hex_uint;;;
+./DepMapFactsImplementation.v;Shuffle;;;69;35;rewrite;Hin₁;-1;HdRel_nil;OrdersEx.Nat_as_DT.to_little_hex_uint;POrderedType.Positive_as_DT.to_little_hex_uint;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;69;36;rewrite;Hin₁;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;70;11;apply;Heq;-1;OrdersEx.Z_as_DT.sub_le_lt_mono;POrderedType.Positive_as_OT.compare_sub_mask;OrdersEx.Positive_as_DT.t;OrdersEx.N_as_DT.div_mod;OrdersEx.Positive_as_OT.Private_Tac.eq_le;OrdersEx.Positive_as_OT.add_cancel_l;OrdersEx.N_as_DT.add_neg_cases;OrdersEx.Nat_as_OT.log2_double;Vector.nth_append_L;OrdersEx.N_as_OT.lt_lt_0
+./DepMapFactsImplementation.v;Shuffle;;;70;12;apply;Heq;-1;Hexadecimal.uint_eq_dec;Number.UIntHexadecimal;BinPos.Pos.to_hex_uint;BinInt.Z.ones_spec_high;OrdersEx.N_as_DT.to_hex_int;BinPosDef.Pos.to_num_hex_int;OrdersEx.Nat_as_DT.to_little_hex_uint;;;
+./DepMapFactsImplementation.v;Shuffle;;;70;13;apply;Heq;-1;Hexadecimal.uint_eq_dec;Number.UIntHexadecimal;BinPos.Pos.to_hex_uint;OrdersEx.N_as_DT.to_hex_int;BinPosDef.Pos.to_num_hex_int;OrdersEx.Nat_as_DT.to_little_hex_uint;;;;
+./DepMapFactsImplementation.v;Shuffle;;;70;14;apply;Heq;-1;Hexadecimal.uint_eq_dec;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;70;32;rewrite;Hin₂;-1;BinNat.N.Private_NDivProp.Private_NZDiv.div_unique;PeanoNat.Nat.Private_NDivProp.Private_NZDiv.div_mul;OrdersEx.Positive_as_OT.succ_min_distr;relation_conjunction;BinInt.Z.Odd_succ_succ;in_combine_r;PeanoNat.Nat.Private_Tac.eq_refl;BinInt.Z.quot_div_exact;eq_existT2_uncurried;BinPosDef.Pos.mask_sind
+./DepMapFactsImplementation.v;Shuffle;;;70;33;rewrite;Hin₂;-1;Hexadecimal.D6;Hexadecimal.internal_signed_int_dec_bl0;Hexadecimal.uint_eq_dec;Hexadecimal.norm;Hexadecimal.nb_digits;Nat.to_num_hex_uint;BinNatDef.N.of_hex_int;OrdersEx.Nat_as_DT.of_hex_uint;OrdersEx.Nat_as_OT.shiftl_spec_high;OrdersEx.Nat_as_DT.shiftl_spec_high'
+./DepMapFactsImplementation.v;Shuffle;;;70;34;rewrite;Hin₂;-1;Hexadecimal.internal_signed_int_dec_bl0;Hexadecimal.D6;Hexadecimal.uint_eq_dec;Hexadecimal.norm;Hexadecimal.nb_digits;BinNatDef.N.of_hex_int;Nat.to_num_hex_uint;OrdersEx.Nat_as_OT.shiftl_spec_high;OrdersEx.Nat_as_DT.shiftl_spec_high';OrdersEx.Nat_as_OT.shiftl_spec_high'
+./DepMapFactsImplementation.v;Shuffle;;;70;35;rewrite;Hin₂;-1;Hexadecimal.internal_signed_int_dec_bl0;Hexadecimal.norm;Hexadecimal.nb_digits;Hexadecimal.uint_eq_dec;BinNatDef.N.of_hex_int;Nat.to_num_hex_uint;OrdersEx.Nat_as_DT.of_hex_uint;;;
+./DepMapFactsImplementation.v;Shuffle;;;70;36;rewrite;Hin₂;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;79;11;rewrite;mem_spec;-1;PeanoNat.Nat.order_induction;OrdersEx.N_as_OT.le_succ_diag_r;OrdersEx.Z_as_DT.Private_BootStrap.mul_add_distr_r;OrdersEx.Z_as_DT.le_le_pred;OrdersEx.N_as_OT.mul_eq_0_r;PeanoNat.Nat.zero_one;BinNat.N.le_equiv;OrdersEx.Nat_as_OT.Div0.div_mod;OrdersEx.Nat_as_DT.eqb_neq;or
+./DepMapFactsImplementation.v;Shuffle;;;79;12;rewrite;mem_spec;-1;map_last;MSetPositive.PositiveSet.elt;MSetPositive.PositiveSet.singleton_spec;MSetPositive.PositiveSet.max_elt;RingMicromega.Op1_sind;RingMicromega.PsatzSquare;option_map;BinNat.N.mod_small;BinInt.Z.max_dec;BinInt.Z.mul_neg_neg
+./DepMapFactsImplementation.v;Shuffle;;;79;13;rewrite;mem_spec;-1;MSetPositive.PositiveSet.singleton_spec;ZMicromega.makeCuttingPlane;RingMicromega.Op1_sind;RingMicromega.PsatzSquare;BinInt.Z.max_dec;BinInt.Z.mul_neg_neg;BinNat.N.mul_le_mono_nonpos_l;BinInt.Z.min_le_compat_l;OrdersEx.N_as_OT.mul_eq_0_r;OrdersEx.Z_as_DT.mul_eq_1
+./DepMapFactsImplementation.v;Shuffle;;;79;14;rewrite;mem_spec;-1;RingMicromega.Op1_sind;RingMicromega.PsatzSquare;BinNat.N.mul_le_mono_nonpos_l;BinPos.Pos.mul_le_mono;MSetPositive.PositiveSet.max_elt;BinPos.Pos.mul_compare_mono_l;BinPos.Pos.mul_compare_mono_r;BinInt.Z.min_le_compat_l;OrdersEx.Nat_as_OT.mul_le_mono_neg_l;OrdersEx.Z_as_OT.mod_same
+./DepMapFactsImplementation.v;Shuffle;;;79;15;rewrite;mem_spec;-1;BinNat.N.mul_le_mono_nonpos_l;BinPos.Pos.mul_le_mono;BinPos.Pos.mul_compare_mono_l;BinPos.Pos.mul_compare_mono_r;RingMicromega.Op1_sind;OrdersEx.Nat_as_OT.mul_le_mono_neg_l;BinInt.Z.min_le_compat_l;MSetPositive.PositiveSet.max_elt;OrdersEx.Positive_as_DT.mul_le_mono;OrdersEx.N_as_DT.max_le_compat_l
+./DepMapFactsImplementation.v;Shuffle;;;79;16;rewrite;mem_spec;-1;RingMicromega.Op1_sind;BinNat.N.mul_le_mono_nonpos_l;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;79;17;rewrite;mem_spec;-1;BinNat.N.mul_le_mono_nonpos_l;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;79;18;rewrite;mem_spec;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;79;19;rewrite;mem_spec;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;79;71;rewrite;Heq;-1;OrdersEx.Z_as_OT.Private_Dec.max_case_strong;CRelationClasses.reflexivity;OrdersEx.Z_as_OT.order_induction_0;OrdersEx.Nat_as_OT.pow2_bits_eqb;Ring_polynom.mkmult_c_ok;OrdersEx.Z_as_DT.sqrt_up_mul_below;VectorSpec.map_ext;Ndigits.Bv2N_Nsize_1;PeanoNat.Nat.add_nocarry_lt_pow2;OrdersEx.N_as_DT.add_0_l
+./DepMapFactsImplementation.v;Shuffle;;;79;72;rewrite;Heq;-1;Hexadecimal.hexadecimal_eq_dec;Hexadecimal.internal_signed_int_dec_bl0;Hexadecimal.hexadecimal_beq;Lt_hd;BinNat.N.ones_spec_high;OrdersEx.Nat_as_DT.of_hex_int;OrdersEx.Nat_as_OT.to_hex_uint;OrdersEx.Nat_as_DT.shiftl_spec_high';;
+./DepMapFactsImplementation.v;Shuffle;;;79;73;rewrite;Heq;-1;Hexadecimal.hexadecimal_eq_dec;Hexadecimal.internal_signed_int_dec_bl0;Hexadecimal.hexadecimal_beq;OrdersEx.Nat_as_DT.of_hex_int;OrdersEx.Nat_as_OT.to_hex_uint;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;79;74;rewrite;Heq;-1;Hexadecimal.hexadecimal_eq_dec;Hexadecimal.hexadecimal_beq;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;79;88;rewrite;(find_elt_compat;-1;OrdersEx.N_as_OT.Lcm0.lcm_equiv1;OrdersEx.N_as_OT.sqrt_sqrt_up_exact;OrdersEx.Z_as_DT.nlt_succ_diag_l;OrdersEx.N_as_DT.sqrt_up_1;OrdersEx.Z_as_OT.max_comm;BinNat.N.lt_wf;DecidableTypeEx.Positive_as_DT.eq;OrdersEx.N_as_DT.recursion_wd;OrdersEx.N_as_OT.Private_NZGcdProp.mul_divide_mono_r;BinInt.Z.succ_double
+./DepMapFactsImplementation.v;Shuffle;;;79;89;rewrite;(find_elt_compat;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;79;90;rewrite;(find_elt_compat;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;79;91;rewrite;(find_elt_compat;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;79;92;rewrite;(find_elt_compat;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;79;93;rewrite;(find_elt_compat;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;79;94;rewrite;(find_elt_compat;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;79;95;rewrite;(find_elt_compat;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;79;96;rewrite;(find_elt_compat;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;79;97;rewrite;(find_elt_compat;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;79;98;rewrite;(find_elt_compat;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;79;99;rewrite;(find_elt_compat;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;79;100;rewrite;(find_elt_compat;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;79;101;rewrite;(find_elt_compat;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;79;102;rewrite;(find_elt_compat;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;79;103;rewrite;(find_elt_compat;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;79;104;rewrite;(find_elt_compat;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;80;51;rewrite;mem_spec;-1;VectorSpec.map_shiftin;BinInt.Z.mul_max_distr_nonneg_l;Znat.positive_N_nat;POrderedType.Positive_as_OT.to_little_uint;S.Dom.subset;split_length_l;BinInt.Z.lt_succ_l;OrdersEx.N_as_DT.zero_or_succ;BinInt.Z.log2_pow2;Vector.to_list_rev_append_tail
+./DepMapFactsImplementation.v;Shuffle;;;80;52;rewrite;mem_spec;-1;m₁;map_ext;Mult.mult_is_one_stt;MSetPositive.PositiveSet.min_elt_spec1;MSetPositive.PositiveSet.ct_compare;MSetPositive.PositiveSet.elt;MSetPositive.PositiveSet.min_elt_spec2;RingMicromega.cltb_sound;RingMicromega.padd;S.Dom.max_elt_spec2
+./DepMapFactsImplementation.v;Shuffle;;;80;53;rewrite;mem_spec;-1;map_ext;MSetPositive.PositiveSet.ct_compare;S.Dom.max_elt_spec2;ZMicromega.max_var_nformulae_mono_aux';RingMicromega.cltb_sound;RingMicromega.padd;Mult.mult_is_one_stt;BinInt.Z.max_le_compat_l;BinInt.Z.min_le_compat_r;BinPos.Pos.mul_le_mono
+./DepMapFactsImplementation.v;Shuffle;;;80;54;rewrite;mem_spec;-1;ZMicromega.max_var_nformulae_mono_aux';RingMicromega.cltb_sound;RingMicromega.padd;Mult.mult_is_one_stt;BinPos.Pos.mul_le_mono;PeanoNat.Nat.mul_le_mono_pos_l;MSetPositive.PositiveSet.min_elt_spec1;MSetPositive.PositiveSet.min_elt_spec2;OrdersEx.N_as_DT.mul_le_mono_nonpos_r;OrdersEx.N_as_OT.mul_le_mono_nonneg
+./DepMapFactsImplementation.v;Shuffle;;;80;55;rewrite;mem_spec;-1;Mult.mult_is_one_stt;BinPos.Pos.mul_le_mono;PeanoNat.Nat.mul_le_mono_pos_l;ZMicromega.max_var_nformulae_mono_aux';OrdersEx.N_as_DT.mul_le_mono_nonpos_r;OrdersEx.N_as_OT.mul_le_mono_nonneg;RingMicromega.cltb_sound;BinInt.Z.max_le_compat_l;BinInt.Z.min_le_compat_r;OrdersEx.Z_as_OT.mul_divide_mono_l
+./DepMapFactsImplementation.v;Shuffle;;;80;56;rewrite;mem_spec;-1;Mult.mult_is_one_stt;RingMicromega.cltb_sound;MSetPositive.PositiveSet.min_elt_spec1;MSetPositive.PositiveSet.min_elt_spec2;PeanoNat.Nat.mul_le_mono_pos_l;OrdersEx.N_as_DT.mul_le_mono_nonpos_r;;;;
+./DepMapFactsImplementation.v;Shuffle;;;80;57;rewrite;mem_spec;-1;MSetPositive.PositiveSet.min_elt_spec1;MSetPositive.PositiveSet.min_elt_spec2;PeanoNat.Nat.mul_le_mono_pos_l;OrdersEx.N_as_DT.mul_le_mono_nonpos_r;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;80;58;rewrite;mem_spec;-1;MSetPositive.PositiveSet.min_elt_spec1;MSetPositive.PositiveSet.min_elt_spec2;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;80;59;rewrite;mem_spec;-1;MSetPositive.PositiveSet.min_elt_spec1;MSetPositive.PositiveSet.min_elt_spec2;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;81;11;rewrite;Heq;-1;OrdersEx.N_as_DT.Private_NZGcdProp.mul_divide_cancel_r;OrdersEx.Nat_as_OT.Private_NDivProp.Private_NZDiv.div_1_r;OrdersEx.Z_as_OT.le_lteq;Forall2_cons;OrdersEx.N_as_OT.pred_sub;Ring_theory.mksign_th;ZArith_dec.Z_gt_le_dec;xorb_move_r_l_2;OrdersEx.Z_as_DT.Private_NZDiv.div_div;OrdersEx.Z_as_OT.le_sub_le_add_r
+./DepMapFactsImplementation.v;Shuffle;;;81;12;rewrite;Heq;-1;HdRel_inv;Hexadecimal.Little.succ;Hexadecimal.Neg;Nat.of_hex_int;OrdersEx.Nat_as_OT.to_hex_int;POrderedType.Positive_as_OT.of_hex_int;;;;
+./DepMapFactsImplementation.v;Shuffle;;;81;13;rewrite;Heq;-1;Hexadecimal.Little.succ;Hexadecimal.Neg;HdRel_inv;Nat.of_hex_int;OrdersEx.Nat_as_OT.to_hex_int;POrderedType.Positive_as_OT.of_hex_int;;;;
+./DepMapFactsImplementation.v;Shuffle;;;81;14;rewrite;Heq;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;82;14;rewrite <-;mem_spec;-1;OrdersEx.Z_as_DT.bit0_eqb;Plus.n_SSSn_stt;ZArith_dec.Z_dec;VectorSpec.Forall_map;OrdersEx.Z_as_OT.le_sub_le_add_r;PeanoNat.Nat.recursion_0;PeanoNat.Nat.lxor_assoc;POrderedType.Positive_as_DT.to_uint;le_S_n;BinPos.Pos.add_lt_mono
+./DepMapFactsImplementation.v;Shuffle;;;82;15;rewrite <-;mem_spec;-1;map_eq_nil;map_eq_app;Morphisms_Prop.or_iff_morphism;Morphisms_Prop.not_iff_morphism_obligation_1;MSetPositive.PositiveSet.filter_spec;RingMicromega.SORpower;Nat.max;Vector.map_shiftin;BinInt.Z.mod_opp_r_nz;BinInt.Z.mul_nonneg_nonpos
+./DepMapFactsImplementation.v;Shuffle;;;82;16;rewrite <-;mem_spec;-1;map_eq_nil;map_eq_app;MSetPositive.PositiveSet.filter_spec;RingMicromega.SORpower;BinNat.N.min_le_compat_l;Ring_polynom.mkPinj_ext;OrdersEx.N_as_DT.mul_eq_0;BinNat.N.odd_add_mul_even;BinPos.Pos.mul_le_mono;BinInt.Z.mul_nonneg_nonpos
+./DepMapFactsImplementation.v;Shuffle;;;82;17;rewrite <-;mem_spec;-1;RingMicromega.SORpower;Zdiv.Zmult_mod_idemp_l;BinPos.Pos.mul_le_mono;PeanoNat.Nat.mul_le_mono_pos_l;PeanoNat.Nat.mul_le_mono_neg_l;BinNat.N.min_le_compat_l;OrdersEx.Z_as_OT.mul_le_mono_nonpos_l;OrdersEx.Nat_as_OT.mul_le_mono_l;OrdersEx.Z_as_DT.mod_same;OrdersEx.N_as_DT.mul_divide_mono_l
+./DepMapFactsImplementation.v;Shuffle;;;82;18;rewrite <-;mem_spec;-1;BinPos.Pos.mul_le_mono;PeanoNat.Nat.mul_le_mono_pos_l;PeanoNat.Nat.mul_le_mono_neg_l;OrdersEx.Z_as_OT.mul_le_mono_nonpos_l;Zdiv.Zmult_mod_idemp_l;OrdersEx.Nat_as_OT.mul_le_mono_l;BinNat.N.min_le_compat_l;OrdersEx.N_as_DT.mul_divide_mono_l;OrdersEx.N_as_DT.max_le_compat_l;OrdersEx.N_as_OT.mul_lt_mono_neg_l
+./DepMapFactsImplementation.v;Shuffle;;;82;19;rewrite <-;mem_spec;-1;PeanoNat.Nat.mul_le_mono_pos_l;OrdersEx.Z_as_OT.mul_le_mono_nonpos_l;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;82;20;rewrite <-;mem_spec;-1;PeanoNat.Nat.mul_le_mono_pos_l;OrdersEx.Z_as_OT.mul_le_mono_nonpos_l;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;82;21;rewrite <-;mem_spec;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;82;22;rewrite <-;mem_spec;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;87;34;rewrite;Heq;-1;OrdersEx.Z_as_DT.lor_land_distr_r;OrdersEx.Nat_as_DT.add_nocarry_lt_pow2;PeanoNat.Nat.sqrt_up_lt_square;OrdersEx.Z_as_DT.Rlt_wd;OrdersEx.Nat_as_OT.divide_1_r;OrdersEx.Z_as_OT.add_move_0_r;OrdersEx.N_as_DT.lt_exists_pred;Compare_dec.nat_compare_Gt_gt;PeanoNat.Nat.div_add;Ring_theory.radd_ext2_Proper
+./DepMapFactsImplementation.v;Shuffle;;;87;35;rewrite;Heq;-1;HdRel;Hexadecimal.nztail;Hexadecimal.Little.succ_double;Tauto.hold_eIMPL;VectorDef.hd;respectful_hetero;OrdersEx.N_as_DT.of_hex_uint;VectorSpec.nth_order_hd;OrdersEx.N_as_OT.to_num_hex_uint;OrdersEx.Z_as_OT.mod_pow2_bits_high
+./DepMapFactsImplementation.v;Shuffle;;;87;36;rewrite;Heq;-1;Hexadecimal.nztail;Hexadecimal.Little.succ_double;HdRel;Tauto.hold_eIMPL;respectful_hetero;OrdersEx.N_as_DT.of_hex_uint;OrdersEx.N_as_OT.to_num_hex_uint;;;
+./DepMapFactsImplementation.v;Shuffle;;;87;37;rewrite;Heq;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;87;45;apply;find_elt_compat;-1;OrdersEx.N_as_DT.add_cancel_r;ZMicromega.eval_pol_add;auxiliary.Zmult_le_approx;BinPos.Pos.compare_cont_Lt_not_Gt;BinNat.N.log2_up_eq_succ_iff_pow2;PeanoNat.Nat.Private_NDivProp.Private_NZDiv.mul_mod_idemp_r;OrdersEx.Z_as_DT.le_antisymm;andb_negb_l;OrdersEx.N_as_DT.eq_add_0;OrdersEx.Z_as_DT.land_comm
+./DepMapFactsImplementation.v;Shuffle;;;87;46;apply;find_elt_compat;-1;flat_map_app;firstn_removelast;Field_theory.FEeval;Field_theory.Fcons2;Field_theory.FEopp;Field_theory.field_is_integral_domain;no_fixpoint_negb;orb_false_intro;EqdepFacts.Eq_rect_eq_on;Zerob.zerob_false_elim
+./DepMapFactsImplementation.v;Shuffle;;;87;47;apply;find_elt_compat;-1;firstn_removelast;Field_theory.FEeval;Field_theory.Fcons2;Field_theory.FEopp;Field_theory.field_is_integral_domain;no_fixpoint_negb;orb_false_intro;Qfield.Qfield_field_lemma4;Zerob.zerob_false_elim;
+./DepMapFactsImplementation.v;Shuffle;;;87;48;apply;find_elt_compat;-1;firstn_removelast;orb_false_intro;no_fixpoint_negb;Field_theory.Fcons2;Field_theory.field_is_integral_domain;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;87;49;apply;find_elt_compat;-1;Field_theory.Fcons2;Field_theory.field_is_integral_domain;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;87;50;apply;find_elt_compat;-1;Field_theory.field_is_integral_domain;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;87;51;apply;find_elt_compat;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;87;52;apply;find_elt_compat;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;87;53;apply;find_elt_compat;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;87;54;apply;find_elt_compat;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;87;55;apply;find_elt_compat;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;87;56;apply;find_elt_compat;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;87;57;apply;find_elt_compat;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;87;58;apply;find_elt_compat;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;87;59;apply;find_elt_compat;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;87;60;apply;find_elt_compat;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;90;28;apply;find_compat;-1;OrdersEx.Z_as_DT.compare_opp;OrdersEx.N_as_OT.sub_wd;ZMicromega.lt_le_iff;OrdersEx.Nat_as_DT.pred_succ;OrdersEx.Nat_as_OT.mul_1_l;PeanoNat.Nat.Private_NDivProp.div_1_l;OrdersEx.N_as_DT.add_pred_r;Ring_theory.Rmul_ext;ForallOrdPairs_inclA;OrdersEx.Positive_as_OT.PeanoView
+./DepMapFactsImplementation.v;Shuffle;;;90;29;apply;find_compat;-1;findA_NoDupA;find_some;ForallOrdPairs_inclA;Forall_nil_iff;Forall_Exists_dec;Forall2_length;Field_theory.Fcons;Field_theory.NPEequiv_eq;EqdepFacts.UIP_refl_on__Streicher_K_on;EqdepFacts.Streicher_K_on_
+./DepMapFactsImplementation.v;Shuffle;;;90;30;apply;find_compat;-1;findA_NoDupA;find_some;Field_theory.Fcons;Field_theory.NPEequiv_eq;nodup_fixed_point;Forall_nil_iff;ForallOrdPairs_inclA;Forall_Exists_dec;EqdepFacts.UIP_refl_on__Streicher_K_on;VectorSpec.Forall_impl
+./DepMapFactsImplementation.v;Shuffle;;;90;31;apply;find_compat;-1;findA_NoDupA;find_some;Field_theory.NPEequiv_eq;Forall_nil_iff;ForallOrdPairs_inclA;Field_theory.Fcons;nodup_fixed_point;EqdepFacts.UIP_refl_on__Streicher_K_on;EqdepFacts.Streicher_K_on_;
+./DepMapFactsImplementation.v;Shuffle;;;90;32;apply;find_compat;-1;findA_NoDupA;find_some;Field_theory.NPEequiv_eq;Field_theory.Fcons;nodup_fixed_point;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;90;33;apply;find_compat;-1;find_some;findA_NoDupA;Field_theory.NPEequiv_eq;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;90;34;apply;find_compat;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;90;35;apply;find_compat;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;90;36;apply;find_compat;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;90;37;apply;find_compat;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;90;38;apply;find_compat;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;90;39;apply;find_compat;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;98;11;rewrite;Hxz;-1;Zdiv.Z_mod_zero_opp_r;OrdersEx.N_as_DT.succ;Equivalence;PeanoNat.Nat.testbit_odd_0;Znumtheory.deprecated_Euclid_intro;OrdersEx.Nat_as_DT.ldiff_ones_r_low;Forall_cons;OrdersEx.Z_as_OT.log2_up_eq_succ_is_pow2;eq_sigT_ind_uncurried;OrdersEx.Nat_as_DT.Private_NLcmProp.mod_divide
+./DepMapFactsImplementation.v;Shuffle;;;98;12;rewrite;Hxz;-1;BinPosDef.Pos.to_num_hex_uint;OrdersEx.Nat_as_DT.of_hex_uint_acc;PeanoNat.Nat.shiftl_spec_high;OrdersEx.Nat_as_OT.to_little_hex_uint;OrdersEx.N_as_OT.mul_pow2_bits_high;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;98;13;rewrite;Hxz;-1;BinPosDef.Pos.to_num_hex_uint;OrdersEx.Nat_as_DT.of_hex_uint_acc;OrdersEx.Nat_as_OT.to_little_hex_uint;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;98;14;rewrite;Hxz;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;98;24;rewrite;Hxy;-1;OrdersEx.N_as_OT.Even;Ndigits.Ndiv2_double_plus_one;BinPosDef.Pos.mul;Byte.x67;OrdersEx.N_as_OT.mul_lt_mono_neg_l;OrdersEx.Z_as_OT.log2_shiftl';Field_theory.rdiv1;BinNat.N.lxor_eq;OrderedTypeEx.Ascii_as_OT.t;OrdersEx.Nat_as_DT.lnot_ones
+./DepMapFactsImplementation.v;Shuffle;;;98;25;rewrite;Hxy;-1;Hexadecimal.unorm;Hexadecimal.hexadecimal_beq;PeanoNat.Nat.mul_pow2_bits_high;OrdersEx.N_as_OT.shiftl_spec_high;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;98;26;rewrite;Hxy;-1;Hexadecimal.unorm;Hexadecimal.hexadecimal_beq;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;98;27;rewrite;Hxy;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;98;47;rewrite;set_same;-1;OrdersEx.Z_as_DT.land_lor_distr_l;PeanoNat.Nat.odd_add_even;OrdersEx.Nat_as_DT.tail_mul_spec;PeanoNat.Nat.succ_pred;PeanoNat.Nat.lt_0_mul';OrdersEx.Nat_as_DT.le_0_r;PeanoNat.Nat.of_num_int;BinNat.N.eq_sym;CMorphisms.PartialOrder_StrictOrder;PreOrder_Reflexive
+./DepMapFactsImplementation.v;Shuffle;;;98;48;rewrite;set_same;-1;seq;sig2;sumor_sind;sigT2_ind;String.leb;S.domain;S.Dom.elt;S.Dom.Equal;StronglySorted_Sorted;S.Dom.exists_spec
+./DepMapFactsImplementation.v;Shuffle;;;98;49;rewrite;set_same;-1;seq;S.Dom.elt;S.Dom.Equal;S.Dom.exists_spec;S.Dom.Exists;OrdersEx.Nat_as_DT.tail_mul_spec;OrdersEx.Z_as_DT.sub_lt_le_mono;OrdersEx.N_as_OT.even_spec;OrdersEx.N_as_DT.odd_spec;OrdersEx.Positive_as_OT.size
+./DepMapFactsImplementation.v;Shuffle;;;98;50;rewrite;set_same;-1;String.leb;S.Dom.elt;StronglySorted_Sorted;S.Dom.exists_spec;S.Dom.Exists;PeanoNat.Nat.setbit;fold_symmetric;InitialRing.R_setoid3;OrdersEx.N_as_OT.setbit_neq;eq_sigT_nondep
+./DepMapFactsImplementation.v;Shuffle;;;98;51;rewrite;set_same;-1;StronglySorted_Sorted;S.Dom.exists_spec;OrdersEx.N_as_OT.setbit_neq;OrdersEx.Z_as_DT.strong_left_induction;BinPos.Pos.size_nat_monotone;MSetPositive.PositiveSet.E.lt_compat;PeanoNat.Nat.sqrt_le_lin;MSetPositive.PositiveSet.remove_spec;MSetPositive.PositiveSet.compare_x_empty;Ring_theory.sring_eq_ext
+./DepMapFactsImplementation.v;Shuffle;;;98;52;rewrite;set_same;-1;StronglySorted_Sorted;S.Dom.exists_spec;MSetPositive.PositiveSet.remove_spec;OrdersEx.Nat_as_DT.Private_NZSqrt.sqrt_le_square;OrdersEx.Nat_as_DT.Private_NZSqrt.sqrt_eq_succ_iff_square;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;98;53;rewrite;set_same;-1;OrdersEx.Nat_as_DT.Private_NZSqrt.sqrt_le_square;OrdersEx.Nat_as_DT.Private_NZSqrt.sqrt_eq_succ_iff_square;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;98;54;rewrite;set_same;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;98;55;rewrite;set_same;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;99;18;rewrite;set_other;-1;Wf_nat.lt_wf_double_rec;OrdersEx.Nat_as_DT.div_le_compat_l;OrdersEx.N_as_OT.Private_NLcmProp.lcm_mul_mono_r;BinNat.N.Private_NZPow.pow_0_l';Morphisms.compose_proper_obligation_1;OrdersEx.N_as_OT.le_le_succ_r;BinNatDef.N.testbit_nat;OrdersEx.Positive_as_OT.eq_dep_eq_positive;app_nil_l;Field_theory.rsub_0_r
+./DepMapFactsImplementation.v;Shuffle;;;99;19;rewrite;set_other;-1;subrelation_refl;skipn_firstn_comm;skipn_app;S.Dom.add;S.elements;String.string_sind;String.index;S.Dom.min_elt_spec2;eq_sigT_ind_uncurried;rew_sigT2
+./DepMapFactsImplementation.v;Shuffle;;;99;20;rewrite;set_other;-1;S.elements;subrelation_refl;S.Dom.min_elt_spec2;OrdersEx.N_as_OT.Private_NZSqrt.sqrt_mul_below;OrdersEx.N_as_DT.Private_NZSqrt.sqrt_pred_square;OrdersEx.Nat_as_OT.clearbit_spec';OrdersEx.Z_as_OT.add_shuffle2;OrdersEx.Nat_as_DT.div_same;OrdersEx.N_as_DT.testbit_spec;OrdersEx.Nat_as_DT.Private_NZSqrt.sqrt_le_square
+./DepMapFactsImplementation.v;Shuffle;;;99;21;rewrite;set_other;-1;String.index;S.elements;subrelation_refl;S.Dom.min_elt_spec2;InitialRing.R_setoid3_Reflexive;OrdersEx.Z_as_OT.setbit_spec';BinPos.Pos.SqrtExact;OrdersEx.N_as_DT.shiftl_spec_alt;OrdersEx.N_as_OT.square_lt_mono_nonneg;MSetPositive.PositiveSet.compare_x_empty
+./DepMapFactsImplementation.v;Shuffle;;;99;22;rewrite;set_other;-1;S.Dom.min_elt_spec2;subrelation_refl;InitialRing.R_setoid3_Reflexive;OrdersEx.Z_as_OT.setbit_spec';BinNat.N.size_nat;OrdersEx.N_as_DT.shiftl_spec_alt;MSetPositive.PositiveSet.fold_spec;OrdersEx.N_as_OT.square_lt_mono_nonneg;MSetPositive.PositiveSet.compare_x_empty;MSetPositive.PositiveSet.compare_bool
+./DepMapFactsImplementation.v;Shuffle;;;99;23;rewrite;set_other;-1;InitialRing.R_setoid3_Reflexive;subrelation_refl;OrdersEx.N_as_OT.square_lt_mono_nonneg;MSetPositive.PositiveSet.fold_spec;MSetPositive.PositiveSet.compare_bool;MSetPositive.PositiveSet.compare_x_empty;OrdersEx.Z_as_OT.sub_lt_le_mono;;;
+./DepMapFactsImplementation.v;Shuffle;;;99;24;rewrite;set_other;-1;MSetPositive.PositiveSet.compare_x_empty;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;99;25;rewrite;set_other;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;99;26;rewrite;set_other;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;99;27;rewrite;set_other;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;99;46;rewrite <-;Hxy;-1;OrdersEx.N_as_DT.Private_NZPow.pow_nonzero;OrdersEx.N_as_OT.Private_NDivProp.Private_NZDiv.div_1_l;PeanoNat.Nat.Even_Odd_sind;BinInt.Z.sgn_null;CMorphisms.proper_proper_proxy;VectorDef.In_cons_tl;POrderedType.Positive_as_OT.max_l_iff;OrdersEx.Nat_as_DT.even_pow;BinInt.Z.Private_Tac.lt_irrefl;OrdersEx.N_as_OT.add_sub_eq_l
+./DepMapFactsImplementation.v;Shuffle;;;99;47;rewrite <-;Hxy;-1;Hexadecimal.uint;ZMicromega.hyps_of_pt;Nat.to_num_hex_uint;BinPos.Pos.of_hex_int;BinPosDef.Pos.of_hex_int;Znumtheory.extgcd_rec_helper;PeanoNat.Nat.shiftl_specif_high;POrderedType.Positive_as_DT.of_hex_uint_acc;POrderedType.Positive_as_DT.to_num_hex_uint;
+./DepMapFactsImplementation.v;Shuffle;;;99;48;rewrite <-;Hxy;-1;Hexadecimal.uint;Nat.to_num_hex_uint;BinPos.Pos.of_hex_int;BinPosDef.Pos.of_hex_int;POrderedType.Positive_as_DT.of_hex_uint_acc;POrderedType.Positive_as_DT.to_num_hex_uint;;;;
+./DepMapFactsImplementation.v;Shuffle;;;99;49;rewrite <-;Hxy;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;104;33;apply;set_compat;-1;OrdersEx.Nat_as_DT.Private_NZPow.pow_1_l;OrdersEx.Positive_as_OT.add_compare_mono_r;OrdersEx.Nat_as_DT.Even_alt_Odd_alt_sind;Dom.compare;OrdersEx.Z_as_DT.Private_NZDiv.div_mul_cancel_l;OrdersEx.Z_as_DT.log2_mul_above;OrdersEx.N_as_DT.Private_NZGcdProp.gcd_1_r;In_nth;eq_sigT_ind_uncurried;subrelation_refl
+./DepMapFactsImplementation.v;Shuffle;;;104;34;apply;set_compat;-1;subrelation_refl;symprod;sigT_of_prod;same_relation;skipn_cons;seq_shift;StrictOrder_PartialOrder;String.ltb;StronglySorted_ind;eq_sigT_ind_uncurried
+./DepMapFactsImplementation.v;Shuffle;;;104;35;apply;set_compat;-1;seq_shift;same_relation;subrelation_refl;OrdersEx.N_as_OT.odd_spec;OrdersEx.N_as_OT.square_lt_mono;OrdersEx.Z_as_DT.abs_sub_triangle;OrdersEx.Nat_as_OT.succ_pred_pos;OrdersEx.N_as_OT.sqrt_up_unique;OrdersEx.N_as_OT.ltb_spec;OrdersEx.Nat_as_DT.add_shuffle0
+./DepMapFactsImplementation.v;Shuffle;;;104;36;apply;set_compat;-1;seq_shift;StrictOrder_PartialOrder;StronglySorted_ind;subrelation_refl;same_relation;BinNat.N.le_stepr;OrdersEx.N_as_DT.setbit_eq;OrdersEx.Nat_as_DT.setbit_eq;OrdersEx.N_as_OT.square_lt_mono;PeanoNat.Nat.OddT_S_EvenT
+./DepMapFactsImplementation.v;Shuffle;;;104;37;apply;set_compat;-1;seq_shift;StrictOrder_PartialOrder;same_relation;StronglySorted_ind;subrelation_refl;Number.signed_int_beq;OrdersEx.N_as_DT.setbit_eq;OrdersEx.Nat_as_DT.setbit_eq;MSetPositive.PositiveSet.ct_xll;OrdersEx.N_as_OT.square_lt_mono
+./DepMapFactsImplementation.v;Shuffle;;;104;38;apply;set_compat;-1;MSetPositive.PositiveSet.ct_xll;MSetPositive.PositiveSet.choose_spec2;MSetPositive.PositiveSet.subset_spec;BinInt.Z.sqrtrem_spec;OrdersEx.N_as_OT.sqrt_up_eq_succ_iff_square;OrdersEx.N_as_DT.Private_NZSqrt.sqrt_eq_succ_iff_square;;;;
+./DepMapFactsImplementation.v;Shuffle;;;104;39;apply;set_compat;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;104;40;apply;set_compat;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;104;41;apply;set_compat;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;104;42;apply;set_compat;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;104;43;apply;set_compat;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;110;11;rewrite;Hxz;-1;OrdersEx.Nat_as_OT.clearbit_neq;BinNat.N.Private_NZPow.pow_pos_nonneg;OrdersEx.Z_as_DT.abs_max;PeanoNat.Nat.pow_wd;BinInt.Z.gcd_mod;OrdersEx.Nat_as_OT.mod_0_r;OrdersEx.Z_as_OT.pow_pos_nonneg;OrdersEx.Nat_as_OT.le_succ_l;Field_theory.SFinv_l;Ring_polynom.mkX_ok
+./DepMapFactsImplementation.v;Shuffle;;;110;12;rewrite;Hxz;-1;Hexadecimal.nzhead;InitialRing.hypo_type;QArith_base.of_hexadecimal;OrdersEx.Nat_as_OT.of_hex_uint_acc;RingMicromega.extract_hyps_app;Ndigits.Nshiftl_nat_spec_high;OrdersEx.Positive_as_OT.to_hex_uint;OrdersEx.N_as_OT.mul_pow2_bits_high;;
+./DepMapFactsImplementation.v;Shuffle;;;110;13;rewrite;Hxz;-1;Hexadecimal.nzhead;QArith_base.of_hexadecimal;OrdersEx.Nat_as_OT.of_hex_uint_acc;OrdersEx.Positive_as_OT.to_hex_uint;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;110;14;rewrite;Hxz;-1;Hexadecimal.nzhead;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;110;24;rewrite;Hxy;326;BinPos.Pos.le_succ_l;Byte.x23;OrdersEx.Nat_as_DT.pow2_bits_true;Vector.append_splitat;Field_theory.isIn_ok;OrdersEx.Nat_as_DT.eqb;OrdersEx.Z_as_OT.add_cancel_r;BinNat.N.succ_double;S.Dom.filter_spec;Dom.exists_spec
+./DepMapFactsImplementation.v;Shuffle;;;110;25;rewrite;Hxy;0;Hxy;Tauto.hold_eAND;eq_ex_hprop_iff;BinNatDef.N.to_num_hex_int;POrderedType.Positive_as_DT.of_hex_uint;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;110;26;rewrite;Hxy;0;Hxy;BinNatDef.N.to_num_hex_int;POrderedType.Positive_as_DT.of_hex_uint;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;110;27;rewrite;Hxy;0;Hxy;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;110;47;rewrite;add_same;-1;skipn;OrdersEx.Z_as_OT.lcm_unique_alt;InA_compat;OrdersEx.N_as_OT.min_le_iff;POrderedType.Positive_as_OT.mask;Vector.Forall2_nth_order;OrdersEx.N_as_DT.Private_OrderTac.Tac.eq_refl;EqNat.eq_nat;Tauto.eiff_eq;BinInt.Z.shiftr_spec
+./DepMapFactsImplementation.v;Shuffle;;;110;48;rewrite;add_same;-1;and_iff_compat_r;app_eqlistA_compat;andb_negb_r;Arith_prebase.le_not_gt_stt;Arith_prebase.le_gt_S_stt;Ascii.eqb_eq;Arith_prebase.lt_pred_stt;Asymmetric;InA_compat;InA_cons
+./DepMapFactsImplementation.v;Shuffle;;;110;49;rewrite;add_same;-1;and_iff_compat_r;andb_negb_r;Dom.add_spec;BinNat.N.add_comm;BinNat.N.add_log2_lt;BinNat.N.add_b2n_double_div2;BinInt.Z.add_wd;BinInt.Z.add_le_mono_l;BinNat.N.add_lnot_diag_low;BinNat.N.add_0_r
+./DepMapFactsImplementation.v;Shuffle;;;110;50;rewrite;add_same;-1;Dom.add_spec;BinNat.N.add_comm;BinNat.N.add_log2_lt;BinNat.N.add_b2n_double_div2;BinInt.Z.add_wd;BinInt.Z.add_le_mono_l;BinNat.N.add_lnot_diag_low;BinNat.N.add_0_r;BinPos.Pos.add_compare_mono_l;PeanoNat.Nat.add_nocarry_lt_pow2
+./DepMapFactsImplementation.v;Shuffle;;;110;51;rewrite;add_same;-1;Dom.add_spec;BinNat.N.add_comm;BinNat.N.add_log2_lt;BinNat.N.add_b2n_double_div2;BinInt.Z.add_wd;BinInt.Z.add_le_mono_l;BinNat.N.add_lnot_diag_low;BinNat.N.add_0_r;BinPos.Pos.add_compare_mono_l;PeanoNat.Nat.add_nocarry_lt_pow2
+./DepMapFactsImplementation.v;Shuffle;;;110;52;rewrite;add_same;-1;Dom.add_spec;OrdersEx.N_as_DT.add_sub_assoc;PeanoNat.Nat.add_pos_pos;OrdersEx.Z_as_DT.double_spec;OrdersEx.N_as_DT.add_assoc;PeanoNat.Nat.add_neg_cases;OrdersEx.N_as_DT.add_pos_nonneg;OrdersEx.Z_as_DT.lt_add_pos_r;OrdersEx.N_as_DT.mul_add_distr_r;OrdersEx.Z_as_DT.lt_pred_lt_succ
+./DepMapFactsImplementation.v;Shuffle;;;110;53;rewrite;add_same;-1;OrdersEx.N_as_DT.add_assoc;OrdersEx.N_as_DT.add_sub_assoc;OrdersEx.Z_as_DT.gcd_assoc;PeanoNat.Nat.add_neg_cases;OrdersEx.Z_as_DT.Private_Div.NZQuot.mod_same;OrdersEx.N_as_DT.Private_NDivProp.Private_NZDiv.div_same;OrdersEx.Positive_as_DT.Private_Dec.max_case_strong;OrdersEx.Nat_as_DT.Private_NDivProp.Private_NZDiv.mod_same;POrderedType.Positive_as_DT.ggcd_greatest;OrdersEx.Z_as_DT.Private_OrderTac.IsTotal.lt_strorder
+./DepMapFactsImplementation.v;Shuffle;;;110;54;rewrite;add_same;-1;OrdersEx.Z_as_DT.Private_Div.NZQuot.mod_same;OrdersEx.N_as_DT.Private_NDivProp.Private_NZDiv.div_same;OrdersEx.Nat_as_DT.Private_NDivProp.Private_NZDiv.mod_same;OrdersEx.Nat_as_OT.Private_NDivProp.Private_NZDiv.div_small_iff;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;110;55;rewrite;add_same;-1;OrdersEx.Z_as_DT.Private_Div.NZQuot.mod_same;OrdersEx.N_as_DT.Private_NDivProp.Private_NZDiv.div_same;OrdersEx.Nat_as_DT.Private_NDivProp.Private_NZDiv.mod_same;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;111;18;rewrite;add_other;-1;OrdersEx.N_as_DT.binary_rect;OrdersEx.Positive_as_OT.Private_Tac.lt_trans;OrdersEx.Nat_as_DT.OddT_odd;Decidable.dec_True;OrdersEx.Nat_as_OT.lt_alt_wd;Byte.x22;BinInt.Z.sqrt_up_eqn0;PeanoNat.Nat.gcd_bezout_pos_pos;Zdiv.Zdiv2_div;Byte.x1c
+./DepMapFactsImplementation.v;Shuffle;;;111;19;rewrite;add_other;-1;Ascii.ltb;Ascii.one;NoDupA;Dom.add;rev_append_rev;Tauto.abst_iff_correct;equivlistA_app_proper;BinInt.Z.abs_nat;BinInt.Z.add_nonneg_pos;BinInt.Z.abs_eq_or_opp
+./DepMapFactsImplementation.v;Shuffle;;;111;20;rewrite;add_other;-1;Dom.add;BinInt.Z.add_nonneg_pos;BinNat.N.add_wd;fold_right_add2;OrdersEx.N_as_DT.binary_rect;OrdersEx.Z_as_DT.Private_Div.NZQuot.mod_small_iff;OrdersEx.Z_as_DT.Private_NZDiv.div_le_upper_bound;OrdersEx.Z_as_DT.sub_nonpos_cases;OrdersEx.Z_as_DT.sgn_null;OrdersEx.N_as_DT.Div0.div_mul_le
+./DepMapFactsImplementation.v;Shuffle;;;111;21;rewrite;add_other;-1;Dom.add;BinInt.Z.add_nonneg_pos;BinNat.N.add_wd;fold_right_add2;PeanoNat.Nat.add_carry_div2;PeanoNat.Nat.add_nonpos_cases;OrdersEx.N_as_DT.Div0.div_mul_le;OrdersEx.Z_as_DT.div_mul_cancel_l;OrdersEx.N_as_DT.Div0.mod_divides;OrdersEx.N_as_DT.Div0.mod_mul_r
+./DepMapFactsImplementation.v;Shuffle;;;111;22;rewrite;add_other;-1;BinInt.Z.add_nonneg_pos;BinNat.N.add_wd;PeanoNat.Nat.add_carry_div2;PeanoNat.Nat.add_nonpos_cases;OrdersEx.N_as_DT.add_b2n_double_div2;OrdersEx.Z_as_OT.add_mul_mod_distr_r;OrdersEx.Z_as_OT.add_bit0;OrdersEx.Z_as_DT.add_min_distr_l;OrdersEx.Z_as_DT.add_log2_up_lt;OrdersEx.N_as_DT.add_le_mul
+./DepMapFactsImplementation.v;Shuffle;;;111;23;rewrite;add_other;-1;OrdersEx.Z_as_DT.add_opp_l;BinInt.Z.add_nonneg_pos;PeanoNat.Nat.add_nonpos_cases;OrdersEx.Z_as_DT.add_log2_up_lt;OrdersEx.Z_as_DT.add_nonpos_neg;OrdersEx.Z_as_DT.pred_double_spec;OrdersEx.N_as_DT.succ_double_inj;OrdersEx.Nat_as_DT.add_pos_r;OrdersEx.N_as_DT.add_b2n_double_div2;OrdersEx.Z_as_OT.add_mul_mod_distr_r
+./DepMapFactsImplementation.v;Shuffle;;;111;24;rewrite;add_other;-1;OrdersEx.Z_as_DT.add_log2_up_lt;OrdersEx.Z_as_OT.add_mul_mod_distr_r;OrdersEx.Z_as_DT.Private_Div.Quot2Div.mod_wd;OrdersEx.Z_as_DT.Private_Div.Quot2Div.modulo;OrdersEx.Z_as_DT.Private_Div.NZQuot.mod_small_iff;OrdersEx.Positive_as_DT.pred_of_succ_nat;BinInt.Z.Private_NZDiv.add_mul_mod_distr_r;OrdersEx.Nat_as_DT.Private_NLcmProp.gcd_div_factor;OrdersEx.N_as_DT.Private_NDivProp.Private_NZDiv.mod_add;OrdersEx.N_as_DT.Private_NDivProp.Private_NZDiv.mod_le
+./DepMapFactsImplementation.v;Shuffle;;;111;25;rewrite;add_other;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;111;26;rewrite;add_other;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;111;27;rewrite;add_other;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;111;35;apply;Heq;-1;OrdersEx.Nat_as_DT.Private_NZPow.pow_le_mono_r_iff;OrdersEx.N_as_OT.Private_NDivProp.Private_NZDiv.div_exact;OrdersEx.Z_as_DT.gcd_add_diag_r;Int.Z_as_Int.i2z_2;antisymmetric;Zeven.Zeven_not_Zodd;OrdersEx.N_as_DT.Div0.mul_mod;OrdersEx.Z_as_DT.sub_le_cases;OrdersEx.Z_as_OT.testbit_unique;BinNat.N.mul_le_mono_r
+./DepMapFactsImplementation.v;Shuffle;;;111;36;apply;Heq;-1;Hexadecimal.hexadecimal;Nat.of_hex_int;Nat.to_little_hex_uint;PeanoNat.Nat.to_hex_int;BinPosDef.Pos.to_num_hex_uint;OrdersEx.Nat_as_DT.of_hex_uint_acc;OrdersEx.Nat_as_OT.to_hex_uint;;;
+./DepMapFactsImplementation.v;Shuffle;;;111;37;apply;Heq;-1;Hexadecimal.hexadecimal;Nat.of_hex_int;Nat.to_little_hex_uint;PeanoNat.Nat.to_hex_int;BinPosDef.Pos.to_num_hex_uint;OrdersEx.Nat_as_DT.of_hex_uint_acc;OrdersEx.Nat_as_OT.to_hex_uint;;;
+./DepMapFactsImplementation.v;Shuffle;;;111;38;apply;Heq;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;111;55;rewrite <-;Hxy;-1;PeanoNat.Nat.EvenT_2;OrdersEx.Z_as_OT.lor_neg;OrdersEx.N_as_OT.lt_gt_cases;BinInt.ZL0;OrdersEx.Nat_as_DT.pow2_bits_true;EnvRing.PsubC;PeanoNat.Nat.square;OrdersEx.N_as_OT.gcd_divide_r;StronglySorted_rect;BinInt.Z.max_min_disassoc
+./DepMapFactsImplementation.v;Shuffle;;;111;56;rewrite <-;Hxy;-1;Hexadecimal.Db;Hexadecimal.internal_uint_dec_bl0;Hexadecimal.D5;Hexadecimal.unorm;Heq;Hexadecimal.uint_rect;Hexadecimal.D9;QArith_base.of_hexadecimal;BinPosDef.Pos.to_num_hex_uint;OrdersEx.Positive_as_DT.of_hex_uint_acc
+./DepMapFactsImplementation.v;Shuffle;;;111;57;rewrite <-;Hxy;-1;Hexadecimal.Db;Hexadecimal.internal_uint_dec_bl0;Hexadecimal.D5;Hexadecimal.unorm;Hexadecimal.uint_rect;Hexadecimal.D9;QArith_base.of_hexadecimal;BinPosDef.Pos.to_num_hex_uint;OrdersEx.Positive_as_DT.of_hex_uint_acc;OrdersEx.Positive_as_OT.to_num_hex_int
+./DepMapFactsImplementation.v;Shuffle;;;111;58;rewrite <-;Hxy;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;116;33;apply;add_compat;-1;OrdersEx.Z_as_OT.of_nat;PeanoNat.Nat.ldiff_0_l;BinNat.N.land_0_l;xorb_false_l;OrdersEx.Bool_as_OT.t;OrdersEx.Nat_as_OT.Private_OrderTac.IsTotal.lt_total;OrdersEx.Positive_as_DT.size_le;OrdersEx.Nat_as_DT.to_num_uint;OrdersEx.Nat_as_DT.Private_OrderTac.Tac.le_lt_trans;Relations_1.Antisymmetric
+./DepMapFactsImplementation.v;Shuffle;;;116;34;apply;add_compat;-1;app_inj_tail_iff;auxiliary.Zlt_left_lt;Ascii.byte_of_ascii_via_N;Arith_prebase.add_lt_mono_l_proj_l2r;Arith_prebase.lt_pred_stt;NoDupA_nil;NoDupA_ind;incl_app;remove_app;firstn_app_2
+./DepMapFactsImplementation.v;Shuffle;;;116;35;apply;add_compat;-1;BinNat.N.add_shuffle1;BinInt.Z.add_sqrt_le;BinNat.N.add_nonneg_nonneg;BinNat.N.add_nonneg_cases;BinPos.Pos.add_lt_mono;BinInt.Z.lt_add_lt_sub_r;BinInt.Z.lt_add_pos_r;OrdersEx.Z_as_DT.max_min_disassoc;OrdersEx.Z_as_DT.add_carry_bits;OrdersEx.Z_as_DT.Private_Div.NZQuot.mod_add
+./DepMapFactsImplementation.v;Shuffle;;;116;36;apply;add_compat;-1;BinNat.N.add_shuffle1;BinInt.Z.add_sqrt_le;BinNat.N.add_nonneg_nonneg;BinNat.N.add_nonneg_cases;BinPos.Pos.add_lt_mono;BinInt.Z.lt_add_lt_sub_r;BinInt.Z.lt_add_pos_r;PeanoNat.Nat.add_pos_nonneg;PeanoNat.Nat.add_sqrt_le;Arith_prebase.add_lt_mono_l_proj_l2r
+./DepMapFactsImplementation.v;Shuffle;;;116;37;apply;add_compat;-1;BinNat.N.add_shuffle1;BinInt.Z.add_sqrt_le;BinNat.N.add_nonneg_nonneg;BinNat.N.add_nonneg_cases;BinPos.Pos.add_lt_mono;BinInt.Z.lt_add_lt_sub_r;BinInt.Z.lt_add_pos_r;PeanoNat.Nat.add_pos_nonneg;PeanoNat.Nat.add_sqrt_le;Arith_prebase.add_lt_mono_l_proj_l2r
+./DepMapFactsImplementation.v;Shuffle;;;116;38;apply;add_compat;-1;OrdersEx.Z_as_DT.add_carry_bits;OrdersEx.N_as_OT.add_cancel_r;BinNat.N.add_nonneg_cases;POrderedType.Positive_as_OT.add_carry;OrdersEx.N_as_DT.Private_Dec.min_case;OrdersEx.Z_as_DT.Private_Dec.max_case_strong;OrdersEx.Z_as_DT.Private_Dec.max_case;OrdersEx.Nat_as_DT.gcd_1_lcm_mul;OrdersEx.Z_as_DT.max_min_disassoc;OrdersEx.Positive_as_DT.double_succ
+./DepMapFactsImplementation.v;Shuffle;;;116;39;apply;add_compat;-1;BinNat.N.add_nonneg_cases;OrdersEx.Z_as_DT.Private_Dec.max_case_strong;OrdersEx.Nat_as_DT.order_induction;OrdersEx.N_as_DT.measure_left_induction;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;116;40;apply;add_compat;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;116;41;apply;add_compat;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;116;42;apply;add_compat;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;116;43;apply;add_compat;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;122;11;rewrite;Hxz;-1;OrdersEx.Z_as_OT.leb_le;OrdersEx.Nat_as_DT.Private_NDivProp.Private_NZDiv.div_div;Tauto.radd_term_term;Field_theory.Field_correct;Bvector.Bvect_true;OrdersEx.Z_as_DT.quot_div_exact;eq_sigT2_rect_existT2_r;OrdersEx.Z_as_OT.le_min_r;Byte.xb9;BinNat.N.ldiff_ones_r
+./DepMapFactsImplementation.v;Shuffle;;;122;12;rewrite;Hxz;-1;Hexadecimal.hexadecimal_eq_dec;hd_error_tl_repr;Decimal.del_head;BinPos.Pos.to_hex_uint;BinNatDef.N.to_hex_uint;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;122;13;rewrite;Hxz;-1;Hexadecimal.hexadecimal_eq_dec;BinPos.Pos.to_hex_uint;BinNatDef.N.to_hex_uint;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;122;14;rewrite;Hxz;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;122;24;rewrite;Hxy;-1;ZifyInst.Op_pos_add_carry;BinInt.Z.gcd_rem;ZArith_dec.Z_gt_le_dec;OrdersEx.N_as_DT.Private_NZGcdProp.eq_mul_1_nonneg';OrdersEx.N_as_OT.odd_succ;OrdersEx.Z_as_OT.add_lt_mono;OrdersEx.Nat_as_OT.Private_NDivProp.Private_NZDiv.div_mod_unique;OrdersEx.Positive_as_OT.sub_mask_pos;BinNat.N.Private_NZGcdProp.gcd_unique_alt;OrdersEx.Z_as_DT.gcd_quot_factor
+./DepMapFactsImplementation.v;Shuffle;;;122;25;rewrite;Hxy;-1;Hexadecimal.Neg;Hexadecimal.nb_digits;BinInt.Z.to_hex_int;BinNat.N.to_num_hex_int;Vector.nth_order_hd;BinPosDef.Pos.of_hex_uint;OrdersEx.Z_as_OT.to_num_hex_int;OrdersEx.Nat_as_DT.mod_pow2_bits_high;;
+./DepMapFactsImplementation.v;Shuffle;;;122;26;rewrite;Hxy;-1;Hexadecimal.Neg;Hexadecimal.nb_digits;BinInt.Z.to_hex_int;BinNat.N.to_num_hex_int;BinPosDef.Pos.of_hex_uint;OrdersEx.Z_as_OT.to_num_hex_int;;;;
+./DepMapFactsImplementation.v;Shuffle;;;122;27;rewrite;Hxy;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;122;47;rewrite;remove_same;-1;pointwise_relation;OrdersEx.Z_as_OT.min_le_compat_r;OrdersEx.N_as_DT.Div0.add_mul_mod_distr_l;OrdersEx.N_as_OT.square_add_le;OrdersEx.N_as_OT.Private_NDivProp.mod_0_l;RingMicromega.extract_hyps_app;VectorDef.trunc;BinNat.N.divide_pos_le;BinPos.Pos.min_lt_iff;unconvertible
+./DepMapFactsImplementation.v;Shuffle;;;122;48;rewrite;remove_same;-1;rev_repeat;RingMicromega.extract_hyps_app;Relations_1.PER_ind;Ring_theory.morph_opp;RingMicromega.Fop;RingMicromega.PolC;Ring_theory.sring_eq_ext;Ring_polynom.Mphi_ok;RelCompFun_StrictOrder;Ring_polynom.mkopp_pow_ok
+./DepMapFactsImplementation.v;Shuffle;;;122;49;rewrite;remove_same;-1;rev_repeat;Relations_1.PER_ind;RelCompFun_StrictOrder;Relations_1.Order_rec;RelCompFun;ord_refl;binary_relation;Ring_theory.morph_opp;BinInt.Z.rem_divide;Ring_theory.ARopp_zero
+./DepMapFactsImplementation.v;Shuffle;;;122;50;rewrite;remove_same;-1;RelCompFun_StrictOrder;RelCompFun;BinInt.Z.rem_divide;BinInt.Z.rem_mod_nonneg;RingMicromega.extract_hyps_app;Ring_theory.morph_opp;RingMicromega.Fop;RingMicromega.PolC;BinInt.Z.quot_rem_unique;RingMicromega.cnf_normalise
+./DepMapFactsImplementation.v;Shuffle;;;122;51;rewrite;remove_same;-1;RelCompFun_StrictOrder;RelCompFun;BinInt.Z.rem_mod_nonneg;Ring_theory.morph_opp;Ring_theory.rmul_ext2;RingMicromega.Fop;RingMicromega.PolC;MSetPositive.PositiveSet.remove;InitialRing.gen_phiZ_morph;RingMicromega.cnf_normalise
+./DepMapFactsImplementation.v;Shuffle;;;122;52;rewrite;remove_same;-1;MSetPositive.PositiveSet.remove;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;122;53;rewrite;remove_same;-1;MSetPositive.PositiveSet.remove;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;122;54;rewrite;remove_same;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;122;55;rewrite;remove_same;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;122;56;rewrite;remove_same;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;122;57;rewrite;remove_same;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;122;58;rewrite;remove_same;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;123;18;rewrite;remove_other;-1;OrdersEx.Z_as_OT.clearbit_neq;BinPos.Pos.to_num_hex_int;Vector.take_app;BinNat.N.le_min_r;PeanoNat.Nat.pow;OrdersEx.N_as_DT.ldiff_ones_l_low;CompSpec;InitialRing.gen_phiN_mult;OrdersEx.N_as_DT.div_add_l;OrdersEx.N_as_OT.Private_NDivProp.Private_NZDiv.mod_mul_r
+./DepMapFactsImplementation.v;Shuffle;;;123;19;rewrite;remove_other;-1;RingMicromega.micomega_sor_setoid;Relations_1.Order;Relations_1.Equivalence_sind;RingMicromega.map_option;Ring_theory.SRmorph_Rmorph;Ring_polynom.PsubX;RelProd_Symmetric;RingMicromega.rminus_morph;Ring_theory.SRopp_add;Ring_polynom.get_PEopp
+./DepMapFactsImplementation.v;Shuffle;;;123;20;rewrite;remove_other;-1;Relations_1.Order;Relations_1.Equivalence_sind;RelProd_Symmetric;eq_refl_map_distr;eq_ex_rect;EnvRing.env_morph;eqlistA_rev;Ring_theory.SRmorph_Rmorph;Ring_theory.SRopp_add;eq_trans_refl_r
+./DepMapFactsImplementation.v;Shuffle;;;123;21;rewrite;remove_other;-1;RelProd_Symmetric;eq_refl_map_distr;EnvRing.env_morph;PreOmega.Z.rem_bound_neg_pos;Zdiv.Z_mod_remainder;RingMicromega.micomega_sor_setoid;RingMicromega.map_option;RingMicromega.rminus_morph;RingMicromega.rle_morph;OrdersEx.Z_as_DT.rem_0_l
+./DepMapFactsImplementation.v;Shuffle;;;123;22;rewrite;remove_other;-1;EnvRing.env_morph;RelProd_Symmetric;RingMicromega.map_option;PreOmega.Z.rem_bound_neg_pos;RingMicromega.rle_morph;Ring_theory.SRmorph_Rmorph;RingMicromega.rminus_morph;RingMicromega.micomega_sor_setoid;Ring_polynom.get_PEopp;EnvRing.norm_aux_PEopp
+./DepMapFactsImplementation.v;Shuffle;;;123;23;rewrite;remove_other;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;123;24;rewrite;remove_other;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;123;25;rewrite;remove_other;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;123;26;rewrite;remove_other;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;123;27;rewrite;remove_other;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;123;28;rewrite;remove_other;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;123;29;rewrite;remove_other;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;123;30;rewrite;remove_other;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;123;38;apply;Heq;-1;BinInt.Pos2Z.add_neg_pos;OrdersEx.Z_as_DT.gcd_opp_r;Field_theory.split_nz_r;Params;eqlistA_equivlistA;Fin.case_L_R';RingMicromega.PsatzSquare;CRelationClasses.equivalence_rewrite_crelation;Pnat.Pos2Nat.inj_pred;OrdersEx.Z_as_DT.lxor_m1_l
+./DepMapFactsImplementation.v;Shuffle;;;123;39;apply;Heq;-1;Hexadecimal.uint_eq_dec;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;123;40;apply;Heq;-1;Hexadecimal.uint_eq_dec;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;123;41;apply;Heq;-1;Hexadecimal.uint_eq_dec;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;123;58;rewrite <-;Hxy;-1;OrdersEx.Nat_as_DT.Private_OrderTac.IsTotal.lt_strorder;Ring_polynom.mult_dev;POrderedType.Positive_as_DT.divide_mul_r;BinNat.N.log2_up_le_mono;OrdersEx.Positive_as_OT.IsNul;Forall2_length;BinPos.Pos.compare_ngt_iff;BinInt.Z.shiftr_0_l;OrdersEx.N_as_OT.pow;clos_trans_1n_sind
+./DepMapFactsImplementation.v;Shuffle;;;123;59;rewrite <-;Hxy;-1;Hexadecimal.De;Hexadecimal.Db;eq_sig_hprop_iff;InA_double_head;BinNatDef.N.to_hex_int;BinPosDef.Pos.to_num_hex_int;VectorDef.Exists_cons_hd;VectorDef.Exists2_cons_hd;OrdersEx.Nat_as_OT.shiftl_specif_high;
+./DepMapFactsImplementation.v;Shuffle;;;123;60;rewrite <-;Hxy;-1;Hexadecimal.De;Hexadecimal.Db;BinNatDef.N.to_hex_int;BinPosDef.Pos.to_num_hex_int;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;123;61;rewrite <-;Hxy;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;128;28;apply;remove_compat;-1;OrderedTypeEx.Nat_as_OT.eq_refl;Zbool.Z_eq_bool;eq_sigT2_rect_existT2;OrdersEx.Nat_as_OT.pow_lt_mono_r;OrdersEx.Positive_as_OT.sub_mask_carry_spec;OrdersEx.Nat_as_DT.pow_wd_obligation_1;BinNat.N.bits_inj_0;eqb_subst;OrdersEx.Z_as_OT.nle_succ_diag_l;Ring_polynom.PaddI
+./DepMapFactsImplementation.v;Shuffle;;;128;29;apply;remove_compat;-1;rew_swap;remove_In;rev_nth;removelast_firstn;Ring_polynom.PaddI;Ring_theory.morph_sub;RingMicromega.padd;Ring_theory.SRadd_comm;Ring_polynom.PEopp;Ring_theory.Smorph_sub
+./DepMapFactsImplementation.v;Shuffle;;;128;30;apply;remove_compat;-1;rew_swap;remove_In;rev_nth;removelast_firstn;Relations_1.Definition_of_PER;Refl.make_conj_cons;ex_rect;clos_refl_sind;Vector.rectS;preord_refl
+./DepMapFactsImplementation.v;Shuffle;;;128;31;apply;remove_compat;-1;remove_In;removelast_firstn;Refl.make_conj_cons;BinInt.Z.rem_nonneg;BinInt.Z.rem_mod_nonneg;BinInt.Z.rem_quot;BinInt.Z.rem_sign;Ring_theory.morph_sub;BinInt.Z.add_rem;RingMicromega.padd
+./DepMapFactsImplementation.v;Shuffle;;;128;32;apply;remove_compat;-1;remove_In;removelast_firstn;Refl.make_conj_cons;BinInt.Z.rem_mod_nonneg;Ring_theory.morph_sub;BinInt.Z.rem_nonneg;OrdersEx.Z_as_OT.rem_opp_l;BinInt.Z.rem_quot;Ring_theory.Smorph_sub;Ring_polynom.PEopp
+./DepMapFactsImplementation.v;Shuffle;;;128;33;apply;remove_compat;-1;remove_In;removelast_firstn;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;128;34;apply;remove_compat;-1;remove_In;removelast_firstn;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;128;35;apply;remove_compat;-1;remove_In;removelast_firstn;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;128;36;apply;remove_compat;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;128;37;apply;remove_compat;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;128;38;apply;remove_compat;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;128;39;apply;remove_compat;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;128;40;apply;remove_compat;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;128;41;apply;remove_compat;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;134;20;rewrite <-;(find_spec;-1;BinInt.Z.pred;POrderedType.Positive_as_OT.leb_spec0;OrdersEx.N_as_DT.div_1_r;POrderedType.Positive_as_OT.compare_le_iff;OrdersEx.Z_as_DT.add_nocarry_lt_pow2;OrdersEx.N_as_OT.Private_NLcmProp.gcd_1_lcm_mul;OrdersEx.Nat_as_OT.compare_refl;PeanoNat.Nat.succ_lt_mono;BinInt.Z.le_add_le_sub_r;BinNat.N.sub_succ
+./DepMapFactsImplementation.v;Shuffle;;;134;21;rewrite <-;(find_spec;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;134;22;rewrite <-;(find_spec;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;134;23;rewrite <-;(find_spec;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;134;24;rewrite <-;(find_spec;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;134;25;rewrite <-;(find_spec;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;134;26;rewrite <-;(find_spec;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;134;27;rewrite <-;(find_spec;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;134;28;rewrite <-;(find_spec;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;134;29;rewrite <-;(find_spec;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;134;30;rewrite <-;(find_spec;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;140;27;rewrite <-;find_spec;-1;OrdersEx.N_as_OT.mul_assoc;PeanoNat.Nat.Div0.div_mod;PeanoNat.Nat.ones_spec_high;OrdersEx.Z_as_DT.order_induction'_0;BinNat.N.mod_upper_bound;OrdersEx.Z_as_OT.add_sub_assoc;PeanoNat.Nat.Private_OrderTac.Tac.eq_lt;OrdersEx.Nat_as_DT.strong_right_induction';OrdersEx.PositiveOrderedTypeBits.eq_dec;POrderedType.Positive_as_OT.eq_dec
+./DepMapFactsImplementation.v;Shuffle;;;140;28;rewrite <-;find_spec;-1;flip_Symmetric;Fix_F_2;Field_theory.split_aux_ok1;Field_theory.rinv_nz;FstRel_ProdRel;Field_theory.Field_simplify_eq_in_correct;Field_theory.mk_rsplit;Forall_dec_subproof0;Forall_map;ForallPairs
+./DepMapFactsImplementation.v;Shuffle;;;140;29;rewrite <-;find_spec;-1;Fix_F_2;Field_theory.split_aux_ok1;Field_theory.rinv_nz;Field_theory.Field_simplify_eq_in_correct;Field_theory.mk_rsplit;Field_theory.mk_afield;flip_Symmetric;ForallPairs;CMorphisms.iffT_flip_arrow_subrelation;MSetPositive.PositiveSet.filter
+./DepMapFactsImplementation.v;Shuffle;;;140;30;rewrite <-;find_spec;-1;Field_theory.rinv_nz;Field_theory.Field_simplify_eq_in_correct;CMorphisms.iffT_flip_arrow_subrelation;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;140;31;rewrite <-;find_spec;-1;Field_theory.rinv_nz;Field_theory.Field_simplify_eq_in_correct;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;140;32;rewrite <-;find_spec;-1;Field_theory.rinv_nz;Field_theory.Field_simplify_eq_in_correct;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;140;33;rewrite <-;find_spec;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;140;34;rewrite <-;find_spec;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;140;35;rewrite <-;find_spec;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;140;36;rewrite <-;find_spec;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;146;11;rewrite;Hxy;-1;PeanoNat.Nat.left_induction;PeanoNat.Nat.lor_land_distr_l;Ring_theory.rmul_ext2_Proper;Znumtheory.prime_2;PeanoNat.Nat.eq_refl;Ring_theory.rmul_ext1;OrdersEx.PositiveOrderedTypeBits.eqb_eq;BinNat.N.lt_pred_lt;PeanoNat.Nat.recursion;nth_error_app1
+./DepMapFactsImplementation.v;Shuffle;;;146;12;rewrite;Hxy;-1;hd_error;Tauto.hold_eIFF_IMPL;app_inv_head;eq_sigT_hprop_iff;eq_sig2_hprop;BinNatDef.N.to_hex_uint;OrdersEx.N_as_OT.shiftl_spec_high;POrderedType.Positive_as_DT.of_hex_uint_acc;;
+./DepMapFactsImplementation.v;Shuffle;;;146;13;rewrite;Hxy;-1;BinNatDef.N.to_hex_uint;POrderedType.Positive_as_DT.of_hex_uint_acc;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;146;14;rewrite;Hxy;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;146;24;rewrite;set_same;-1;POrderedType.Positive_as_OT.max_min_antimonotone;OrdersEx.Nat_as_DT.eqb_spec;BinNat.N.div_str_pos;OrdersEx.Nat_as_DT.recursion_succ;Decidable.not_iff;BinInt.Z.Odd;OrdersEx.Nat_as_OT.Private_NDivProp.Private_NZDiv.div_le_compat_l;OrdersEx.Z_as_OT.mul_lt_mono_pos_l;BinInt.Z.ggcd_correct_divisors;PeanoNat.Nat.sqrt_iter
+./DepMapFactsImplementation.v;Shuffle;;;146;25;rewrite;set_same;-1;sigT_sind;Seq_trans;String.eqb_eq;S.map;String.findex;S.Dom.add_spec;in_split_r;eq_sig2_uncurried_iff;eq_sym;CompSpec
+./DepMapFactsImplementation.v;Shuffle;;;146;26;rewrite;set_same;-1;Seq_trans;String.eqb_eq;Empty_set_ind;OrdersEx.Nat_as_DT.eqb_spec;OrdersEx.N_as_OT.div2_succ_double;OrdersEx.N_as_OT.sqrt_add_le;OrdersEx.Z_as_DT.mod_same;OrdersEx.N_as_OT.sqrtrem_spec;OrdersEx.N_as_OT.le_stepl;OrdersEx.Nat_as_OT.square_le_mono
+./DepMapFactsImplementation.v;Shuffle;;;146;27;rewrite;set_same;-1;Seq_trans;String.eqb_eq;Empty_set_ind;String.findex;PeanoNat.Nat.setbit;CompareSpecT_ind;BinInt.Z.eq_stepl;Ring_theory.semi_ring_theory;OrdersEx.Z_as_DT.shiftl_spec_alt;MSetPositive.PositiveSet.In_compat
+./DepMapFactsImplementation.v;Shuffle;;;146;28;rewrite;set_same;-1;Seq_trans;Empty_set_ind;String.eqb_eq;CompareSpecT_ind;Ring_theory.semi_ring_theory;BinNat.N.sqrt_le_mono;OrdersEx.Z_as_DT.shiftl_spec_alt;BinNat.N.strong_left_induction';VectorSpec.nth_order_replace_eq;MSetPositive.PositiveSet.In_compat
+./DepMapFactsImplementation.v;Shuffle;;;146;29;rewrite;set_same;-1;Seq_trans;MSetPositive.PositiveSet.partition_spec2;OrdersEx.N_as_OT.sqrt_up_le_square;OrdersEx.N_as_OT.sqrtrem_spec;OrdersEx.Positive_as_DT.sqrtrem_step;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;146;30;rewrite;set_same;-1;OrdersEx.N_as_OT.sqrt_up_le_square;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;146;31;rewrite;set_same;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;146;32;rewrite;set_same;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;149;11;rewrite;set_other;-1;OrdersEx.Nat_as_DT.lnot_sub_low;OrdersEx.Nat_as_DT.le_1_r;OrdersEx.Nat_as_OT.log2_lt_lin;Zorder.Zsucc_lt_compat;combine_length;OrdersEx.N_as_OT.Private_NLcmProp.lcm_divide_iff;QArith_base.Qeq_bool_sym;OrdersEx.N_as_OT.sqrt_up_le_lin;OrdersEx.Z_as_OT.le_ind;OrdersEx.Nat_as_DT.log2_unique
+./DepMapFactsImplementation.v;Shuffle;;;149;12;rewrite;set_other;-1;skipn_rev;sigT_rect;sigT2_ind;S.singleton;S.Dom.inter;String.findex;String.string;String.index_correct3;S.find;eq_sigT_nondep
+./DepMapFactsImplementation.v;Shuffle;;;149;13;rewrite;set_other;-1;in_seq;sigT_rect;skipn_rev;OrdersEx.N_as_OT.sqrt_up_le_lin;OrdersEx.N_as_DT.sqrt_le_mono;OrdersEx.Z_as_DT.mul_shuffle3;OrdersEx.N_as_OT.sqrt_up_succ_square;OrdersEx.N_as_DT.eq_stepl;OrdersEx.Z_as_DT.ltb_spec;OrdersEx.Nat_as_OT.quadmul_le_squareadd
+./DepMapFactsImplementation.v;Shuffle;;;149;14;rewrite;set_other;-1;String.index_correct3;sigT_rect;S.singleton;String.findex;BinNat.N.setbit;BinNat.N.setbit_neq;S.Dom.inter;VectorSpec.to_list_fold_right;OrdersEx.Z_as_OT.setbit_eqb;eq_sigT_nondep
+./DepMapFactsImplementation.v;Shuffle;;;149;15;rewrite;set_other;-1;String.index_correct3;BinNat.N.setbit_neq;VectorSpec.to_list_fold_right;OrdersEx.Z_as_OT.setbit_eqb;Hexadecimal.signed_int_beq;BinNat.N.sqrtrem_spec;MSetPositive.PositiveSet.xexists_spec;OrdersEx.N_as_DT.sqrt_le_mono;CMorphisms.subrelation_id_proper;OrdersEx.Nat_as_OT.Private_NZSqrt.sqrt_eq_succ_iff_square
+./DepMapFactsImplementation.v;Shuffle;;;149;16;rewrite;set_other;-1;VectorSpec.to_list_fold_right;String.index_correct3;OrdersEx.N_as_DT.sqrt_le_mono;CMorphisms.subrelation_id_proper;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;149;17;rewrite;set_other;-1;VectorSpec.to_list_fold_right;String.index_correct3;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;149;18;rewrite;set_other;-1;VectorSpec.to_list_fold_right;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;149;19;rewrite;set_other;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;149;20;rewrite;set_other;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;158;11;rewrite;Hxy;-1;BinInt.Z.lxor_spec;POrderedType.Positive_as_OT.sub_xI_xI;BinNat.N.add_pos_pos;OrdersEx.Z_as_OT.Private_NZDiv.mul_mod_distr_r;OrdersEx.N_as_DT.Private_NZGcdProp.gcd_1_l;OrdersEx.Z_as_DT.gtb_ltb;OrdersEx.Nat_as_OT.lt_ge_cases;OrdersEx.Z_as_DT.lt_0_1;BinPos.Pos.pred_double_spec;well_founded_induction_type_2
+./DepMapFactsImplementation.v;Shuffle;;;158;12;rewrite;Hxy;-1;Hexadecimal.signed_int;Hexadecimal.uint_ind;ZMicromega.hyps_of_pt;OrdersEx.N_as_OT.to_hex_int;OrdersEx.Z_as_DT.to_num_hex_int;BinNat.N.pos_pred_shiftl_high;OrdersEx.N_as_OT.pos_pred_shiftl_high;POrderedType.Positive_as_DT.to_num_hex_uint;;
+./DepMapFactsImplementation.v;Shuffle;;;158;13;rewrite;Hxy;-1;Hexadecimal.signed_int;Hexadecimal.uint_ind;OrdersEx.N_as_OT.to_hex_int;OrdersEx.Z_as_DT.to_num_hex_int;POrderedType.Positive_as_DT.to_num_hex_uint;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;158;14;rewrite;Hxy;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;161;11;rewrite;set_other;-1;OrdersEx.N_as_DT.log2_up_pow2;PeanoNat.Nat.log2_iter_spec;BinInt.Z.pow_2_r;OrdersEx.Z_as_DT.sqrt_up_0;BinNat.N.log2_lt_cancel;in_prod_iff;OrdersEx.Nat_as_OT.lt_total;Zorder.Zmult_gt_0_lt_0_reg_r;OrdersEx.Z_as_DT.opp_le_mono;PeanoNat.Nat.land_0_r
+./DepMapFactsImplementation.v;Shuffle;;;161;12;rewrite;set_other;-1;slexprod_ind;slexprod_lexprod;String.append_correct2;S.singleton_same;S.Dom.for_all_spec;String.leb_antisym;S.Dom.singleton;eq_sig2_rect_uncurried;eq_sigT2_hprop_iff;le_sind
+./DepMapFactsImplementation.v;Shuffle;;;161;13;rewrite;set_other;-1;slexprod_ind;slexprod_lexprod;absurd_set;OrdersEx.Positive_as_OT.sub_mask_neg;OrdersEx.Nat_as_OT.Private_NZSqrt.add_sqrt_le;OrdersEx.Z_as_DT.sqrt_nonneg;OrdersEx.Z_as_OT.lt_succ_pred;OrdersEx.Nat_as_DT.ltb_spec;OrdersEx.Z_as_OT.sqrt_le_mono;OrdersEx.N_as_OT.sqrt_square
+./DepMapFactsImplementation.v;Shuffle;;;161;14;rewrite;set_other;-1;String.leb_antisym;absurd_set;String.append_correct2;S.singleton_same;BinNat.N.setbit_iff;BinNat.N.setbit_eq;BinNat.N.setbit_eqb;S.Dom.singleton;eq_sigT2_rect_existT2_l;BinNat.N.lt_stepl
+./DepMapFactsImplementation.v;Shuffle;;;161;15;rewrite;set_other;-1;String.leb_antisym;String.append_correct2;S.singleton_same;OrdersEx.Nat_as_DT.square_lt_mono;OrdersEx.Nat_as_DT.square_lt_mono_nonneg;BinNat.N.setbit_iff;BinNat.N.setbit_eq;BinNat.N.setbit_eqb;eq_sig2_rect_uncurried;eq_sigT2_rect_existT2_l
+./DepMapFactsImplementation.v;Shuffle;;;161;16;rewrite;set_other;-1;S.singleton_same;String.append_correct2;MSetPositive.PositiveSet.ct_compare;OrdersEx.Z_as_DT.square_lt_mono_nonneg;OrdersEx.Nat_as_DT.square_lt_mono;OrdersEx.Nat_as_DT.square_lt_mono_nonneg;OrdersEx.Z_as_OT.sqrt_le_mono;MSetPositive.PositiveSet.compare_equal;;
+./DepMapFactsImplementation.v;Shuffle;;;161;17;rewrite;set_other;-1;String.append_correct2;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;161;18;rewrite;set_other;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;161;19;rewrite;set_other;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;161;20;rewrite;set_other;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;168;11;rewrite;Hxy;-1;Zdiv.Z_div_exact_1;OrdersEx.Z_as_OT.Private_Div.NZQuot.mod_0_l;PeanoNat.Nat.double_induction;BinNat.N.min_max_modular;OrdersEx.Z_as_OT.divide_1_r_nonneg;Decidable.not_imp_iff;PeanoNat.Nat.ltb_spec0;OrderedTypeEx.PositiveOrderedTypeBits.eq_trans;OrdersEx.Z_as_OT.ones_mod_pow2;POrderedType.Positive_as_OT.eq_refl
+./DepMapFactsImplementation.v;Shuffle;;;168;12;rewrite;Hxy;-1;eq_sigT_hprop_iff;QArith_base.to_hexadecimal;BinPosDef.Pos.to_num_hex_uint;OrdersEx.Nat_as_OT.to_hex_int;PeanoNat.Nat.shiftl_specif_high;OrdersEx.N_as_OT.shiftl_spec_high;POrderedType.Positive_as_DT.to_num_hex_int;;;
+./DepMapFactsImplementation.v;Shuffle;;;168;13;rewrite;Hxy;-1;QArith_base.to_hexadecimal;BinPosDef.Pos.to_num_hex_uint;OrdersEx.Nat_as_OT.to_hex_int;POrderedType.Positive_as_DT.to_num_hex_int;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;168;14;rewrite;Hxy;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;168;24;rewrite;add_same;-1;BinInt.Z.min_spec;EqdepFacts.eq_sig_eq_dep;OrdersEx.N_as_OT.min_l_iff;PeanoNat.Nat.Private_NDivProp.Private_NZDiv.div_0_l;OrdersEx.Z_as_DT.testbit_spec;Ring_polynom.zmon_pred_ok;PeanoNat.Nat.div_add;Decimal.decimal_eq_dec;Number.signed_int;POrderedType.Positive_as_OT.max_case
+./DepMapFactsImplementation.v;Shuffle;;;168;25;rewrite;add_same;-1;A;Arith_prebase.le_gt_S_stt;Tauto.A;Int.Z_as_Int.i2z_opp;Tauto.abst_eq;String.append;BinInt.Z.add_succ_comm;BinNat.N.add_square_le;BinNat.N.add_min_distr_l;OrdersEx.Ascii_as_OT.t
+./DepMapFactsImplementation.v;Shuffle;;;168;26;rewrite;add_same;-1;BinInt.Z.add_succ_comm;BinNat.N.add_square_le;BinNat.N.add_min_distr_l;OrdersEx.Z_as_DT.testbit_spec;OrdersEx.Z_as_DT.testbit_of_N';OrdersEx.Z_as_DT.lt_compat;OrdersEx.Z_as_DT.log2_unique;OrdersEx.N_as_DT.iter_swap_gen;OrdersEx.Z_as_DT.sqrt;OrdersEx.Z_as_DT.nocarry_equiv
+./DepMapFactsImplementation.v;Shuffle;;;168;27;rewrite;add_same;-1;BinInt.Z.add_succ_comm;BinNat.N.add_square_le;BinNat.N.add_min_distr_l;PeanoNat.Nat.add_shuffle0;Ring_polynom.add_pow_list;BinInt.Z.even_add_even;OrdersEx.Z_as_DT.divide_opp_r;OrdersEx.Z_as_DT.divide_antisym_nonneg;OrdersEx.Z_as_DT.div_unique_pos;OrdersEx.N_as_DT.Div0.add_mod_idemp_l
+./DepMapFactsImplementation.v;Shuffle;;;168;28;rewrite;add_same;-1;BinInt.Z.add_succ_comm;BinNat.N.add_square_le;BinNat.N.add_min_distr_l;PeanoNat.Nat.add_shuffle0;Ring_polynom.add_pow_list;BinInt.Z.even_add_even;PeanoNat.Nat.eq_add_0;PeanoNat.Nat.eq_add_1;BinNat.N.divide_add_cancel_r;PeanoNat.Nat.Odd_add_Even_inv_l
+./DepMapFactsImplementation.v;Shuffle;;;168;29;rewrite;add_same;-1;BinInt.Z.add_succ_comm;BinNat.N.add_square_le;PeanoNat.Nat.add_shuffle0;OrdersEx.Z_as_OT.odd_succ_succ;OrdersEx.N_as_OT.Odd_succ_succ;OrdersEx.N_as_OT.odd_spec;BinNat.N.add_min_distr_l;OrdersEx.Positive_as_DT.add_succ_l;OrdersEx.Z_as_OT.le_add_le_sub_l;OrdersEx.Z_as_OT.pow_odd_sgn
+./DepMapFactsImplementation.v;Shuffle;;;168;30;rewrite;add_same;-1;BinNat.N.add_square_le;OrdersEx.Z_as_DT.gcd_assoc;OrdersEx.Nat_as_OT.add_le_cases;OrdersEx.Z_as_DT.divide_antisym_nonneg;OrdersEx.Nat_as_DT.add_nonpos_cases;OrdersEx.Z_as_OT.Private_Div.NZQuot.mod_same;OrdersEx.Positive_as_DT.pred_mask;OrdersEx.Nat_as_DT.gcd_greatest;OrdersEx.N_as_OT.divide_transitive;OrdersEx.Nat_as_DT.Private_NLcmProp.gcd_div_swap
+./DepMapFactsImplementation.v;Shuffle;;;168;31;rewrite;add_same;-1;OrdersEx.Z_as_OT.Private_Div.NZQuot.mod_same;OrdersEx.Z_as_DT.divide_antisym_nonneg;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;168;32;rewrite;add_same;-1;OrdersEx.Z_as_OT.Private_Div.NZQuot.mod_same;OrdersEx.Z_as_DT.divide_antisym_nonneg;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;171;11;rewrite;add_other;-1;InitialRing.gen_phiNword_ok;OrdersEx.Z_as_DT.lcm_unique_alt;OrdersEx.Z_as_OT.lcm_wd;BinPos.Pos.add_xO;PeanoNat.Nat.add_min_distr_r;OrdersEx.N_as_DT.nle_succ_0;BinPos.Pos.Private_Dec.max_dec;OrdersEx.Z_as_OT.divide_quot_mul_exact;OrdersEx.Z_as_DT.mul_succ_div_gt;MSetPositive.PositiveSet.empty
+./DepMapFactsImplementation.v;Shuffle;;;171;12;rewrite;add_other;-1;Arith_prebase.le_gt_trans_stt;Acc_sind;in_or_app;Int.Z_as_Int.gt_le_dec;Int.Z_as_Int.mul;Int.Z_as_Int.opp;BinInt.Z.add;Tauto.mk_arrow;BinInt.Z.add_square_le;OrdersEx.Z_as_DT.lcm_unique_alt
+./DepMapFactsImplementation.v;Shuffle;;;171;13;rewrite;add_other;-1;BinInt.Z.add;BinInt.Z.add_square_le;Acc_sind;BinPos.Pos.add_xO;OrdersEx.Z_as_DT.lcm_unique_alt;PeanoNat.Nat.add_min_distr_r;OrdersEx.N_as_DT.nle_succ_0;OrdersEx.Z_as_DT.mul_succ_div_gt;OrdersEx.N_as_DT.max_le_compat_r;OrdersEx.N_as_DT.Private_NZPow.pow_lt_mono
+./DepMapFactsImplementation.v;Shuffle;;;171;14;rewrite;add_other;-1;BinInt.Z.add;BinInt.Z.add_square_le;BinPos.Pos.add_xO;PeanoNat.Nat.add_min_distr_r;PeanoNat.Nat.add_wd;Znat.N2Z.inj_add;PeanoNat.Nat.add_1_l;BinNat.N.even_add_mul_even;OrdersEx.N_as_DT.Div0.div_mul_le;OrdersEx.Z_as_DT.divide_div
+./DepMapFactsImplementation.v;Shuffle;;;171;15;rewrite;add_other;-1;BinInt.Z.add_square_le;BinPos.Pos.add_xO;PeanoNat.Nat.add_min_distr_r;PeanoNat.Nat.add_wd;PeanoNat.Nat.add_1_l;BinNat.N.even_add_mul_even;BinNat.N.le_lt_add_lt;PeanoNat.Nat.eq_add_succ;OrdersEx.N_as_DT.add_le_mono_r;OrdersEx.Z_as_OT.add_0_l
+./DepMapFactsImplementation.v;Shuffle;;;171;16;rewrite;add_other;-1;BinPos.Pos.add_xO;OrdersEx.Z_as_DT.mod_opp_l_nz;OrdersEx.Positive_as_OT.add_xO;OrdersEx.N_as_DT.add_le_mono_r;OrdersEx.Nat_as_DT.Even_double;OrdersEx.Z_as_DT.pow_add_lower;OrdersEx.Z_as_OT.divide_opp_l;OrdersEx.Z_as_OT.add_le_lt_mono;OrdersEx.Z_as_DT.odd_pow;OrdersEx.Z_as_DT.gcd_mod
+./DepMapFactsImplementation.v;Shuffle;;;171;17;rewrite;add_other;-1;OrdersEx.Z_as_DT.gcd_quot_gcd;OrdersEx.Z_as_OT.add_le_lt_mono;OrdersEx.Z_as_OT.add_lt_le_mono;OrdersEx.Z_as_OT.divide_quot_mul_exact;OrdersEx.Nat_as_DT.divide_factor_l;OrdersEx.Positive_as_OT.add_no_neutral;OrdersEx.Z_as_OT.gcd_div_factor;OrdersEx.N_as_DT.Private_OrderTac.IsTotal.lt_compat;OrdersEx.N_as_DT.Private_NDivProp.add_mul_mod_distr_l;OrdersEx.Z_as_DT.Private_NZDiv.div_str_pos
+./DepMapFactsImplementation.v;Shuffle;;;171;18;rewrite;add_other;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;171;19;rewrite;add_other;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;171;20;rewrite;add_other;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;179;11;rewrite;Hxy;-1;OrdersEx.Z_as_OT.Private_Div.NZQuot.div_le_upper_bound;OrdersEx.Z_as_OT.testbit_mod_pow2;OrdersEx.Nat_as_DT.sub_min_distr_r;PreOmega.Z.rem_bound_pos_pos;CMorphisms.proper_sym_arrow_iffT_2;OrdersEx.Z_as_OT.neq_succ_diag_l;BinInt.Z.log2_add_le;Znumtheory.Zdivide_Zdiv_eq;OrdersEx.N_as_DT.even_mul;POrderedType.Positive_as_DT.Proper_instance_0
+./DepMapFactsImplementation.v;Shuffle;;;179;12;rewrite;Hxy;-1;eq_ex_intro_hprop;BinNat.N.to_hex_uint;VectorSpec.to_list_hd;PeanoNat.Nat.to_num_hex_uint;OrdersEx.N_as_OT.shiftl_spec_high;OrdersEx.N_as_OT.pos_pred_shiftl_high;;;;
+./DepMapFactsImplementation.v;Shuffle;;;179;13;rewrite;Hxy;-1;BinNat.N.to_hex_uint;PeanoNat.Nat.to_num_hex_uint;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;179;14;rewrite;Hxy;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;182;11;rewrite;add_other;-1;PeanoNat.Nat.compare_spec;BinPos.Pos.sub_add_distr;BinInt.Z.Private_Div.NZQuot.div_mod_unique;Compare_dec.le_dec;OrdersEx.Positive_as_DT.shiftr;OrdersEx.Z_as_OT.square_spec;OrdersEx.Z_as_DT.add_diag;OrdersEx.Nat_as_DT.Private_NDivProp.div_lt;OrdersEx.Nat_as_DT.Private_NDivProp.Private_NZDiv.div_le_upper_bound;eq_exist_uncurried
+./DepMapFactsImplementation.v;Shuffle;;;182;12;rewrite;add_other;-1;app_eqlistA_compat;auxiliary.Zne_left;auxiliary.Zle_left;andb_orb_distrib_l;Ascii.Ascii;Ascii.ascii_rect;Tauto.abst_impl;Forall_and_inv;BinInt.Z.are_bits;BinInt.Z.add_carry_bits
+./DepMapFactsImplementation.v;Shuffle;;;182;13;rewrite;add_other;-1;andb_orb_distrib_l;BinInt.Z.add_carry_bits;BinInt.Z.add_le_mono_l;BinInt.Z.add_add_simpl_r_l;BinPos.Pos.add_no_neutral;OrdersEx.Z_as_DT.add_diag;OrdersEx.N_as_DT.ones_spec_iff;OrdersEx.N_as_DT.leb;OrdersEx.Z_as_DT.add_pos_pos;OrdersEx.Z_as_DT.lt_mul_m1_pos
+./DepMapFactsImplementation.v;Shuffle;;;182;14;rewrite;add_other;-1;andb_orb_distrib_l;BinInt.Z.add_carry_bits;BinInt.Z.add_le_mono_l;BinInt.Z.add_add_simpl_r_l;BinPos.Pos.add_no_neutral;PeanoNat.Nat.add_le_mul;BinNat.N.even_add_mul_2;BinPos.Pos.sub_add_distr;OrdersEx.N_as_DT.Div0.mul_mod;OrdersEx.N_as_DT.div_pow2_bits
+./DepMapFactsImplementation.v;Shuffle;;;182;15;rewrite;add_other;-1;BinInt.Z.add_carry_bits;BinInt.Z.add_le_mono_l;BinInt.Z.add_add_simpl_r_l;BinPos.Pos.add_no_neutral;PeanoNat.Nat.add_le_mul;andb_orb_distrib_l;BinNat.N.even_add_mul_2;BinPos.Pos.sub_add_distr;Znat.Zabs2N.inj_add_abs;OrdersEx.Z_as_DT.add_diag
+./DepMapFactsImplementation.v;Shuffle;;;182;16;rewrite;add_other;-1;BinPos.Pos.add_no_neutral;BinInt.Z.add_le_mono_l;OrdersEx.Z_as_DT.add_pos_pos;OrdersEx.Z_as_DT.pred_double;OrdersEx.Nat_as_DT.add_nonneg_pos;OrdersEx.Nat_as_OT.Odd_double;OrdersEx.Nat_as_DT.add_nonneg_nonneg;OrdersEx.Z_as_DT.add_lt_mono_r;POrderedType.Positive_as_DT.add_xO_pred_double;OrdersEx.Nat_as_DT.ldiff_ones_r
+./DepMapFactsImplementation.v;Shuffle;;;182;17;rewrite;add_other;-1;BinPos.Pos.add_no_neutral;OrdersEx.Z_as_DT.add_lt_mono_r;OrdersEx.N_as_DT.div_pow2_bits;OrdersEx.N_as_DT.div_str_pos;OrdersEx.N_as_OT.divide_factor_r;OrdersEx.N_as_DT.Div0.add_mul_mod_distr_r;OrdersEx.N_as_DT.order_induction'_0;OrdersEx.Nat_as_DT.Private_NDivProp.add_mul_mod_distr_l;OrdersEx.N_as_DT.Private_NDivProp.Private_NZDiv.mod_le;OrdersEx.N_as_DT.Private_NDivProp.Private_NZDiv.mul_mod_idemp_r
+./DepMapFactsImplementation.v;Shuffle;;;182;18;rewrite;add_other;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;182;19;rewrite;add_other;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;182;20;rewrite;add_other;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;189;11;rewrite;Hxy;-1;Ndiv_def.Pdiv_eucl;Byte.x68;OrdersEx.Nat_as_OT.land_lnot_diag_low;BinInt.Z.modulo;OrdersEx.Nat_as_DT.sub_add;Bvector.Bsign;OrdersEx.Z_as_OT.pow_le_mono_r;Decidable.not_not;QArith_base.Qmult_lt_compat_r;S.constant_Some
+./DepMapFactsImplementation.v;Shuffle;;;189;12;rewrite;Hxy;-1;HdRel_nil;Hexadecimal.Nil;BinInt.Z.of_hex_int;BinPos.Pos.to_num_hex_uint;OrdersEx.N_as_OT.to_hex_int;OrdersEx.N_as_DT.pos_pred_shiftl_high;;;;
+./DepMapFactsImplementation.v;Shuffle;;;189;13;rewrite;Hxy;-1;Hexadecimal.Nil;BinInt.Z.of_hex_int;BinPos.Pos.to_num_hex_uint;OrdersEx.N_as_OT.to_hex_int;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;189;14;rewrite;Hxy;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;192;11;rewrite;remove_other;-1;OrdersEx.Z_as_OT.pow_div_l;OrdersEx.Nat_as_OT.mul_lt_pred;Znumtheory.prime_mult;OrdersEx.Nat_as_DT.Private_NLcmProp.gcd_div_swap;POrderedType.Positive_as_DT.sub_compare_mono_r;OrdersEx.Nat_as_OT.Private_NDivProp.Private_NZDiv.mod_1_r;OrdersEx.N_as_DT.pair_induction;OrdersEx.Nat_as_DT.recursion_succ;QArith_base.inject_Z;Zorder.Zle_lt_or_eq
+./DepMapFactsImplementation.v;Shuffle;;;192;12;rewrite;remove_other;-1;respectful_morphism;rev_append;rst_sym;Ring_theory.ARmul_assoc2;RingMicromega.Psatz;Ring_theory.SRopp;RelProd_Transitive;RingMicromega.pexpr_times_nformula;RingMicromega.paddC;Relations_1.Relation
+./DepMapFactsImplementation.v;Shuffle;;;192;13;rewrite;remove_other;-1;respectful_morphism;rev_append;RelProd_Transitive;Relations_1.Relation;ReflectF;SndRel_ProdRel;list_rect;Zdiv.Remainder_equiv;notin_remove;Fin.t_rect
+./DepMapFactsImplementation.v;Shuffle;;;192;14;rewrite;remove_other;-1;respectful_morphism;Zdiv.Remainder_equiv;notin_remove;RingMicromega.eval_pol_norm;Znat.N2Z.inj_rem;RingMicromega.Psatz;RingMicromega.pexpr_times_nformula;RingMicromega.paddC;RingMicromega.rtimes_morph_Proper;OrdersEx.Z_as_DT.rem_rem
+./DepMapFactsImplementation.v;Shuffle;;;192;15;rewrite;remove_other;-1;respectful_morphism;notin_remove;RingMicromega.rtimes_morph_Proper;Ring_theory.ARmul_assoc2;RingMicromega.eval_pol_norm;Ring_polynom.Pphi_dev_ok;RingMicromega.pexpr_times_nformula;;;
+./DepMapFactsImplementation.v;Shuffle;;;192;16;rewrite;remove_other;-1;notin_remove;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;192;17;rewrite;remove_other;-1;notin_remove;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;192;18;rewrite;remove_other;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;192;19;rewrite;remove_other;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;192;20;rewrite;remove_other;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;192;21;rewrite;remove_other;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;192;22;rewrite;remove_other;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;192;23;rewrite;remove_other;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;199;11;rewrite;Hxy;-1;OrdersEx.Nat_as_DT.log2_unique;OrdersEx.Nat_as_OT.shiftr_eq_0;OrdersEx.N_as_DT.min_monotone;NoDup_Add;POrderedType.Positive_as_OT.lt_nle;POrderedType.Positive_as_OT.div2;OrdersEx.Positive_as_OT.compare_eq_iff;BinInt.Pos2Z.inj_pos;OrdersEx.Z_as_OT.testbit_0_r;OrdersEx.Z_as_OT.mul_le_mono_nonpos_r
+./DepMapFactsImplementation.v;Shuffle;;;199;12;rewrite;Hxy;-1;app_inv_head;Vector.Exists2_cons_hd;OrdersEx.Nat_as_OT.to_num_hex_uint;PeanoNat.Nat.shiftl_specif_high;OrdersEx.Z_as_DT.shiftl_spec_high;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;199;13;rewrite;Hxy;-1;OrdersEx.Nat_as_OT.to_num_hex_uint;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;199;14;rewrite;Hxy;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;199;24;rewrite;remove_same;-1;OrdersEx.Nat_as_DT.lcm;OrdersEx.Nat_as_DT.Private_NLcmProp.lcm_equiv1;Byte.xda;OrdersEx.Z_as_OT.pow;Zbool.Zle_imp_le_bool;OrdersEx.N_as_DT.min_le_compat_r;Zdiv.Zmod'_correct;OrdersEx.N_as_OT.Private_NLcmProp.divide_div_mul_exact;OrdersEx.Z_as_OT.Private_Tac.lt_irrefl;OrdersEx.Positive_as_OT.iter_swap
+./DepMapFactsImplementation.v;Shuffle;;;199;25;rewrite;remove_same;-1;respectful;reflexive_reflexive_proxy;rtn1_refl;Ring_polynom.Pphi0;Ring_polynom.PExpr_rec;Ring_polynom.PsubC_ok;Ring_theory.SRmul_1_l;Ring_polynom.Mphi_ok;RingMicromega.eval_nformula;Ring_theory.ARmul_assoc
+./DepMapFactsImplementation.v;Shuffle;;;199;26;rewrite;remove_same;-1;respectful;reflexive_reflexive_proxy;HdRel_sind;iff_refl;clos_refl_trans_n1_sind;rtn1_refl;sumbool_rec;Ring_theory.SRmul_1_l;BinInt.Z.rem_abs_l;Ring_theory.ARmul_assoc
+./DepMapFactsImplementation.v;Shuffle;;;199;27;rewrite;remove_same;-1;BinInt.Z.rem_abs_l;RingMicromega.eval_nformula;BinInt.Z.mul_rem_distr_r;BinInt.Z.mul_rem_idemp_r;RingMicromega.rlt_morph;RingMicromega.cnf_normalise_correct;OrdersEx.Z_as_DT.rem_divide;Ring_theory.SRmul_1_l;Ring_theory.ARmul_assoc;Ring_polynom.PExpr_rec
+./DepMapFactsImplementation.v;Shuffle;;;199;28;rewrite;remove_same;-1;RingMicromega.rlt_morph;Ring_polynom.PEO;Ring_theory.SRmul_1_l;Ring_theory.ARmul_assoc;RingMicromega.eval_nformula;MSetPositive.PositiveSet.remove;OrderedRing.Rplus_le_lt_mono;RingMicromega.cnf_normalise_correct;Field_theory.R_setoid3_Symmetric;
+./DepMapFactsImplementation.v;Shuffle;;;199;29;rewrite;remove_same;-1;MSetPositive.PositiveSet.remove;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;199;30;rewrite;remove_same;-1;MSetPositive.PositiveSet.remove;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;199;31;rewrite;remove_same;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;199;32;rewrite;remove_same;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;199;33;rewrite;remove_same;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;199;34;rewrite;remove_same;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;199;35;rewrite;remove_same;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;200;11;rewrite;remove_other;-1;Byte.x48;DecidableTypeEx.Positive_as_DT.compare;POrderedType.Positive_as_DT.min_max_antimono;inhabited_ind;BinPos.Pos.pred;OrderedRing.SORopp_wd;OrdersEx.N_as_OT.odd_add_even;POrderedType.Positive_as_OT.mul_eq_1_r;Field_theory.FEopp;OrdersEx.N_as_DT.eqb_sym
+./DepMapFactsImplementation.v;Shuffle;;;200;12;rewrite;remove_other;-1;rew_ex;rew_opp_r;rew_opp_l;Relations_1.PER_rect;Ring_theory.SRth_ARth;RingMicromega.ropp_morph;RingMicromega.ropp_morph_Proper;Ring_polynom.zmon;RingMicromega.Psatz_sind;RingMicromega.OpAdd
+./DepMapFactsImplementation.v;Shuffle;;;200;13;rewrite;remove_other;-1;rew_ex;rew_opp_r;rew_opp_l;Relations_1.PER_rect;Relations_1.Preorder;Relations_1.Preorder_sind;FstRel_ProdRel;eq_ex_rect_uncurried;sigT2_rect;ZCoeff.req_trans
+./DepMapFactsImplementation.v;Shuffle;;;200;14;rewrite;remove_other;-1;RingMicromega.ropp_morph;RingMicromega.ropp_morph_Proper;RingMicromega.Psatz_sind;RingMicromega.OpAdd;RingMicromega.pexpr_times_nformula_correct;OrdersEx.Z_as_DT.rem_0_l;OrdersEx.Z_as_OT.rem_abs;OrdersEx.Z_as_DT.rem_add;Field_theory.rmul_ext3_Proper;Znumtheory.rel_prime_cross_prod
+./DepMapFactsImplementation.v;Shuffle;;;200;15;rewrite;remove_other;-1;RingMicromega.OpAdd;RingMicromega.ropp_morph;RingMicromega.ropp_morph_Proper;Field_theory.rmul_ext3_Proper;Znumtheory.rel_prime_cross_prod;RingMicromega.pexpr_times_nformula_correct;;;;
+./DepMapFactsImplementation.v;Shuffle;;;200;16;rewrite;remove_other;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;200;17;rewrite;remove_other;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;200;18;rewrite;remove_other;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;200;19;rewrite;remove_other;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;200;20;rewrite;remove_other;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;200;21;rewrite;remove_other;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;200;22;rewrite;remove_other;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;200;23;rewrite;remove_other;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;208;11;rewrite;Hxy;-1;OrdersEx.Nat_as_DT.even_mul;BinNat.N.peano_rect;BinNat.N.Div0.mul_mod;BinInt.Z.ldiff_spec;OrdersEx.N_as_OT.sqrt_up_succ_or;EnvRing.PEc;eq_true_rect_r;eq_sigT_ind_uncurried;PeanoNat.Nat.pow_eq_0;BinInt.Pos2Z.inj_min
+./DepMapFactsImplementation.v;Shuffle;;;208;12;rewrite;Hxy;-1;hd_error_tl_repr;InA_cons_hd;BinIntDef.Z.of_hex_int;BinIntDef.Z.to_hex_int;BinNatDef.N.to_hex_uint;VectorDef.In_cons_hd;OrdersEx.N_as_DT.of_hex_uint;ZMicromega.Zeval_op2_hold;BinPosDef.Pos.to_num_hex_int;OrdersEx.Positive_as_DT.to_hex_uint
+./DepMapFactsImplementation.v;Shuffle;;;208;13;rewrite;Hxy;-1;BinIntDef.Z.of_hex_int;BinIntDef.Z.to_hex_int;BinNatDef.N.to_hex_uint;OrdersEx.N_as_DT.of_hex_uint;BinPosDef.Pos.to_num_hex_int;OrdersEx.Positive_as_DT.to_hex_uint;;;;
+./DepMapFactsImplementation.v;Shuffle;;;208;14;rewrite;Hxy;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;209;11;rewrite;add_other;-1;OrdersEx.Z_as_OT.land_lor_distr_l;OrdersEx.Z_as_OT.shiftr_opp_r;Arith_prebase.le_n_0_eq_stt;BinInt.Z.div_exact;OrdersEx.Z_as_DT.mul_max_distr_nonneg_l;VectorSpec.to_list_rev_append;OrdersEx.Nat_as_DT.Private_NDivProp.Private_NZDiv.div_small;OrdersEx.N_as_OT.log2_up_spec;POrderedType.Positive_as_DT.lt_trans;BinNat.N.land_ones
+./DepMapFactsImplementation.v;Shuffle;;;209;12;rewrite;add_other;-1;and_cancel_l;app_nth2;Arith_prebase.le_n_0_eq_stt;Ascii.DoubleQuote;Add_cons;Add_inv;InA_split;NoDupA;eq_add_S;eqlistA_ind
+./DepMapFactsImplementation.v;Shuffle;;;209;13;rewrite;add_other;-1;Add_cons;Add_inv;Ascii.DoubleQuote;and_cancel_l;eq_add_S;BinInt.Z.add_0_r;BinInt.Z.add_cancel_l;OrdersEx.Z_as_DT.mul_max_distr_nonneg_l;OrdersEx.N_as_DT.shiftl_ldiff;OrdersEx.Z_as_DT.leb_spec
+./DepMapFactsImplementation.v;Shuffle;;;209;14;rewrite;add_other;-1;Add_cons;Add_inv;eq_add_S;BinInt.Z.add_0_r;BinInt.Z.add_cancel_l;PeanoNat.Nat.add_nonneg_nonneg;BinInt.Z.gcd_add_diag_r;PeanoNat.Nat.add_wd_obligation_1;BinNat.N.div_add_l;BinInt.Pos2Z.add_pos_pos
+./DepMapFactsImplementation.v;Shuffle;;;209;15;rewrite;add_other;-1;Add_cons;Add_inv;eq_add_S;BinInt.Z.add_0_r;BinInt.Z.add_cancel_l;PeanoNat.Nat.add_nonneg_nonneg;BinInt.Z.gcd_add_diag_r;PeanoNat.Nat.add_wd_obligation_1;BinNat.N.div_add_l;BinInt.Pos2Z.add_pos_pos
+./DepMapFactsImplementation.v;Shuffle;;;209;16;rewrite;add_other;-1;Add_cons;PeanoNat.Nat.add_wd_obligation_1;PeanoNat.Nat.add_nonneg_nonneg;BinInt.Pos2Z.add_pos_pos;OrdersEx.Z_as_OT.add_move_l;OrdersEx.Nat_as_DT.Even_double;OrdersEx.Nat_as_DT.lt_add_pos_r;OrdersEx.Z_as_DT.add_sub_assoc;OrdersEx.Z_as_DT.mod_bound_pos_le;OrdersEx.Nat_as_DT.double_below
+./DepMapFactsImplementation.v;Shuffle;;;209;17;rewrite;add_other;-1;PeanoNat.Nat.add_wd_obligation_1;OrdersEx.Nat_as_DT.land_lnot_diag_low;OrdersEx.Z_as_DT.Private_Div.Quot2Div.modulo;OrdersEx.Z_as_DT.Private_Div.NZQuot.add_mod_idemp_l;OrdersEx.Positive_as_OT.add_lt_mono_l;BinInt.Z.Private_NZDiv.add_mul_mod_distr_r;OrdersEx.Nat_as_DT.Div0.add_mul_mod_distr_l;BinInt.Z.Private_BootStrap.mul_add_distr_pos;OrdersEx.N_as_DT.Private_OrderTac.IsTotal.le_lteq;OrdersEx.N_as_DT.Private_Dec.max_case_strong
+./DepMapFactsImplementation.v;Shuffle;;;209;18;rewrite;add_other;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;209;19;rewrite;add_other;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;209;20;rewrite;add_other;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;215;11;rewrite;Hxy;-1;Ndec.Pcompare_Peqb;BinNat.N.min_max_antimonotone;PeanoNat.Nat.sub_succ_r;OrdersEx.Z_as_DT.div_same;OrdersEx.Nat_as_DT.Private_Tac.trans;OrdersEx.Z_as_OT.log2_log2_up_exact;OrderedRing.SORneq_0_1;OrdersEx.Z_as_OT.opp;ZCoeff.ropp_morph;OrdersEx.Z_as_DT.Private_Div.NZQuot.div_same
+./DepMapFactsImplementation.v;Shuffle;;;215;12;rewrite;Hxy;-1;Hexadecimal.norm;Hexadecimal.uint_sind;eq_sig2_hprop;respectful_hetero;Decimal.del_head_int;BinNat.N.to_hex_int;BinNat.N.ones_spec_high;OrdersEx.N_as_OT.to_hex_int;PeanoNat.Nat.to_num_hex_uint;
+./DepMapFactsImplementation.v;Shuffle;;;215;13;rewrite;Hxy;-1;Hexadecimal.norm;Hexadecimal.uint_sind;BinNat.N.to_hex_int;OrdersEx.N_as_OT.to_hex_int;PeanoNat.Nat.to_num_hex_uint;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;215;14;rewrite;Hxy;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;216;11;rewrite;remove_other;-1;skipn_length;BinPos.Pos.square_spec;OrdersEx.Z_as_DT.lt_pred_le;Byte.xde;list_max_app;BinInt.Z.max_r;OrderedRing.Rle_ngt;POrderedType.Positive_as_DT.compare_cont_Eq;POrderedType.Positive_as_OT.iter_add;POrderedType.Positive_as_OT.max_1_l
+./DepMapFactsImplementation.v;Shuffle;;;216;12;rewrite;remove_other;-1;relation_implication_preorder;remove_remove_eq;RingMicromega.cnf_normalise_correct;Ring_polynom.PExpr_rec;RelCompFun_Equivalence;Refl.not_make_conj_cons;Ring_theory.pow_N;Ring_polynom.Mphi_ok;Ring_polynom.PSubstL_ok;RingMicromega.OpLt
+./DepMapFactsImplementation.v;Shuffle;;;216;13;rewrite;remove_other;-1;relation_implication_preorder;remove_remove_eq;RelCompFun_Equivalence;Refl.not_make_conj_cons;InA_rev;clos_refl_trans_ind_right;eq_ex_rect_uncurried;Build_RewriteRelation;option_rec;eq_true_rec_r
+./DepMapFactsImplementation.v;Shuffle;;;216;14;rewrite;remove_other;-1;remove_remove_eq;Refl.not_make_conj_cons;RelCompFun_Equivalence;relation_implication_preorder;Znat.N2Z.inj_rem;RingMicromega.cnf_normalise_correct;RingMicromega.OpLt;Field_theory.rmul_ext_Proper;Znumtheory.rel_prime_mod;Ring_polynom.PExpr_rec
+./DepMapFactsImplementation.v;Shuffle;;;216;15;rewrite;remove_other;-1;remove_remove_eq;RelCompFun_Equivalence;Refl.not_make_conj_cons;relation_implication_preorder;RingMicromega.OpLt;Znumtheory.rel_prime_mod;RingMicromega.cnf_normalise_correct;Field_theory.rmul_ext_Proper;Ring_polynom.rsub_ext_Proper;OrderedRing.SORtimes_pos_pos
+./DepMapFactsImplementation.v;Shuffle;;;216;16;rewrite;remove_other;-1;remove_remove_eq;RelCompFun_Equivalence;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;216;17;rewrite;remove_other;-1;remove_remove_eq;RelCompFun_Equivalence;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;216;18;rewrite;remove_other;-1;remove_remove_eq;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;216;19;rewrite;remove_other;-1;remove_remove_eq;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;216;20;rewrite;remove_other;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;216;21;rewrite;remove_other;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;216;22;rewrite;remove_other;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;216;23;rewrite;remove_other;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;222;11;rewrite;Hxy;-1;Arith_prebase.neq_0_lt_stt;BinPos.Pos.compare;BinNat.N.sqrt_up_lt_cancel;OrdersEx.Nat_as_DT.le_max_l;OrdersEx.N_as_OT.divide_lcm_eq_r;Tauto.hold_eIFF_IMPL;firstn_cons;OrdersEx.N_as_DT.pow_mul_l;OrdersEx.Nat_as_DT.Private_NZGcdProp.gcd_mul_diag_l;OrdersEx.Nat_as_DT.sqrt_add_le
+./DepMapFactsImplementation.v;Shuffle;;;222;12;rewrite;Hxy;-1;Hexadecimal.signed_int_eq_dec;Tauto.hold_eIFF_IMPL;BinNat.N.of_hex_int;PeanoNat.Nat.of_hex_int;BinPosDef.Pos.to_hex_uint;Vector.nth_order_hd;BinNat.N.ones_spec_high;OrdersEx.Nat_as_OT.to_hex_int;OrdersEx.N_as_DT.shiftl_spec_high';
+./DepMapFactsImplementation.v;Shuffle;;;222;13;rewrite;Hxy;-1;Hexadecimal.signed_int_eq_dec;BinNat.N.of_hex_int;PeanoNat.Nat.of_hex_int;BinPosDef.Pos.to_hex_uint;OrdersEx.Nat_as_OT.to_hex_int;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;222;14;rewrite;Hxy;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;223;18;rewrite;add_other;-1;Hexadecimal.hexadecimal;Zcompare.Zplus_compare_compat;ZifyClasses.rew_iff;OrdersEx.Z_as_OT.divide_lcm_iff;Zorder.Zplus_lt_compat_r;OrdersEx.Z_as_OT.lt_lt_pred;BinPos.Pos.pred_N;OrdersEx.N_as_DT.Private_OrderTac.Tac.lt_eq;OrdersEx.Nat_as_OT.nle_gt;DefaultRelation
+./DepMapFactsImplementation.v;Shuffle;;;223;19;rewrite;add_other;-1;A;andb_true_l;and_comm;app_eqlistA_compat;absorption_andb;app_cons_not_nil;Ascii.one;Arith_prebase.add_lt_mono_l_proj_l2r;Arith_prebase.gt_asym_stt;Arith_prebase.minus_n_O_stt
+./DepMapFactsImplementation.v;Shuffle;;;223;20;rewrite;add_other;-1;andb_true_l;and_comm;Tauto.add_term;BinInt.Z.add_add_simpl_l_l;BinNat.N.add_le_lt_mono;BinPos.Pos.add_sub_assoc;BinNat.N.eq_add_0;InA_sind;OrdersEx.N_as_DT.Private_OrderTac.Tac.lt_eq;OrdersEx.N_as_DT.mul_eq_0_l
+./DepMapFactsImplementation.v;Shuffle;;;223;21;rewrite;add_other;-1;Tauto.add_term;BinInt.Z.add_add_simpl_l_l;BinNat.N.add_le_lt_mono;BinPos.Pos.add_sub_assoc;BinNat.N.eq_add_0;BinList.jump_add;Arith_prebase.add_lt_mono_l_proj_l2r;OrdersEx.N_as_DT.div_mod_unique;OrdersEx.N_as_DT.div2_wd;OrdersEx.N_as_DT.Div0.add_mod_idemp_l
+./DepMapFactsImplementation.v;Shuffle;;;223;22;rewrite;add_other;-1;Tauto.add_term;BinInt.Z.add_add_simpl_l_l;BinNat.N.add_le_lt_mono;BinPos.Pos.add_sub_assoc;BinNat.N.eq_add_0;Arith_prebase.add_lt_mono_l_proj_l2r;OrdersEx.Z_as_OT.add_mul_mod_distr_l;OrdersEx.Z_as_OT.add_min_distr_l;OrdersEx.Z_as_OT.add_nocarry_lxor;OrdersEx.Z_as_DT.add_add_simpl_l_l
+./DepMapFactsImplementation.v;Shuffle;;;223;23;rewrite;add_other;-1;BinNat.N.add_le_lt_mono;OrdersEx.Z_as_OT.add_nocarry_lxor;Arith_prebase.add_lt_mono_l_proj_l2r;OrdersEx.Z_as_OT.add_nonpos_neg;OrdersEx.N_as_DT.add_nocarry_lt_pow2;OrdersEx.Z_as_DT.add_mod_idemp_l;BinPos.Pos.add_sub_assoc;OrdersEx.Z_as_DT.add_nocarry_mod_lt_pow2;OrdersEx.Z_as_DT.succ_double_spec;OrdersEx.Nat_as_OT.add_nocarry_lxor
+./DepMapFactsImplementation.v;Shuffle;;;223;24;rewrite;add_other;-1;BinNat.N.add_le_lt_mono;OrdersEx.Z_as_DT.gcd_quot_factor;Arith_prebase.add_lt_mono_l_proj_l2r;OrdersEx.Nat_as_DT.land_lnot_diag;OrdersEx.Nat_as_DT.add_log2_lt;OrdersEx.N_as_DT.add_nocarry_lt_pow2;OrdersEx.Z_as_OT.add_mul_mod_distr_l;OrdersEx.Z_as_DT.Private_Div.NZQuot.mod_small;OrdersEx.Z_as_DT.add_nocarry_mod_lt_pow2;OrdersEx.Nat_as_DT.mod_pow2_bits_low
+./DepMapFactsImplementation.v;Shuffle;;;223;25;rewrite;add_other;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;223;26;rewrite;add_other;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;223;27;rewrite;add_other;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;230;11;rewrite;Hxz;-1;Zorder.Zmult_gt_0_lt_0_reg_r;BinNat.N.odd_add_mul_2;OrdersEx.N_as_DT.lt_lt_pred;BinInt.Z.mod_bound_pos;BinNat.N.Private_NDivProp.add_mod_idemp_r;BinPosDef.Pos.pred_mask;OrdersEx.Z_as_DT.Private_Div.NZQuot.div_add_l;OrdersEx.N_as_DT.Private_NDivProp.div_mul_cancel_l;BinNums.Z0;OrdersEx.Positive_as_DT.to_little_uint
+./DepMapFactsImplementation.v;Shuffle;;;230;12;rewrite;Hxz;-1;Hexadecimal.signed_int_beq;Hexadecimal.internal_hexadecimal_dec_lb;HdRel;BinIntDef.Z.of_hex_int;BinInt.Z.ones_spec_high;OrdersEx.Nat_as_OT.to_little_hex_uint;OrdersEx.Nat_as_DT.shiftl_spec_high';OrdersEx.Nat_as_OT.shiftl_specif_high;;
+./DepMapFactsImplementation.v;Shuffle;;;230;13;rewrite;Hxz;-1;Hexadecimal.signed_int_beq;Hexadecimal.internal_hexadecimal_dec_lb;BinIntDef.Z.of_hex_int;OrdersEx.Nat_as_OT.to_little_hex_uint;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;230;14;rewrite;Hxz;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;232;13;rewrite;Hyz;-1;PeanoNat.Nat.le_equiv;S.Dom.Equal;Byte.x09;BinInt.Z.divide_wd;OrderedTypeEx.N_as_OT.eq_dec;BinPos.Pos.double_mask;S.Dom.For_all;RelProd_Equivalence;PeanoNat.Nat.Private_NDivProp.mod_unique;BinInt.Z.testbit_0_r
+./DepMapFactsImplementation.v;Shuffle;;;232;14;rewrite;Hyz;-1;BinNatDef.N.of_hex_uint;OrdersEx.Nat_as_OT.of_hex_uint;RingMicromega.extract_hyps;PeanoNat.Nat.to_little_hex_uint;OrderedTypeEx.Ascii_as_OT.compare_helper_gt;POrderedType.Positive_as_DT.to_num_hex_uint;;;;
+./DepMapFactsImplementation.v;Shuffle;;;232;15;rewrite;Hyz;-1;RingMicromega.extract_hyps;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;232;16;rewrite;Hyz;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;232;69;rewrite <-;Hyz;-1;BinPos.Pos.iter_ind;POrderedType.Positive_as_OT.peanoView;CompSpecT;BinPosDef.Pos.ldiff;app_inv_tail;QArith_base.Qle_lteq;OrdersEx.Nat_as_OT.zero_or_succ;OrdersEx.Nat_as_OT.pow_nonzero;OrdersEx.Nat_as_OT.Private_NLcmProp.divide_div_mul_exact;BinIntDef.Z.even
+./DepMapFactsImplementation.v;Shuffle;;;232;70;rewrite <-;Hyz;-1;Hexadecimal.D0;Hexadecimal.D3;InitialRing.hypo_proof;OrdersEx.Positive_as_OT.to_num_hex_int;OrdersEx.Z_as_OT.mod_pow2_bits_high;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;232;71;rewrite <-;Hyz;-1;InitialRing.hypo_proof;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;232;72;rewrite <-;Hyz;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;233;20;rewrite;add_other;-1;MSetPositive.PositiveSet.ct_lxl;PeanoNat.Nat.Div0.mod_same;Field_theory.display_pow_linear;OrdersEx.N_as_DT.log2_pred_pow2;OrdersEx.N_as_DT.ldiff_diag;OrdersEx.Z_as_OT.add_simpl_r;Ring.bool_eq;BinInt.Z.sqrt_lt_square;OrdersEx.Positive_as_DT.mask;OrdersEx.N_as_OT.sqrt
+./DepMapFactsImplementation.v;Shuffle;;;233;21;rewrite;add_other;-1;app_nth2;auxiliary.Zle_left;and_comm;Acc_intro;Arith_prebase.le_not_lt_stt;ArithRing.natSRth;rev_append_rev;seq_app;Tauto.AND;BinInt.Z.add_succ_comm
+./DepMapFactsImplementation.v;Shuffle;;;233;22;rewrite;add_other;-1;and_comm;BinInt.Z.add_succ_comm;Tauto.AND;BinNat.N.add_sqrt_le;BinPos.Pos.add_carry_reg_r;OrdersEx.N_as_DT.log2_pred_pow2;OrdersEx.N_as_DT.ldiff_diag;OrdersEx.N_as_DT.order_induction'_0;OrdersEx.Z_as_DT.divide_mul_split;OrdersEx.Z_as_DT.div_unique_neg
+./DepMapFactsImplementation.v;Shuffle;;;233;23;rewrite;add_other;-1;BinInt.Z.add_succ_comm;BinNat.N.add_sqrt_le;BinPos.Pos.add_carry_reg_r;PeanoNat.Nat.add_nonneg_nonneg;BinInt.Z.div_add_l;BinNat.N.Div0.add_mul_mod_distr_r;BinPos.Pos.mul_add_distr_l;OrdersEx.Z_as_DT.divide_mul_split;OrdersEx.Z_as_DT.div_unique_neg;OrdersEx.Z_as_DT.div_small_iff
+./DepMapFactsImplementation.v;Shuffle;;;233;24;rewrite;add_other;-1;BinInt.Z.add_succ_comm;BinNat.N.add_sqrt_le;BinPos.Pos.add_carry_reg_r;PeanoNat.Nat.add_nonneg_nonneg;BinInt.Z.div_add_l;BinNat.N.Div0.add_mul_mod_distr_r;BinPos.Pos.mul_add_distr_l;PeanoNat.Nat.le_add_le_sub_r;OrdersEx.Z_as_OT.add_simpl_r;OrdersEx.N_as_DT.add_shuffle3
+./DepMapFactsImplementation.v;Shuffle;;;233;25;rewrite;add_other;-1;PeanoNat.Nat.add_nonneg_nonneg;BinInt.Z.add_succ_comm;OrdersEx.Nat_as_DT.lt_wd_obligation_1;BinNat.N.Div0.add_mul_mod_distr_r;OrdersEx.N_as_DT.add_assoc;OrdersEx.N_as_DT.log2_up_double;OrdersEx.Nat_as_DT.add_lt_mono;OrdersEx.N_as_DT.div_mod';OrdersEx.Positive_as_DT.divide_xO_xI;OrdersEx.Positive_as_DT.double_pred_mask
+./DepMapFactsImplementation.v;Shuffle;;;233;26;rewrite;add_other;-1;OrdersEx.Nat_as_DT.lt_wd_obligation_1;BinNat.N.Div0.add_mul_mod_distr_r;OrdersEx.Nat_as_DT.add_lt_mono;OrdersEx.Z_as_DT.Private_Div.Quot2Div.div;OrdersEx.Z_as_DT.Private_Div.NZQuot.div_unique_exact;OrdersEx.N_as_DT.Div0.mul_mod_distr_l;OrdersEx.N_as_DT.order_induction'_0;OrdersEx.Z_as_DT.Private_OrderTac.Tac.not_gt_le;OrdersEx.Nat_as_DT.Private_NDivProp.Private_NZDiv.add_mod;OrdersEx.N_as_OT.Private_NDivProp.div_le_compat_l
+./DepMapFactsImplementation.v;Shuffle;;;233;27;rewrite;add_other;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;233;28;rewrite;add_other;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;233;29;rewrite;add_other;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;239;11;rewrite;Hxy;-1;OrdersEx.N_as_OT.to_hex_uint;InA_eqA;OrdersEx.Nat_as_OT.neq_mul_0;OrdersEx.N_as_DT.Div0.div_mul_cancel_r;OrdersEx.Nat_as_OT.OddT_2;OrdersEx.Z_as_OT.bits_iff_nonneg;OrdersEx.N_as_OT.min_0_l;prod;EqdepFacts.eq_sigT_snd;X.t
+./DepMapFactsImplementation.v;Shuffle;;;239;12;rewrite;Hxy;-1;Hexadecimal.del_tail_int;QArith_base.to_hexadecimal;BinPos.Pos.to_num_hex_uint;OrdersEx.N_as_OT.to_hex_uint;OrdersEx.N_as_OT.to_num_hex_uint;OrdersEx.Z_as_DT.to_num_hex_int;OrdersEx.Nat_as_DT.shiftl_specif_high;;;
+./DepMapFactsImplementation.v;Shuffle;;;239;13;rewrite;Hxy;-1;Hexadecimal.del_tail_int;QArith_base.to_hexadecimal;BinPos.Pos.to_num_hex_uint;OrdersEx.N_as_OT.to_hex_uint;OrdersEx.N_as_OT.to_num_hex_uint;OrdersEx.Z_as_DT.to_num_hex_int;;;;
+./DepMapFactsImplementation.v;Shuffle;;;239;14;rewrite;Hxy;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;240;11;rewrite;remove_other;-1;OrdersEx.N_as_DT.Private_NDivProp.div_mul_le;Byte.x68;ZifyInst.ZmaxSpec;OrdersEx.Nat_as_DT.mul_le_mono_neg_l;BinInt.Z.mul_mod_distr_l;OrdersEx.Z_as_OT.div_str_pos;OrdersEx.N_as_DT.Private_NZPow.pow_add_r;Byte.xec;OrdersEx.Z_as_OT.div_pow2_bits;OrdersEx.Positive_as_DT.min_glb_iff
+./DepMapFactsImplementation.v;Shuffle;;;240;12;rewrite;remove_other;-1;relation;repeat_to_concat;Ring_polynom.mkX_ok;Ring_polynom.Pol_ind;Ring_polynom.r_list_pow_rev;Ring_polynom.mkmult1;Ring_polynom.rmul_ext;Ring_theory.SRadd_0_l;RingMicromega.Formula;Ring_polynom.mkPX_ext
+./DepMapFactsImplementation.v;Shuffle;;;240;13;rewrite;remove_other;-1;relation;repeat_to_concat;Relation_Operators.rtn1_trans;ex2_rect;eq_ex2_rec;Forall2_refl;BinInt.Z.rem_add;BinInt.Z.rem_sign_nz;Ring_theory.SRadd_0_l;Ring_theory.Rmul_comm
+./DepMapFactsImplementation.v;Shuffle;;;240;14;rewrite;remove_other;-1;BinInt.Z.rem_add;BinInt.Z.rem_sign_nz;PreOmega.Z.rem_bound_pos_neg;BinInt.Z.gcd_rem;RingMicromega.Formula;RingMicromega.padd;RingMicromega.SORcleb_morph;RingMicromega.norm;RingMicromega.ropp_morph_Proper;RingMicromega.Frhs
+./DepMapFactsImplementation.v;Shuffle;;;240;15;rewrite;remove_other;-1;PreOmega.Z.rem_bound_pos_neg;RingMicromega.ropp_morph_Proper;Ring_theory.Ropp_mul_l;RingMicromega.SORcleb_morph;Ring_theory.Rmul_comm;RingMicromega.Formula;RingMicromega.norm;RingMicromega.denorm_correct;;
+./DepMapFactsImplementation.v;Shuffle;;;240;16;rewrite;remove_other;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;240;17;rewrite;remove_other;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;240;18;rewrite;remove_other;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;240;19;rewrite;remove_other;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;240;20;rewrite;remove_other;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;240;21;rewrite;remove_other;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;240;22;rewrite;remove_other;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;240;23;rewrite;remove_other;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;245;34;rewrite <-;(find_spec;-1;OrdersEx.Z_as_DT.sub_opp_r;OrdersEx.Nat_as_DT.mul_pow2_bits_low;BinNat.N.min_r_iff;eq_true_rec_r;Byte.xce;ZifyClasses.mkbop;OrdersEx.N_as_DT.mul_pow2_bits_high;PeanoNat.Nat.Private_NDivProp.div_mod_unique;OrdersEx.Z_as_DT.min;OrdersEx.Nat_as_OT.bit0_mod
+./DepMapFactsImplementation.v;Shuffle;;;245;35;rewrite <-;(find_spec;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;245;36;rewrite <-;(find_spec;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;245;37;rewrite <-;(find_spec;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;245;38;rewrite <-;(find_spec;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;245;39;rewrite <-;(find_spec;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;245;40;rewrite <-;(find_spec;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;245;41;rewrite <-;(find_spec;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;245;42;rewrite <-;(find_spec;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;245;43;rewrite <-;(find_spec;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;245;44;rewrite <-;(find_spec;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;247;14;rewrite <-;map_spec;-1;OrdersEx.Nat_as_DT.succ_wd_obligation_1;BinInt.Z.abs_eq_iff;OrdersEx.Positive_as_DT.pow_gt_1;MSetPositive.PositiveSet.equal_spec;PeanoNat.Nat.recursion_0;OrdersEx.Z_as_DT.abs_neq_iff;Zdiv.Z_div_mod_POS;OrdersEx.Z_as_OT.add_add_simpl_r_r;OrdersEx.Positive_as_DT.of_nat_succ;BinNat.N.square
+./DepMapFactsImplementation.v;Shuffle;;;247;15;rewrite <-;map_spec;-1;map_eq_cons;MSetPositive.PositiveSet.equal_spec;MSetPositive.PositiveSet.ct_lgx;MSetPositive.PositiveSet.ct_lxl;MSetPositive.PositiveSet.choose_spec1;MSetPositive.PositiveSet.empty_spec;RingMicromega.Formula;Nat.min;RingMicromega.map_option;RingMicromega.eval_pol_opp
+./DepMapFactsImplementation.v;Shuffle;;;247;16;rewrite <-;map_spec;-1;map_eq_cons;S.Dom.max_elt_spec3;BinNat.N.max_mono;eq_trans_map_distr;BinInt.Z.max_le_compat_r;ZMicromega.max_var_nformulae_mono_aux;Ring_theory.mk_art;RingMicromega.map_option;BinPos.Pos.sub_mask_carry;PeanoNat.Nat.le_max_l
+./DepMapFactsImplementation.v;Shuffle;;;247;17;rewrite <-;map_spec;-1;map_eq_cons;eq_trans_map_distr;RingMicromega.map_option;S.Dom.max_elt_spec3;BinInt.Z.max_le_compat_r;RingMicromega.eval_pol_opp;MSetPositive.PositiveSet.equal_spec;OrdersEx.Nat_as_DT.max_le_compat_r;;
+./DepMapFactsImplementation.v;Shuffle;;;247;18;rewrite <-;map_spec;-1;map_eq_cons;eq_trans_map_distr;RingMicromega.map_option;S.Dom.max_elt_spec3;RingMicromega.eval_pol_opp;BinInt.Z.max_le_compat_r;MSetPositive.PositiveSet.equal_spec;OrdersEx.Nat_as_DT.max_le_compat_r;;
+./DepMapFactsImplementation.v;Shuffle;;;247;19;rewrite <-;map_spec;-1;map_eq_cons;eq_trans_map_distr;MSetPositive.PositiveSet.equal_spec;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;247;20;rewrite <-;map_spec;-1;MSetPositive.PositiveSet.equal_spec;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;247;21;rewrite <-;map_spec;-1;MSetPositive.PositiveSet.equal_spec;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;247;22;rewrite <-;map_spec;-1;MSetPositive.PositiveSet.equal_spec;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;247;41;rewrite;Hconj;-1;BinNat.N.Private_OrderTac.Tac.lt_eq;BinNat.N.neq_0_lt_0;PeanoNat.Nat.Private_Parity.Odd_1;EnvRing.Mon_ind;OrdersEx.N_as_OT.divide_add_cancel_r;Ndigits.ByteV2N_upper_bound;sigT_of_sigT2;OrdersEx.Nat_as_DT.log2_mul_pow2;OrderedTypeEx.Z_as_OT.lt;Vector.take_O
+./DepMapFactsImplementation.v;Shuffle;;;247;42;rewrite;Hconj;-1;Tauto.hold_eIFF;BinNat.N.to_hex_int;BinPos.Pos.to_num_hex_uint;Vector.Exists_cons_hd;OrdersEx.Z_as_OT.of_hex_uint;OrdersEx.Nat_as_OT.of_hex_uint_acc;OrdersEx.Nat_as_DT.to_num_hex_uint;POrderedType.Positive_as_OT.of_hex_uint;;
+./DepMapFactsImplementation.v;Shuffle;;;247;43;rewrite;Hconj;-1;OrdersEx.Nat_as_OT.of_hex_uint_acc;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;247;44;rewrite;Hconj;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;247;45;rewrite;Hconj;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;247;46;rewrite;Hconj;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;248;68;rewrite;map_spec;-1;BinPosDef.Pos.mul;OrdersEx.Z_as_OT.mul_le_mono_nonneg;Hexadecimal.internal_signed_int_dec_lb0;OrdersEx.Z_as_OT.add_log2_up_lt;OrdersEx.Positive_as_DT.eq_dec;BinPos.Pos.compare_refl;OrdersEx.Nat_as_OT.testbit_odd_0;OrdersEx.Z_as_DT.testbit_even_0;OrdersEx.N_as_DT.Private_NZPow.pow_pos_nonneg;POrderedType.Positive_as_DT.min
+./DepMapFactsImplementation.v;Shuffle;;;248;69;rewrite;map_spec;-1;Morphisms_Prop.Acc_rel_morphism;MSetPositive.PositiveSet.mem_node;Morphisms_Prop.or_impl_morphism;MSetPositive.PositiveSet.equal_subset;S.map;VarMap.find;RingMicromega.eval_formulaSC;firstn_map;BinInt.Z.mul_max_distr_nonneg_l;BinInt.Z.mod_1_l
+./DepMapFactsImplementation.v;Shuffle;;;248;70;rewrite;map_spec;-1;S.map;VarMap.find;firstn_map;BinInt.Z.max_id;BinInt.Z.max_lub_l;BinInt.Z.max_r;Morphisms_Prop.Acc_rel_morphism;BinPos.Pos.max_min_disassoc;BinNat.N.mul_add_distr_l;BinInt.Z.mul_max_distr_nonneg_l
+./DepMapFactsImplementation.v;Shuffle;;;248;71;rewrite;map_spec;-1;S.map;VarMap.find;firstn_map;Morphisms_Prop.Acc_rel_morphism;eq_existT_curried_map;ZifyClasses.mkapp;BinNat.N.mul_pow2_bits_add;OrdersEx.N_as_OT.min_compat;MSetPositive.PositiveSet.equal_subset;OrdersEx.Nat_as_DT.mul_pos_cancel_r
+./DepMapFactsImplementation.v;Shuffle;;;248;72;rewrite;map_spec;-1;Morphisms_Prop.Acc_rel_morphism;MSetPositive.PositiveSet.equal_subset;OrdersEx.Nat_as_DT.mul_pos_cancel_r;POrderedType.Positive_as_OT.mul_compare_mono_r;POrderedType.Positive_as_OT.max_min_absorption;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;248;73;rewrite;map_spec;-1;MSetPositive.PositiveSet.equal_subset;Morphisms_Prop.Acc_rel_morphism;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;248;74;rewrite;map_spec;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;248;75;rewrite;map_spec;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;248;76;rewrite;map_spec;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;258;13;rewrite;combine_spec;-1;Arith_prebase.lt_S_n_stt;PeanoNat.Nat.iter;OrdersEx.Positive_as_DT.compare_xI_xO;eqb_refl;Znumtheory.Zgcd_div_swap;OrdersEx.Nat_as_OT.sqrt_up_1;OrdersEx.N_as_DT.mul_0_r;BinNat.N.min_l_iff;BinInt.Z.lt_0_sub;OrdersEx.N_as_OT.lt_lt_0
+./DepMapFactsImplementation.v;Shuffle;;;258;14;rewrite;combine_spec;-1;count_occ_inv_nil;clos_rtn1_rt;CRelationClasses.relation_disjunction;CMorphisms.PartialOrder_proper_type;Compare_dec.not_le;CRelationClasses.flip_PER;CRelationClasses.iff_Reflexive;ZifyClasses.mkbop;DeclConstant.DZneg;eq_id_comm_r
+./DepMapFactsImplementation.v;Shuffle;;;258;15;rewrite;combine_spec;-1;count_occ_inv_nil;Compare_dec.not_le;clos_rtn1_rt;DeclConstant.DZneg;eq_id_comm_r;Sorted_cons;CRelationClasses.relation_disjunction;CRelationClasses.flip_PER;CRelationClasses.iff_Reflexive;partition_cons1
+./DepMapFactsImplementation.v;Shuffle;;;258;16;rewrite;combine_spec;-1;Compare_dec.not_le;CMorphisms.PartialOrder_proper_type;eq_id_comm_r;BinPos.Pos.compare_cont_spec;fold_right_commutes2;BinIntDef.Z.compare;Zcompare.Zplus_compare_compat;Znat.Nat2Z.inj_compare;BinInt.Z.max_le_compat_l;BinNat.N.bezout_comm
+./DepMapFactsImplementation.v;Shuffle;;;258;17;rewrite;combine_spec;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;258;18;rewrite;combine_spec;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;258;19;rewrite;combine_spec;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;258;20;rewrite;combine_spec;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;258;21;rewrite;combine_spec;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;258;22;rewrite;combine_spec;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;258;23;rewrite;combine_spec;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;258;24;rewrite;combine_spec;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;258;25;rewrite;combine_spec;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;258;64;rewrite;Hin;-1;PeanoNat.Nat.add_shuffle0;OrdersEx.Positive_as_OT.max_lub_iff;Arith_prebase.le_lt_n_Sm;Zdiv.Zmult_mod_distr_r;BinNat.N.to_num_uint;OrdersEx.N_as_DT.gcd_bezout_pos;OrdersEx.N_as_DT.shiftl_0_l;HdRel_ind;PeanoNat.Nat.add_min_distr_r;not_eq_S
+./DepMapFactsImplementation.v;Shuffle;;;258;65;rewrite;Hin;-1;HdRel_ind;Hexadecimal.abs;hd;hd_error_cons;Tauto.hold_eIMPL;ZifyInst.Op_xH;InA_permute_heads;BinNat.N.of_hex_int;BinNat.N.shiftl_spec_high';OrdersEx.Nat_as_DT.of_hex_uint_acc
+./DepMapFactsImplementation.v;Shuffle;;;258;66;rewrite;Hin;-1;HdRel_ind;Hexadecimal.abs;Tauto.hold_eIMPL;BinNat.N.of_hex_int;BinNat.N.shiftl_spec_high';OrdersEx.Nat_as_DT.lnot_spec_high;OrdersEx.N_as_OT.shiftl_spec_high;OrdersEx.Nat_as_DT.shiftl_spec_high';OrdersEx.Nat_as_DT.of_hex_uint_acc;POrderedType.Positive_as_OT.to_num_hex_int
+./DepMapFactsImplementation.v;Shuffle;;;258;67;rewrite;Hin;-1;HdRel_ind;BinNat.N.of_hex_int;OrdersEx.Nat_as_DT.of_hex_uint_acc;POrderedType.Positive_as_OT.to_num_hex_int;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;260;13;rewrite;combine_spec;-1;BinNat.N.Private_NZSqrt.sqrt_le_square;OrdersEx.Nat_as_DT.Private_NZPow.pow_mul_l;PeanoNat.Nat.of_hex_int;OrdersEx.Z_as_DT.Private_BootStrap.opp_add_distr;OrdersEx.Z_as_DT.mul_id_l;Pnat.Nat2Pos.id;OrdersEx.Nat_as_OT.Private_NZPow.pow_le_mono_r;Morphisms_Prop.or_impl_morphism;flip_Antisymmetric;OrdersEx.N_as_DT.min_le_compat_l
+./DepMapFactsImplementation.v;Shuffle;;;260;14;rewrite;combine_spec;-1;clos_rt_is_preorder;count_occ_inv_nil;CRelationClasses.impl_Transitive_obligation_1;CompareSpecT_ind;CMorphisms.flip_atom;implb_curry;Tauto.is_cnf_tt_cnf_ff;BinInt.Z.clearbit;BinNat.N.crossmul_le_addsquare;trans_sym_contra_impl_morphism
+./DepMapFactsImplementation.v;Shuffle;;;260;15;rewrite;combine_spec;-1;count_occ_inv_nil;CompareSpecT_ind;clos_rt_is_preorder;CMorphisms.flip_atom;trans_sym_contra_impl_morphism;BinPos.Pos.compare_gt_iff;Zcompare.Zle_compare;BinInt.Z.add_comm;Vector.Exists2_cons_hd;BinNat.N.crossmul_le_addsquare
+./DepMapFactsImplementation.v;Shuffle;;;260;16;rewrite;combine_spec;-1;CompareSpecT_ind;CMorphisms.flip_atom;BinPos.Pos.compare_gt_iff;Zcompare.Zle_compare;BinInt.Z.add_comm;OrdersEx.N_as_OT.compare_antisym;BoolOrder.BoolOrd.compare;OrdersEx.Nat_as_OT.compare_nlt_iff;trans_sym_contra_impl_morphism;Zorder.Zmult_gt_0_le_compat_r
+./DepMapFactsImplementation.v;Shuffle;;;260;17;rewrite;combine_spec;-1;CRelationClasses.impl_Transitive_obligation_1;OrdersEx.Positive_as_OT.compare_sub_mask;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;260;18;rewrite;combine_spec;-1;CRelationClasses.impl_Transitive_obligation_1;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;260;19;rewrite;combine_spec;-1;CRelationClasses.impl_Transitive_obligation_1;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;260;20;rewrite;combine_spec;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;260;21;rewrite;combine_spec;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;260;22;rewrite;combine_spec;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;260;23;rewrite;combine_spec;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;260;24;rewrite;combine_spec;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;260;25;rewrite;combine_spec;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;260;67;rewrite;Hin;-1;OrdersEx.Z_as_OT.mul_succ_quot_gt;OrdersEx.N_as_DT.pos_lor_spec;Field_theory.F2AF;BinInt.Z.lt_succ_r;OrdersEx.Nat_as_DT.Private_NZPow.pow_inj_l;OrdersEx.Z_as_OT.divide_antisym_nonneg;BinInt.Z.lnot_ldiff;EnvRing.zmon;OrdersEx.Nat_as_OT.log2_up_mul_pow2;OrdersEx.Z_as_OT.succ_double_spec
+./DepMapFactsImplementation.v;Shuffle;;;260;68;rewrite;Hin;-1;HdRel_cons;Hexadecimal.Db;Hexadecimal.Little.succ_double;Hexadecimal.Nil;Hexadecimal.uint_ind;OrdersEx.N_as_DT.mod_pow2_bits_high;;;;
+./DepMapFactsImplementation.v;Shuffle;;;260;69;rewrite;Hin;-1;Hexadecimal.Db;Hexadecimal.Little.succ_double;Hexadecimal.Nil;Hexadecimal.uint_ind;OrdersEx.N_as_DT.mod_pow2_bits_high;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;260;70;rewrite;Hin;-1;Hexadecimal.Nil;Hexadecimal.uint_ind;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;262;13;rewrite;combine_spec;-1;Znat.Z_N_nat;POrderedType.Positive_as_OT.sub_le;OrdersEx.N_as_OT.Private_NDivProp.div_le_lower_bound;OrdersEx.N_as_DT.lt_wf;OrdersEx.Nat_as_OT.Private_NLcmProp.lcm_0_r;Zbool.Zge_is_le_bool;neg_false;proj1_sig_of_sig2_eq;OrdersEx.Nat_as_OT.Private_NDivProp.div_exact;Zdiv.Z_div_same_full
+./DepMapFactsImplementation.v;Shuffle;;;262;14;rewrite;combine_spec;-1;complement;clos_rst_idempotent;comparison_rec;clos_rt_rtn1_iff;CRelationClasses.Build_RewriteRelation;CMorphisms.PartialOrder_StrictOrder;S.constant_None;ZifyClasses.BinOp;Nat.compare;Dom.choose_spec2
+./DepMapFactsImplementation.v;Shuffle;;;262;15;rewrite;combine_spec;-1;complement;comparison_rec;S.constant_None;clos_rst_idempotent;clos_rt_rtn1_iff;Nat.compare;Tauto.cons_id;trans_contra_inv_impl_morphism;CRelationClasses.Build_RewriteRelation;Refl.make_conj_app
+./DepMapFactsImplementation.v;Shuffle;;;262;16;rewrite;combine_spec;-1;complement;comparison_rec;CMorphisms.PartialOrder_StrictOrder;Nat.compare;BinPos.Pos.compare_cont_antisym;fold_right_commutes_restr;fold_right_commutes2;Zcompare.Zge_compare;BinInt.Z.add_comm;BinPos.Pos.lt_compat
+./DepMapFactsImplementation.v;Shuffle;;;262;17;rewrite;combine_spec;-1;MSetPositive.PositiveSet.ct_compare_bool;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;262;18;rewrite;combine_spec;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;262;19;rewrite;combine_spec;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;262;20;rewrite;combine_spec;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;262;21;rewrite;combine_spec;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;262;22;rewrite;combine_spec;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;262;23;rewrite;combine_spec;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;262;24;rewrite;combine_spec;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;262;25;rewrite;combine_spec;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;262;66;rewrite;Hin;-1;BinPosDef.Pos.sqrt;OrdersEx.Positive_as_OT.sub_mask_diag;BinInt.Z.sub_min_distr_l;OrdersEx.Z_as_DT.lor_diag;BinPos.Pos.iter_swap_gen;BinInt.Z.le_exists_sub;Tlist_rec;BinInt.Pos2Z.divide_pos_neg_l;CRelationClasses.PartialOrder;OrdersEx.Nat_as_OT.Private_NZGcdProp.divide_antisym_nonneg
+./DepMapFactsImplementation.v;Shuffle;;;262;67;rewrite;Hin;-1;Hexadecimal.internal_uint_dec_lb0;Hexadecimal.Little.double;InA_cons_hd;BinPosDef.Pos.to_hex_int;BinNat.N.ones_spec_high;RingMicromega.extract_hyps;OrdersEx.Z_as_DT.shiftl_spec_high;OrdersEx.N_as_OT.mul_pow2_bits_high;;
+./DepMapFactsImplementation.v;Shuffle;;;262;68;rewrite;Hin;-1;Hexadecimal.internal_uint_dec_lb0;Hexadecimal.Little.double;BinNat.N.ones_spec_high;BinPosDef.Pos.to_hex_int;OrdersEx.Z_as_DT.shiftl_spec_high;OrdersEx.N_as_OT.mul_pow2_bits_high;;;;
+./DepMapFactsImplementation.v;Shuffle;;;262;69;rewrite;Hin;-1;Hexadecimal.internal_uint_dec_lb0;BinPosDef.Pos.to_hex_int;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;264;13;rewrite;combine_spec;-1;OrdersEx.Nat_as_OT.lt_le_incl;OrdersEx.Z_as_OT.rem_wd;OrdersEx.N_as_DT.eqf;PeanoNat.Nat.Div0.div_mul_cancel_l;OrdersEx.N_as_OT.eq_add_succ;CMorphisms.normalization_done;OrdersEx.N_as_DT.log2_nonneg;ex2_eta;auxiliary.Zlt_left_rev;OrdersEx.Nat_as_DT.Even_double
+./DepMapFactsImplementation.v;Shuffle;;;264;14;rewrite;combine_spec;-1;compat_nat;clos_rtn1_step;comparison_sind;clos_trans_tn1;CMorphisms.normalization_done;CRelationClasses.Reflexive;CMorphisms.PartialApplication;CMorphisms.flip_arrow;CMorphisms.trans_contra_co_type_morphism_obligation_1;CRelationClasses.flip_PER
+./DepMapFactsImplementation.v;Shuffle;;;264;15;rewrite;combine_spec;-1;compat_nat;comparison_sind;CompareSpec_sind;clos_rtn1_step;clos_trans_tn1;CMorphisms.normalization_done;CMorphisms.PartialApplication;CMorphisms.flip_arrow;InA_cons;List.combine
+./DepMapFactsImplementation.v;Shuffle;;;264;16;rewrite;combine_spec;-1;compat_nat;comparison_sind;CompareSpec_sind;CMorphisms.normalization_done;CMorphisms.PartialApplication;CMorphisms.flip_arrow;CMorphisms.trans_contra_co_type_morphism_obligation_1;List.combine;eq_id_comm_r;Ascii.compare
+./DepMapFactsImplementation.v;Shuffle;;;264;17;rewrite;combine_spec;-1;List.combine;CMorphisms.trans_contra_co_type_morphism_obligation_1;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;264;18;rewrite;combine_spec;-1;List.combine;CMorphisms.trans_contra_co_type_morphism_obligation_1;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;264;19;rewrite;combine_spec;-1;List.combine;CMorphisms.trans_contra_co_type_morphism_obligation_1;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;264;20;rewrite;combine_spec;-1;List.combine;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;264;21;rewrite;combine_spec;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;264;22;rewrite;combine_spec;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;264;23;rewrite;combine_spec;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;264;24;rewrite;combine_spec;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;264;25;rewrite;combine_spec;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;265;86;rewrite;Hin₁;-1;BinPos.Pos.min_glb_l;Znumtheory.Bezout_intro;BinNat.N.mul_le_mono;BinInt.Z.divide_1_r_abs;OrdersEx.Z_as_OT.mul_div_ge;PeanoNat.Nat.div_add;OrdersEx.Nat_as_OT.testbit_0_r;Ztac.Zlt_le_add_1;POrderedType.Positive_as_DT.le_antisym;Zorder.Zmult_gt_0_le_0_compat
+./DepMapFactsImplementation.v;Shuffle;;;265;87;rewrite;Hin₁;-1;Hexadecimal.internal_hexadecimal_dec_lb;Hexadecimal.uint_beq;Tauto.hold_eOR;eq_sigT_hprop;OrdersEx.N_as_DT.of_hex_int;BinNat.N.shiftl_spec_high;QArith_base.IQmake_to_hexadecimal;PeanoNat.Nat.lnot_spec_high;BinInt.Z.mod_pow2_bits_high;
+./DepMapFactsImplementation.v;Shuffle;;;265;88;rewrite;Hin₁;-1;Hexadecimal.internal_hexadecimal_dec_lb;Hexadecimal.uint_beq;QArith_base.IQmake_to_hexadecimal;BinNat.N.shiftl_spec_high;OrdersEx.N_as_DT.of_hex_int;PeanoNat.Nat.lnot_spec_high;BinInt.Z.mod_pow2_bits_high;;;
+./DepMapFactsImplementation.v;Shuffle;;;265;89;rewrite;Hin₁;-1;Hexadecimal.internal_hexadecimal_dec_lb;Hexadecimal.uint_beq;OrdersEx.N_as_DT.of_hex_int;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;265;90;rewrite;Hin₁;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;271;43;rewrite;add_other;-1;OrdersEx.Z_as_OT.iter;OrdersEx.Positive_as_DT.le_1_l;OrderedRing.Rlt_neq;OrdersEx.N_as_OT.Private_OrderTac.Tac.interp_ord;rt1n_refl;ZMicromega.Zdivide_pol_ind;respectful;OrdersEx.Nat_as_DT.sqrt_lt_cancel;BinInt.Z.le_log2_log2_up;OrdersEx.Z_as_DT.sqrt_le_square
+./DepMapFactsImplementation.v;Shuffle;;;271;44;rewrite;add_other;-1;app;auxiliary.Zne_left;auxiliary.Zlt_left;andb_comm;app_assoc;InfA_compat;Tauto.eAnd_morph;Forall_and_inv;iff_to_and;Vector.append_const
+./DepMapFactsImplementation.v;Shuffle;;;271;45;rewrite;add_other;-1;andb_comm;BinInt.Z.add_max_distr_l;BinInt.Z.add_nonpos_cases;BinInt.Z.add_add_simpl_l_r;OrdersEx.Z_as_DT.sqrt_le_square;OrdersEx.Z_as_DT.shiftr_lor;OrdersEx.Z_as_DT.geb_leb;OrdersEx.Z_as_DT.Decidable_ge_Z;OrdersEx.N_as_DT.lt_dne;OrdersEx.N_as_DT.shiftr_0_l
+./DepMapFactsImplementation.v;Shuffle;;;271;46;rewrite;add_other;-1;BinInt.Z.add_max_distr_l;BinInt.Z.add_nonpos_cases;BinInt.Z.add_add_simpl_l_r;PeanoNat.Nat.add_pos_nonneg;PeanoNat.Nat.add_shuffle0;PeanoNat.Nat.add_lt_mono;PeanoNat.Nat.add_nocarry_lxor;PeanoNat.Nat.add_wd;BinNat.N.ones_add;BinPosDef.Pos.add_carry
+./DepMapFactsImplementation.v;Shuffle;;;271;47;rewrite;add_other;-1;BinInt.Z.add_max_distr_l;BinInt.Z.add_nonpos_cases;BinInt.Z.add_add_simpl_l_r;PeanoNat.Nat.add_pos_nonneg;PeanoNat.Nat.add_shuffle0;PeanoNat.Nat.add_lt_mono;PeanoNat.Nat.add_nocarry_lxor;PeanoNat.Nat.add_wd;BinPosDef.Pos.add_carry;BinInt.Z.even_add_mul_2
+./DepMapFactsImplementation.v;Shuffle;;;271;48;rewrite;add_other;-1;BinInt.Z.add_nonpos_cases;PeanoNat.Nat.add_pos_nonneg;PeanoNat.Nat.add_nocarry_lxor;PeanoNat.Nat.add_lt_mono;OrdersEx.Z_as_OT.add_move_0_r;OrdersEx.Z_as_OT.pred_double_spec;OrdersEx.Z_as_DT.mod_bound_or;OrdersEx.Nat_as_DT.add_pos_r;OrdersEx.N_as_OT.add_b2n_double_bit0;OrdersEx.Z_as_OT.divide_opp_l
+./DepMapFactsImplementation.v;Shuffle;;;271;49;rewrite;add_other;-1;PeanoNat.Nat.add_lt_mono;OrdersEx.N_as_OT.add_b2n_double_bit0;OrdersEx.Z_as_DT.Private_Div.NZQuot.add_mod_idemp_l;OrdersEx.Z_as_DT.Private_Div.NZQuot.div_mul;OrdersEx.Z_as_DT.Private_Div.NZQuot.mod_le;OrdersEx.Nat_as_DT.land_lor_distr_r;OrdersEx.Nat_as_OT.divide_factor_l;OrdersEx.N_as_DT.Private_OrderTac.IsTotal.lt_total;OrdersEx.Nat_as_DT.Private_NDivProp.add_mul_mod_distr_l;OrdersEx.N_as_DT.Private_NDivProp.Private_NZDiv.div_mul_cancel_l
+./DepMapFactsImplementation.v;Shuffle;;;271;50;rewrite;add_other;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;271;51;rewrite;add_other;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;271;52;rewrite;add_other;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;272;19;apply;Hdom;-1;Byte.x3b;OrdersEx.N_as_OT.Private_NDivProp.div_small;POrderedType.Positive_as_OT.Private_Tac.not_neq_eq;ZArith_dec.Z_lt_ge_dec;POrderedType.Positive_as_OT.le_min_l;OrdersEx.N_as_OT.Private_NZGcdProp.mul_divide_cancel_r;POrderedType.Positive_as_OT.min_glb_lt_iff;OrdersEx.Nat_as_OT.neq_mul_0;OrdersEx.Z_as_OT.sqrt_up_spec;Forall_forall
+./DepMapFactsImplementation.v;Shuffle;;;272;20;apply;Hdom;-1;Hexadecimal.Neg;Hexadecimal.D6;hd;Tauto.hold_eIFF_IMPL;Nat.to_hex_uint;BinPos.Pos.of_hex_uint_acc;OrdersEx.N_as_OT.of_hex_uint;BinNat.N.shiftl_spec_high';OrdersEx.Nat_as_DT.to_hex_int;POrderedType.Positive_as_OT.of_hex_uint
+./DepMapFactsImplementation.v;Shuffle;;;272;21;apply;Hdom;-1;hd;Hexadecimal.Neg;Hexadecimal.D6;Tauto.hold_eIFF_IMPL;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;272;22;apply;Hdom;-1;Tauto.hold_eIFF_IMPL;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;272;23;apply;Hdom;-1;Tauto.hold_eIFF_IMPL;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;272;36;rewrite <-;Habs;-1;OrdersEx.Z_as_DT.lt_eq_cases;OrdersEx.Nat_as_DT.Decidable_eq_nat;OrdersEx.Z_as_DT.le_ngt;OrdersEx.N_as_DT.leb_compare;Zdiv.Z_div_pos;OrdersEx.Z_as_DT.mul_succ_quot_lt;BinNat.N.log2_up_eqn0;BinNat.N.log2_up_double;POrderedType.Positive_as_DT.Private_Tac.le_refl;OrdersEx.Nat_as_OT.compare_nle_iff
+./DepMapFactsImplementation.v;Shuffle;;;272;37;rewrite <-;Habs;-1;Hexadecimal.Da;Hexadecimal.uint_beq;Hexadecimal.D1;Hexadecimal.D4;OrdersEx.Nat_as_DT.to_hex_int;OrdersEx.N_as_OT.ones_spec_high;OrderedTypeEx.String_as_OT.lts_head;;;
+./DepMapFactsImplementation.v;Shuffle;;;272;38;rewrite <-;Habs;-1;Hexadecimal.Da;Hexadecimal.uint_beq;Hexadecimal.D1;Hexadecimal.D4;OrderedTypeEx.String_as_OT.lts_head;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;272;39;rewrite <-;Habs;-1;Hexadecimal.uint_beq;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;272;40;rewrite <-;Habs;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;276;34;rewrite;remove_Some;-1;Ascii.leb_total;Vector.append_inj;OrdersEx.Nat_as_OT.ltb_nlt;BinIntDef.Z.add;OrdersEx.N_as_OT.Div0.mul_mod;OrdersEx.Z_as_DT.sub_min_distr_r;OrdersEx.Z_as_DT.mul_shuffle2;Tauto.rxcnf_impl_xcnf;EnvRing.norm_aux;Ring_polynom.rmul_ext
+./DepMapFactsImplementation.v;Shuffle;;;276;35;rewrite;remove_Some;-1;respectful_morphism;Ring_polynom.rmul_ext;Ring_polynom.interp_PElist_ok;RelationClasses.impl_Reflexive_obligation_1;Ring.bool_eq;Relations_1.Order_rect;Ring_theory.Radd_comm;Relations_1.Preorder_rec;Ring_theory.radd_ext2;Ring_theory.morph_mul
+./DepMapFactsImplementation.v;Shuffle;;;276;36;rewrite;remove_Some;-1;respectful_morphism;RelationClasses.impl_Reflexive_obligation_1;Relations_1.Order_rect;Relations_1.Preorder_rec;RelProd;Refl.not_make_conj_cons;Acc_rect;clos_refl_sym_trans_n1;list_rec;clos_refl_trans_ind_left
+./DepMapFactsImplementation.v;Shuffle;;;276;37;rewrite;remove_Some;-1;respectful_morphism;Refl.not_make_conj_cons;BinInt.Z.rem_opp_l';BinInt.Z.rem_small;RelationClasses.impl_Reflexive_obligation_1;Ring_theory.morph_mul;RingMicromega.psub;EnvRing.rmul_ext_Proper;RingMicromega.ropp_morph_Proper;clos_refl_sym_trans_n1
+./DepMapFactsImplementation.v;Shuffle;;;276;38;rewrite;remove_Some;-1;respectful_morphism;Refl.not_make_conj_cons;BinInt.Z.rem_opp_l';Ring_theory.morph_mul;RelationClasses.impl_Reflexive_obligation_1;RingMicromega.ropp_morph_Proper;EnvRing.rmul_ext_Proper;Ring_theory.Radd_comm;Field_theory.rmul_ext3_Proper;Ring_polynom.interp_PElist_ok
+./DepMapFactsImplementation.v;Shuffle;;;276;39;rewrite;remove_Some;-1;RelationClasses.impl_Reflexive_obligation_1;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;276;40;rewrite;remove_Some;-1;RelationClasses.impl_Reflexive_obligation_1;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;276;41;rewrite;remove_Some;-1;RelationClasses.impl_Reflexive_obligation_1;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;276;42;rewrite;remove_Some;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;276;43;rewrite;remove_Some;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;276;44;rewrite;remove_Some;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;276;45;rewrite;remove_Some;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;279;28;apply;cast_spec_find;-1;incl_nil;Field_theory.radd_ext;OrdersEx.Z_as_OT.divide_add_cancel_r;OrdersEx.N_as_OT.ldiff_wd;OrdersEx.N_as_OT.pow_le_mono_l;OrdersEx.Nat_as_DT.log2_up;eq_sig_ind;POrderedType.Positive_as_OT.Private_Tac.trans;ZMicromega.cutting_plane_sound;BinInt.Z.square_lt_mono_nonpos
+./DepMapFactsImplementation.v;Shuffle;;;279;29;apply;cast_spec_find;-1;clos_rst_is_equiv;count_occ_repeat_excl;clos_refl_sym_trans_n1_sind;clos_refl_trans_n1;CompSpecT;CMorphisms.compose_proper;nat_case;DeclConstant.DZpow;and_cancel_r;remove_cancel
+./DepMapFactsImplementation.v;Shuffle;;;279;30;apply;cast_spec_find;-1;nat_case;and_cancel_r;remove_cancel;clos_refl_trans_n1;BinInt.Z.max_case;BinNat.N.min_case;count_occ_repeat_excl;DeclConstant.DZpow;BinPos.Pos.max_case;BinInt.Z.abs_eq_cases
+./DepMapFactsImplementation.v;Shuffle;;;279;31;apply;cast_spec_find;-1;nat_case;BinInt.Z.max_case;BinNat.N.min_case;BinPos.Pos.max_case;BinInt.Z.abs_eq_cases;clos_refl_sym_trans_n1_sind;clos_refl_trans_n1;OrdersEx.N_as_DT.min_case;DeclConstant.DZpow;OrdersEx.Z_as_OT.add_neg_cases
+./DepMapFactsImplementation.v;Shuffle;;;279;32;apply;cast_spec_find;-1;DeclConstant.DZpow;BinPos.Pos.compare_cont_antisym;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;279;33;apply;cast_spec_find;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;279;34;apply;cast_spec_find;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;279;35;apply;cast_spec_find;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;279;36;apply;cast_spec_find;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;279;37;apply;cast_spec_find;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;279;38;apply;cast_spec_find;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;279;39;apply;cast_spec_find;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;279;40;apply;cast_spec_find;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;279;41;apply;cast_spec_find;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;279;42;apply;cast_spec_find;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;282;40;rewrite <-;S.find_spec;-1;PeanoNat.Nat.gcd_0_l;ZifyInst.Op_sub;OrdersEx.N_as_OT.succ_pos_pred;Dom.subset;OrdersEx.Z_as_OT.pos_div_eucl;PeanoNat.Nat.Div0.add_mul_mod_distr_r;BinNat.N.Odd;BinNat.N.Private_NDivProp.Private_NZDiv.div_mul_le;Zeven.Zodd_ex_iff;OrdersEx.N_as_OT.of_num_uint
+./DepMapFactsImplementation.v;Shuffle;;;282;41;rewrite <-;S.find_spec;-1;S.Dom.mem_spec;String.index_correct2;String.append_correct2;S.Dom.cardinal_spec;S.Dom.eq_dec;skipn_firstn_comm;eq_sigT2_uncurried;Pnat.SuccNat2Pos.inj_compare;eq_sigT_ind;Dom.subset
+./DepMapFactsImplementation.v;Shuffle;;;282;42;rewrite <-;S.find_spec;-1;S.Dom.mem_spec;S.Dom.cardinal_spec;S.Dom.eq_dec;String.index_correct2;String.append_correct2;VectorSpec.cons_inj;VectorSpec.Forall2_append;Pnat.SuccNat2Pos.inj_compare;MSetPositive.PositiveSet.ct_compare_bool;MSetPositive.PositiveSet.xforall
+./DepMapFactsImplementation.v;Shuffle;;;282;43;rewrite <-;S.find_spec;-1;VectorSpec.Forall2_append;MSetPositive.PositiveSet.xforall;OrderedTypeEx.String_as_OT.eq_refl;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;282;44;rewrite <-;S.find_spec;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;282;45;rewrite <-;S.find_spec;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;282;46;rewrite <-;S.find_spec;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;282;47;rewrite <-;S.find_spec;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;282;48;rewrite <-;S.find_spec;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;282;49;rewrite <-;S.find_spec;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;282;50;rewrite <-;S.find_spec;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;282;51;rewrite <-;S.find_spec;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;282;68;rewrite;Heq;-1;Ring_theory.div_eucl_th;OrdersEx.Z_as_OT.divide_add_cancel_r;rew_ex;OrdersEx.Z_as_DT.nonpos_nonneg_cases;OrdersEx.N_as_OT.log2_up_succ_or;OrdersEx.N_as_OT.shiftr_wd;BinInt.Z.log2_up_wd;OrdersEx.Z_as_DT.lt_sub_pos;OrdersEx.Nat_as_OT.add_pos_l;EqdepFacts.eq_dep1_intro
+./DepMapFactsImplementation.v;Shuffle;;;282;69;rewrite;Heq;-1;Ztac.Hyp;eq_ex_hprop;OrdersEx.N_as_DT.of_hex_uint;OrdersEx.Z_as_DT.of_hex_int;OrdersEx.Nat_as_DT.lnot_spec_high;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;282;70;rewrite;Heq;-1;OrdersEx.N_as_DT.of_hex_uint;OrdersEx.Z_as_DT.of_hex_int;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;282;71;rewrite;Heq;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;295;18;rewrite;InA_nil;-1;OrdersEx.N_as_OT.log2_bits_unique;BinPos.Pos.le_refl;BinNat.N.eqb_refl;Znat.Z2N.inj_add;BinNat.N.divide_mul_split;OrderedTypeEx.String_as_OT.cmp_lt;OrdersEx.Nat_as_OT.measure_right_induction;OrdersEx.Z_as_OT.add_max_distr_l;sigT2_rect;OrdersEx.N_as_OT.compare_nle_iff
+./DepMapFactsImplementation.v;Shuffle;;;295;19;rewrite;InA_nil;-1;InitialRing.triv_div_th;Int.Z_as_Int.ltb;InitialRing.gen_phiN_mult;InitialRing.rsub_ext_Proper;InitialRing.rsub_ext7_Proper;InitialRing.rmul_ext5;InitialRing.rmul_ext;InitialRing.R_set1_relation;incl_filter;inhabits
+./DepMapFactsImplementation.v;Shuffle;;;295;20;rewrite;InA_nil;-1;InitialRing.triv_div_th;Int.Z_as_Int.ltb;InitialRing.gen_phiN_mult;InitialRing.rsub_ext_Proper;InitialRing.rsub_ext7_Proper;InitialRing.rmul_ext5;InitialRing.rmul_ext;InitialRing.R_set1_relation;incl_filter;inhabits
+./DepMapFactsImplementation.v;Shuffle;;;295;21;rewrite;InA_nil;-1;in_app_iff;Int.Z_as_Int.ltb;InitialRing.triv_div_th;InitialRing.gen_phiN_mult;inhabits;InitialRing.rsub_ext_Proper;InitialRing.rsub_ext7_Proper;InitialRing.rmul_ext5;InitialRing.rmul_ext;InitialRing.R_set1_relation
+./DepMapFactsImplementation.v;Shuffle;;;295;22;rewrite;InA_nil;-1;in_app_iff;Int.Z_as_Int.ltb;InitialRing.R_set1_relation;BinInt.Z.add_succ_comm;BinInt.Z.add_comm;InitialRing.gen_phiN_mult;BinInt.Z.add_assoc;InitialRing.triv_div_th;InitialRing.rsub_ext_Proper;InitialRing.rsub_ext7_Proper
+./DepMapFactsImplementation.v;Shuffle;;;295;23;rewrite;InA_nil;-1;Int.Z_as_Int.ltb;InitialRing.gen_phiN_mult;InitialRing.R_set1_relation;BinInt.Z.Private_NZDiv.div_small;InitialRing.triv_div_th;InitialRing.rsub_ext_Proper;InitialRing.rsub_ext7_Proper;InitialRing.rmul_ext5;InitialRing.rmul_ext;BinInt.Z.Private_Div.NZQuot.div_lt
+./DepMapFactsImplementation.v;Shuffle;;;295;24;rewrite;InA_nil;-1;Int.Z_as_Int.ltb;InitialRing.gen_phiN_mult;BinInt.Z.Private_NZDiv.div_small;InitialRing.triv_div_th;Number.internal_uint_dec_lb1;BinInt.Z.Private_Div.NZQuot.div_lt;InitialRing.R_set1_relation;;;
+./DepMapFactsImplementation.v;Shuffle;;;295;25;rewrite;InA_nil;-1;Int.Z_as_Int.ltb;InitialRing.gen_phiN_mult;Number.internal_uint_dec_lb1;BinInt.Z.Private_Div.NZQuot.div_lt;BinInt.Z.Private_NZDiv.div_small;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;296;11;rewrite;IHl;-1;BinNat.N.b2n_div2;Byte.x9d;OrdersEx.N_as_DT.Private_NZGcdProp.gcd_divide_iff;Field_theory.F2AF;OrdersEx.Positive_as_DT.sub_decr;Decidable.not_or;OrderedRing.SORtimes_pos_pos;OrdersEx.Positive_as_OT.mul_le_mono_l;OrdersEx.N_as_DT.add_sub_assoc;Equivalence_Reflexive
+./DepMapFactsImplementation.v;Shuffle;;;296;12;rewrite;IHl;-1;InitialRing.NotConstant;iff_Symmetric;BinInt.Z.Private_Div.NZQuot.mod_1_r;BinInt.Z.bits_iff_nonneg_ex;BinInt.Z.max_spec;BinInt.Z.Private_Div.NZQuot.mod_small_iff;BinInt.Z.bits_iff_neg;BinInt.Z.testbit_Zneg;BinIntDef.Z.square;BinInt.Z.gcd_opp_r
+./DepMapFactsImplementation.v;Shuffle;;;296;13;rewrite;IHl;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;296;14;rewrite;IHl;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;297;13;rewrite;andb_true_iff;-1;BinInt.Z.add_shuffle2;Byte.xaa;OrdersEx.Z_as_OT.gcd_div_swap;OrdersEx.Nat_as_OT.land;OrdersEx.N_as_OT.log2_up_le_lin;OrdersEx.N_as_OT.peano_rect_base;PeanoNat.Nat.Div0.mod_mul;POrderedType.Positive_as_DT.mul_sub_distr_r;QArith_base.Qmake;BinNat.N.min_mono
+./DepMapFactsImplementation.v;Shuffle;;;297;14;rewrite;andb_true_iff;-1;Arith_prebase.gt_S_n_stt;Arith_prebase.mult_O_le_stt;Arith_prebase.mult_assoc_reverse_stt;orb_assoc;flip_arrow;eqlistA_sind;Int.Z_as_Int._3;equivlistA;forallb_app;BinInt.Z.add_shuffle2
+./DepMapFactsImplementation.v;Shuffle;;;297;15;rewrite;andb_true_iff;-1;PeanoNat.Nat.Even_alt_ind;BinPos.Pos.add_no_neutral;Arith_prebase.gt_S_n_stt;eqlistA_sind;Int.Z_as_Int._3;OrdersEx.Z_as_OT.nlt_ge;CRelationClasses.Antisymmetric;BinInt.Z.compare_antisym;OrdersEx.N_as_OT.mul_nonneg_cancel_l;OrdersEx.N_as_DT.add_nonneg_cases
+./DepMapFactsImplementation.v;Shuffle;;;297;16;rewrite;andb_true_iff;-1;eqlistA_sind;BinPos.Pos.add_no_neutral;OrdersEx.N_as_DT.add_nonneg_cases;OrdersEx.N_as_OT.land_ldiff;OrdersEx.Nat_as_DT.pow_neg_r;OrdersEx.Nat_as_DT.le_dne;OrdersEx.Z_as_DT.land_comm;OrdersEx.N_as_OT.Private_NDivProp.add_mod;OrdersEx.Z_as_DT.lnot_spec;OrdersEx.Nat_as_OT.land
+./DepMapFactsImplementation.v;Shuffle;;;297;17;rewrite;andb_true_iff;-1;OrdersEx.Z_as_DT.rem_bound_abs;OrdersEx.Nat_as_DT.even_sub;OrdersEx.Positive_as_DT.min_glb_r;POrderedType.Positive_as_DT.min_glb_lt_iff;OrdersEx.Z_as_DT.Private_Div.NZQuot.div_le_upper_bound;POrderedType.Positive_as_DT.min_glb_r;POrderedType.Positive_as_DT.min_glb_lt;;;
+./DepMapFactsImplementation.v;Shuffle;;;297;18;rewrite;andb_true_iff;-1;OrdersEx.Z_as_DT.rem_bound_abs;OrdersEx.Positive_as_DT.min_glb_r;POrderedType.Positive_as_DT.min_glb_lt_iff;POrderedType.Positive_as_DT.min_glb_r;POrderedType.Positive_as_DT.min_glb_lt;OrdersEx.Z_as_DT.Private_Div.NZQuot.div_le_upper_bound;;;;
+./DepMapFactsImplementation.v;Shuffle;;;297;19;rewrite;andb_true_iff;-1;POrderedType.Positive_as_DT.min_glb_lt_iff;POrderedType.Positive_as_DT.min_glb_lt;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;297;20;rewrite;andb_true_iff;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;297;21;rewrite;andb_true_iff;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;297;22;rewrite;andb_true_iff;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;297;23;rewrite;andb_true_iff;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;297;24;rewrite;andb_true_iff;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;297;25;rewrite;andb_true_iff;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;297;26;rewrite;andb_true_iff;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;299;83;rewrite;Heq₁;-1;implb_andb_distrib_r;OrdersEx.N_as_OT.lt_stepr;PeanoNat.Nat.ldiff_spec;Zorder.dec_Zge;OrdersEx.Nat_as_OT.bits_inj;OrdersEx.Z_as_OT.mul_max_distr_nonneg_r;PeanoNat.Nat.shiftr_div_pow2;add_incl;Byte.xb3;Zdiv.Zmod_1_r
+./DepMapFactsImplementation.v;Shuffle;;;299;84;rewrite;Heq₁;-1;Hexadecimal.Little.succ;Lt_hd;ZMicromega.Zeval_op2_hold;OrdersEx.Nat_as_OT.ones_spec_high;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;299;85;rewrite;Heq₁;-1;Hexadecimal.Little.succ;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;299;86;rewrite;Heq₁;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;299;87;rewrite;Heq₁;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;300;13;apply;Hl;-1;BinNat.N.Private_Tac.le_trans;OrdersEx.Nat_as_OT.ltb_antisym;PeanoNat.Nat.Private_NDivProp.Private_NZDiv.mod_divides;PeanoNat.Nat.Private_NZSqrt.sqrt_unique;clos_refl_trans_n1_ind;Vector.fold_left;OrdersEx.Z_as_DT.max_lub_r;Ring_polynom.Padd;POrderedType.Positive_as_OT.sqrtrem_step_spec;PeanoNat.Nat.log2_log2_up_spec
+./DepMapFactsImplementation.v;Shuffle;;;300;14;apply;Hl;-1;Hexadecimal.del_tail_int;ZifyInst.Op_xH;BinPos.Pos.to_hex_int;OrdersEx.Nat_as_DT.to_hex_int;OrdersEx.N_as_DT.mul_pow2_bits_high;OrdersEx.Nat_as_DT.mod_pow2_bits_high;OrdersEx.Nat_as_DT.mul_pow2_bits_high;OrderedTypeEx.String_as_OT.compare_helper_eq;;
+./DepMapFactsImplementation.v;Shuffle;;;300;15;apply;Hl;-1;Hexadecimal.del_tail_int;OrderedTypeEx.String_as_OT.compare_helper_eq;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;301;43;apply;Hl;-1;BinNat.N.log2_double;BinPosDef.Pos.lxor;OrdersEx.N_as_DT.add_1_r;BinInt.Z.div2_wd;OrdersEx.Z_as_OT.mul_lt_mono_neg_l;PreOmega.Z.rem_0_r_ext;BinNat.N.eq_le_incl;Tauto.eiff_trans;POrderedType.Positive_as_OT.sub_sub_distr;X.lt_compat
+./DepMapFactsImplementation.v;Shuffle;;;301;44;apply;Hl;-1;OrdersEx.N_as_DT.mod_pow2_bits_high;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;301;45;apply;Hl;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;307;52;rewrite;fold_spec;-1;OrdersEx.Nat_as_OT.pow_2_r;BinInt.Z.sqrt_up_spec;OrdersEx.N_as_OT.setbit;POrderedType.Positive_as_DT.mul_eq_1_l;comparison_sind;BinInt.Z.sub_le_mono_r;app_inv_head;OrdersEx.N_as_DT.Private_NDivProp.Private_NZDiv.div_str_pos_iff;OrdersEx.Positive_as_DT.lt;BinInt.Z.lcm_0_l
+./DepMapFactsImplementation.v;Shuffle;;;307;53;rewrite;fold_spec;-1;fold_right_eqlistA2;firstn;Field_theory.rdiv_r_r;Field_theory.gen_phiN_complete;Forall_ind;Field_theory.FEc;Dom.For_all;EqdepFacts.f_eq_dep;Vector.Forall_ind;Vector.Forall_nth
+./DepMapFactsImplementation.v;Shuffle;;;307;54;rewrite;fold_spec;-1;fold_right_eqlistA2;Forall_ind;Dom.For_all;Vector.Forall_ind;Vector.Forall_nth;Field_theory.rdiv_r_r;Field_theory.gen_phiN_complete;Field_theory.FEc;Vector.to_list_fold_right;Morphisms_Prop.ex_flip_impl_morphism
+./DepMapFactsImplementation.v;Shuffle;;;307;55;rewrite;fold_spec;-1;fold_right_eqlistA2;Forall_ind;Dom.For_all;Vector.Forall_ind;Vector.Forall_nth;Vector.to_list_fold_right;Field_theory.rdiv_r_r;Field_theory.gen_phiN_complete;Field_theory.FEc;Morphisms_Prop.ex_flip_impl_morphism
+./DepMapFactsImplementation.v;Shuffle;;;307;56;rewrite;fold_spec;-1;fold_right_eqlistA2;Forall_ind;Vector.to_list_fold_right;Vector.Forall_ind;Field_theory.rdiv_r_r;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;307;57;rewrite;fold_spec;-1;fold_right_eqlistA2;Forall_ind;Vector.to_list_fold_right;Vector.Forall_ind;Field_theory.rdiv_r_r;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;307;58;rewrite;fold_spec;-1;fold_right_eqlistA2;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;307;59;rewrite;fold_spec;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;307;60;rewrite;fold_spec;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;307;61;rewrite;fold_spec;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;310;19;rewrite <-;elements_spec;-1;BinPos.Pos.le_max_l;Pnat.Nat2Pos.inj_compare;OrdersEx.Z_as_DT.Private_Div.NZQuot.div_small_iff;OrdersEx.Nat_as_OT.land;OrdersEx.Positive_as_OT.mul_reg_r;BinNat.N.divide_trans;BinNatDef.N.of_num_uint;Field_theory.mk_linear;QArith_base.Qlt_shift_div_l;OrdersEx.Nat_as_OT.one
+./DepMapFactsImplementation.v;Shuffle;;;310;20;rewrite <-;elements_spec;-1;exists_Forall;eqlistA_rev_app;eqlistA_altdef;ex_proj3_eq;eq_trans_refl_r;eqb;eq_sigT_ind_uncurried;EnvRing.PExpr_rect;EqdepFacts.eq_dep_refl;EnvRing.Pol_rect
+./DepMapFactsImplementation.v;Shuffle;;;310;21;rewrite <-;elements_spec;-1;eqlistA_rev_app;eqlistA_altdef;Dom.elements;exists_Forall;eq_trans_refl_r;EnvRing.Pol_rect;Tauto.eval_clause;BinInt.Z.lor_eq_0_l;OrdersEx.Z_as_DT.le_0_mul;OrdersEx.N_as_DT.leb_nle
+./DepMapFactsImplementation.v;Shuffle;;;310;22;rewrite <-;elements_spec;-1;Dom.elements;eqlistA_rev_app;OrdersEx.Z_as_DT.le_0_mul;OrdersEx.N_as_DT.leb_nle;OrdersEx.Z_as_DT.leb_refl;OrdersEx.N_as_DT.le_trans;OrdersEx.N_as_OT.le_gt_cases;OrdersEx.N_as_OT.le_succ_le_pred;OrdersEx.Z_as_DT.le_exists_sub;eqlistA_altdef
+./DepMapFactsImplementation.v;Shuffle;;;310;23;rewrite <-;elements_spec;-1;Dom.elements;OrdersEx.Z_as_DT.le_0_mul;OrdersEx.Z_as_OT.pow_le_mono_r;OrdersEx.Z_as_OT.log2_le_mono;OrdersEx.Nat_as_OT.pow_le_mono_r_iff;OrdersEx.Nat_as_DT.pred_le_mono;OrdersEx.Positive_as_DT.mul_le_mono_r;OrdersEx.N_as_OT.Lcm0.lcm_equiv2;OrdersEx.Z_as_DT.square_lt_mono_nonneg;OrdersEx.Z_as_OT.mul_lt_mono_neg_r
+./DepMapFactsImplementation.v;Shuffle;;;310;24;rewrite <-;elements_spec;-1;Dom.elements;OrdersEx.Z_as_DT.square_lt_mono_nonneg;OrdersEx.N_as_DT.Private_NLcmProp.lcm_eq_0;OrdersEx.Nat_as_OT.square_lt_simpl_nonneg;OrdersEx.N_as_DT.Private_NDivProp.mul_mod_idemp_r;OrdersEx.Nat_as_OT.Private_NLcmProp.divide_lcm_iff;;;;
+./DepMapFactsImplementation.v;Shuffle;;;310;25;rewrite <-;elements_spec;-1;Dom.elements;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;310;26;rewrite <-;elements_spec;-1;Dom.elements;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;310;27;rewrite <-;elements_spec;-1;Dom.elements;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;310;28;rewrite <-;elements_spec;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;310;29;rewrite <-;elements_spec;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;310;30;rewrite <-;elements_spec;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;310;31;rewrite <-;elements_spec;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;310;32;rewrite <-;elements_spec;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;310;42;rewrite;for_all_spec_aux;-1;BinPos.Pos.SubIsPos;EnvRing.PNSubstL_ok;PeanoNat.Nat.Odd_mul_inv_r;OrdersEx.Nat_as_DT.lxor;OrdersEx.Nat_as_OT.OddT_odd;BinInt.Z2Pos.inj_leb;OrdersEx.Nat_as_OT.Div0.add_mod_idemp_l;PeanoNat.Nat.Even_add_Even_inv_r;OrdersEx.Positive_as_OT.peanoView_xI;OrdersEx.Z_as_DT.lcm
+./DepMapFactsImplementation.v;Shuffle;;;310;43;rewrite;for_all_spec_aux;-1;flip_PreOrder;flip_Symmetric;fold_symmetric;forall_exists_unique_domain_coincide;f_equal2;filter_length_forallb;firstn_cons;Field_theory.PCond;Field_theory.radd_ext3;Field_theory.rdiv2b
+./DepMapFactsImplementation.v;Shuffle;;;310;44;rewrite;for_all_spec_aux;-1;fold_symmetric;forall_exists_unique_domain_coincide;Forall_nil;flip_PreOrder;firstn_cons;Field_theory.PCond;Field_theory.radd_ext3;Field_theory.rdiv2b;Field_theory.SF_SR;Field_theory.pow_pos_nz
+./DepMapFactsImplementation.v;Shuffle;;;310;45;rewrite;for_all_spec_aux;-1;forall_exists_unique_domain_coincide;Forall_nil;flip_PreOrder;fold_symmetric;Field_theory.PCond;Field_theory.radd_ext3;Field_theory.rdiv2b;Field_theory.SF_SR;Field_theory.pow_pos_nz;filter_length_forallb
+./DepMapFactsImplementation.v;Shuffle;;;310;46;rewrite;for_all_spec_aux;-1;forall_exists_unique_domain_coincide;Forall_nil;fold_symmetric;Field_theory.SF_SR;Field_theory.pow_pos_nz;Field_theory.radd_ext3;;;;
+./DepMapFactsImplementation.v;Shuffle;;;310;47;rewrite;for_all_spec_aux;-1;forall_exists_unique_domain_coincide;Forall_nil;Field_theory.radd_ext3;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;310;48;rewrite;for_all_spec_aux;-1;Forall_nil;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;310;49;rewrite;for_all_spec_aux;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;310;50;rewrite;for_all_spec_aux;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;310;51;rewrite;for_all_spec_aux;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;310;52;rewrite;for_all_spec_aux;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;310;53;rewrite;for_all_spec_aux;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;310;54;rewrite;for_all_spec_aux;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;310;55;rewrite;for_all_spec_aux;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;310;56;rewrite;for_all_spec_aux;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;310;57;rewrite;for_all_spec_aux;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;310;58;rewrite;for_all_spec_aux;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;322;18;rewrite;InA_nil;-1;ZMicromega.ZTautoChecker_sound;PeanoNat.Nat.add_dichotomy;POrderedType.Positive_as_OT.lor;BinInt.Z.setbit_spec';OrdersEx.Nat_as_OT.testbit_eqb;POrderedType.Positive_as_OT.min_max_antimono;OrdersEx.N_as_OT.eqb_sym;BinPos.Pos.sub_decr;OrdersEx.N_as_DT.pred_succ;OrdersEx.Positive_as_OT.sqrtrem_step
+./DepMapFactsImplementation.v;Shuffle;;;322;19;rewrite;InA_nil;-1;InitialRing.R_setoid5_relation;InitialRing.gen_phiN1;InitialRing.Nwopp;inclusion;BinInt.Z.setbit_spec';BinInt.Z.sqrt_up_le_mono;BinInt.Z.leb_spec;BinInt.Pos2Z.inj_1;BinInt.Z.add_neg_cases;BinInt.Z.leb_refl
+./DepMapFactsImplementation.v;Shuffle;;;322;20;rewrite;InA_nil;-1;InitialRing.R_setoid5_relation;InitialRing.gen_phiN1;InitialRing.Nwopp;inclusion;BinInt.Z.setbit_spec';BinInt.Z.sqrt_up_le_mono;BinInt.Z.leb_spec;BinInt.Pos2Z.inj_1;BinInt.Z.add_neg_cases;BinInt.Z.leb_refl
+./DepMapFactsImplementation.v;Shuffle;;;322;21;rewrite;InA_nil;-1;InitialRing.R_setoid5_relation;InitialRing.gen_phiN1;InitialRing.Nwopp;BinInt.Z.add_neg_cases;BinInt.Z.add_le_mono_l;BinInt.Z.add_nocarry_lxor;BinInt.Z.add_lt_mono;BinInt.Zmult_assoc_reverse;BinInt.Z.max_min_modular;BinInt.Z.Private_OrderTac.Tac.eq_le
+./DepMapFactsImplementation.v;Shuffle;;;322;22;rewrite;InA_nil;-1;InitialRing.R_setoid5_relation;BinInt.Z.add_neg_cases;BinInt.Z.add_le_mono_l;BinInt.Z.add_nocarry_lxor;InitialRing.gen_phiN1;BinInt.Z.add_lt_mono;BinInt.Zmult_assoc_reverse;BinInt.Z.max_min_modular;BinInt.Z.Private_OrderTac.Tac.eq_le;BinInt.Z.Private_NZDiv.mul_mod_distr_r
+./DepMapFactsImplementation.v;Shuffle;;;322;23;rewrite;InA_nil;-1;BinInt.Z.add_neg_cases;BinInt.Z.add_nocarry_lxor;InitialRing.gen_phiN1;InitialRing.R_setoid5_relation;BinInt.Z.Private_NZDiv.mul_mod_distr_r;BinInt.Z.add_le_mono_l;BinInt.Z.add_lt_mono;BinInt.Z.max_min_modular;BinInt.Z.Private_Tac.not_ge_lt;
+./DepMapFactsImplementation.v;Shuffle;;;322;24;rewrite;InA_nil;-1;InitialRing.gen_phiN1;BinInt.Z.Private_NZDiv.mul_mod_distr_r;InitialRing.R_setoid5_relation;BinInt.Z.max_min_modular;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;322;25;rewrite;InA_nil;-1;BinInt.Z.Private_NZDiv.mul_mod_distr_r;InitialRing.R_setoid5_relation;BinInt.Z.max_min_modular;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;323;11;rewrite;IHl;-1;BinInt.Z.le_lt_add_lt;PeanoNat.Nat.Odd_alt_Even_alt_sind;OrdersEx.N_as_DT.le_add_l;OrdersEx.Positive_as_OT.eqb;OrdersEx.Positive_as_DT.SubIsNul;PeanoNat.Nat.Proper_instance_0;OrdersEx.N_as_DT.add_shuffle1;OrdersEx.N_as_DT.min_max_distr;OrdersEx.Z_as_OT.min_le_compat;OrdersEx.N_as_DT.lt_add_pos_r
+./DepMapFactsImplementation.v;Shuffle;;;323;12;rewrite;IHl;-1;InitialRing.gen_phiZ_ext;InA_ind;IDProp;ID;Int.Z_as_Int.i2z_2;InitialRing.NwO;inhabited_covariant;incl;implb_false_r;iff_pars
+./DepMapFactsImplementation.v;Shuffle;;;323;13;rewrite;IHl;-1;inhabited_covariant;BinInt.Z.shiftr_ldiff;BinInt.Z.shiftr_eq_0_iff;InitialRing.gen_phiZ_ext;BinInt.Z.mul_shuffle0;CMorphisms.trans_contra_inv_impl_type_morphism;;;;
+./DepMapFactsImplementation.v;Shuffle;;;323;14;rewrite;IHl;-1;BinInt.Z.shiftr_ldiff;InitialRing.gen_phiZ_ext;BinInt.Z.mul_shuffle0;CMorphisms.trans_contra_inv_impl_type_morphism;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;324;13;rewrite;orb_true_iff;-1;OrdersEx.Nat_as_DT.Private_Tac.eq_lt;OrdersEx.Nat_as_OT.le_pred_le;Byte.x2e;OrdersEx.Positive_as_DT.eqb_refl;ZifyInst.Op_eq_N;OrdersEx.Z_as_DT.div_opp_l_nz;QArith_base.inject_Z_opp;OrdersEx.Z_as_DT.quot_unique;OrdersEx.Nat_as_OT.to_little_hex_uint;OrderedRing.rplus_morph_Proper
+./DepMapFactsImplementation.v;Shuffle;;;324;14;rewrite;orb_true_iff;-1;OrdersEx.Nat_as_DT.Private_Tac.eq_lt;OrdersEx.Nat_as_OT.le_pred_le;OrdersEx.Positive_as_DT.eqb_refl;OrdersEx.Z_as_DT.div_opp_l_nz;OrdersEx.Z_as_DT.quot_unique;OrdersEx.Nat_as_OT.to_little_hex_uint;OrderedRing.rplus_morph_Proper;OrdersEx.Nat_as_DT.negb_even;OrdersEx.N_as_OT.le_log2_up_succ_log2;OrdersEx.Z_as_OT.testbit_true
+./DepMapFactsImplementation.v;Shuffle;;;324;15;rewrite;orb_true_iff;-1;OrdersEx.Nat_as_DT.Private_Tac.eq_lt;OrdersEx.Nat_as_OT.le_pred_le;OrdersEx.Positive_as_DT.eqb_refl;OrdersEx.Z_as_DT.div_opp_l_nz;OrdersEx.Z_as_DT.quot_unique;OrdersEx.Nat_as_OT.to_little_hex_uint;OrderedRing.rplus_morph_Proper;OrdersEx.Nat_as_DT.negb_even;OrdersEx.N_as_OT.le_log2_up_succ_log2;OrdersEx.Z_as_OT.testbit_true
+./DepMapFactsImplementation.v;Shuffle;;;324;16;rewrite;orb_true_iff;-1;OrdersEx.Bool_as_DT.eqb_eq;andb_orb_distrib_l;OrdersEx.N_as_DT.bit_log2;OrdersEx.Z_as_OT.bits_iff_neg;OrdersEx.Z_as_OT.sub_diag;OrdersEx.Z_as_DT.ltb_spec;OrdersEx.Z_as_OT.gtb_gt;OrdersEx.Z_as_OT.sub_max_distr_l;OrdersEx.N_as_OT.mul_pow2_bits_high;OrdersEx.N_as_DT.setbit_eqb
+./DepMapFactsImplementation.v;Shuffle;;;324;17;rewrite;orb_true_iff;-1;andb_orb_distrib_l;OrdersEx.Bool_as_DT.eqb_eq;OrdersEx.N_as_DT.bit_log2;OrdersEx.Z_as_OT.bits_iff_neg;OrdersEx.Z_as_OT.sub_diag;OrdersEx.Z_as_DT.ltb_spec;OrdersEx.Z_as_OT.gtb_gt;OrdersEx.Z_as_OT.sub_max_distr_l;OrdersEx.N_as_OT.negb_odd;OrdersEx.Nat_as_DT.sub_wd_obligation_1
+./DepMapFactsImplementation.v;Shuffle;;;324;18;rewrite;orb_true_iff;-1;andb_orb_distrib_l;OrdersEx.Bool_as_DT.eqb_eq;OrdersEx.N_as_DT.bit_log2;OrdersEx.Z_as_OT.testbit_true;OrdersEx.Z_as_OT.bits_iff_neg;OrdersEx.Z_as_OT.gtb_gt;OrdersEx.N_as_DT.setbit_eqb;OrdersEx.N_as_OT.mul_pow2_bits_high;OrdersEx.Z_as_OT.sub_max_distr_l;OrdersEx.Nat_as_OT.testbit_neg_r
+./DepMapFactsImplementation.v;Shuffle;;;324;19;rewrite;orb_true_iff;-1;andb_orb_distrib_l;OrdersEx.Z_as_OT.testbit_true;OrdersEx.Z_as_OT.sub_max_distr_l;OrdersEx.Nat_as_OT.testbit_neg_r;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;324;20;rewrite;orb_true_iff;-1;OrdersEx.Z_as_OT.testbit_true;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;324;21;rewrite;orb_true_iff;-1;OrdersEx.Z_as_OT.testbit_true;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;324;22;rewrite;orb_true_iff;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;324;23;rewrite;orb_true_iff;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;324;24;rewrite;orb_true_iff;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;324;25;rewrite;orb_true_iff;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;331;15;rewrite;Heq₁;-1;PeanoNat.Nat.add_lt_mono;POrderedType.Positive_as_DT.max_l;andb_true_iff;OrdersEx.Nat_as_DT.EvenT_even;OrdersEx.Positive_as_OT.min_le;OrdersEx.N_as_OT.mul_cancel_r;OrdersEx.Z_as_DT.sqrt_up_lt_lin;OrdersEx.Nat_as_OT.min_l;BinNat.N.central_induction;OrdersEx.Z_as_OT.pow_eq_0
+./DepMapFactsImplementation.v;Shuffle;;;331;16;rewrite;Heq₁;-1;Hexadecimal.signed_int_beq;Hexadecimal.del_head;Tauto.hold_eIFF;Decimal.del_head;BinPosDef.Pos.of_hex_uint;OrdersEx.Nat_as_DT.of_hex_uint_acc;OrdersEx.Positive_as_DT.to_hex_int;OrdersEx.Positive_as_OT.to_num_hex_uint;OrderedTypeEx.String_as_OT.compare_helper_lt;
+./DepMapFactsImplementation.v;Shuffle;;;331;17;rewrite;Heq₁;-1;Hexadecimal.signed_int_beq;Hexadecimal.del_head;Tauto.hold_eIFF;Decimal.del_head;BinPosDef.Pos.of_hex_uint;OrdersEx.Nat_as_DT.of_hex_uint_acc;OrdersEx.Positive_as_DT.to_hex_int;OrdersEx.Positive_as_OT.to_num_hex_uint;OrderedTypeEx.String_as_OT.compare_helper_lt;
+./DepMapFactsImplementation.v;Shuffle;;;331;18;rewrite;Heq₁;-1;Hexadecimal.signed_int_beq;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;331;19;rewrite;Heq₁;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;331;42;rewrite;Hfx;-1;OrdersEx.Z_as_OT.rem_mod;Field_theory.denum;map_map;BinNat.N.even_succ;RingMicromega.denorm_correct;OrdersEx.Positive_as_OT.compare_cont_Gt_Lt;OrderedTypeEx.String_as_OT.eq_sym;OrdersEx.Z_as_DT.Private_NZDiv.add_mul_mod_distr_l;Ndigits.Nand_semantics;POrderedType.Positive_as_DT.SubIsNul
+./DepMapFactsImplementation.v;Shuffle;;;331;43;rewrite;Hfx;-1;Tauto.hold_eFF;OrdersEx.Nat_as_DT.to_little_hex_uint;POrderedType.Positive_as_OT.of_hex_int;OrdersEx.Nat_as_DT.mul_pow2_bits_high;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;331;44;rewrite;Hfx;-1;Tauto.hold_eFF;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;331;45;rewrite;Hfx;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;331;53;apply;orb_b_true;-1;OrdersEx.Bool_as_DT.lt_total;Vector.append_splitat;Znumtheory.deprecated_Euclid_intro;POrderedType.Positive_as_OT.divide_mul_l;PeanoNat.Nat.Private_NZGcdProp.divide_add_r;BinIntDef.Z.abs;BinNat.N.eq_mul_1;OrdersEx.Positive_as_DT.mul;Nnat.Nat2N.inj_max;BinInt.Z.lt_sub_lt_add
+./DepMapFactsImplementation.v;Shuffle;;;331;54;apply;orb_b_true;-1;OrdersEx.Bool_as_DT.lt_total;OrdersEx.Positive_as_DT.mul;OrdersEx.Z_as_OT.succ_max_distr;OrdersEx.Nat_as_DT.ones_add;OrderedTypeEx.String_as_OT.lt_trans;OrdersEx.Nat_as_OT.min_case_strong;OrdersEx.Z_as_OT.mul_pred_quot_lt;OrdersEx.N_as_OT.even_1;OrdersEx.Positive_as_DT.iter_swap;OrdersEx.N_as_DT.ldiff_diag
+./DepMapFactsImplementation.v;Shuffle;;;331;55;apply;orb_b_true;-1;OrdersEx.Bool_as_DT.lt_total;OrdersEx.Positive_as_DT.mul;OrdersEx.Z_as_OT.succ_max_distr;OrdersEx.Nat_as_DT.ones_add;OrderedTypeEx.String_as_OT.lt_trans;OrdersEx.Nat_as_OT.min_case_strong;OrdersEx.Z_as_OT.mul_pred_quot_lt;OrdersEx.N_as_OT.even_1;OrdersEx.Positive_as_DT.iter_swap;OrdersEx.N_as_DT.ldiff_diag
+./DepMapFactsImplementation.v;Shuffle;;;331;56;apply;orb_b_true;-1;OrdersEx.Bool_as_DT.lt_total;OrdersEx.Z_as_DT.bits_above_log2_neg;OrdersEx.N_as_OT.binary_ind;OrdersEx.N_as_DT.bit0_eqb;OrdersEx.Z_as_DT.bits_opp;OrdersEx.Nat_as_OT.b2n_proper;OrdersEx.N_as_DT.mod_bound_pos;OrdersEx.Nat_as_OT.add_bit1;OrdersEx.Z_as_OT.abs_nonneg;OrdersEx.Z_as_OT.sub_simpl_r
+./DepMapFactsImplementation.v;Shuffle;;;331;57;apply;orb_b_true;-1;OrdersEx.Bool_as_DT.lt_total;OrdersEx.Z_as_OT.sub_simpl_r;OrdersEx.Z_as_DT.sub_move_r;OrdersEx.N_as_DT.leb_refl;OrdersEx.N_as_DT.sub_succ;OrdersEx.Z_as_DT.bits_above_log2_neg;OrdersEx.N_as_OT.leb_spec;OrdersEx.N_as_OT.binary_ind;OrdersEx.N_as_DT.bit0_eqb;OrdersEx.Z_as_DT.bits_opp
+./DepMapFactsImplementation.v;Shuffle;;;331;58;apply;orb_b_true;-1;OrdersEx.Z_as_DT.bits_above_log2_neg;OrdersEx.N_as_DT.bit0_eqb;OrdersEx.Nat_as_OT.testbit_eqb;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;331;59;apply;orb_b_true;-1;OrdersEx.Z_as_DT.bits_above_log2_neg;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;331;60;apply;orb_b_true;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;331;61;apply;orb_b_true;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;331;62;apply;orb_b_true;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;331;63;apply;orb_b_true;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;338;52;rewrite;fold_spec;-1;Qreduction.Qmult';OrdersEx.Nat_as_DT.min_spec_le;Byte.x22;OrdersEx.Positive_as_OT.min_max_distr;Decimal.abs;Ring_theory.rmul_ext2_Proper;OrdersEx.N_as_DT.leb_spec;OrdersEx.Nat_as_OT.Private_NLcmProp.divide_lcm_eq_r;DeclConstant.DO;Decimal.internal_uint_dec_lb
+./DepMapFactsImplementation.v;Shuffle;;;338;53;rewrite;fold_spec;-1;forall_subrelation;Fix;ForallOrdPairs_ForallPairs;Field_theory.PEsimp_ok;Forall_dec;Dom.fold_spec;Vector.Forall_rev;concat_filter_map;VectorDef.Forall2_nil;VectorSpec.fold_left_rev_right
+./DepMapFactsImplementation.v;Shuffle;;;338;54;rewrite;fold_spec;-1;forall_subrelation;ForallOrdPairs_ForallPairs;Forall_dec;Dom.fold_spec;Vector.Forall_rev;VectorDef.Forall2_nil;VectorSpec.fold_left_rev_right;Field_theory.PEsimp_ok;;
+./DepMapFactsImplementation.v;Shuffle;;;338;55;rewrite;fold_spec;-1;forall_subrelation;Forall_dec;Dom.fold_spec;ForallOrdPairs_ForallPairs;VectorSpec.fold_left_rev_right;Vector.Forall_rev;VectorDef.Forall2_nil;Field_theory.PEsimp_ok;;
+./DepMapFactsImplementation.v;Shuffle;;;338;56;rewrite;fold_spec;-1;Forall_dec;Dom.fold_spec;ForallOrdPairs_ForallPairs;VectorSpec.fold_left_rev_right;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;338;57;rewrite;fold_spec;-1;Forall_dec;Dom.fold_spec;VectorSpec.fold_left_rev_right;ForallOrdPairs_ForallPairs;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;338;58;rewrite;fold_spec;-1;Dom.fold_spec;ForallOrdPairs_ForallPairs;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;338;59;rewrite;fold_spec;-1;Dom.fold_spec;ForallOrdPairs_ForallPairs;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;338;60;rewrite;fold_spec;-1;Dom.fold_spec;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;338;61;rewrite;fold_spec;-1;Dom.fold_spec;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;341;19;rewrite <-;elements_spec;-1;clos_rt_rtn1;BinInt.Z.gcd_0_r;OrdersEx.Z_as_DT.gcd_mul_mono_l_nonneg;Ndigits.Nsame_bit0;Nnat.Nat2N.inj_div2;POrderedType.Positive_as_DT.sub_mask_diag;OrdersEx.Z_as_OT.eq_mul_0_l;sigT;Znat.Nat2Z.inj_sub;Compare_dec.dec_lt
+./DepMapFactsImplementation.v;Shuffle;;;341;20;rewrite <-;elements_spec;-1;eq_id_comm_l;eq_sig_ind;eq_sigT_rec;eq_rec_r;eq_existT_r;eq_refl;Exists_dec_subproof0;EqdepFacts.eq_rect_eq_on__eq_dep1_eq_on;EqdepFacts.eq_sigT_iff_eq_dep;EqdepFacts.eq_dep_eq_on__UIP_on
+./DepMapFactsImplementation.v;Shuffle;;;341;21;rewrite <-;elements_spec;-1;eq_id_comm_l;eq_refl;CRelationClasses.equivalence_rewrite_crelation;count_occ_elt_eq;Ndec.Nneq_elim;OrdersEx.N_as_OT.lor_comm;OrdersEx.Z_as_OT.lt_irrefl;OrdersEx.Z_as_DT.lcm;OrdersEx.Z_as_OT.log2_up_2;OrdersEx.Z_as_OT.lcm_divide_iff
+./DepMapFactsImplementation.v;Shuffle;;;341;22;rewrite <-;elements_spec;-1;count_occ_elt_eq;eq_refl;OrdersEx.Z_as_OT.le_min_r;OrdersEx.Z_as_DT.le_add_le_sub_l;OrdersEx.Z_as_OT.le_neq;OrdersEx.Z_as_DT.leb_refl;OrdersEx.N_as_OT.leb;OrdersEx.Nat_as_OT.leb;Compare_dec.lt_eq_lt_dec;OrdersEx.N_as_OT.eq_le_incl
+./DepMapFactsImplementation.v;Shuffle;;;341;23;rewrite <-;elements_spec;-1;OrdersEx.Z_as_OT.le_min_r;OrdersEx.Z_as_OT.mul_le_mono_nonneg_r;OrdersEx.Z_as_OT.add_le_mono;OrdersEx.N_as_OT.mul_le_mono_nonpos_r;OrdersEx.N_as_DT.add_lt_le_mono;OrdersEx.N_as_DT.max_le_compat_r;OrdersEx.Positive_as_DT.le_antisym;OrdersEx.Nat_as_DT.divide_lcm_eq_r;OrdersEx.Z_as_OT.lcm_divide_iff;OrdersEx.Z_as_DT.lcm_divide_iff
+./DepMapFactsImplementation.v;Shuffle;;;341;24;rewrite <-;elements_spec;-1;OrdersEx.Z_as_OT.mul_le_mono_nonneg_r;OrdersEx.Nat_as_DT.divide_lcm_eq_r;OrdersEx.N_as_OT.Private_NLcmProp.lcm_least;OrdersEx.Z_as_OT.Private_NZDiv.mul_mod_idemp_r;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;341;25;rewrite <-;elements_spec;-1;OrdersEx.Z_as_OT.mul_le_mono_nonneg_r;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;341;26;rewrite <-;elements_spec;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;341;27;rewrite <-;elements_spec;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;341;28;rewrite <-;elements_spec;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;341;29;rewrite <-;elements_spec;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;341;30;rewrite <-;elements_spec;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;341;31;rewrite <-;elements_spec;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;341;32;rewrite <-;elements_spec;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;341;42;rewrite;exists_spec_aux;-1;OrdersEx.Nat_as_DT.pow_inj_l;OrdersEx.N_as_OT.mul_le_mono_pos_r;Ascii.ascii_N_embedding;OrdersEx.N_as_DT.setbit;OrdersEx.N_as_DT.mul_le_mono_nonpos_l;OrdersEx.Z_as_DT.div;BinPos.Pos.le_succ_l;InitialRing.Nwscal_ok;POrderedType.Positive_as_OT.max_min_antimono;CMorphisms.reflexive_eq_dom_reflexive
+./DepMapFactsImplementation.v;Shuffle;;;341;43;rewrite;exists_spec_aux;-1;eq_existT_uncurried;eq_true_rect;Exists_rev;Equivalence_PER;Equivalence.equiv_transitive_obligation_1;Empty_set_rec;Env.Env;EnvRing.PNSubst1_ok;EqdepFacts.eq_dep;Env.jump_simpl
+./DepMapFactsImplementation.v;Shuffle;;;341;44;rewrite;exists_spec_aux;-1;Exists_rev;eq_existT_uncurried;OrdersEx.Nat_as_DT.pow_inj_l;OrdersEx.N_as_OT.mul_le_mono_pos_r;OrdersEx.N_as_DT.setbit;OrdersEx.N_as_DT.mul_le_mono_nonpos_l;OrdersEx.Z_as_DT.div;OrdersEx.N_as_OT.max_min_distr;OrdersEx.Z_as_OT.lor_land_distr_l;OrdersEx.N_as_DT.add_succ_comm
+./DepMapFactsImplementation.v;Shuffle;;;341;45;rewrite;exists_spec_aux;-1;Exists_rev;eq_existT_uncurried;Between.exists_S_le;OrdersEx.Positive_as_OT.sub_mask_spec;OrdersEx.Positive_as_DT.add_lt_mono_l;OrdersEx.Positive_as_DT.Private_Tac.le_trans;OrdersEx.Positive_as_OT.of_hex_uint;OrdersEx.Positive_as_DT.sqrtrem_step;OrdersEx.Positive_as_DT.of_num_uint;OrdersEx.Positive_as_DT.compare_cont_Lt_Gt
+./DepMapFactsImplementation.v;Shuffle;;;341;46;rewrite;exists_spec_aux;-1;Exists_rev;eq_existT_uncurried;Between.exists_S_le;OrdersEx.Z_as_DT.exists_div2;OrdersEx.Positive_as_OT.sub_mask_spec;OrdersEx.Positive_as_DT.add_lt_mono_l;OrdersEx.Positive_as_DT.Private_Tac.le_trans;OrdersEx.Positive_as_OT.of_hex_uint;OrdersEx.Positive_as_DT.sqrtrem_step;OrdersEx.Positive_as_DT.of_num_uint
+./DepMapFactsImplementation.v;Shuffle;;;341;47;rewrite;exists_spec_aux;-1;Exists_rev;eq_existT_uncurried;Between.exists_S_le;OrdersEx.Z_as_DT.exists_div2;OrdersEx.Positive_as_OT.sub_mask_spec;OrdersEx.Positive_as_DT.add_lt_mono_l;OrdersEx.Positive_as_DT.Private_Tac.le_trans;OrdersEx.Positive_as_OT.of_hex_uint;OrdersEx.Positive_as_DT.sqrtrem_step;OrdersEx.Positive_as_DT.of_num_uint
+./DepMapFactsImplementation.v;Shuffle;;;341;48;rewrite;exists_spec_aux;-1;Exists_rev;Between.exists_S_le;OrdersEx.Z_as_DT.exists_div2;OrdersEx.Positive_as_OT.sub_mask_spec;OrdersEx.Nat_as_OT.iter_swap;OrdersEx.Positive_as_DT.sqrtrem_step;OrdersEx.Positive_as_DT.add_lt_mono_l;OrdersEx.Positive_as_DT.Private_Tac.le_trans;OrdersEx.Positive_as_OT.of_hex_uint;OrdersEx.Positive_as_DT.of_num_uint
+./DepMapFactsImplementation.v;Shuffle;;;341;49;rewrite;exists_spec_aux;-1;Exists_rev;Between.exists_S_le;OrdersEx.Z_as_DT.exists_div2;OrdersEx.Positive_as_OT.sub_mask_spec;OrdersEx.Positive_as_DT.add_lt_mono_l;OrdersEx.Positive_as_DT.Private_Tac.le_trans;OrdersEx.Positive_as_OT.of_hex_uint;OrdersEx.Positive_as_DT.sqrtrem_step;OrdersEx.Positive_as_DT.of_num_uint;OrdersEx.Positive_as_DT.compare_cont_Lt_Gt
+./DepMapFactsImplementation.v;Shuffle;;;341;50;rewrite;exists_spec_aux;-1;Between.exists_S_le;OrdersEx.Positive_as_OT.mul_sub_distr_r;OrdersEx.Positive_as_DT.sqrtrem_step;OrdersEx.Positive_as_OT.sub_mask_spec;OrdersEx.Positive_as_DT.pred_double_succ;OrdersEx.Positive_as_OT.le_trans;OrdersEx.Nat_as_DT.Private_NZSqrt.sqrt_square;OrdersEx.N_as_OT.Private_NZSqrt.sqrt_lt_square;OrdersEx.Positive_as_OT.Private_Dec.min_case_strong;OrdersEx.Positive_as_DT.Private_Tac.le_trans
+./DepMapFactsImplementation.v;Shuffle;;;341;51;rewrite;exists_spec_aux;-1;OrdersEx.Positive_as_OT.sub_mask_spec;OrdersEx.Positive_as_DT.sqrtrem_step;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;341;52;rewrite;exists_spec_aux;-1;OrdersEx.Positive_as_OT.sub_mask_spec;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;341;53;rewrite;exists_spec_aux;-1;OrdersEx.Positive_as_OT.sub_mask_spec;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;341;54;rewrite;exists_spec_aux;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;341;55;rewrite;exists_spec_aux;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;341;56;rewrite;exists_spec_aux;-1;;;;;;;;;;
+./DepMapFactsImplementation.v;Shuffle;;;341;57;rewrite;exists_spec_aux;-1;;;;;;;;;;

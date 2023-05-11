@@ -1,0 +1,6 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Line;Character;Keywords Before;Lemma;Index;Result 1;Result 2;Result 3;Result 4;Result 5;Result 6;Result 7;Result 8;Result 9;Result 10
+./Functions.v;StructuredTypeEvaluation;10;10;84;19;rewrite;E;-1;Sf;inhabited_sig_to_exists;forall_exists_unique_domain_coincide;eq_ex_hprop;eq_ex;eq_ex_uncurried;eq_ex_ind_uncurried;eq_ex_rec_uncurried;eq_ex_rect_uncurried;eq_ex_ind
+./Functions.v;StructuredTypeEvaluation;10;10;84;20;rewrite;E;-1;Exc;Eq;Empty_set;eq_ex_hprop;eq_ex;eq_ex_uncurried;eq_ex_ind_uncurried;eq_ex_rec_uncurried;eq_ex_rect_uncurried;eq_ex_ind
+./Functions.v;StructuredTypeEvaluation;10;10;84;30;rewrite;E';-1;Sf;inhabited_sig_to_exists;forall_exists_unique_domain_coincide;eq_ex_hprop;eq_ex;eq_ex_uncurried;eq_ex_ind_uncurried;eq_ex_rec_uncurried;eq_ex_rect_uncurried;eq_ex_ind
+./Functions.v;StructuredTypeEvaluation;10;10;84;31;rewrite;E';-1;Exc;Eq;Empty_set;eq_ex_hprop;eq_ex;eq_ex_uncurried;eq_ex_ind_uncurried;eq_ex_rec_uncurried;eq_ex_rect_uncurried;eq_ex_ind
+./Functions.v;StructuredTypeEvaluation;10;10;84;32;rewrite;E';-1;;;;;;;;;;

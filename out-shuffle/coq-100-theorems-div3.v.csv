@@ -1,0 +1,31 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Line;Character;Keywords Before;Lemma;Index;Result 1;Result 2;Result 3;Result 4;Result 5;Result 6;Result 7;Result 8;Result 9;Result 10
+./div3.v;Shuffle;;;48;13;rewrite;Zplus_mod;-1;Tauto.hold_eFF;Nat.min_unicity_ext;Tauto.IMPL;N.lt_wf_0;Rsub_def;Z.bits_iff_nonneg';Nat.Private_NDivProp.add_mul_mod_distr_l;Nat.le_0_1;N.shiftr_shiftl_l;ARopp_mul_l
+./div3.v;Shuffle;;;48;14;rewrite;Zplus_mod;-1;Z.bits_iff_nonneg';Zlt_compare;Z_div_mod_eq_full;Zle_is_le_bool;Zdiv_mult_cancel_r;Z.lcm_unique;ZMicromega.is_pol_Z0;ZifyInst.Op_xO;Z.log2_up_succ_double;Z.ldiff_land
+./div3.v;Shuffle;;;48;15;rewrite;Zplus_mod;-1;Z.Private_NZDiv.mod_same;Z.pow_add_r;Z.Private_Tac.interp_ord;Z.Private_Div.Quot2Div.div_mod;Z2Pos.inj_double;Z.Private_BootStrap.mul_0_r;Z.Private_OrderTac.Tac.neq_sym;Z.Private_OrderTac.Tac.not_gt_le;Ztac.proof_sind;Z.odd_pred
+./div3.v;Shuffle;;;48;16;rewrite;Zplus_mod;-1;Zlt_compare;Zmin_le_prime_inf;Z.opp_le_mono;Z.le_succ_le_pred;Z.sub_simpl_l;ZifyInst.Op_pos_le;Z.log2_up_succ_double;Z.max_spec_le;Zcompare_Gt_Lt_antisym;Z_of_nat_complete
+./div3.v;Shuffle;;;48;17;rewrite;Zplus_mod;-1;QArith_base.inject_Z_plus;Z.log2_up_succ_double;Z2Pos.inj_double;Z.Private_BootStrap.mul_0_r;ZifyInst.Op_Pos_Nsucc_double;;;;;
+./div3.v;Shuffle;;;48;18;rewrite;Zplus_mod;-1;QArith_base.inject_Z_plus;;;;;;;;;
+./div3.v;Shuffle;;;48;19;rewrite;Zplus_mod;-1;;;;;;;;;;
+./div3.v;Shuffle;;;48;20;rewrite;Zplus_mod;-1;;;;;;;;;;
+./div3.v;Shuffle;;;48;21;rewrite;Zplus_mod;-1;;;;;;;;;;
+./div3.v;Shuffle;;;48;22;rewrite;Zplus_mod;-1;;;;;;;;;;
+./div3.v;Shuffle;;;51;13;rewrite;Zmult_1_l;-1;N.log2_succ_le;Arith_prebase.gt_irrefl_stt;Nat.Private_NDivProp.mod_small;conj;Nat.le_max_r;EnvRing.PEX;rsub_ext4;VectorSpec.length_to_list;Arith_prebase.lt_n_Sm_le_stt;N.pos_lor_spec
+./div3.v;Shuffle;;;51;14;rewrite;Zmult_1_l;-1;Z.pow_0_l;ZMicromega.agree_env_subset;Zabs2N.inj_lt;Zodd_quot2_neg;Z_div_plus_full;ZifyClasses.mkuprop;Z.log2;ZMicromega.ZweakTautoChecker;Z.pow_wd;Z.even_opp
+./div3.v;Shuffle;;;51;15;rewrite;Zmult_1_l;-1;Zminus_mod_idemp_l;Zmult_lt_compat_l;ZMicromega.agree_env_subset;ZMicromega.ZweakTautoChecker;ZMicromega.Zeval_formula_compat;ZMicromega.Zgcd_pol_correct_lt;Z.max_r_iff;Z.min;Z.measure_left_induction;Z.mul_max_distr_nonneg_l
+./div3.v;Shuffle;;;51;16;rewrite;Zmult_1_l;-1;Zmult_lt_compat_l;Z.mul_max_distr_nonneg_l;Z.mul_le_mono_pos_l;Z.mul_pos_neg;Zminus_mod_idemp_l;Z.le_mul_diag_r;Z.shiftr_mul_pow2;Z.opp_eq_mul_m1;Z2Nat.inj_mul;Z.measure_left_induction
+./div3.v;Shuffle;;;51;17;rewrite;Zmult_1_l;-1;Zmult_lt_compat_l;Z.mul_pos_neg;Z.le_mul_diag_r;Z.shiftr_mul_pow2;Z.opp_eq_mul_m1;Z2Nat.inj_mul;Zminus_mod_idemp_l;Z.measure_left_induction;Z.mul_le_mono_pos_l;Z.mul_max_distr_nonneg_l
+./div3.v;Shuffle;;;51;18;rewrite;Zmult_1_l;-1;Zmult_lt_compat_l;Z.mul_max_distr_nonneg_l;Z.measure_left_induction;ZMicromega.Zeval_formula_compat;;;;;;
+./div3.v;Shuffle;;;51;19;rewrite;Zmult_1_l;-1;Zmult_lt_compat_l;Z.mul_max_distr_nonneg_l;Z.measure_left_induction;ZMicromega.Zeval_formula_compat;;;;;;
+./div3.v;Shuffle;;;51;20;rewrite;Zmult_1_l;-1;;;;;;;;;;
+./div3.v;Shuffle;;;51;21;rewrite;Zmult_1_l;-1;;;;;;;;;;
+./div3.v;Shuffle;;;51;22;rewrite;Zmult_1_l;-1;;;;;;;;;;
+./div3.v;Shuffle;;;52;16;rewrite <-;Zplus_mod;-1;Z.max_assoc;uniqueness;leb_iff_conv;Relation_Operators.rst_refl;RingMicromega.SORRing_ring_lemma2;Ndigits.N2Bv_Bv2N;or_cancel_r;Nat.div_lt;List.Exists_dec_subproof;Nat.le_preorder
+./div3.v;Shuffle;;;52;17;rewrite <-;Zplus_mod;-1;Z.max_assoc;Z.le_decidable;Z.pow_opp_odd;Z.le_mul_0;Z.lt_add_lt_sub_r;Z.opp_le_mono;Z.log2_up_eqn;Z.odd_add_mul_even;ZMicromega.CutProof;Z.pow_2_r
+./div3.v;Shuffle;;;52;18;rewrite <-;Zplus_mod;-1;Zplus_le_reg_l;Z.pow_opp_odd;Z.pow_2_r;Z.Private_Div.Quot2Div.mod_bound_pos;Z.pow2_bits_true;Z.Private_OrderTac.Tac.lt_trans;Z.Private_NZDiv.mul_mod_distr_l;Z.Private_OrderTac.Tac.le_lt_trans;Z.Private_NZDiv.div_1_r;Z.pow_mul_l
+./div3.v;Shuffle;;;52;19;rewrite <-;Zplus_mod;-1;Zplus_le_reg_l;Z.lt_pred_l;Z.pow_mul_l;Z.opp_le_mono;Pos2Z.pos_lt_pos;Z.nle_pred_r;Z.lt_mul_m1_pos;Zminus_plus_simpl_l;Z.log2_up_eqn;Z.log2_up_mul_below
+./div3.v;Shuffle;;;52;20;rewrite <-;Zplus_mod;-1;Zplus_le_reg_l;Zminus_plus_simpl_l;Z.pow_mul_l;Z.log2_up_mul_below;ZifyInst.Op_pos_mul;Z.Private_NZDiv.mul_div_le;Z.Private_NZDiv.mul_mod_distr_l;Z.Private_NZDiv.div_le_lower_bound;;
+./div3.v;Shuffle;;;52;21;rewrite <-;Zplus_mod;-1;Zplus_le_reg_l;Zminus_plus_simpl_l;Z.Private_NZDiv.mul_mod_distr_l;;;;;;;
+./div3.v;Shuffle;;;52;22;rewrite <-;Zplus_mod;-1;Zplus_le_reg_l;Zminus_plus_simpl_l;Z.Private_NZDiv.mul_mod_distr_l;;;;;;;
+./div3.v;Shuffle;;;52;23;rewrite <-;Zplus_mod;-1;Zminus_plus_simpl_l;;;;;;;;;
+./div3.v;Shuffle;;;52;24;rewrite <-;Zplus_mod;-1;;;;;;;;;;
+./div3.v;Shuffle;;;52;25;rewrite <-;Zplus_mod;-1;;;;;;;;;;

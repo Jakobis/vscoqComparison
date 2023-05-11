@@ -1,0 +1,25 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Line;Character;Keywords Before;Lemma;Index;Result 1;Result 2;Result 3;Result 4;Result 5;Result 6;Result 7;Result 8;Result 9;Result 10
+./Setminus_fact.v;Shuffle;;;36;7;apply;x_in_nonB;-1;eq_id_comm_l;sig2_of_sigT2;or_cancel_l;app;Nat.gcd;Decimal.uint_rect;f_equal_compose;prod_of_sigT;Acc_rec;eq_sig_rec_uncurried
+./Setminus_fact.v;Shuffle;;;36;8;apply;x_in_nonB;-1;x;Byte.xcb;Byte.x66;Byte.xbd;Byte.xa2;Byte.x88;Byte.xb8;Byte.x41;Byte.x33;Byte.xb1
+./Setminus_fact.v;Shuffle;;;36;9;apply;x_in_nonB;-1;;;;;;;;;;
+./Setminus_fact.v;Shuffle;;;36;10;apply;x_in_nonB;-1;;;;;;;;;;
+./Setminus_fact.v;Shuffle;;;36;11;apply;x_in_nonB;-1;;;;;;;;;;
+./Setminus_fact.v;Shuffle;;;36;12;apply;x_in_nonB;-1;;;;;;;;;;
+./Setminus_fact.v;Shuffle;;;36;13;apply;x_in_nonB;-1;;;;;;;;;;
+./Setminus_fact.v;Shuffle;;;36;14;apply;x_in_nonB;-1;;;;;;;;;;
+./Setminus_fact.v;Shuffle;;;36;15;apply;x_in_nonB;-1;;;;;;;;;;
+./Setminus_fact.v;Shuffle;;;36;16;apply;x_in_nonB;-1;;;;;;;;;;
+./Setminus_fact.v;Shuffle;;;37;7;apply;B'_Included_B;-1;Intersection_ind;In_singleton;Byte.x16;Byte.xe2;Byte.to_bits;IDProp;sig2_rect;sigT_ind;Byte.byte_of_byte;Byte.xb2
+./Setminus_fact.v;Shuffle;;;37;8;apply;B'_Included_B;-1;Byte.x16;Byte.xe2;Byte.to_bits;Byte.byte_of_byte;Byte.xb2;Byte.x20;Byte.x68;Byte.xde;BoolSpecT;Byte.xbb
+./Setminus_fact.v;Shuffle;;;37;9;apply;B'_Included_B;-1;B';x_in_B';;;;;;;;
+./Setminus_fact.v;Shuffle;;;37;10;apply;B'_Included_B;-1;;;;;;;;;;
+./Setminus_fact.v;Shuffle;;;37;11;apply;B'_Included_B;-1;;;;;;;;;;
+./Setminus_fact.v;Shuffle;;;37;12;apply;B'_Included_B;-1;;;;;;;;;;
+./Setminus_fact.v;Shuffle;;;37;13;apply;B'_Included_B;-1;;;;;;;;;;
+./Setminus_fact.v;Shuffle;;;37;14;apply;B'_Included_B;-1;;;;;;;;;;
+./Setminus_fact.v;Shuffle;;;37;15;apply;B'_Included_B;-1;;;;;;;;;;
+./Setminus_fact.v;Shuffle;;;37;16;apply;B'_Included_B;-1;;;;;;;;;;
+./Setminus_fact.v;Shuffle;;;37;17;apply;B'_Included_B;-1;;;;;;;;;;
+./Setminus_fact.v;Shuffle;;;37;18;apply;B'_Included_B;-1;;;;;;;;;;
+./Setminus_fact.v;Shuffle;;;37;19;apply;B'_Included_B;-1;;;;;;;;;;
+./Setminus_fact.v;Shuffle;;;37;20;apply;B'_Included_B;-1;;;;;;;;;;

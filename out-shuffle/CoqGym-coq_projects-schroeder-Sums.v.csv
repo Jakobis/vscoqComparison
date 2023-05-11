@@ -1,0 +1,15 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Line;Character;Keywords Before;Lemma;Index;Result 1;Result 2;Result 3;Result 4;Result 5;Result 6;Result 7;Result 8;Result 9;Result 10
+./Sums.v;Shuffle;;;46;20;apply;Set_Sum_intro;83;eq_trans_sym_distr;ex2_of_sigT2;iff_to_and;comparison_rect;Nat.log2;Decimal.Pos;eq_trans_sym_inv_r;eq_existT_uncurried;well_founded_induction;rew_sig
+./Sums.v;Shuffle;;;46;21;apply;Set_Sum_intro;2;S;Singleton;Set_Sum_intro;Singleton_sind;Singleton_rec;Setminus;Set_Sum_ind;Set_Sum_is_majoring;Set_Sum_sind;Some
+./Sums.v;Shuffle;;;46;22;apply;Set_Sum_intro;0;Set_Sum_intro;Setminus;Set_Sum_ind;Set_Sum_is_majoring;Set_Sum_sind;sigT2_eta;Some;Singleton;Singleton_sind;Singleton_rec
+./Sums.v;Shuffle;;;46;23;apply;Set_Sum_intro;0;Set_Sum_intro;Setminus;Set_Sum_ind;Set_Sum_is_majoring;Set_Sum_sind;sigT2_eta;Singleton;Singleton_sind;Singleton_rec;Full_set_sind
+./Sums.v;Shuffle;;;46;24;apply;Set_Sum_intro;0;Set_Sum_intro;Set_Sum_ind;Set_Sum_is_majoring;Set_Sum_sind;Full_set_sind;Empty_set_ind;Empty_set_rect;CompareSpecT_rec;CompareSpecT_sind;Singleton_sind
+./Sums.v;Shuffle;;;46;25;apply;Set_Sum_intro;0;Set_Sum_intro;Set_Sum_ind;Set_Sum_is_majoring;Set_Sum_sind;Full_set_sind;CompareSpecT_sind;Singleton_sind;Datatypes.Empty_set_sind;eq_sig_rect_exist_l;eq_sig2_rect_exist2
+./Sums.v;Shuffle;;;46;26;apply;Set_Sum_intro;0;Set_Sum_intro;Set_Sum_ind;Set_Sum_is_majoring;Set_Sum_sind;;;;;;
+./Sums.v;Shuffle;;;46;27;apply;Set_Sum_intro;0;Set_Sum_intro;Set_Sum_ind;Set_Sum_is_majoring;Set_Sum_sind;;;;;;
+./Sums.v;Shuffle;;;46;28;apply;Set_Sum_intro;0;Set_Sum_intro;Set_Sum_ind;Set_Sum_is_majoring;Set_Sum_sind;;;;;;
+./Sums.v;Shuffle;;;46;29;apply;Set_Sum_intro;0;Set_Sum_intro;Set_Sum_ind;Set_Sum_is_majoring;Set_Sum_sind;;;;;;
+./Sums.v;Shuffle;;;46;30;apply;Set_Sum_intro;0;Set_Sum_intro;Set_Sum_ind;Set_Sum_sind;Set_Sum_is_majoring;;;;;;
+./Sums.v;Shuffle;;;46;31;apply;Set_Sum_intro;0;Set_Sum_intro;;;;;;;;;
+./Sums.v;Shuffle;;;46;32;apply;Set_Sum_intro;0;Set_Sum_intro;;;;;;;;;
+./Sums.v;Shuffle;;;46;33;apply;Set_Sum_intro;0;Set_Sum_intro;;;;;;;;;

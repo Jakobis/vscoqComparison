@@ -1,0 +1,11 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Line;Character;Keywords Before;Lemma;Index;Result 1;Result 2;Result 3;Result 4;Result 5;Result 6;Result 7;Result 8;Result 9;Result 10
+./Coqoban_engine.v;Shuffle;;;299;7;apply;STEP;-1;eq_ex2_rec_uncurried;eq_sigT2_uncurried_iff;inhabits;CompareSpec_ind;min_l;Decimal.decimal_beq;eq_ex_intro2_r;sig_of_sig2_eq;C;value
+./Coqoban_engine.v;Shuffle;;;299;8;apply;STEP;-1;S;So;sig_of_sig2_eq;sigT_of_prod;stepnorth;sig2_rec;sigT_rec;sumor_rect;sumor;sigT_sind
+./Coqoban_engine.v;Shuffle;;;299;9;apply;STEP;-1;stepnorth;stepwest;stepsouth;stepeast;sigT_of_prod;sigT_rec;sigT_sind;sigT2_rec;sigT2_eta;CompSpecT
+./Coqoban_engine.v;Shuffle;;;299;10;apply;STEP;-1;stepnorth;stepwest;stepsouth;stepeast;sigT2_eta;eq_stepl;sig_eta;sigT_rec;sigT2_rec;CompSpecT
+./Coqoban_engine.v;Shuffle;;;299;11;apply;STEP;-1;stepnorth;stepwest;stepsouth;stepeast;eq_stepl;;;;;
+./Coqoban_engine.v;Shuffle;;;305;7;apply;STEP;36;Hexadecimal.del_head;Hexadecimal.hexadecimal_eq_dec;Byte.x30;Byte.xfc;negb;Decimal.internal_uint_dec_lb;eq_sig_rect_uncurried;sigT_of_sigT2_eq;eq_true;Byte.xcc
+./Coqoban_engine.v;Shuffle;;;305;8;apply;STEP;1;Some;STEP;sigT_of_sigT2_eq;sigT2_of_sig2;sum_sind;sig2_ind;sigT_sind;sigT_rec;surjective_pairing;stepeast
+./Coqoban_engine.v;Shuffle;;;305;9;apply;STEP;0;STEP;stepeast;stepsouth;sigT_of_sigT2_eq;sigT2_of_sig2;sigT_sind;sigT_rec;sigT2_ind;sigT2;sigT_of_sigT2
+./Coqoban_engine.v;Shuffle;;;305;10;apply;STEP;0;STEP;stepeast;stepsouth;eq_stepl;sigT_rec;sigT2_rect;sigT_of_sigT2_eq;eq_sigT_rect_existT_r;Empty_set_ind;BoolSpecT
+./Coqoban_engine.v;Shuffle;;;305;11;apply;STEP;0;STEP;stepeast;stepsouth;eq_stepl;surjective_pairing;;;;;

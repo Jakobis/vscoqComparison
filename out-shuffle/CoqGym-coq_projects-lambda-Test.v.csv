@@ -1,0 +1,7 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Line;Character;Keywords Before;Lemma;Index;Result 1;Result 2;Result 3;Result 4;Result 5;Result 6;Result 7;Result 8;Result 9;Result 10
+./Test.v;Shuffle;;;58;13;apply;le_lt;-1;not_iff_compat;Nat.lt_ind_rel;List.NoDup_count_occ;BinNat.N.lt_stepr;rmul_ext4;BinInt.Z.Bezout_wd;BinNat.N.Private_NDivProp.div_unique_exact;Nat.mul_0_l;BinNat.N.divide_wd;Nopp
+./Test.v;Shuffle;;;58;14;apply;le_lt;-1;lt_wf_double_ind;lt_O_fact;List.NoDup_count_occ;List.NoDup_app_remove_r;List.firstn_length_le;List.NoDup_remove_1;List.seq_S;List.filter_map;List.nth_In;List.forallb_forall
+./Test.v;Shuffle;;;58;15;apply;le_lt;-1;List.Exists_rev;List.elt_eq_unit;List.Exists_fold_right;Nat.le_ind_rel;Nat.le;Nat.le_alt_wd;Nat.le_0_1;Nat.le_refl;Nat.leb_compare;List.map_ext_in_iff
+./Test.v;Shuffle;;;58;16;apply;le_lt;-1;Nat.le_ind_rel;Nat.le_alt_wd;Nat.le_0_1;Nat.le_refl;Nat.mul_le_mono_nonneg_r;Nat.div_le_compat_l;Nat.max_le_compat_r;Nat.mul_le_mono_neg_l;Nat.max_le_compat;Nat.log2_le_mono
+./Test.v;Shuffle;;;58;17;apply;le_lt;-1;BinNat.N.add_le_lt_mono;BinInt.Z.div_le_lower_bound;Nat.le_alt_wd;List.in_combine_l;List.elt_eq_unit;Nat.div_le_compat_l;Nat.le_refl;BinNat.N.le_pred_le_succ;BinNat.N.sqrt_up_le_lin;Nat.mul_le_mono_neg_l
+./Test.v;Shuffle;;;58;18;apply;le_lt;-1;BinNat.N.add_le_lt_mono;Nat.le_alt_wd;Nat.div_le_compat_l;List.rev_alt;List.elt_eq_unit;BinInt.Z.lt_pred_lt;BinNat.N.Private_Tac.le_neq_lt;BinInt.Z.Private_OrderTac.Tac.le_lt_trans;List.nth_default;Nat.log2_spec_alt

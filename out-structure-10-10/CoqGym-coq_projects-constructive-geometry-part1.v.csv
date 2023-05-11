@@ -1,0 +1,258 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Line;Character;Keywords Before;Lemma;Index;Result 1;Result 2;Result 3;Result 4;Result 5;Result 6;Result 7;Result 8;Result 9;Result 10
+./part1.v;StructuredTypeEvaluation;10;10;37;8;apply;(el_ax;-1;neg_false;Hexadecimal.Little.succ_double;Hexadecimal.Little.double;Hexadecimal.Little.succ;Decimal.Little.succ_double;Decimal.Little.double;Decimal.Little.succ;side4;side3;side2
+./part1.v;StructuredTypeEvaluation;10;10;37;9;apply;(el_ax;-1;;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;37;10;apply;(el_ax;-1;;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;37;11;apply;(el_ax;-1;;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;37;12;apply;(el_ax;-1;;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;37;13;apply;(el_ax;-1;;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;37;14;apply;(el_ax;-1;;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;44;8;apply;(cmp_con_diln;-1;H';sym_DiLn;apart_diln;cmp_con_diln;cmp_apt_diln;Acc_intro_generator;well_founded_induction_type_2;Fix_F_2;inright;inleft
+./part1.v;StructuredTypeEvaluation;10;10;44;9;apply;(cmp_con_diln;-1;;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;44;10;apply;(cmp_con_diln;-1;;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;44;11;apply;(cmp_con_diln;-1;;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;44;12;apply;(cmp_con_diln;-1;;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;44;13;apply;(cmp_con_diln;-1;;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;44;14;apply;(cmp_con_diln;-1;;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;44;15;apply;(cmp_con_diln;-1;;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;44;16;apply;(cmp_con_diln;-1;;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;44;17;apply;(cmp_con_diln;-1;;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;44;18;apply;(cmp_con_diln;-1;;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;44;19;apply;(cmp_con_diln;-1;;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;44;20;apply;(cmp_con_diln;-1;;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;44;21;apply;(cmp_con_diln;-1;;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;59;8;apply;(el_ax;-1;neg_false;Hexadecimal.Little.succ_double;Hexadecimal.Little.double;Hexadecimal.Little.succ;Decimal.Little.succ_double;Decimal.Little.double;Decimal.Little.succ;side4;side3;side2
+./part1.v;StructuredTypeEvaluation;10;10;59;9;apply;(el_ax;-1;;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;59;10;apply;(el_ax;-1;;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;59;11;apply;(el_ax;-1;;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;59;12;apply;(el_ax;-1;;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;59;13;apply;(el_ax;-1;;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;59;14;apply;(el_ax;-1;;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;84;52;apply;H';-1;decide_right;decide_left;not_iff_compat;neg_false;O_S;not_eq_sym;n_Sn;not_eq_S;Number.number_eq_dec;Number.signed_int_eq_dec
+./part1.v;StructuredTypeEvaluation;10;10;84;53;apply;H';-1;Hexadecimal.hexadecimal_eq_dec;Hexadecimal.signed_int_eq_dec;Hexadecimal.uint_eq_dec;Hexadecimal.Little.succ_double;Hexadecimal.Little.double;Hexadecimal.Little.succ;Hexadecimal.del_tail_int;Hexadecimal.del_tail;Hexadecimal.del_head_int;Hexadecimal.del_head
+./part1.v;StructuredTypeEvaluation;10;10;84;54;apply;H';-1;;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;85;7;apply;cong_eqpt_apt;2;H';H'1;cong_eqpt_apt;cong_eqln_apt;H'0;Triangle_def;Tri_cond;cmp_apt_diln;cmp_apt_dipt;el_ax
+./part1.v;StructuredTypeEvaluation;10;10;85;8;apply;cong_eqpt_apt;0;cong_eqpt_apt;cong_eqln_apt;cmp_apt_diln;cmp_apt_dipt;conj;comparison;curry;ConLn;CompSpecT;CompSpec
+./part1.v;StructuredTypeEvaluation;10;10;85;9;apply;cong_eqpt_apt;0;cong_eqpt_apt;cong_eqln_apt;conj;comparison;ConLn;CompSpecT;CompSpec;CompareSpecT;CompareSpec;CompOpp
+./part1.v;StructuredTypeEvaluation;10;10;85;10;apply;cong_eqpt_apt;0;cong_eqpt_apt;cong_eqln_apt;conj;ConLn;comparison;Tri_cond;forall_exists_coincide_unique_domain;;;
+./part1.v;StructuredTypeEvaluation;10;10;85;11;apply;cong_eqpt_apt;0;cong_eqpt_apt;cong_eqln_apt;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;85;12;apply;cong_eqpt_apt;0;cong_eqpt_apt;cong_eqln_apt;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;85;13;apply;cong_eqpt_apt;0;cong_eqpt_apt;cong_eqln_apt;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;85;14;apply;cong_eqpt_apt;0;cong_eqpt_apt;cong_eqln_apt;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;85;15;apply;cong_eqpt_apt;0;cong_eqpt_apt;cong_eqln_apt;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;85;16;apply;cong_eqpt_apt;0;cong_eqpt_apt;cong_eqln_apt;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;85;17;apply;cong_eqpt_apt;0;cong_eqpt_apt;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;85;18;apply;cong_eqpt_apt;0;cong_eqpt_apt;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;85;19;apply;cong_eqpt_apt;0;cong_eqpt_apt;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;85;20;apply;cong_eqpt_apt;0;cong_eqpt_apt;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;92;52;apply;H';-1;decide_right;decide_left;not_iff_compat;neg_false;O_S;not_eq_sym;n_Sn;not_eq_S;Number.number_eq_dec;Number.signed_int_eq_dec
+./part1.v;StructuredTypeEvaluation;10;10;92;53;apply;H';-1;Hexadecimal.hexadecimal_eq_dec;Hexadecimal.signed_int_eq_dec;Hexadecimal.uint_eq_dec;Hexadecimal.Little.succ_double;Hexadecimal.Little.double;Hexadecimal.Little.succ;Hexadecimal.del_tail_int;Hexadecimal.del_tail;Hexadecimal.del_head_int;Hexadecimal.del_head
+./part1.v;StructuredTypeEvaluation;10;10;92;54;apply;H';-1;;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;93;7;apply;cong_eqln_apt;3;H';H'1;cong_eqpt_apt;cong_eqln_apt;Triangle_def;Tri_cond;cmp_apt_diln;cmp_apt_dipt;el_ax;Acc_intro_generator
+./part1.v;StructuredTypeEvaluation;10;10;93;8;apply;cong_eqln_apt;1;cong_eqpt_apt;cong_eqln_apt;cmp_apt_diln;cmp_apt_dipt;conj;comparison;curry;ConLn;CompSpecT;CompSpec
+./part1.v;StructuredTypeEvaluation;10;10;93;9;apply;cong_eqln_apt;1;cong_eqpt_apt;cong_eqln_apt;conj;comparison;ConLn;CompSpecT;CompSpec;CompareSpecT;CompareSpec;CompOpp
+./part1.v;StructuredTypeEvaluation;10;10;93;10;apply;cong_eqln_apt;1;cong_eqpt_apt;cong_eqln_apt;conj;ConLn;comparison;Tri_cond;forall_exists_coincide_unique_domain;;;
+./part1.v;StructuredTypeEvaluation;10;10;93;11;apply;cong_eqln_apt;1;cong_eqpt_apt;cong_eqln_apt;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;93;12;apply;cong_eqln_apt;1;cong_eqpt_apt;cong_eqln_apt;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;93;13;apply;cong_eqln_apt;1;cong_eqpt_apt;cong_eqln_apt;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;93;14;apply;cong_eqln_apt;1;cong_eqpt_apt;cong_eqln_apt;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;93;15;apply;cong_eqln_apt;0;cong_eqln_apt;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;93;16;apply;cong_eqln_apt;0;cong_eqln_apt;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;93;17;apply;cong_eqln_apt;0;cong_eqln_apt;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;93;18;apply;cong_eqln_apt;0;cong_eqln_apt;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;93;19;apply;cong_eqln_apt;0;cong_eqln_apt;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;93;20;apply;cong_eqln_apt;0;cong_eqln_apt;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;107;52;apply;H';-1;decide_right;decide_left;not_iff_compat;neg_false;O_S;not_eq_sym;n_Sn;not_eq_S;Number.number_eq_dec;Number.signed_int_eq_dec
+./part1.v;StructuredTypeEvaluation;10;10;107;53;apply;H';-1;Hexadecimal.hexadecimal_eq_dec;Hexadecimal.signed_int_eq_dec;Hexadecimal.uint_eq_dec;Hexadecimal.Little.succ_double;Hexadecimal.Little.double;Hexadecimal.Little.succ;Hexadecimal.del_tail_int;Hexadecimal.del_tail;Hexadecimal.del_head_int;Hexadecimal.del_head
+./part1.v;StructuredTypeEvaluation;10;10;107;54;apply;H';-1;;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;108;7;apply;cong_eqln_con;2;H';H'1;cong_eqln_con;sym_ConLn;apart_con;Twol_cond;cmp_con_diln;Acc_intro_generator;well_founded_induction_type_2;Fix_F_2
+./part1.v;StructuredTypeEvaluation;10;10;108;8;apply;cong_eqln_con;0;cong_eqln_con;cmp_con_diln;conj;comparison;curry;ConLn;CompSpecT;CompSpec;CompareSpecT;CompareSpec
+./part1.v;StructuredTypeEvaluation;10;10;108;9;apply;cong_eqln_con;0;cong_eqln_con;conj;comparison;ConLn;CompSpecT;CompSpec;CompareSpecT;CompareSpec;CompOpp;or_comm
+./part1.v;StructuredTypeEvaluation;10;10;108;10;apply;cong_eqln_con;0;cong_eqln_con;conj;ConLn;comparison;sym_ConLn;Twol_cond;cmp_con_diln;apart_con;forall_exists_coincide_unique_domain;
+./part1.v;StructuredTypeEvaluation;10;10;108;11;apply;cong_eqln_con;0;cong_eqln_con;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;108;12;apply;cong_eqln_con;0;cong_eqln_con;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;108;13;apply;cong_eqln_con;0;cong_eqln_con;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;108;14;apply;cong_eqln_con;0;cong_eqln_con;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;108;15;apply;cong_eqln_con;0;cong_eqln_con;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;108;16;apply;cong_eqln_con;0;cong_eqln_con;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;108;17;apply;cong_eqln_con;0;cong_eqln_con;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;108;18;apply;cong_eqln_con;0;cong_eqln_con;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;108;19;apply;cong_eqln_con;0;cong_eqln_con;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;108;20;apply;cong_eqln_con;0;cong_eqln_con;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;156;7;apply;cong_eqln_par;1;H'0;cong_eqln_par;eqln_imp_par;sym_Par;equiv_Par;H'1;H';Acc_intro_generator;well_founded_induction_type_2;Fix_F_2
+./part1.v;StructuredTypeEvaluation;10;10;156;8;apply;cong_eqln_par;0;cong_eqln_par;conj;comparison;curry;ConLn;CompSpecT;CompSpec;CompareSpecT;CompareSpec;CompOpp
+./part1.v;StructuredTypeEvaluation;10;10;156;9;apply;cong_eqln_par;0;cong_eqln_par;conj;comparison;ConLn;CompSpecT;CompSpec;CompareSpecT;CompareSpec;CompOpp;or_comm
+./part1.v;StructuredTypeEvaluation;10;10;156;10;apply;cong_eqln_par;0;cong_eqln_par;conj;ConLn;comparison;forall_exists_coincide_unique_domain;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;156;11;apply;cong_eqln_par;0;cong_eqln_par;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;156;12;apply;cong_eqln_par;0;cong_eqln_par;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;156;13;apply;cong_eqln_par;0;cong_eqln_par;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;156;14;apply;cong_eqln_par;0;cong_eqln_par;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;156;15;apply;cong_eqln_par;0;cong_eqln_par;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;156;16;apply;cong_eqln_par;0;cong_eqln_par;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;156;17;apply;cong_eqln_par;0;cong_eqln_par;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;156;18;apply;cong_eqln_par;0;cong_eqln_par;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;156;19;apply;cong_eqln_par;0;cong_eqln_par;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;156;20;apply;cong_eqln_par;0;cong_eqln_par;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;157;7;apply;cong_eqln_diln;2;H'1;Convergent_imp_distinct;cong_eqln_diln;sym_DiLn;apart_diln;H'0;H';cmp_con_diln;cmp_apt_diln;Acc_intro_generator
+./part1.v;StructuredTypeEvaluation;10;10;157;8;apply;cong_eqln_diln;0;cong_eqln_diln;cmp_con_diln;cmp_apt_diln;conj;comparison;curry;Convergent_imp_distinct;ConLn;CompSpecT;CompSpec
+./part1.v;StructuredTypeEvaluation;10;10;157;9;apply;cong_eqln_diln;0;cong_eqln_diln;conj;comparison;Convergent_imp_distinct;ConLn;CompSpecT;CompSpec;CompareSpecT;CompareSpec;CompOpp
+./part1.v;StructuredTypeEvaluation;10;10;157;10;apply;cong_eqln_diln;0;cong_eqln_diln;conj;Convergent_imp_distinct;ConLn;comparison;cmp_con_diln;forall_exists_coincide_unique_domain;;;
+./part1.v;StructuredTypeEvaluation;10;10;157;11;apply;cong_eqln_diln;0;cong_eqln_diln;Convergent_imp_distinct;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;157;12;apply;cong_eqln_diln;0;cong_eqln_diln;Convergent_imp_distinct;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;157;13;apply;cong_eqln_diln;0;cong_eqln_diln;Convergent_imp_distinct;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;157;14;apply;cong_eqln_diln;0;cong_eqln_diln;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;157;15;apply;cong_eqln_diln;0;cong_eqln_diln;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;157;16;apply;cong_eqln_diln;0;cong_eqln_diln;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;157;17;apply;cong_eqln_diln;0;cong_eqln_diln;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;157;18;apply;cong_eqln_diln;0;cong_eqln_diln;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;157;19;apply;cong_eqln_diln;0;cong_eqln_diln;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;157;20;apply;cong_eqln_diln;0;cong_eqln_diln;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;157;21;apply;cong_eqln_diln;0;cong_eqln_diln;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;164;7;apply;(Seg;-1;side4;side3;side2;side1;base;Seg;H';Uniqueness_of_constructed_lines;inc_ln2;inc_ln1
+./part1.v;StructuredTypeEvaluation;10;10;164;8;apply;(Seg;-1;;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;164;9;apply;(Seg;-1;;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;164;10;apply;(Seg;-1;;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;164;11;apply;(Seg;-1;;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;179;16;apply;Uniqueness_of_constructed_lines;0;Uniqueness_of_constructed_lines;inc_ln2;inc_ln1;parsides_ii;parsides_i;sym_EqLn;equiv_EqLn;Seg_cond;Triangle_def;Tri_cond
+./part1.v;StructuredTypeEvaluation;10;10;179;17;apply;Uniqueness_of_constructed_lines;0;Uniqueness_of_constructed_lines;unique_existence;uniqueness;unique;uncurry;unit;Number.UIntHexadecimal;Number.UIntDecimal;prod_uncurry_subdef;eq_ex_uncurried_iff
+./part1.v;StructuredTypeEvaluation;10;10;179;18;apply;Uniqueness_of_constructed_lines;0;Uniqueness_of_constructed_lines;unique_existence;uniqueness;unique;uncurry;unit;prod_uncurry_subdef;eq_ex_uncurried_iff;eq_sig_uncurried_iff;eq_sigT_uncurried_iff
+./part1.v;StructuredTypeEvaluation;10;10;179;19;apply;Uniqueness_of_constructed_lines;0;Uniqueness_of_constructed_lines;unique_existence;uniqueness;unique;unit;Number.UIntHexadecimal;Number.UIntDecimal;Number.uint_of_uint;Number.uint_beq;Number.uint
+./part1.v;StructuredTypeEvaluation;10;10;179;20;apply;Uniqueness_of_constructed_lines;0;Uniqueness_of_constructed_lines;unique_existence;uniqueness;unique;forall_exists_unique_domain_coincide;Number.uint_beq;Decimal.uint_beq;forall_exists_coincide_unique_domain;Hexadecimal.uint_beq;
+./part1.v;StructuredTypeEvaluation;10;10;179;21;apply;Uniqueness_of_constructed_lines;0;Uniqueness_of_constructed_lines;unique_existence;uniqueness;unique;forall_exists_unique_domain_coincide;forall_exists_coincide_unique_domain;;;;
+./part1.v;StructuredTypeEvaluation;10;10;179;22;apply;Uniqueness_of_constructed_lines;0;Uniqueness_of_constructed_lines;unique;unique_existence;uniqueness;forall_exists_unique_domain_coincide;forall_exists_coincide_unique_domain;;;;
+./part1.v;StructuredTypeEvaluation;10;10;179;23;apply;Uniqueness_of_constructed_lines;0;Uniqueness_of_constructed_lines;uniqueness;unique_existence;forall_exists_unique_domain_coincide;forall_exists_coincide_unique_domain;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;179;24;apply;Uniqueness_of_constructed_lines;0;Uniqueness_of_constructed_lines;uniqueness;unique_existence;forall_exists_unique_domain_coincide;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;179;25;apply;Uniqueness_of_constructed_lines;0;Uniqueness_of_constructed_lines;uniqueness;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;179;26;apply;Uniqueness_of_constructed_lines;0;Uniqueness_of_constructed_lines;uniqueness;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;179;27;apply;Uniqueness_of_constructed_lines;0;Uniqueness_of_constructed_lines;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;179;28;apply;Uniqueness_of_constructed_lines;0;Uniqueness_of_constructed_lines;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;179;29;apply;Uniqueness_of_constructed_lines;0;Uniqueness_of_constructed_lines;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;179;30;apply;Uniqueness_of_constructed_lines;0;Uniqueness_of_constructed_lines;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;179;31;apply;Uniqueness_of_constructed_lines;0;Uniqueness_of_constructed_lines;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;179;32;apply;Uniqueness_of_constructed_lines;0;Uniqueness_of_constructed_lines;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;179;33;apply;Uniqueness_of_constructed_lines;0;Uniqueness_of_constructed_lines;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;179;34;apply;Uniqueness_of_constructed_lines;0;Uniqueness_of_constructed_lines;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;179;35;apply;Uniqueness_of_constructed_lines;0;Uniqueness_of_constructed_lines;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;179;36;apply;Uniqueness_of_constructed_lines;0;Uniqueness_of_constructed_lines;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;179;37;apply;Uniqueness_of_constructed_lines;0;Uniqueness_of_constructed_lines;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;179;38;apply;Uniqueness_of_constructed_lines;0;Uniqueness_of_constructed_lines;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;179;39;apply;Uniqueness_of_constructed_lines;0;Uniqueness_of_constructed_lines;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;179;40;apply;Uniqueness_of_constructed_lines;0;Uniqueness_of_constructed_lines;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;179;41;apply;Uniqueness_of_constructed_lines;0;Uniqueness_of_constructed_lines;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;179;42;apply;Uniqueness_of_constructed_lines;0;Uniqueness_of_constructed_lines;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;179;43;apply;Uniqueness_of_constructed_lines;0;Uniqueness_of_constructed_lines;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;179;44;apply;Uniqueness_of_constructed_lines;0;Uniqueness_of_constructed_lines;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;179;45;apply;Uniqueness_of_constructed_lines;0;Uniqueness_of_constructed_lines;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;179;46;apply;Uniqueness_of_constructed_lines;0;Uniqueness_of_constructed_lines;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;179;47;apply;Uniqueness_of_constructed_lines;0;Uniqueness_of_constructed_lines;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;180;12;rewrite <-;(ext_rev;-1;inc_ln1;inc_ln2;cong_eqpt_inc;cong_eqln_inc;Uniqueness_of_constructed_lines;inc_pt2;inc_pt1;Seg_cond;Triangle_def;Tri_cond
+./part1.v;StructuredTypeEvaluation;10;10;180;13;rewrite <-;(ext_rev;-1;;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;180;14;rewrite <-;(ext_rev;-1;;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;180;15;rewrite <-;(ext_rev;-1;;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;180;16;rewrite <-;(ext_rev;-1;;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;180;17;rewrite <-;(ext_rev;-1;;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;180;18;rewrite <-;(ext_rev;-1;;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;180;19;rewrite <-;(ext_rev;-1;;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;180;20;rewrite <-;(ext_rev;-1;;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;181;12;rewrite <-;(orig_rev;-1;inc_ln2;inc_ln1;cong_eqpt_inc;cong_eqln_inc;Uniqueness_of_constructed_lines;inc_pt2;inc_pt1;Triangle_def;Tri_cond;parsides_ii
+./part1.v;StructuredTypeEvaluation;10;10;181;13;rewrite <-;(orig_rev;-1;;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;181;14;rewrite <-;(orig_rev;-1;;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;181;15;rewrite <-;(orig_rev;-1;;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;181;16;rewrite <-;(orig_rev;-1;;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;181;17;rewrite <-;(orig_rev;-1;;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;181;18;rewrite <-;(orig_rev;-1;;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;181;19;rewrite <-;(orig_rev;-1;;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;181;20;rewrite <-;(orig_rev;-1;;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;181;21;rewrite <-;(orig_rev;-1;;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;189;7;apply;(Twol;-1;Twol;H';Uniqueness_of_constructed_points;inc_pt2;inc_pt1;Twol_cond;reverse;Hexadecimal.Little.succ_double;Hexadecimal.Little.double;Hexadecimal.Little.succ
+./part1.v;StructuredTypeEvaluation;10;10;189;8;apply;(Twol;-1;;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;189;9;apply;(Twol;-1;;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;189;10;apply;(Twol;-1;;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;189;11;apply;(Twol;-1;;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;189;12;apply;(Twol;-1;;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;204;16;apply;Uniqueness_of_constructed_points;0;Uniqueness_of_constructed_points;inc_pt2;inc_pt1;sym_EqPt;equiv_EqPt;Twol_cond;Acc_intro_generator;well_founded_induction_type_2;Fix_F_2;inright
+./part1.v;StructuredTypeEvaluation;10;10;204;17;apply;Uniqueness_of_constructed_points;0;Uniqueness_of_constructed_points;unique_existence;uniqueness;unique;uncurry;unit;Number.UIntHexadecimal;Number.UIntDecimal;prod_uncurry_subdef;eq_ex_uncurried_iff
+./part1.v;StructuredTypeEvaluation;10;10;204;18;apply;Uniqueness_of_constructed_points;0;Uniqueness_of_constructed_points;unique_existence;uniqueness;unique;uncurry;unit;prod_uncurry_subdef;eq_ex_uncurried_iff;eq_sig_uncurried_iff;eq_sigT_uncurried_iff
+./part1.v;StructuredTypeEvaluation;10;10;204;19;apply;Uniqueness_of_constructed_points;0;Uniqueness_of_constructed_points;unique_existence;uniqueness;unique;unit;Number.UIntHexadecimal;Number.UIntDecimal;Number.uint_of_uint;Number.uint_beq;Number.uint
+./part1.v;StructuredTypeEvaluation;10;10;204;20;apply;Uniqueness_of_constructed_points;0;Uniqueness_of_constructed_points;unique_existence;uniqueness;unique;forall_exists_unique_domain_coincide;Number.uint_beq;Decimal.uint_beq;forall_exists_coincide_unique_domain;Hexadecimal.uint_beq;
+./part1.v;StructuredTypeEvaluation;10;10;204;21;apply;Uniqueness_of_constructed_points;0;Uniqueness_of_constructed_points;unique_existence;uniqueness;unique;forall_exists_unique_domain_coincide;forall_exists_coincide_unique_domain;;;;
+./part1.v;StructuredTypeEvaluation;10;10;204;22;apply;Uniqueness_of_constructed_points;0;Uniqueness_of_constructed_points;unique;unique_existence;uniqueness;forall_exists_unique_domain_coincide;forall_exists_coincide_unique_domain;;;;
+./part1.v;StructuredTypeEvaluation;10;10;204;23;apply;Uniqueness_of_constructed_points;0;Uniqueness_of_constructed_points;uniqueness;unique_existence;forall_exists_unique_domain_coincide;forall_exists_coincide_unique_domain;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;204;24;apply;Uniqueness_of_constructed_points;0;Uniqueness_of_constructed_points;uniqueness;unique_existence;forall_exists_unique_domain_coincide;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;204;25;apply;Uniqueness_of_constructed_points;0;Uniqueness_of_constructed_points;uniqueness;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;204;26;apply;Uniqueness_of_constructed_points;0;Uniqueness_of_constructed_points;uniqueness;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;204;27;apply;Uniqueness_of_constructed_points;0;Uniqueness_of_constructed_points;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;204;28;apply;Uniqueness_of_constructed_points;0;Uniqueness_of_constructed_points;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;204;29;apply;Uniqueness_of_constructed_points;0;Uniqueness_of_constructed_points;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;204;30;apply;Uniqueness_of_constructed_points;0;Uniqueness_of_constructed_points;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;204;31;apply;Uniqueness_of_constructed_points;0;Uniqueness_of_constructed_points;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;204;32;apply;Uniqueness_of_constructed_points;0;Uniqueness_of_constructed_points;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;204;33;apply;Uniqueness_of_constructed_points;0;Uniqueness_of_constructed_points;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;204;34;apply;Uniqueness_of_constructed_points;0;Uniqueness_of_constructed_points;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;204;35;apply;Uniqueness_of_constructed_points;0;Uniqueness_of_constructed_points;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;204;36;apply;Uniqueness_of_constructed_points;0;Uniqueness_of_constructed_points;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;204;37;apply;Uniqueness_of_constructed_points;0;Uniqueness_of_constructed_points;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;204;38;apply;Uniqueness_of_constructed_points;0;Uniqueness_of_constructed_points;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;204;39;apply;Uniqueness_of_constructed_points;0;Uniqueness_of_constructed_points;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;204;40;apply;Uniqueness_of_constructed_points;0;Uniqueness_of_constructed_points;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;204;41;apply;Uniqueness_of_constructed_points;0;Uniqueness_of_constructed_points;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;204;42;apply;Uniqueness_of_constructed_points;0;Uniqueness_of_constructed_points;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;204;43;apply;Uniqueness_of_constructed_points;0;Uniqueness_of_constructed_points;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;204;44;apply;Uniqueness_of_constructed_points;0;Uniqueness_of_constructed_points;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;204;45;apply;Uniqueness_of_constructed_points;0;Uniqueness_of_constructed_points;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;204;46;apply;Uniqueness_of_constructed_points;0;Uniqueness_of_constructed_points;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;204;47;apply;Uniqueness_of_constructed_points;0;Uniqueness_of_constructed_points;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;204;48;apply;Uniqueness_of_constructed_points;0;Uniqueness_of_constructed_points;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;205;12;rewrite <-;(line2_flip;-1;inc_pt1;inc_pt2;cong_eqpt_inc;cong_eqln_inc;inc_ln2;inc_ln1;Acc_intro_generator;well_founded_induction_type_2;Fix_F_2;inright
+./part1.v;StructuredTypeEvaluation;10;10;205;13;rewrite <-;(line2_flip;-1;;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;205;14;rewrite <-;(line2_flip;-1;;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;205;15;rewrite <-;(line2_flip;-1;;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;205;16;rewrite <-;(line2_flip;-1;;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;205;17;rewrite <-;(line2_flip;-1;;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;205;18;rewrite <-;(line2_flip;-1;;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;205;19;rewrite <-;(line2_flip;-1;;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;205;20;rewrite <-;(line2_flip;-1;;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;205;21;rewrite <-;(line2_flip;-1;;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;205;22;rewrite <-;(line2_flip;-1;;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;205;23;rewrite <-;(line2_flip;-1;;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;206;12;rewrite <-;(line1_flip;-1;inc_pt2;inc_pt1;cong_eqpt_inc;cong_eqln_inc;inc_ln2;inc_ln1;Twol_cond;Acc_intro_generator;well_founded_induction_type_2;Fix_F_2
+./part1.v;StructuredTypeEvaluation;10;10;206;13;rewrite <-;(line1_flip;-1;;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;206;14;rewrite <-;(line1_flip;-1;;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;206;15;rewrite <-;(line1_flip;-1;;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;206;16;rewrite <-;(line1_flip;-1;;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;206;17;rewrite <-;(line1_flip;-1;;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;206;18;rewrite <-;(line1_flip;-1;;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;206;19;rewrite <-;(line1_flip;-1;;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;206;20;rewrite <-;(line1_flip;-1;;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;206;21;rewrite <-;(line1_flip;-1;;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;206;22;rewrite <-;(line1_flip;-1;;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;206;23;rewrite <-;(line1_flip;-1;;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;216;27;apply;Definition_of_equivalence;0;Definition_of_equivalence;Neg_apart_equiv;equiv_Par;equiv_EqLn;equiv_EqPt;H';Acc_intro_generator;well_founded_induction_type_2;Fix_F_2;inright
+./part1.v;StructuredTypeEvaluation;10;10;216;28;apply;Definition_of_equivalence;0;Definition_of_equivalence;Definition_of_apartness;Decimal.Little.succ_double;Decimal.Little.double;Decimal.Little.succ;DiLn;DiPt;Decimal.int_of_int;Decimal.uint_of_uint;Decimal.del_tail_int
+./part1.v;StructuredTypeEvaluation;10;10;216;29;apply;Definition_of_equivalence;0;Definition_of_equivalence;Definition_of_apartness;Decimal.Little.succ_double;Decimal.Little.double;Decimal.Little.succ;Decimal.int_of_int;Decimal.uint_of_uint;Decimal.del_tail_int;Decimal.del_tail;Decimal.del_head_int
+./part1.v;StructuredTypeEvaluation;10;10;216;30;apply;Definition_of_equivalence;0;Definition_of_equivalence;Definition_of_apartness;decide_left;Decimal.int_of_int;Decimal.uint_of_uint;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;216;31;apply;Definition_of_equivalence;0;Definition_of_equivalence;Definition_of_apartness;Decimal.int_of_int;decide_left;Decimal.uint_of_uint;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;216;32;apply;Definition_of_equivalence;0;Definition_of_equivalence;Definition_of_apartness;Decimal.int_of_int;Decimal.uint_of_uint;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;216;33;apply;Definition_of_equivalence;0;Definition_of_equivalence;Definition_of_apartness;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;216;34;apply;Definition_of_equivalence;0;Definition_of_equivalence;Definition_of_apartness;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;216;35;apply;Definition_of_equivalence;0;Definition_of_equivalence;Definition_of_apartness;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;216;36;apply;Definition_of_equivalence;0;Definition_of_equivalence;Definition_of_apartness;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;216;37;apply;Definition_of_equivalence;0;Definition_of_equivalence;Definition_of_apartness;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;216;38;apply;Definition_of_equivalence;0;Definition_of_equivalence;Definition_of_apartness;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;216;39;apply;Definition_of_equivalence;0;Definition_of_equivalence;Definition_of_apartness;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;216;40;apply;Definition_of_equivalence;0;Definition_of_equivalence;Definition_of_apartness;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;216;41;apply;Definition_of_equivalence;0;Definition_of_equivalence;Definition_of_apartness;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;216;42;apply;Definition_of_equivalence;0;Definition_of_equivalence;Definition_of_apartness;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;216;43;apply;Definition_of_equivalence;0;Definition_of_equivalence;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;216;44;apply;Definition_of_equivalence;0;Definition_of_equivalence;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;216;45;apply;Definition_of_equivalence;0;Definition_of_equivalence;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;216;46;apply;Definition_of_equivalence;0;Definition_of_equivalence;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;216;47;apply;Definition_of_equivalence;0;Definition_of_equivalence;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;216;48;apply;Definition_of_equivalence;0;Definition_of_equivalence;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;216;49;apply;Definition_of_equivalence;0;Definition_of_equivalence;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;216;50;apply;Definition_of_equivalence;0;Definition_of_equivalence;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;216;51;apply;Definition_of_equivalence;0;Definition_of_equivalence;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;216;52;apply;Definition_of_equivalence;0;Definition_of_equivalence;;;;;;;;;
+./part1.v;StructuredTypeEvaluation;10;10;221;7;apply;H'2;11;H'3;H'4;rev_defines_sameln;Uniqueness_of_constructed_lines;parsides_ii;parsides_i;sym_EqLn;equiv_EqLn;H';H'0
+./part1.v;StructuredTypeEvaluation;10;10;221;8;apply;H'2;5;H'3;H'4;H';H'0;H'1;H'2;Hexadecimal.Little.succ_double;Hexadecimal.Little.double;Hexadecimal.Little.succ;Hexadecimal.del_tail_int
+./part1.v;StructuredTypeEvaluation;10;10;221;9;apply;H'2;5;H';H'3;H'4;H'0;H'1;H'2;;;;
+./part1.v;StructuredTypeEvaluation;10;10;221;10;apply;H'2;0;H'2;;;;;;;;;

@@ -1,0 +1,16 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Line;Character;Keywords Before;Lemma;Index;Result 1;Result 2;Result 3;Result 4;Result 5;Result 6;Result 7;Result 8;Result 9;Result 10
+./securite.v;StructuredTypeEvaluation;10;10;148;7;apply;H1;-1;PeanoNat.Nat.Even_Odd_False;RelationClasses.asymmetry;Bool.eq_true_false_abs;Decidable.dec_False;Decidable.not_and_iff;Decidable.contrapositive;Decidable.not_not_iff;Decidable.not_false_iff;Decidable.not_true_iff;Decidable.not_imp_rev_iff
+./securite.v;StructuredTypeEvaluation;10;10;148;8;apply;H1;-1;Hexadecimal.Little.succ_double;Hexadecimal.Little.double;Hexadecimal.Little.succ;Hexadecimal.del_tail_int;Hexadecimal.del_tail;Hexadecimal.del_head_int;Hexadecimal.del_head;Hexadecimal.app_int;Hexadecimal.app;Hexadecimal.rev
+./securite.v;StructuredTypeEvaluation;10;10;148;9;apply;H1;-1;Hexadecimal.D1;;;;;;;;;
+./securite.v;StructuredTypeEvaluation;10;10;149;7;apply;(equivknown;-1;H1;H2;A4;A2B;A2A;equivknown;E1;EP1;A3;A1
+./securite.v;StructuredTypeEvaluation;10;10;149;8;apply;(equivknown;-1;;;;;;;;;;
+./securite.v;StructuredTypeEvaluation;10;10;149;9;apply;(equivknown;-1;;;;;;;;;;
+./securite.v;StructuredTypeEvaluation;10;10;149;10;apply;(equivknown;-1;;;;;;;;;;
+./securite.v;StructuredTypeEvaluation;10;10;149;11;apply;(equivknown;-1;;;;;;;;;;
+./securite.v;StructuredTypeEvaluation;10;10;149;12;apply;(equivknown;-1;;;;;;;;;;
+./securite.v;StructuredTypeEvaluation;10;10;149;13;apply;(equivknown;-1;;;;;;;;;;
+./securite.v;StructuredTypeEvaluation;10;10;149;14;apply;(equivknown;-1;;;;;;;;;;
+./securite.v;StructuredTypeEvaluation;10;10;149;15;apply;(equivknown;-1;;;;;;;;;;
+./securite.v;StructuredTypeEvaluation;10;10;149;16;apply;(equivknown;-1;;;;;;;;;;
+./securite.v;StructuredTypeEvaluation;10;10;149;17;apply;(equivknown;-1;;;;;;;;;;
+./securite.v;StructuredTypeEvaluation;10;10;149;18;apply;(equivknown;-1;;;;;;;;;;

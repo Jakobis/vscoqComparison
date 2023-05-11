@@ -1,0 +1,31 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Line;Character;Keywords Before;Lemma;Index;Result 1;Result 2;Result 3;Result 4;Result 5;Result 6;Result 7;Result 8;Result 9;Result 10
+./div3.v;StructuredTypeEvaluation;10;10;48;13;rewrite;Zplus_mod;14;IHn;Z.add_b2z_double_div2;Z.mod_add;Z.Private_NZDiv.mod_add;Z_mod_plus;Z_mod_plus_full;Z.add_mod_idemp_r;Z.add_mod_idemp_l;Z.Private_NZDiv.add_mod_idemp_r;Z.Private_NZDiv.add_mod_idemp_l
+./div3.v;StructuredTypeEvaluation;10;10;48;14;rewrite;Zplus_mod;13;Z.add_b2z_double_div2;Z.mod_add;Z.Private_NZDiv.mod_add;Z_mod_plus;Z_mod_plus_full;Z.add_mod_idemp_r;Z.add_mod_idemp_l;Z.Private_NZDiv.add_mod_idemp_r;Z.Private_NZDiv.add_mod_idemp_l;Zplus_mod_idemp_r
+./div3.v;StructuredTypeEvaluation;10;10;48;15;rewrite;Zplus_mod;2;Zplus_mod_idemp_r;Zplus_mod_idemp_l;Zplus_mod;Zpos_min_1;Zpos_max_1;Zplus_diag_eq_mult_2;Zplus_assoc_reverse;Zpower_nat_0_r;Zplus_0_r_reverse;Zpos_eq
+./div3.v;StructuredTypeEvaluation;10;10;48;16;rewrite;Zplus_mod;2;Zplus_mod_idemp_r;Zplus_mod_idemp_l;Zplus_mod;Zplus_diag_eq_mult_2;Zplus_assoc_reverse;Zplus_0_r_reverse;Zplus_minus_eq;Zplus_minus;Zplus_eq_compat;Z.pow_1_l
+./div3.v;StructuredTypeEvaluation;10;10;48;17;rewrite;Zplus_mod;2;Zplus_mod_idemp_r;Zplus_mod_idemp_l;Zplus_mod;Zplus_diag_eq_mult_2;Zplus_assoc_reverse;Zplus_0_r_reverse;Zplus_minus_eq;Zplus_minus;Zplus_eq_compat;Z_mod_plus
+./div3.v;StructuredTypeEvaluation;10;10;48;18;rewrite;Zplus_mod;2;Zplus_mod_idemp_r;Zplus_mod_idemp_l;Zplus_mod;Zplus_diag_eq_mult_2;Zplus_assoc_reverse;Zplus_0_r_reverse;Zplus_minus_eq;Zplus_minus;Zplus_eq_compat;Z_mod_plus
+./div3.v;StructuredTypeEvaluation;10;10;48;19;rewrite;Zplus_mod;2;Zplus_mod_idemp_r;Zplus_mod_idemp_l;Zplus_mod;Zplus_diag_eq_mult_2;Zplus_assoc_reverse;Zplus_0_r_reverse;Zplus_minus_eq;Zplus_minus;Zplus_eq_compat;Z_mod_plus_full
+./div3.v;StructuredTypeEvaluation;10;10;48;20;rewrite;Zplus_mod;2;Zplus_mod_idemp_r;Zplus_mod_idemp_l;Zplus_mod;Zplus_minus_eq;Zplus_minus;Zplus_diag_eq_mult_2;Zplus_eq_compat;Zminus_plus_simpl_r;Zminus_plus_simpl_l_reverse;Zminus_plus_simpl_l
+./div3.v;StructuredTypeEvaluation;10;10;48;21;rewrite;Zplus_mod;2;Zplus_mod_idemp_r;Zplus_mod_idemp_l;Zplus_mod;Zplus_eq_compat;;;;;;
+./div3.v;StructuredTypeEvaluation;10;10;48;22;rewrite;Zplus_mod;0;Zplus_mod;Zplus_mod_idemp_r;Zplus_mod_idemp_l;;;;;;;
+./div3.v;StructuredTypeEvaluation;10;10;51;13;rewrite;Zmult_1_l;-1;IHn;Z.add_mod_idemp_r;Z.add_mod_idemp_l;Z.Private_NZDiv.add_mod_idemp_r;Z.Private_NZDiv.add_mod_idemp_l;Zplus_mod_idemp_r;Zplus_mod_idemp_l;Z.add_mod;Z.Private_NZDiv.add_mod;Zplus_mod
+./div3.v;StructuredTypeEvaluation;10;10;51;14;rewrite;Zmult_1_l;-1;Z.add_mod_idemp_r;Z.add_mod_idemp_l;Z.Private_NZDiv.add_mod_idemp_r;Z.Private_NZDiv.add_mod_idemp_l;Zplus_mod_idemp_r;Zplus_mod_idemp_l;Z.add_mod;Z.Private_NZDiv.add_mod;Zplus_mod;Z.mod_add
+./div3.v;StructuredTypeEvaluation;10;10;51;15;rewrite;Zmult_1_l;-1;Zmult_mod_idemp_r;Zmult_mod_idemp_l;Zminus_mod_idemp_r;Zminus_mod_idemp_l;Zmod_even;Zmod_odd;Zmod_div_mod;Zmod_mod;Zminus_mod;Zmult_mod
+./div3.v;StructuredTypeEvaluation;10;10;51;16;rewrite;Zmult_1_l;-1;Zmult_mod_idemp_r;Zmult_mod_idemp_l;Zmult_mod;Zmult_mod_distr_r;Zmult_mod_distr_l;Zmult_one;Zmod_unique;Zmod_unique_full;Z.mul_mod_idemp_r;Z.mul_mod_idemp_l
+./div3.v;StructuredTypeEvaluation;10;10;51;17;rewrite;Zmult_1_l;-1;Zmult_mod_idemp_r;Zmult_mod_idemp_l;Zmult_mod;Zmult_mod_distr_r;Zmult_mod_distr_l;Zmult_one;Z.mul_mod_idemp_r;Z.mul_mod;Z.mul_1_r;Z.mul_mod_distr_r
+./div3.v;StructuredTypeEvaluation;10;10;51;18;rewrite;Zmult_1_l;-1;Zmult_mod_idemp_r;Zmult_mod_idemp_l;Zmult_mod;Zmult_mod_distr_r;Zmult_mod_distr_l;Zmult_one;Z_div_mult;Z_div_mult_full;Zplus_diag_eq_mult_2;Z.mul_mod_distr_r
+./div3.v;StructuredTypeEvaluation;10;10;51;19;rewrite;Zmult_1_l;-1;Zmult_mod_idemp_r;Zmult_mod_idemp_l;Zmult_mod;Zmult_mod_distr_r;Zmult_mod_distr_l;Zmult_one;Z_div_mult_full;Zplus_diag_eq_mult_2;Z.mul_mod_distr_r;Z.mul_mod_distr_l
+./div3.v;StructuredTypeEvaluation;10;10;51;20;rewrite;Zmult_1_l;-1;;;;;;;;;;
+./div3.v;StructuredTypeEvaluation;10;10;51;21;rewrite;Zmult_1_l;-1;;;;;;;;;;
+./div3.v;StructuredTypeEvaluation;10;10;51;22;rewrite;Zmult_1_l;-1;;;;;;;;;;
+./div3.v;StructuredTypeEvaluation;10;10;52;16;rewrite <-;Zplus_mod;9;IHn;Z.add_mod_idemp_r;Z.add_mod_idemp_l;Z.Private_NZDiv.add_mod_idemp_r;Z.Private_NZDiv.add_mod_idemp_l;Zplus_mod_idemp_r;Zplus_mod_idemp_l;Z.add_mod;Z.Private_NZDiv.add_mod;Zplus_mod
+./div3.v;StructuredTypeEvaluation;10;10;52;17;rewrite <-;Zplus_mod;8;Z.add_mod_idemp_r;Z.add_mod_idemp_l;Z.Private_NZDiv.add_mod_idemp_r;Z.Private_NZDiv.add_mod_idemp_l;Zplus_mod_idemp_r;Zplus_mod_idemp_l;Z.add_mod;Z.Private_NZDiv.add_mod;Zplus_mod;Z.mod_add
+./div3.v;StructuredTypeEvaluation;10;10;52;18;rewrite <-;Zplus_mod;2;Zplus_mod_idemp_r;Zplus_mod_idemp_l;Zplus_mod;Zpos_min_1;Zpos_max_1;Zplus_diag_eq_mult_2;Zplus_assoc_reverse;Zpower_nat_0_r;Zplus_0_r_reverse;Zpos_eq
+./div3.v;StructuredTypeEvaluation;10;10;52;19;rewrite <-;Zplus_mod;2;Zplus_mod_idemp_r;Zplus_mod_idemp_l;Zplus_mod;Zplus_diag_eq_mult_2;Zplus_assoc_reverse;Zplus_0_r_reverse;Zplus_minus_eq;Zplus_minus;Zplus_eq_compat;Z.pow_1_l
+./div3.v;StructuredTypeEvaluation;10;10;52;20;rewrite <-;Zplus_mod;2;Zplus_mod_idemp_r;Zplus_mod_idemp_l;Zplus_mod;Zplus_diag_eq_mult_2;Zplus_assoc_reverse;Zplus_0_r_reverse;Zplus_minus_eq;Zplus_minus;Zplus_eq_compat;Z_mod_plus
+./div3.v;StructuredTypeEvaluation;10;10;52;21;rewrite <-;Zplus_mod;2;Zplus_mod_idemp_r;Zplus_mod_idemp_l;Zplus_mod;Zplus_diag_eq_mult_2;Zplus_assoc_reverse;Zplus_0_r_reverse;Zplus_minus_eq;Zplus_minus;Zplus_eq_compat;Z_mod_plus
+./div3.v;StructuredTypeEvaluation;10;10;52;22;rewrite <-;Zplus_mod;2;Zplus_mod_idemp_r;Zplus_mod_idemp_l;Zplus_mod;Zplus_diag_eq_mult_2;Zplus_assoc_reverse;Zplus_0_r_reverse;Zplus_minus_eq;Zplus_minus;Zplus_eq_compat;Z_mod_plus_full
+./div3.v;StructuredTypeEvaluation;10;10;52;23;rewrite <-;Zplus_mod;2;Zplus_mod_idemp_r;Zplus_mod_idemp_l;Zplus_mod;Zplus_minus_eq;Zplus_minus;Zplus_diag_eq_mult_2;Zplus_eq_compat;Zminus_plus_simpl_r;Zminus_plus_simpl_l_reverse;Zminus_plus_simpl_l
+./div3.v;StructuredTypeEvaluation;10;10;52;24;rewrite <-;Zplus_mod;2;Zplus_mod_idemp_r;Zplus_mod_idemp_l;Zplus_mod;Zplus_eq_compat;;;;;;
+./div3.v;StructuredTypeEvaluation;10;10;52;25;rewrite <-;Zplus_mod;0;Zplus_mod;Zplus_mod_idemp_r;Zplus_mod_idemp_l;;;;;;;

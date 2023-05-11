@@ -1,0 +1,25 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Line;Character;Keywords Before;Lemma;Index;Result 1;Result 2;Result 3;Result 4;Result 5;Result 6;Result 7;Result 8;Result 9;Result 10
+./Functions.v;StructuredTypeEvaluation;10;10;56;7;apply;Im_intro;0;Im_intro;x_in_Im_A1;Acc_inv;Acc_intro;ex2_of_sigT2;ex2_of_sig2;sigT2_of_sig2;sig2_of_sigT2;existT2;exist2
+./Functions.v;StructuredTypeEvaluation;10;10;56;8;apply;Im_intro;1;I;Im_intro;In_singleton;Intersection_intro;Im;Im_ind;Im_sind;IsSucc;Inhabited_sind;Inhabited_ind
+./Functions.v;StructuredTypeEvaluation;10;10;56;9;apply;Im_intro;1;Im;Im_intro;Im_ind;Im_sind;implb;x_in_Im_A1;Number.IntDecimal;Number.IntHexadecimal;;
+./Functions.v;StructuredTypeEvaluation;10;10;56;10;apply;Im_intro;0;Im_intro;Im_ind;Im_sind;x_in_Im_A1;;;;;;
+./Functions.v;StructuredTypeEvaluation;10;10;56;11;apply;Im_intro;0;Im_intro;Im_ind;Im_sind;;;;;;;
+./Functions.v;StructuredTypeEvaluation;10;10;56;12;apply;Im_intro;0;Im_intro;Im_ind;Im_sind;;;;;;;
+./Functions.v;StructuredTypeEvaluation;10;10;56;13;apply;Im_intro;0;Im_intro;;;;;;;;;
+./Functions.v;StructuredTypeEvaluation;10;10;56;14;apply;Im_intro;0;Im_intro;;;;;;;;;
+./Functions.v;StructuredTypeEvaluation;10;10;56;15;apply;Im_intro;0;Im_intro;;;;;;;;;
+./Functions.v;StructuredTypeEvaluation;10;10;57;7;apply;A1_Included_A2;12;H0;x_in_Im_A1;Full_intro;In_singleton;Couple_r;Couple_l;Triple_r;Triple_m;Triple_l;Intersection_intro
+./Functions.v;StructuredTypeEvaluation;10;10;57;8;apply;A1_Included_A2;0;A1_Included_A2;Acc_inv;Acc_intro;Acc_inv_dep;Acc;Antisymmetric;absurd_set;absurd;all;and_sind
+./Functions.v;StructuredTypeEvaluation;10;10;57;9;apply;A1_Included_A2;0;A1_Included_A2;x_in_Im_A1;;;;;;;;
+./Functions.v;StructuredTypeEvaluation;10;10;57;10;apply;A1_Included_A2;0;A1_Included_A2;;;;;;;;;
+./Functions.v;StructuredTypeEvaluation;10;10;57;11;apply;A1_Included_A2;0;A1_Included_A2;;;;;;;;;
+./Functions.v;StructuredTypeEvaluation;10;10;57;12;apply;A1_Included_A2;0;A1_Included_A2;;;;;;;;;
+./Functions.v;StructuredTypeEvaluation;10;10;57;13;apply;A1_Included_A2;0;A1_Included_A2;;;;;;;;;
+./Functions.v;StructuredTypeEvaluation;10;10;57;14;apply;A1_Included_A2;0;A1_Included_A2;;;;;;;;;
+./Functions.v;StructuredTypeEvaluation;10;10;57;15;apply;A1_Included_A2;0;A1_Included_A2;;;;;;;;;
+./Functions.v;StructuredTypeEvaluation;10;10;57;16;apply;A1_Included_A2;0;A1_Included_A2;;;;;;;;;
+./Functions.v;StructuredTypeEvaluation;10;10;57;17;apply;A1_Included_A2;0;A1_Included_A2;;;;;;;;;
+./Functions.v;StructuredTypeEvaluation;10;10;57;18;apply;A1_Included_A2;0;A1_Included_A2;;;;;;;;;
+./Functions.v;StructuredTypeEvaluation;10;10;57;19;apply;A1_Included_A2;0;A1_Included_A2;;;;;;;;;
+./Functions.v;StructuredTypeEvaluation;10;10;57;20;apply;A1_Included_A2;0;A1_Included_A2;;;;;;;;;
+./Functions.v;StructuredTypeEvaluation;10;10;57;21;apply;A1_Included_A2;0;A1_Included_A2;;;;;;;;;

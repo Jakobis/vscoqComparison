@@ -1,0 +1,5 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Line;Character;Keywords Before;Lemma;Index;Result 1;Result 2;Result 3;Result 4;Result 5;Result 6;Result 7;Result 8;Result 9;Result 10
+./sumarith.v;Shuffle;;;36;9;rewrite;IHn;-1;imp_iff_compat_r;Nat.le_ind_rel;List.nodup_inv;BinNat.N.lt_stepl;rmul_ext4_Proper;BinInt.Z.Bezout;BinNat.N.Private_NDivProp.mod_unique;Nat.sub_succ_r;BinNat.N.add_log2_up_lt;Nsub
+./sumarith.v;Shuffle;;;36;10;rewrite;IHn;-1;IDmorph;Init.Nat.of_uint_acc;Init.Nat.zero;Init.Nat.even;Init.Nat.testbit;Init.Nat.double;Init.Nat.tail_add;imp_iff_compat_r;inr;BinInt.Z.Bezout
+./sumarith.v;Shuffle;;;36;11;rewrite;IHn;-1;IDmorph;BinInt.Z.shiftr_opp_r;BinInt.Z.shiftl_neg;BinInt.Z.shiftl;BinInt.Z.log2_shiftl';Morphisms_Prop.not_iff_morphism_obligation_1;Morphisms_Prop.ex_impl_morphism_obligation_1;Morphisms_Prop.all_impl_morphism;;
+./sumarith.v;Shuffle;;;36;12;rewrite;IHn;-1;BinInt.Z.shiftr_opp_r;BinInt.Z.shiftl_neg;BinInt.Z.shiftl;BinInt.Z.log2_shiftl';Morphisms_Prop.not_iff_morphism_obligation_1;Morphisms_Prop.ex_impl_morphism_obligation_1;;;;

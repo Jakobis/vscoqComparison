@@ -1,0 +1,4 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Line;Character;Keywords Before;Lemma;Index;Result 1;Result 2;Result 3;Result 4;Result 5;Result 6;Result 7;Result 8;Result 9;Result 10
+./ex1_auto.v;StructuredTypeEvaluation;10;10;58;7;apply;H';1;E;H';H'0;and_commutative;or_commutative;Praeclarum;Acc_intro_generator;well_founded_induction_type_2;Fix_F_2;inright
+./ex1_auto.v;StructuredTypeEvaluation;10;10;58;8;apply;H';0;H';H'0;Hexadecimal.Little.succ_double;Hexadecimal.Little.double;Hexadecimal.Little.succ;Hexadecimal.del_tail_int;Hexadecimal.del_tail;Hexadecimal.del_head_int;Hexadecimal.del_head;Hexadecimal.app_int
+./ex1_auto.v;StructuredTypeEvaluation;10;10;58;9;apply;H';0;H';H'0;;;;;;;;

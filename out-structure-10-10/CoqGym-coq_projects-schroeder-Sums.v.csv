@@ -1,0 +1,15 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Line;Character;Keywords Before;Lemma;Index;Result 1;Result 2;Result 3;Result 4;Result 5;Result 6;Result 7;Result 8;Result 9;Result 10
+./Sums.v;StructuredTypeEvaluation;10;10;46;20;apply;Set_Sum_intro;-1;x_in_A;Set_Sum_is_majoring;Full_intro;In_singleton;Couple_r;Couple_l;Triple_r;Triple_m;Triple_l;Intersection_intro
+./Sums.v;StructuredTypeEvaluation;10;10;46;21;apply;Set_Sum_intro;-1;S;Set_Sum_is_majoring;Set_Sum;Same_set;Strict_Included;sigT2_of_sig2;sig2_of_sigT2;sigT2_sind;sigT2_rec;sigT2_ind
+./Sums.v;StructuredTypeEvaluation;10;10;46;22;apply;Set_Sum_intro;-1;Set_Sum_is_majoring;Set_Sum;Same_set;subrelation;absurd_set;sig2_rec;sig2_rect;sigT2_rec;sigT2_rect;proj1_sig_eq
+./Sums.v;StructuredTypeEvaluation;10;10;46;23;apply;Set_Sum_intro;-1;Set_Sum_is_majoring;Set_Sum;eq_stepl;Same_set;absurd_set;CompSpecT;Strict_Included;sigT2_rec;sigT2_rect;CompareSpecT
+./Sums.v;StructuredTypeEvaluation;10;10;46;24;apply;Set_Sum_intro;-1;Set_Sum_is_majoring;Set_Sum;Same_set;eq_sigT_rect_existT_r;eq_sigT_rect_existT_l;eq_sig_rect_exist_r;eq_sig_rect_exist_l;eq_sig_rect_uncurried;eq_sig2_rect_exist2_l;eq_sig2_rect_exist2
+./Sums.v;StructuredTypeEvaluation;10;10;46;25;apply;Set_Sum_intro;-1;Set_Sum_is_majoring;Set_Sum;eq_sig_rect_exist_r;eq_sig_rect_exist_l;eq_sig2_rect_exist2_l;eq_sigT_rect_existT_r;eq_sigT_rect_existT_l;eq_sig2_rect_exist2;eq_sigT2_rect_existT2_l;eq_sigT2_rect_existT2
+./Sums.v;StructuredTypeEvaluation;10;10;46;26;apply;Set_Sum_intro;-1;Set_Sum_is_majoring;Set_Sum;;;;;;;;
+./Sums.v;StructuredTypeEvaluation;10;10;46;27;apply;Set_Sum_intro;-1;Set_Sum;Set_Sum_is_majoring;;;;;;;;
+./Sums.v;StructuredTypeEvaluation;10;10;46;28;apply;Set_Sum_intro;-1;Set_Sum_is_majoring;;;;;;;;;
+./Sums.v;StructuredTypeEvaluation;10;10;46;29;apply;Set_Sum_intro;-1;Set_Sum_is_majoring;;;;;;;;;
+./Sums.v;StructuredTypeEvaluation;10;10;46;30;apply;Set_Sum_intro;-1;Set_Sum_is_majoring;;;;;;;;;
+./Sums.v;StructuredTypeEvaluation;10;10;46;31;apply;Set_Sum_intro;-1;;;;;;;;;;
+./Sums.v;StructuredTypeEvaluation;10;10;46;32;apply;Set_Sum_intro;-1;;;;;;;;;;
+./Sums.v;StructuredTypeEvaluation;10;10;46;33;apply;Set_Sum_intro;-1;;;;;;;;;;

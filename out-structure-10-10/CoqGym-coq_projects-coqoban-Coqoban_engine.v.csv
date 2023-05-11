@@ -1,0 +1,11 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Line;Character;Keywords Before;Lemma;Index;Result 1;Result 2;Result 3;Result 4;Result 5;Result 6;Result 7;Result 8;Result 9;Result 10
+./Coqoban_engine.v;StructuredTypeEvaluation;10;10;299;7;apply;STEP;0;STEP;OK;sumor_sind;sumor_rec;sumor_ind;sumor_rect;sumbool_sind;sumbool_rec;sumbool_ind;sumbool_rect
+./Coqoban_engine.v;StructuredTypeEvaluation;10;10;299;8;apply;STEP;1;S;STEP;Some;So;sumor_sind;sumor_rec;sumor_ind;sumor_rect;sumbool_sind;sumbool_rec
+./Coqoban_engine.v;StructuredTypeEvaluation;10;10;299;9;apply;STEP;0;STEP;stepnorth;stepeast;stepsouth;stepwest;sigT;sigT_sind;sigT_rec;sigT_ind;sigT_rect
+./Coqoban_engine.v;StructuredTypeEvaluation;10;10;299;10;apply;STEP;0;STEP;stepnorth;stepeast;stepsouth;stepwest;sigT_rec;sigT_rect;sigT_of_sigT2_eq;eq_sigT_rect_existT_r;eq_sigT_rect_existT_l
+./Coqoban_engine.v;StructuredTypeEvaluation;10;10;299;11;apply;STEP;0;STEP;stepnorth;stepeast;stepsouth;stepwest;eq_sigT_nondep;eq_sigT2_nondep;;;
+./Coqoban_engine.v;StructuredTypeEvaluation;10;10;305;7;apply;STEP;0;STEP;OK;sumor_sind;sumor_rec;sumor_ind;sumor_rect;sumbool_sind;sumbool_rec;sumbool_ind;sumbool_rect
+./Coqoban_engine.v;StructuredTypeEvaluation;10;10;305;8;apply;STEP;1;S;STEP;Some;So;sumor_sind;sumor_rec;sumor_ind;sumor_rect;sumbool_sind;sumbool_rec
+./Coqoban_engine.v;StructuredTypeEvaluation;10;10;305;9;apply;STEP;0;STEP;stepnorth;stepeast;stepsouth;stepwest;sigT;sigT_sind;sigT_rec;sigT_ind;sigT_rect
+./Coqoban_engine.v;StructuredTypeEvaluation;10;10;305;10;apply;STEP;0;STEP;stepnorth;stepeast;stepsouth;stepwest;sigT_rec;sigT_rect;sigT_of_sigT2_eq;eq_sigT_rect_existT_r;eq_sigT_rect_existT_l
+./Coqoban_engine.v;StructuredTypeEvaluation;10;10;305;11;apply;STEP;0;STEP;stepnorth;stepeast;stepsouth;stepwest;eq_sigT_nondep;eq_sigT2_nondep;;;

@@ -1,0 +1,6 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Line;Character;Keywords Before;Lemma;Index;Result 1;Result 2;Result 3;Result 4;Result 5;Result 6;Result 7;Result 8;Result 9;Result 10
+./Functions.v;Shuffle;;;84;19;rewrite;E;252;eq_trans_rew_distr;sigT_eta;ex;BoolSpecF;Nat.iter;length;eq_trans_assoc;eq_sigT_uncurried;well_founded_ind;sigT_of_sigT2_eq
+./Functions.v;Shuffle;;;84;20;rewrite;E;0;E;Exc;Empty_set_sind;Empty_set_ind;Empty_set;eq_trans_rew_distr;ex;eq_trans_assoc;eq_sigT_uncurried;eq_ex_eta
+./Functions.v;Shuffle;;;84;30;rewrite;E';444;CompareSpec_ind;comparison_rect;Byte.x82;Byte.xa5;andb_true_intro;not_eq_S;plus_O_n;Byte.xa8;Byte.x52;Byte.byte_rect
+./Functions.v;Shuffle;;;84;31;rewrite;E';2;E;Empty_set;E';ex_proj3;eq_trans_refl_l;error;eq_sigT_ind_uncurried;eq_sigT_ind;eq_sig_uncurried;eq_sigT_uncurried_iff
+./Functions.v;Shuffle;;;84;32;rewrite;E';0;E';;;;;;;;;

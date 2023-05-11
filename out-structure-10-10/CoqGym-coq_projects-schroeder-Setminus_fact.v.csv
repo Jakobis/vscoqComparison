@@ -1,0 +1,25 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Line;Character;Keywords Before;Lemma;Index;Result 1;Result 2;Result 3;Result 4;Result 5;Result 6;Result 7;Result 8;Result 9;Result 10
+./Setminus_fact.v;StructuredTypeEvaluation;10;10;36;7;apply;x_in_nonB;-1;neg_false;Hexadecimal.Little.succ_double;Hexadecimal.Little.double;Hexadecimal.Little.succ;Decimal.Little.succ_double;Decimal.Little.double;Decimal.Little.succ;well_founded;Acc;absurd_set
+./Setminus_fact.v;StructuredTypeEvaluation;10;10;36;8;apply;x_in_nonB;-1;xorb;Byte.xff;Byte.xfe;Byte.xfd;Byte.xfc;Byte.xfb;Byte.xfa;Byte.xf9;Byte.xf8;Byte.xf7
+./Setminus_fact.v;StructuredTypeEvaluation;10;10;36;9;apply;x_in_nonB;-1;;;;;;;;;;
+./Setminus_fact.v;StructuredTypeEvaluation;10;10;36;10;apply;x_in_nonB;-1;;;;;;;;;;
+./Setminus_fact.v;StructuredTypeEvaluation;10;10;36;11;apply;x_in_nonB;-1;;;;;;;;;;
+./Setminus_fact.v;StructuredTypeEvaluation;10;10;36;12;apply;x_in_nonB;-1;;;;;;;;;;
+./Setminus_fact.v;StructuredTypeEvaluation;10;10;36;13;apply;x_in_nonB;-1;;;;;;;;;;
+./Setminus_fact.v;StructuredTypeEvaluation;10;10;36;14;apply;x_in_nonB;-1;;;;;;;;;;
+./Setminus_fact.v;StructuredTypeEvaluation;10;10;36;15;apply;x_in_nonB;-1;;;;;;;;;;
+./Setminus_fact.v;StructuredTypeEvaluation;10;10;36;16;apply;x_in_nonB;-1;;;;;;;;;;
+./Setminus_fact.v;StructuredTypeEvaluation;10;10;37;7;apply;B'_Included_B;14;x_in_nonB;x_in_A;x_in_B';Full_intro;In_singleton;Couple_r;Couple_l;Triple_r;Triple_m;Triple_l
+./Setminus_fact.v;StructuredTypeEvaluation;10;10;37;8;apply;B'_Included_B;0;B'_Included_B;BoolSpec;Byte.byte_of_byte;Byte.of_bits;Byte.xff;Byte.xfe;Byte.xfd;Byte.xfc;Byte.xfb;Byte.xfa
+./Setminus_fact.v;StructuredTypeEvaluation;10;10;37;9;apply;B'_Included_B;0;B'_Included_B;x_in_B';;;;;;;;
+./Setminus_fact.v;StructuredTypeEvaluation;10;10;37;10;apply;B'_Included_B;0;B'_Included_B;;;;;;;;;
+./Setminus_fact.v;StructuredTypeEvaluation;10;10;37;11;apply;B'_Included_B;0;B'_Included_B;;;;;;;;;
+./Setminus_fact.v;StructuredTypeEvaluation;10;10;37;12;apply;B'_Included_B;0;B'_Included_B;;;;;;;;;
+./Setminus_fact.v;StructuredTypeEvaluation;10;10;37;13;apply;B'_Included_B;0;B'_Included_B;;;;;;;;;
+./Setminus_fact.v;StructuredTypeEvaluation;10;10;37;14;apply;B'_Included_B;0;B'_Included_B;;;;;;;;;
+./Setminus_fact.v;StructuredTypeEvaluation;10;10;37;15;apply;B'_Included_B;0;B'_Included_B;;;;;;;;;
+./Setminus_fact.v;StructuredTypeEvaluation;10;10;37;16;apply;B'_Included_B;0;B'_Included_B;;;;;;;;;
+./Setminus_fact.v;StructuredTypeEvaluation;10;10;37;17;apply;B'_Included_B;0;B'_Included_B;;;;;;;;;
+./Setminus_fact.v;StructuredTypeEvaluation;10;10;37;18;apply;B'_Included_B;0;B'_Included_B;;;;;;;;;
+./Setminus_fact.v;StructuredTypeEvaluation;10;10;37;19;apply;B'_Included_B;0;B'_Included_B;;;;;;;;;
+./Setminus_fact.v;StructuredTypeEvaluation;10;10;37;20;apply;B'_Included_B;0;B'_Included_B;;;;;;;;;

@@ -1,0 +1,61 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Line;Character;Keywords Before;Lemma;Index;Result 1;Result 2;Result 3;Result 4;Result 5;Result 6;Result 7;Result 8;Result 9;Result 10
+./Newman.v;Shuffle;;;42;11;apply;(noetherian_induction1;-1;eq_ex_uncurried_iff;eq_sig;eq_trans_refl_l;rew_pair;O_S;Decimal.D1;eq_ex_intro_r;eq_sig_uncurried_iff;comp_case;eq_sig2_rect_exist2_r
+./Newman.v;Shuffle;;;42;12;apply;(noetherian_induction1;-1;;;;;;;;;;
+./Newman.v;Shuffle;;;42;13;apply;(noetherian_induction1;-1;;;;;;;;;;
+./Newman.v;Shuffle;;;42;14;apply;(noetherian_induction1;-1;;;;;;;;;;
+./Newman.v;Shuffle;;;42;15;apply;(noetherian_induction1;-1;;;;;;;;;;
+./Newman.v;Shuffle;;;42;16;apply;(noetherian_induction1;-1;;;;;;;;;;
+./Newman.v;Shuffle;;;42;17;apply;(noetherian_induction1;-1;;;;;;;;;;
+./Newman.v;Shuffle;;;42;18;apply;(noetherian_induction1;-1;;;;;;;;;;
+./Newman.v;Shuffle;;;42;19;apply;(noetherian_induction1;-1;;;;;;;;;;
+./Newman.v;Shuffle;;;42;20;apply;(noetherian_induction1;-1;;;;;;;;;;
+./Newman.v;Shuffle;;;42;21;apply;(noetherian_induction1;-1;;;;;;;;;;
+./Newman.v;Shuffle;;;42;22;apply;(noetherian_induction1;-1;;;;;;;;;;
+./Newman.v;Shuffle;;;42;23;apply;(noetherian_induction1;-1;;;;;;;;;;
+./Newman.v;Shuffle;;;42;24;apply;(noetherian_induction1;-1;;;;;;;;;;
+./Newman.v;Shuffle;;;42;25;apply;(noetherian_induction1;-1;;;;;;;;;;
+./Newman.v;Shuffle;;;42;26;apply;(noetherian_induction1;-1;;;;;;;;;;
+./Newman.v;Shuffle;;;42;27;apply;(noetherian_induction1;-1;;;;;;;;;;
+./Newman.v;Shuffle;;;42;28;apply;(noetherian_induction1;-1;;;;;;;;;;
+./Newman.v;Shuffle;;;42;29;apply;(noetherian_induction1;-1;;;;;;;;;;
+./Newman.v;Shuffle;;;42;30;apply;(noetherian_induction1;-1;;;;;;;;;;
+./Newman.v;Shuffle;;;42;31;apply;(noetherian_induction1;-1;;;;;;;;;;
+./Newman.v;Shuffle;;;42;32;apply;(noetherian_induction1;-1;;;;;;;;;;
+./Newman.v;Shuffle;;;42;33;apply;(noetherian_induction1;-1;;;;;;;;;;
+./Newman.v;Shuffle;;;46;10;apply;star_refl;-1;Hexadecimal.D0;Decimal.rev;A;Byte.xca;Byte.xed;CompOpp;ex2_of_sigT2;sigT_of_prod;Byte.xf0;Byte.x9a
+./Newman.v;Shuffle;;;46;11;apply;star_refl;-1;sigT_of_prod;star_case;sumbool_sind;sum_rec;sigT2_eta;sigT_sind;sigT2_of_sig2;sigT_eta;sigT2_rect;star_step1
+./Newman.v;Shuffle;;;46;12;apply;star_refl;-1;star_case;star_step1;star_trans;sigT_of_prod;sigT2_eta;sigT_sind;sigT2_of_sig2;sigT_eta;sigT2_rect;sigT2_ind
+./Newman.v;Shuffle;;;46;13;apply;star_refl;-1;star_case;star_step1;star_trans;sigT_eta;sigT2_eta;inclus_star;explicit_star_sind;explicit_star;explicit_star_ind;comparison_eq_stable
+./Newman.v;Shuffle;;;46;14;apply;star_refl;-1;star_case;star_step1;star_trans;inclus_star;explicit_star_sind;explicit_star;explicit_star_ind;eq_sym_map_distr;;
+./Newman.v;Shuffle;;;46;15;apply;star_refl;-1;star_case;star_step1;star_trans;explicit_star_sind;explicit_star_ind;;;;;
+./Newman.v;Shuffle;;;46;16;apply;star_refl;-1;star_trans;;;;;;;;;
+./Newman.v;Shuffle;;;46;17;apply;star_refl;-1;;;;;;;;;;
+./Newman.v;Shuffle;;;46;18;apply;star_refl;-1;;;;;;;;;;
+./Newman.v;Shuffle;;;46;19;apply;star_refl;-1;;;;;;;;;;
+./Newman.v;Shuffle;;;47;15;rewrite <-;H4;127;value;eq_ex2_ind_uncurried;except;Lt;Byte.x48;eq_ex2_rec_uncurried;eq_true_rec;Byte.xbf;I;Byte.x32
+./Newman.v;Shuffle;;;47;16;rewrite <-;H4;5;Hexadecimal.D2;Hexadecimal.abs;Hexadecimal.Little.succ_double;Hexadecimal.HexadecimalExp;Hexadecimal.del_head_int;H4;Hexadecimal.nzhead;Hexadecimal.uint;Hexadecimal.D1;Hexadecimal.uint_sind
+./Newman.v;Shuffle;;;47;17;rewrite <-;H4;0;H4;;;;;;;;;
+./Newman.v;Shuffle;;;50;15;rewrite <-;H5;134;eq_rect_r;nat_rect;eq_rec_r;Decimal.Little.succ_double;True_ind;andb_true_intro;eq_true_ind;imp_iff_compat_r;eq_sig2_uncurried_iff;eq_sigT_rect_uncurried
+./Newman.v;Shuffle;;;50;16;rewrite <-;H5;7;Hexadecimal.D3;H2;Hexadecimal.hexadecimal_beq;H1;Hexadecimal.internal_signed_int_dec_lb0;Hexadecimal.Little.double;Hexadecimal.opp;H5;Hexadecimal.D4;Hexadecimal.internal_uint_dec_lb0
+./Newman.v;Shuffle;;;50;17;rewrite <-;H5;0;H5;;;;;;;;;
+./Newman.v;Shuffle;;;51;10;apply;star_refl;261;bool;prod_sigT_prod;eq_trans_r;rew_sig;rew_ex;Hexadecimal.Da;Number.Decimal;Byte.x36;pair_equal_spec;Byte.x94
+./Newman.v;Shuffle;;;51;11;apply;star_refl;16;S;sig_of_sigT;star_trans1;sig2_ind;sum_sind;sigT2;sigT2_sind;subrelation;star_trans;sigT2_rect
+./Newman.v;Shuffle;;;51;12;apply;star_refl;4;star_trans1;star_trans;star_case;star_step1;star_refl;strong_conf_conf;sigT2;sigT2_sind;sigT2_rect;sigT_sind
+./Newman.v;Shuffle;;;51;13;apply;star_refl;4;star_trans1;star_trans;star_case;star_step1;star_refl;sig2_eta;inclus_star;subrelation;explicit_star;explicit_star_sind
+./Newman.v;Shuffle;;;51;14;apply;star_refl;4;star_trans1;star_trans;star_case;star_step1;star_refl;inclus_star;explicit_star;explicit_star_sind;inclus_reg_star;surjective_pairing
+./Newman.v;Shuffle;;;51;15;apply;star_refl;4;star_trans1;star_trans;star_case;star_step1;star_refl;explicit_star_sind;;;;
+./Newman.v;Shuffle;;;51;16;apply;star_refl;0;star_refl;star_trans1;star_trans;;;;;;;
+./Newman.v;Shuffle;;;51;17;apply;star_refl;0;star_refl;;;;;;;;;
+./Newman.v;Shuffle;;;51;18;apply;star_refl;0;star_refl;;;;;;;;;
+./Newman.v;Shuffle;;;51;19;apply;star_refl;0;star_refl;;;;;;;;;
+./Newman.v;Shuffle;;;61;10;apply;star_trans;12;Byte.xce;Byte.xe8;Byte.xb3;negb;Byte.x62;Hexadecimal.nztail;Fix_F_2;option_rect;Hexadecimal.app;star_refl
+./Newman.v;Shuffle;;;61;11;apply;star_trans;1;star_refl;star_trans;sig;sum;sig_rec;surjective_pairing;star_case;sig2_rec;sumbool_rec;sub
+./Newman.v;Shuffle;;;61;12;apply;star_trans;1;star_refl;star_trans;star_case;sigT2_rec;sigT2;sigT2_sind;sigT2_eta;sigT_sind;sigT_of_prod;eq_stepl
+./Newman.v;Shuffle;;;61;13;apply;star_trans;1;star_refl;star_trans;star_case;sigT2_eta;explicit_star;explicit_star_ind;explicit_star_sind;inclus_reg_star;comparison_eq_stable;surjective_pairing
+./Newman.v;Shuffle;;;61;14;apply;star_trans;1;star_refl;star_trans;star_case;explicit_star;explicit_star_ind;explicit_star_sind;inclus_reg_star;surjective_pairing;;
+./Newman.v;Shuffle;;;61;15;apply;star_trans;1;star_refl;star_trans;star_case;explicit_star_ind;explicit_star_sind;;;;;
+./Newman.v;Shuffle;;;61;16;apply;star_trans;0;star_trans;;;;;;;;;
+./Newman.v;Shuffle;;;61;17;apply;star_trans;0;star_trans;;;;;;;;;
+./Newman.v;Shuffle;;;61;18;apply;star_trans;0;star_trans;;;;;;;;;
+./Newman.v;Shuffle;;;61;19;apply;star_trans;0;star_trans;;;;;;;;;
+./Newman.v;Shuffle;;;61;20;apply;star_trans;0;star_trans;;;;;;;;;
