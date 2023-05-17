@@ -1,0 +1,23 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Score;Time
+./PostscriptTest.v;StructuredUnification;1;1;NaN;37
+./PostscriptTest.v;StructuredUnification;1;2;NaN;33
+./PostscriptTest.v;StructuredUnification;1;5;NaN;28
+./PostscriptTest.v;StructuredUnification;2;1;NaN;28
+./PostscriptTest.v;StructuredUnification;2;2;NaN;31
+./PostscriptTest.v;StructuredUnification;2;5;NaN;30
+./PostscriptTest.v;StructuredUnification;5;1;NaN;44
+./PostscriptTest.v;StructuredUnification;5;2;NaN;49
+./PostscriptTest.v;StructuredUnification;5;5;NaN;28
+./PostscriptTest.v;StructuredSplitUnification;1;1;NaN;25
+./PostscriptTest.v;StructuredSplitUnification;1;2;NaN;27
+./PostscriptTest.v;StructuredSplitUnification;1;5;NaN;28
+./PostscriptTest.v;StructuredSplitUnification;2;1;NaN;26
+./PostscriptTest.v;StructuredSplitUnification;2;2;NaN;45
+./PostscriptTest.v;StructuredSplitUnification;2;5;NaN;34
+./PostscriptTest.v;StructuredSplitUnification;5;1;NaN;24
+./PostscriptTest.v;StructuredSplitUnification;5;2;NaN;26
+./PostscriptTest.v;StructuredSplitUnification;5;5;NaN;26
+./PostscriptTest.v;SimpleUnification;0;0;NaN;31
+./PostscriptTest.v;SimpleSplitUnification;0;0;NaN;34
+./PostscriptTest.v;SplitTypeUnification;0;0;NaN;36
+./PostscriptTest.v;SplitTypeSplitUnification;0;0;NaN;33

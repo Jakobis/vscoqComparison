@@ -1,0 +1,23 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Score;Time
+./Functions.v;StructuredUnification;1;1;33.333333333333336;439
+./Functions.v;StructuredUnification;1;2;33.333333333333336;445
+./Functions.v;StructuredUnification;1;5;33.333333333333336;454
+./Functions.v;StructuredUnification;2;1;33.333333333333336;492
+./Functions.v;StructuredUnification;2;2;33.333333333333336;448
+./Functions.v;StructuredUnification;2;5;33.333333333333336;433
+./Functions.v;StructuredUnification;5;1;33.333333333333336;435
+./Functions.v;StructuredUnification;5;2;33.333333333333336;463
+./Functions.v;StructuredUnification;5;5;33.333333333333336;438
+./Functions.v;StructuredSplitUnification;1;1;33.333333333333336;425
+./Functions.v;StructuredSplitUnification;1;2;33.333333333333336;442
+./Functions.v;StructuredSplitUnification;1;5;33.333333333333336;428
+./Functions.v;StructuredSplitUnification;2;1;33.333333333333336;426
+./Functions.v;StructuredSplitUnification;2;2;33.333333333333336;435
+./Functions.v;StructuredSplitUnification;2;5;33.333333333333336;432
+./Functions.v;StructuredSplitUnification;5;1;33.333333333333336;423
+./Functions.v;StructuredSplitUnification;5;2;33.333333333333336;423
+./Functions.v;StructuredSplitUnification;5;5;33.333333333333336;430
+./Functions.v;SimpleUnification;0;0;33.333333333333336;482
+./Functions.v;SimpleSplitUnification;0;0;33.333333333333336;432
+./Functions.v;SplitTypeUnification;0;0;33.333333333333336;427
+./Functions.v;SplitTypeSplitUnification;0;0;33.333333333333336;449

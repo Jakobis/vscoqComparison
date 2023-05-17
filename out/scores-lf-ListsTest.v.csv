@@ -1,0 +1,23 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Score;Time
+./ListsTest.v;StructuredUnification;1;1;NaN;18
+./ListsTest.v;StructuredUnification;1;2;NaN;18
+./ListsTest.v;StructuredUnification;1;5;NaN;20
+./ListsTest.v;StructuredUnification;2;1;NaN;18
+./ListsTest.v;StructuredUnification;2;2;NaN;20
+./ListsTest.v;StructuredUnification;2;5;NaN;19
+./ListsTest.v;StructuredUnification;5;1;NaN;18
+./ListsTest.v;StructuredUnification;5;2;NaN;18
+./ListsTest.v;StructuredUnification;5;5;NaN;18
+./ListsTest.v;StructuredSplitUnification;1;1;NaN;17
+./ListsTest.v;StructuredSplitUnification;1;2;NaN;18
+./ListsTest.v;StructuredSplitUnification;1;5;NaN;17
+./ListsTest.v;StructuredSplitUnification;2;1;NaN;18
+./ListsTest.v;StructuredSplitUnification;2;2;NaN;18
+./ListsTest.v;StructuredSplitUnification;2;5;NaN;17
+./ListsTest.v;StructuredSplitUnification;5;1;NaN;18
+./ListsTest.v;StructuredSplitUnification;5;2;NaN;19
+./ListsTest.v;StructuredSplitUnification;5;5;NaN;18
+./ListsTest.v;SimpleUnification;0;0;NaN;17
+./ListsTest.v;SimpleSplitUnification;0;0;NaN;17
+./ListsTest.v;SplitTypeUnification;0;0;NaN;18
+./ListsTest.v;SplitTypeSplitUnification;0;0;NaN;17

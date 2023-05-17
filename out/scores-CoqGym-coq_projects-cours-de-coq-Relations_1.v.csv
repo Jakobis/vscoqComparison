@@ -1,0 +1,23 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Score;Time
+./Relations_1.v;StructuredUnification;1;1;NaN;34
+./Relations_1.v;StructuredUnification;1;2;NaN;40
+./Relations_1.v;StructuredUnification;1;5;NaN;23
+./Relations_1.v;StructuredUnification;2;1;NaN;21
+./Relations_1.v;StructuredUnification;2;2;NaN;25
+./Relations_1.v;StructuredUnification;2;5;NaN;29
+./Relations_1.v;StructuredUnification;5;1;NaN;35
+./Relations_1.v;StructuredUnification;5;2;NaN;29
+./Relations_1.v;StructuredUnification;5;5;NaN;31
+./Relations_1.v;StructuredSplitUnification;1;1;NaN;51
+./Relations_1.v;StructuredSplitUnification;1;2;NaN;36
+./Relations_1.v;StructuredSplitUnification;1;5;NaN;35
+./Relations_1.v;StructuredSplitUnification;2;1;NaN;25
+./Relations_1.v;StructuredSplitUnification;2;2;NaN;24
+./Relations_1.v;StructuredSplitUnification;2;5;NaN;22
+./Relations_1.v;StructuredSplitUnification;5;1;NaN;25
+./Relations_1.v;StructuredSplitUnification;5;2;NaN;27
+./Relations_1.v;StructuredSplitUnification;5;5;NaN;23
+./Relations_1.v;SimpleUnification;0;0;NaN;22
+./Relations_1.v;SimpleSplitUnification;0;0;NaN;38
+./Relations_1.v;SplitTypeUnification;0;0;NaN;41
+./Relations_1.v;SplitTypeSplitUnification;0;0;NaN;25

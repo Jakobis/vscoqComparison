@@ -1,0 +1,23 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Score;Time
+./Functions_in_ZFC.v;StructuredUnification;1;1;NaN;1776
+./Functions_in_ZFC.v;StructuredUnification;1;2;NaN;1775
+./Functions_in_ZFC.v;StructuredUnification;1;5;NaN;1777
+./Functions_in_ZFC.v;StructuredUnification;2;1;NaN;1796
+./Functions_in_ZFC.v;StructuredUnification;2;2;NaN;1752
+./Functions_in_ZFC.v;StructuredUnification;2;5;NaN;1796
+./Functions_in_ZFC.v;StructuredUnification;5;1;NaN;1802
+./Functions_in_ZFC.v;StructuredUnification;5;2;NaN;1792
+./Functions_in_ZFC.v;StructuredUnification;5;5;NaN;1834
+./Functions_in_ZFC.v;StructuredSplitUnification;1;1;NaN;1744
+./Functions_in_ZFC.v;StructuredSplitUnification;1;2;NaN;1772
+./Functions_in_ZFC.v;StructuredSplitUnification;1;5;NaN;1775
+./Functions_in_ZFC.v;StructuredSplitUnification;2;1;NaN;1816
+./Functions_in_ZFC.v;StructuredSplitUnification;2;2;NaN;1778
+./Functions_in_ZFC.v;StructuredSplitUnification;2;5;NaN;1792
+./Functions_in_ZFC.v;StructuredSplitUnification;5;1;NaN;1827
+./Functions_in_ZFC.v;StructuredSplitUnification;5;2;NaN;1764
+./Functions_in_ZFC.v;StructuredSplitUnification;5;5;NaN;1794
+./Functions_in_ZFC.v;SimpleUnification;0;0;NaN;1799
+./Functions_in_ZFC.v;SimpleSplitUnification;0;0;NaN;1763
+./Functions_in_ZFC.v;SplitTypeUnification;0;0;NaN;1800
+./Functions_in_ZFC.v;SplitTypeSplitUnification;0;0;NaN;1750

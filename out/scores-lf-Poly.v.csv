@@ -1,0 +1,23 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Score;Time
+./Poly.v;StructuredUnification;1;1;48.895176347057436;16413
+./Poly.v;StructuredUnification;1;2;50.13499235747392;16207
+./Poly.v;StructuredUnification;1;5;72.16910763800287;16235
+./Poly.v;StructuredUnification;2;1;50.20399271847767;16134
+./Poly.v;StructuredUnification;2;2;67.31936797888258;16913
+./Poly.v;StructuredUnification;2;5;78.0955217613569;16472
+./Poly.v;StructuredUnification;5;1;59.88552852911029;16079
+./Poly.v;StructuredUnification;5;2;74.6027892019769;16488
+./Poly.v;StructuredUnification;5;5;78.26966552960445;16409
+./Poly.v;StructuredSplitUnification;1;1;48.895176347057436;16515
+./Poly.v;StructuredSplitUnification;1;2;50.13499235747392;16166
+./Poly.v;StructuredSplitUnification;1;5;72.16910763800287;16846
+./Poly.v;StructuredSplitUnification;2;1;50.20399271847767;16609
+./Poly.v;StructuredSplitUnification;2;2;67.31936797888258;16881
+./Poly.v;StructuredSplitUnification;2;5;78.0955217613569;16714
+./Poly.v;StructuredSplitUnification;5;1;59.88552852911029;15919
+./Poly.v;StructuredSplitUnification;5;2;74.6027892019769;16584
+./Poly.v;StructuredSplitUnification;5;5;78.26966552960445;16556
+./Poly.v;SimpleUnification;0;0;85.66687120700708;17683
+./Poly.v;SimpleSplitUnification;0;0;85.66687120700708;17727
+./Poly.v;SplitTypeUnification;0;0;85.66687120700708;18743
+./Poly.v;SplitTypeSplitUnification;0;0;85.66687120700708;18856

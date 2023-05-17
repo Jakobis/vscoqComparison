@@ -1,0 +1,23 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Score;Time
+./ProofObjectsTest.v;StructuredUnification;1;1;NaN;33
+./ProofObjectsTest.v;StructuredUnification;1;2;NaN;35
+./ProofObjectsTest.v;StructuredUnification;1;5;NaN;27
+./ProofObjectsTest.v;StructuredUnification;2;1;NaN;24
+./ProofObjectsTest.v;StructuredUnification;2;2;NaN;31
+./ProofObjectsTest.v;StructuredUnification;2;5;NaN;31
+./ProofObjectsTest.v;StructuredUnification;5;1;NaN;43
+./ProofObjectsTest.v;StructuredUnification;5;2;NaN;33
+./ProofObjectsTest.v;StructuredUnification;5;5;NaN;31
+./ProofObjectsTest.v;StructuredSplitUnification;1;1;NaN;25
+./ProofObjectsTest.v;StructuredSplitUnification;1;2;NaN;26
+./ProofObjectsTest.v;StructuredSplitUnification;1;5;NaN;30
+./ProofObjectsTest.v;StructuredSplitUnification;2;1;NaN;30
+./ProofObjectsTest.v;StructuredSplitUnification;2;2;NaN;39
+./ProofObjectsTest.v;StructuredSplitUnification;2;5;NaN;35
+./ProofObjectsTest.v;StructuredSplitUnification;5;1;NaN;25
+./ProofObjectsTest.v;StructuredSplitUnification;5;2;NaN;27
+./ProofObjectsTest.v;StructuredSplitUnification;5;5;NaN;29
+./ProofObjectsTest.v;SimpleUnification;0;0;NaN;39
+./ProofObjectsTest.v;SimpleSplitUnification;0;0;NaN;26
+./ProofObjectsTest.v;SplitTypeUnification;0;0;NaN;41
+./ProofObjectsTest.v;SplitTypeSplitUnification;0;0;NaN;33

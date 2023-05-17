@@ -1,0 +1,23 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Score;Time
+./drinker.v;StructuredUnification;1;1;NaN;26
+./drinker.v;StructuredUnification;1;2;NaN;26
+./drinker.v;StructuredUnification;1;5;NaN;28
+./drinker.v;StructuredUnification;2;1;NaN;29
+./drinker.v;StructuredUnification;2;2;NaN;29
+./drinker.v;StructuredUnification;2;5;NaN;28
+./drinker.v;StructuredUnification;5;1;NaN;27
+./drinker.v;StructuredUnification;5;2;NaN;30
+./drinker.v;StructuredUnification;5;5;NaN;28
+./drinker.v;StructuredSplitUnification;1;1;NaN;27
+./drinker.v;StructuredSplitUnification;1;2;NaN;29
+./drinker.v;StructuredSplitUnification;1;5;NaN;40
+./drinker.v;StructuredSplitUnification;2;1;NaN;26
+./drinker.v;StructuredSplitUnification;2;2;NaN;28
+./drinker.v;StructuredSplitUnification;2;5;NaN;26
+./drinker.v;StructuredSplitUnification;5;1;NaN;26
+./drinker.v;StructuredSplitUnification;5;2;NaN;23
+./drinker.v;StructuredSplitUnification;5;5;NaN;23
+./drinker.v;SimpleUnification;0;0;NaN;23
+./drinker.v;SimpleSplitUnification;0;0;NaN;27
+./drinker.v;SplitTypeUnification;0;0;NaN;27
+./drinker.v;SplitTypeSplitUnification;0;0;NaN;28

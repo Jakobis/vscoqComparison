@@ -1,0 +1,23 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Score;Time
+./conf_strong_betapar.v;StructuredUnification;1;1;22.98991003188034;3853
+./conf_strong_betapar.v;StructuredUnification;1;2;22.98991003188034;3962
+./conf_strong_betapar.v;StructuredUnification;1;5;22.98991003188034;3982
+./conf_strong_betapar.v;StructuredUnification;2;1;22.98991003188034;4034
+./conf_strong_betapar.v;StructuredUnification;2;2;22.98991003188034;3959
+./conf_strong_betapar.v;StructuredUnification;2;5;22.98991003188034;4000
+./conf_strong_betapar.v;StructuredUnification;5;1;22.98991003188034;4011
+./conf_strong_betapar.v;StructuredUnification;5;2;23.08696317463271;4124
+./conf_strong_betapar.v;StructuredUnification;5;5;22.98991003188034;4000
+./conf_strong_betapar.v;StructuredSplitUnification;1;1;22.98991003188034;3908
+./conf_strong_betapar.v;StructuredSplitUnification;1;2;22.98991003188034;4260
+./conf_strong_betapar.v;StructuredSplitUnification;1;5;22.98991003188034;4070
+./conf_strong_betapar.v;StructuredSplitUnification;2;1;22.98991003188034;3860
+./conf_strong_betapar.v;StructuredSplitUnification;2;2;22.98991003188034;4012
+./conf_strong_betapar.v;StructuredSplitUnification;2;5;22.98991003188034;3999
+./conf_strong_betapar.v;StructuredSplitUnification;5;1;22.98991003188034;4009
+./conf_strong_betapar.v;StructuredSplitUnification;5;2;23.08696317463271;4216
+./conf_strong_betapar.v;StructuredSplitUnification;5;5;22.98991003188034;4145
+./conf_strong_betapar.v;SimpleUnification;0;0;40.24368713455409;4000
+./conf_strong_betapar.v;SimpleSplitUnification;0;0;40.24368713455409;4096
+./conf_strong_betapar.v;SplitTypeUnification;0;0;41.39391717455406;4291
+./conf_strong_betapar.v;SplitTypeSplitUnification;0;0;41.39391717455406;4412

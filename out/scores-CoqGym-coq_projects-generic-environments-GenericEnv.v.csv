@@ -1,0 +1,23 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Score;Time
+./GenericEnv.v;StructuredUnification;1;1;34.813492152069045;309702
+./GenericEnv.v;StructuredUnification;1;2;42.70577973171722;308019
+./GenericEnv.v;StructuredUnification;1;5;50.7273623635926;307559
+./GenericEnv.v;StructuredUnification;2;1;44.18786351984021;317786
+./GenericEnv.v;StructuredUnification;2;2;48.34495621836345;317467
+./GenericEnv.v;StructuredUnification;2;5;50.85240203867366;323914
+./GenericEnv.v;StructuredUnification;5;1;45.79605797838982;318126
+./GenericEnv.v;StructuredUnification;5;2;50.200767260920145;302806
+./GenericEnv.v;StructuredUnification;5;5;50.67645852008936;291309
+./GenericEnv.v;StructuredSplitUnification;1;1;34.754208774234655;294639
+./GenericEnv.v;StructuredSplitUnification;1;2;42.64649635388284;290463
+./GenericEnv.v;StructuredSplitUnification;1;5;50.668078985758214;295904
+./GenericEnv.v;StructuredSplitUnification;2;1;44.128580142005816;290861
+./GenericEnv.v;StructuredSplitUnification;2;2;48.285672840529074;294499
+./GenericEnv.v;StructuredSplitUnification;2;5;50.79338039760676;294547
+./GenericEnv.v;StructuredSplitUnification;5;1;45.736774600555435;296121
+./GenericEnv.v;StructuredSplitUnification;5;2;50.14174561985324;291926
+./GenericEnv.v;StructuredSplitUnification;5;5;50.617436879022456;290093
+./GenericEnv.v;SimpleUnification;0;0;51.666847719976914;300603
+./GenericEnv.v;SimpleSplitUnification;0;0;51.678089937322994;292609
+./GenericEnv.v;SplitTypeUnification;0;0;54.06238978870043;303099
+./GenericEnv.v;SplitTypeSplitUnification;0;0;54.00336814763352;304505

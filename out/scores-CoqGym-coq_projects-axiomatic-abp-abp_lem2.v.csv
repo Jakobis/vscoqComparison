@@ -1,0 +1,23 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Score;Time
+./abp_lem2.v;StructuredUnification;1;1;0;2459
+./abp_lem2.v;StructuredUnification;1;2;0;2411
+./abp_lem2.v;StructuredUnification;1;5;0;2435
+./abp_lem2.v;StructuredUnification;2;1;0;2417
+./abp_lem2.v;StructuredUnification;2;2;0;2563
+./abp_lem2.v;StructuredUnification;2;5;0;2474
+./abp_lem2.v;StructuredUnification;5;1;0;2458
+./abp_lem2.v;StructuredUnification;5;2;0;2454
+./abp_lem2.v;StructuredUnification;5;5;0;2469
+./abp_lem2.v;StructuredSplitUnification;1;1;0;2414
+./abp_lem2.v;StructuredSplitUnification;1;2;0;2534
+./abp_lem2.v;StructuredSplitUnification;1;5;0;2522
+./abp_lem2.v;StructuredSplitUnification;2;1;0;2425
+./abp_lem2.v;StructuredSplitUnification;2;2;0;2557
+./abp_lem2.v;StructuredSplitUnification;2;5;0;2464
+./abp_lem2.v;StructuredSplitUnification;5;1;0;2471
+./abp_lem2.v;StructuredSplitUnification;5;2;0;2512
+./abp_lem2.v;StructuredSplitUnification;5;5;0;2416
+./abp_lem2.v;SimpleUnification;0;0;0;2504
+./abp_lem2.v;SimpleSplitUnification;0;0;0;2589
+./abp_lem2.v;SplitTypeUnification;0;0;0;2747
+./abp_lem2.v;SplitTypeSplitUnification;0;0;0;2791

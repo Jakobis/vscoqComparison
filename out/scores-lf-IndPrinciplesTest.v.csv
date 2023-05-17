@@ -1,0 +1,23 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Score;Time
+./IndPrinciplesTest.v;StructuredUnification;1;1;NaN;27
+./IndPrinciplesTest.v;StructuredUnification;1;2;NaN;30
+./IndPrinciplesTest.v;StructuredUnification;1;5;NaN;23
+./IndPrinciplesTest.v;StructuredUnification;2;1;NaN;29
+./IndPrinciplesTest.v;StructuredUnification;2;2;NaN;31
+./IndPrinciplesTest.v;StructuredUnification;2;5;NaN;30
+./IndPrinciplesTest.v;StructuredUnification;5;1;NaN;36
+./IndPrinciplesTest.v;StructuredUnification;5;2;NaN;39
+./IndPrinciplesTest.v;StructuredUnification;5;5;NaN;39
+./IndPrinciplesTest.v;StructuredSplitUnification;1;1;NaN;39
+./IndPrinciplesTest.v;StructuredSplitUnification;1;2;NaN;32
+./IndPrinciplesTest.v;StructuredSplitUnification;1;5;NaN;24
+./IndPrinciplesTest.v;StructuredSplitUnification;2;1;NaN;29
+./IndPrinciplesTest.v;StructuredSplitUnification;2;2;NaN;30
+./IndPrinciplesTest.v;StructuredSplitUnification;2;5;NaN;35
+./IndPrinciplesTest.v;StructuredSplitUnification;5;1;NaN;27
+./IndPrinciplesTest.v;StructuredSplitUnification;5;2;NaN;33
+./IndPrinciplesTest.v;StructuredSplitUnification;5;5;NaN;26
+./IndPrinciplesTest.v;SimpleUnification;0;0;NaN;30
+./IndPrinciplesTest.v;SimpleSplitUnification;0;0;NaN;26
+./IndPrinciplesTest.v;SplitTypeUnification;0;0;NaN;29
+./IndPrinciplesTest.v;SplitTypeSplitUnification;0;0;NaN;24

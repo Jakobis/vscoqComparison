@@ -1,0 +1,23 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Score;Time
+./CoreGenericEnv.v;StructuredUnification;1;1;NaN;34
+./CoreGenericEnv.v;StructuredUnification;1;2;NaN;43
+./CoreGenericEnv.v;StructuredUnification;1;5;NaN;31
+./CoreGenericEnv.v;StructuredUnification;2;1;NaN;32
+./CoreGenericEnv.v;StructuredUnification;2;2;NaN;30
+./CoreGenericEnv.v;StructuredUnification;2;5;NaN;38
+./CoreGenericEnv.v;StructuredUnification;5;1;NaN;28
+./CoreGenericEnv.v;StructuredUnification;5;2;NaN;27
+./CoreGenericEnv.v;StructuredUnification;5;5;NaN;31
+./CoreGenericEnv.v;StructuredSplitUnification;1;1;NaN;38
+./CoreGenericEnv.v;StructuredSplitUnification;1;2;NaN;34
+./CoreGenericEnv.v;StructuredSplitUnification;1;5;NaN;31
+./CoreGenericEnv.v;StructuredSplitUnification;2;1;NaN;26
+./CoreGenericEnv.v;StructuredSplitUnification;2;2;NaN;30
+./CoreGenericEnv.v;StructuredSplitUnification;2;5;NaN;28
+./CoreGenericEnv.v;StructuredSplitUnification;5;1;NaN;28
+./CoreGenericEnv.v;StructuredSplitUnification;5;2;NaN;27
+./CoreGenericEnv.v;StructuredSplitUnification;5;5;NaN;32
+./CoreGenericEnv.v;SimpleUnification;0;0;NaN;31
+./CoreGenericEnv.v;SimpleSplitUnification;0;0;NaN;26
+./CoreGenericEnv.v;SplitTypeUnification;0;0;NaN;23
+./CoreGenericEnv.v;SplitTypeSplitUnification;0;0;NaN;26

@@ -1,0 +1,23 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Score;Time
+./SLstar_bpar_SLstar.v;StructuredUnification;1;1;59.00353789578514;7838
+./SLstar_bpar_SLstar.v;StructuredUnification;1;2;53.144503473957904;7568
+./SLstar_bpar_SLstar.v;StructuredUnification;1;5;52.167997736986706;7671
+./SLstar_bpar_SLstar.v;StructuredUnification;2;1;59.00353789578514;7634
+./SLstar_bpar_SLstar.v;StructuredUnification;2;2;53.144503473957904;7748
+./SLstar_bpar_SLstar.v;StructuredUnification;2;5;52.167997736986706;7408
+./SLstar_bpar_SLstar.v;StructuredUnification;5;1;59.00353789578514;7371
+./SLstar_bpar_SLstar.v;StructuredUnification;5;2;53.144503473957904;7438
+./SLstar_bpar_SLstar.v;StructuredUnification;5;5;52.167997736986706;7886
+./SLstar_bpar_SLstar.v;StructuredSplitUnification;1;1;59.00353789578514;7544
+./SLstar_bpar_SLstar.v;StructuredSplitUnification;1;2;53.144503473957904;7639
+./SLstar_bpar_SLstar.v;StructuredSplitUnification;1;5;52.167997736986706;7592
+./SLstar_bpar_SLstar.v;StructuredSplitUnification;2;1;59.00353789578514;7470
+./SLstar_bpar_SLstar.v;StructuredSplitUnification;2;2;53.144503473957904;7434
+./SLstar_bpar_SLstar.v;StructuredSplitUnification;2;5;52.167997736986706;7376
+./SLstar_bpar_SLstar.v;StructuredSplitUnification;5;1;59.00353789578514;7687
+./SLstar_bpar_SLstar.v;StructuredSplitUnification;5;2;53.144503473957904;7976
+./SLstar_bpar_SLstar.v;StructuredSplitUnification;5;5;52.167997736986706;7626
+./SLstar_bpar_SLstar.v;SimpleUnification;0;0;27.303177906170202;7908
+./SLstar_bpar_SLstar.v;SimpleSplitUnification;0;0;27.303177906170202;7839
+./SLstar_bpar_SLstar.v;SplitTypeUnification;0;0;33.356893471749146;8197
+./SLstar_bpar_SLstar.v;SplitTypeSplitUnification;0;0;33.356893471749146;7981

@@ -1,0 +1,23 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Score;Time
+./point_Simson.v;StructuredUnification;1;1;39.490415322346166;11283
+./point_Simson.v;StructuredUnification;1;2;53.26495285223053;10484
+./point_Simson.v;StructuredUnification;1;5;53.737355943120846;10522
+./point_Simson.v;StructuredUnification;2;1;52.4238558364443;10433
+./point_Simson.v;StructuredUnification;2;2;54.499383119606804;10633
+./point_Simson.v;StructuredUnification;2;5;51.30366244737722;10439
+./point_Simson.v;StructuredUnification;5;1;50.796988292994136;10243
+./point_Simson.v;StructuredUnification;5;2;50.59539380186029;10350
+./point_Simson.v;StructuredUnification;5;5;50.113134980292315;10621
+./point_Simson.v;StructuredSplitUnification;1;1;39.490415322346166;10389
+./point_Simson.v;StructuredSplitUnification;1;2;53.26495285223053;10153
+./point_Simson.v;StructuredSplitUnification;1;5;53.737355943120846;10275
+./point_Simson.v;StructuredSplitUnification;2;1;52.4238558364443;10384
+./point_Simson.v;StructuredSplitUnification;2;2;54.499383119606804;10692
+./point_Simson.v;StructuredSplitUnification;2;5;51.30366244737722;10615
+./point_Simson.v;StructuredSplitUnification;5;1;50.796988292994136;10535
+./point_Simson.v;StructuredSplitUnification;5;2;50.59539380186029;10415
+./point_Simson.v;StructuredSplitUnification;5;5;50.113134980292315;10491
+./point_Simson.v;SimpleUnification;0;0;41.76191912508127;10710
+./point_Simson.v;SimpleSplitUnification;0;0;41.76191912508127;10394
+./point_Simson.v;SplitTypeUnification;0;0;42.60206023146365;11417
+./point_Simson.v;SplitTypeSplitUnification;0;0;42.60206023146365;11106

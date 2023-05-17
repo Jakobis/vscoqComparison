@@ -1,0 +1,23 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Score;Time
+./ImpCEvalFun.v;StructuredUnification;1;1;48.9615222705873;61510
+./ImpCEvalFun.v;StructuredUnification;1;2;51.65309998893976;62144
+./ImpCEvalFun.v;StructuredUnification;1;5;66.14863551320342;62222
+./ImpCEvalFun.v;StructuredUnification;2;1;50.80691261112468;61406
+./ImpCEvalFun.v;StructuredUnification;2;2;58.68772726978049;61130
+./ImpCEvalFun.v;StructuredUnification;2;5;69.15552352109093;61873
+./ImpCEvalFun.v;StructuredUnification;5;1;54.51172243423723;62734
+./ImpCEvalFun.v;StructuredUnification;5;2;65.57909620601609;60486
+./ImpCEvalFun.v;StructuredUnification;5;5;69.15552352109093;61884
+./ImpCEvalFun.v;StructuredSplitUnification;1;1;48.9615222705873;61500
+./ImpCEvalFun.v;StructuredSplitUnification;1;2;51.65309998893976;60811
+./ImpCEvalFun.v;StructuredSplitUnification;1;5;66.14863551320342;60789
+./ImpCEvalFun.v;StructuredSplitUnification;2;1;50.80691261112468;60899
+./ImpCEvalFun.v;StructuredSplitUnification;2;2;58.68772726978049;61380
+./ImpCEvalFun.v;StructuredSplitUnification;2;5;69.15552352109093;62489
+./ImpCEvalFun.v;StructuredSplitUnification;5;1;54.51172243423723;62900
+./ImpCEvalFun.v;StructuredSplitUnification;5;2;65.57909620601609;62648
+./ImpCEvalFun.v;StructuredSplitUnification;5;5;69.15552352109093;62322
+./ImpCEvalFun.v;SimpleUnification;0;0;66.36903706675743;63970
+./ImpCEvalFun.v;SimpleSplitUnification;0;0;66.36903706675743;61659
+./ImpCEvalFun.v;SplitTypeUnification;0;0;68.24140195523778;63285
+./ImpCEvalFun.v;SplitTypeSplitUnification;0;0;68.24140195523778;62379

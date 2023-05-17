@@ -1,0 +1,23 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Score;Time
+./egaliteTS.v;StructuredUnification;1;1;NaN;28
+./egaliteTS.v;StructuredUnification;1;2;NaN;27
+./egaliteTS.v;StructuredUnification;1;5;NaN;22
+./egaliteTS.v;StructuredUnification;2;1;NaN;22
+./egaliteTS.v;StructuredUnification;2;2;NaN;21
+./egaliteTS.v;StructuredUnification;2;5;NaN;24
+./egaliteTS.v;StructuredUnification;5;1;NaN;26
+./egaliteTS.v;StructuredUnification;5;2;NaN;33
+./egaliteTS.v;StructuredUnification;5;5;NaN;37
+./egaliteTS.v;StructuredSplitUnification;1;1;NaN;27
+./egaliteTS.v;StructuredSplitUnification;1;2;NaN;35
+./egaliteTS.v;StructuredSplitUnification;1;5;NaN;24
+./egaliteTS.v;StructuredSplitUnification;2;1;NaN;29
+./egaliteTS.v;StructuredSplitUnification;2;2;NaN;34
+./egaliteTS.v;StructuredSplitUnification;2;5;NaN;29
+./egaliteTS.v;StructuredSplitUnification;5;1;NaN;28
+./egaliteTS.v;StructuredSplitUnification;5;2;NaN;33
+./egaliteTS.v;StructuredSplitUnification;5;5;NaN;33
+./egaliteTS.v;SimpleUnification;0;0;NaN;29
+./egaliteTS.v;SimpleSplitUnification;0;0;NaN;26
+./egaliteTS.v;SplitTypeUnification;0;0;NaN;27
+./egaliteTS.v;SplitTypeSplitUnification;0;0;NaN;33

@@ -1,0 +1,23 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Score;Time
+./terminaison_SL.v;StructuredUnification;1;1;31.188323679542545;8269
+./terminaison_SL.v;StructuredUnification;1;2;39.09757313386582;8053
+./terminaison_SL.v;StructuredUnification;1;5;39.96755605070976;8234
+./terminaison_SL.v;StructuredUnification;2;1;35.90763577210471;8076
+./terminaison_SL.v;StructuredUnification;2;2;39.96755605070976;8395
+./terminaison_SL.v;StructuredUnification;2;5;39.96755605070976;8049
+./terminaison_SL.v;StructuredUnification;5;1;36.77761868894865;7938
+./terminaison_SL.v;StructuredUnification;5;2;39.96755605070976;8300
+./terminaison_SL.v;StructuredUnification;5;5;39.96755605070976;8109
+./terminaison_SL.v;StructuredSplitUnification;1;1;31.188323679542545;8091
+./terminaison_SL.v;StructuredSplitUnification;1;2;39.09757313386582;8129
+./terminaison_SL.v;StructuredSplitUnification;1;5;39.96755605070976;8019
+./terminaison_SL.v;StructuredSplitUnification;2;1;35.90763577210471;8218
+./terminaison_SL.v;StructuredSplitUnification;2;2;39.96755605070976;8289
+./terminaison_SL.v;StructuredSplitUnification;2;5;39.96755605070976;8244
+./terminaison_SL.v;StructuredSplitUnification;5;1;36.77761868894865;8030
+./terminaison_SL.v;StructuredSplitUnification;5;2;39.96755605070976;8058
+./terminaison_SL.v;StructuredSplitUnification;5;5;39.96755605070976;8247
+./terminaison_SL.v;SimpleUnification;0;0;27.399557940439085;8350
+./terminaison_SL.v;SimpleSplitUnification;0;0;27.399557940439085;8214
+./terminaison_SL.v;SplitTypeUnification;0;0;27.660552815492263;8797
+./terminaison_SL.v;SplitTypeSplitUnification;0;0;27.660552815492263;8652

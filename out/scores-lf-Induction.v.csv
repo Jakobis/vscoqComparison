@@ -1,0 +1,23 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Score;Time
+./Induction.v;StructuredUnification;1;1;51.35749983812589;76801
+./Induction.v;StructuredUnification;1;2;55.94966543995864;77923
+./Induction.v;StructuredUnification;1;5;68.65126891347666;77992
+./Induction.v;StructuredUnification;2;1;54.822317111870476;75905
+./Induction.v;StructuredUnification;2;2;66.67285578038634;76655
+./Induction.v;StructuredUnification;2;5;69.51629843402523;78597
+./Induction.v;StructuredUnification;5;1;64.31653831916982;78581
+./Induction.v;StructuredUnification;5;2;69.23446135200318;78261
+./Induction.v;StructuredUnification;5;5;69.61039959332521;80177
+./Induction.v;StructuredSplitUnification;1;1;51.35749983812589;79768
+./Induction.v;StructuredSplitUnification;1;2;55.94966543995864;79694
+./Induction.v;StructuredSplitUnification;1;5;68.65126891347666;78709
+./Induction.v;StructuredSplitUnification;2;1;54.822317111870476;76422
+./Induction.v;StructuredSplitUnification;2;2;66.67285578038634;78657
+./Induction.v;StructuredSplitUnification;2;5;69.51629843402523;76939
+./Induction.v;StructuredSplitUnification;5;1;64.31653831916982;78205
+./Induction.v;StructuredSplitUnification;5;2;69.23446135200318;77626
+./Induction.v;StructuredSplitUnification;5;5;69.61039959332521;76392
+./Induction.v;SimpleUnification;0;0;72.27723952974688;85457
+./Induction.v;SimpleSplitUnification;0;0;72.27723952974688;85546
+./Induction.v;SplitTypeUnification;0;0;72.46513091776158;88286
+./Induction.v;SplitTypeSplitUnification;0;0;72.46513091776158;81434

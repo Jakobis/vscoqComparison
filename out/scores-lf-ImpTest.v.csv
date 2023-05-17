@@ -1,0 +1,23 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Score;Time
+./ImpTest.v;StructuredUnification;1;1;NaN;36
+./ImpTest.v;StructuredUnification;1;2;NaN;36
+./ImpTest.v;StructuredUnification;1;5;NaN;30
+./ImpTest.v;StructuredUnification;2;1;NaN;31
+./ImpTest.v;StructuredUnification;2;2;NaN;29
+./ImpTest.v;StructuredUnification;2;5;NaN;31
+./ImpTest.v;StructuredUnification;5;1;NaN;34
+./ImpTest.v;StructuredUnification;5;2;NaN;29
+./ImpTest.v;StructuredUnification;5;5;NaN;28
+./ImpTest.v;StructuredSplitUnification;1;1;NaN;27
+./ImpTest.v;StructuredSplitUnification;1;2;NaN;26
+./ImpTest.v;StructuredSplitUnification;1;5;NaN;25
+./ImpTest.v;StructuredSplitUnification;2;1;NaN;31
+./ImpTest.v;StructuredSplitUnification;2;2;NaN;42
+./ImpTest.v;StructuredSplitUnification;2;5;NaN;38
+./ImpTest.v;StructuredSplitUnification;5;1;NaN;43
+./ImpTest.v;StructuredSplitUnification;5;2;NaN;37
+./ImpTest.v;StructuredSplitUnification;5;5;NaN;35
+./ImpTest.v;SimpleUnification;0;0;NaN;40
+./ImpTest.v;SimpleSplitUnification;0;0;NaN;36
+./ImpTest.v;SplitTypeUnification;0;0;NaN;44
+./ImpTest.v;SplitTypeSplitUnification;0;0;NaN;31

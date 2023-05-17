@@ -1,0 +1,23 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Score;Time
+./Checker.v;StructuredUnification;1;1;64.75161944302357;727
+./Checker.v;StructuredUnification;1;2;60.05379257934521;705
+./Checker.v;StructuredUnification;1;5;60.05379257934521;703
+./Checker.v;StructuredUnification;2;1;64.75161944302357;734
+./Checker.v;StructuredUnification;2;2;60.05379257934521;727
+./Checker.v;StructuredUnification;2;5;60.05379257934521;782
+./Checker.v;StructuredUnification;5;1;64.75161944302357;711
+./Checker.v;StructuredUnification;5;2;60.05379257934521;715
+./Checker.v;StructuredUnification;5;5;60.05379257934521;730
+./Checker.v;StructuredSplitUnification;1;1;64.75161944302357;735
+./Checker.v;StructuredSplitUnification;1;2;60.05379257934521;711
+./Checker.v;StructuredSplitUnification;1;5;60.05379257934521;722
+./Checker.v;StructuredSplitUnification;2;1;64.75161944302357;672
+./Checker.v;StructuredSplitUnification;2;2;60.05379257934521;710
+./Checker.v;StructuredSplitUnification;2;5;60.05379257934521;743
+./Checker.v;StructuredSplitUnification;5;1;64.75161944302357;711
+./Checker.v;StructuredSplitUnification;5;2;60.05379257934521;706
+./Checker.v;StructuredSplitUnification;5;5;60.05379257934521;714
+./Checker.v;SimpleUnification;0;0;49.40538502167425;671
+./Checker.v;SimpleSplitUnification;0;0;49.40538502167425;672
+./Checker.v;SplitTypeUnification;0;0;49.40538502167425;699
+./Checker.v;SplitTypeSplitUnification;0;0;49.40538502167425;718

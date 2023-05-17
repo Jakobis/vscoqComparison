@@ -1,0 +1,23 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Score;Time
+./Coqlib.v;StructuredUnification;1;1;34.791694599005325;2091
+./Coqlib.v;StructuredUnification;1;2;34.791694599005325;2099
+./Coqlib.v;StructuredUnification;1;5;36.37859339660494;2066
+./Coqlib.v;StructuredUnification;2;1;35.68585777359098;2023
+./Coqlib.v;StructuredUnification;2;2;37.324427117028556;2089
+./Coqlib.v;StructuredUnification;2;5;37.702760605198;2041
+./Coqlib.v;StructuredUnification;5;1;37.324427117028556;2347
+./Coqlib.v;StructuredUnification;5;2;37.702760605198;2151
+./Coqlib.v;StructuredUnification;5;5;37.702760605198;2056
+./Coqlib.v;StructuredSplitUnification;1;1;34.791694599005325;2014
+./Coqlib.v;StructuredSplitUnification;1;2;34.791694599005325;2044
+./Coqlib.v;StructuredSplitUnification;1;5;36.37859339660494;2031
+./Coqlib.v;StructuredSplitUnification;2;1;35.68585777359098;2101
+./Coqlib.v;StructuredSplitUnification;2;2;37.324427117028556;1983
+./Coqlib.v;StructuredSplitUnification;2;5;37.702760605198;2111
+./Coqlib.v;StructuredSplitUnification;5;1;37.324427117028556;2081
+./Coqlib.v;StructuredSplitUnification;5;2;37.702760605198;2044
+./Coqlib.v;StructuredSplitUnification;5;5;37.702760605198;2036
+./Coqlib.v;SimpleUnification;0;0;34.884745370111816;2043
+./Coqlib.v;SimpleSplitUnification;0;0;34.884745370111816;2081
+./Coqlib.v;SplitTypeUnification;0;0;33.82221503557112;2107
+./Coqlib.v;SplitTypeSplitUnification;0;0;33.82221503557112;2125

@@ -1,0 +1,23 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Score;Time
+./point_angle.v;StructuredUnification;1;1;39.126018168814916;71866
+./point_angle.v;StructuredUnification;1;2;55.151691603933784;71224
+./point_angle.v;StructuredUnification;1;5;60.77141055377206;71222
+./point_angle.v;StructuredUnification;2;1;51.21212572157703;70856
+./point_angle.v;StructuredUnification;2;2;62.15082385325399;70439
+./point_angle.v;StructuredUnification;2;5;60.0657641175021;72235
+./point_angle.v;StructuredUnification;5;1;54.372708668823066;70618
+./point_angle.v;StructuredUnification;5;2;59.69945587226303;70560
+./point_angle.v;StructuredUnification;5;5;59.64285105789203;71351
+./point_angle.v;StructuredSplitUnification;1;1;39.126018168814916;70512
+./point_angle.v;StructuredSplitUnification;1;2;55.151691603933784;70410
+./point_angle.v;StructuredSplitUnification;1;5;60.77141055377206;70065
+./point_angle.v;StructuredSplitUnification;2;1;51.21212572157703;70601
+./point_angle.v;StructuredSplitUnification;2;2;62.15082385325399;72801
+./point_angle.v;StructuredSplitUnification;2;5;60.0657641175021;71215
+./point_angle.v;StructuredSplitUnification;5;1;54.372708668823066;71476
+./point_angle.v;StructuredSplitUnification;5;2;59.69945587226303;72470
+./point_angle.v;StructuredSplitUnification;5;5;59.64285105789203;69697
+./point_angle.v;SimpleUnification;0;0;53.913182991369254;70485
+./point_angle.v;SimpleSplitUnification;0;0;53.913182991369254;69431
+./point_angle.v;SplitTypeUnification;0;0;54.293893512448044;71755
+./point_angle.v;SplitTypeSplitUnification;0;0;54.293893512448044;73795

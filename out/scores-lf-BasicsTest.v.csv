@@ -1,0 +1,23 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Score;Time
+./BasicsTest.v;StructuredUnification;1;1;NaN;28
+./BasicsTest.v;StructuredUnification;1;2;NaN;29
+./BasicsTest.v;StructuredUnification;1;5;NaN;32
+./BasicsTest.v;StructuredUnification;2;1;NaN;23
+./BasicsTest.v;StructuredUnification;2;2;NaN;22
+./BasicsTest.v;StructuredUnification;2;5;NaN;26
+./BasicsTest.v;StructuredUnification;5;1;NaN;24
+./BasicsTest.v;StructuredUnification;5;2;NaN;23
+./BasicsTest.v;StructuredUnification;5;5;NaN;24
+./BasicsTest.v;StructuredSplitUnification;1;1;NaN;23
+./BasicsTest.v;StructuredSplitUnification;1;2;NaN;25
+./BasicsTest.v;StructuredSplitUnification;1;5;NaN;25
+./BasicsTest.v;StructuredSplitUnification;2;1;NaN;24
+./BasicsTest.v;StructuredSplitUnification;2;2;NaN;24
+./BasicsTest.v;StructuredSplitUnification;2;5;NaN;23
+./BasicsTest.v;StructuredSplitUnification;5;1;NaN;22
+./BasicsTest.v;StructuredSplitUnification;5;2;NaN;24
+./BasicsTest.v;StructuredSplitUnification;5;5;NaN;26
+./BasicsTest.v;SimpleUnification;0;0;NaN;21
+./BasicsTest.v;SimpleSplitUnification;0;0;NaN;22
+./BasicsTest.v;SplitTypeUnification;0;0;NaN;30
+./BasicsTest.v;SplitTypeSplitUnification;0;0;NaN;24

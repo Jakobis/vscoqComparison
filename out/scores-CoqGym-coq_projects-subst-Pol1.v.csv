@@ -1,0 +1,23 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Score;Time
+./Pol1.v;StructuredUnification;1;1;0;2270
+./Pol1.v;StructuredUnification;1;2;0;2210
+./Pol1.v;StructuredUnification;1;5;0;2137
+./Pol1.v;StructuredUnification;2;1;0;2177
+./Pol1.v;StructuredUnification;2;2;0;2220
+./Pol1.v;StructuredUnification;2;5;0;2152
+./Pol1.v;StructuredUnification;5;1;0;2151
+./Pol1.v;StructuredUnification;5;2;0;2233
+./Pol1.v;StructuredUnification;5;5;0;2193
+./Pol1.v;StructuredSplitUnification;1;1;0;2255
+./Pol1.v;StructuredSplitUnification;1;2;0;2223
+./Pol1.v;StructuredSplitUnification;1;5;0;2215
+./Pol1.v;StructuredSplitUnification;2;1;0;2156
+./Pol1.v;StructuredSplitUnification;2;2;0;2172
+./Pol1.v;StructuredSplitUnification;2;5;0;2178
+./Pol1.v;StructuredSplitUnification;5;1;0;2170
+./Pol1.v;StructuredSplitUnification;5;2;0;2262
+./Pol1.v;StructuredSplitUnification;5;5;0;2285
+./Pol1.v;SimpleUnification;0;0;0;2325
+./Pol1.v;SimpleSplitUnification;0;0;0;2346
+./Pol1.v;SplitTypeUnification;0;0;0;2472
+./Pol1.v;SplitTypeSplitUnification;0;0;0;2462

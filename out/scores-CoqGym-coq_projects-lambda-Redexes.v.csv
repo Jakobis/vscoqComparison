@@ -1,0 +1,23 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Score;Time
+./Redexes.v;StructuredUnification;1;1;30.808958468638618;13431
+./Redexes.v;StructuredUnification;1;2;54.607042161766664;13267
+./Redexes.v;StructuredUnification;1;5;65.97479687494221;13477
+./Redexes.v;StructuredUnification;2;1;48.20556105073995;13359
+./Redexes.v;StructuredUnification;2;2;65.97479687494221;13551
+./Redexes.v;StructuredUnification;2;5;66.1456549117134;13260
+./Redexes.v;StructuredUnification;5;1;54.7665096627531;12973
+./Redexes.v;StructuredUnification;5;2;66.1456549117134;13347
+./Redexes.v;StructuredUnification;5;5;66.1456549117134;13537
+./Redexes.v;StructuredSplitUnification;1;1;30.808958468638618;13240
+./Redexes.v;StructuredSplitUnification;1;2;54.607042161766664;13382
+./Redexes.v;StructuredSplitUnification;1;5;65.97479687494221;13145
+./Redexes.v;StructuredSplitUnification;2;1;48.20556105073995;13281
+./Redexes.v;StructuredSplitUnification;2;2;65.97479687494221;13604
+./Redexes.v;StructuredSplitUnification;2;5;66.1456549117134;13416
+./Redexes.v;StructuredSplitUnification;5;1;54.7665096627531;13137
+./Redexes.v;StructuredSplitUnification;5;2;66.1456549117134;13234
+./Redexes.v;StructuredSplitUnification;5;5;66.1456549117134;13195
+./Redexes.v;SimpleUnification;0;0;55.5679152161798;13577
+./Redexes.v;SimpleSplitUnification;0;0;55.5679152161798;13536
+./Redexes.v;SplitTypeUnification;0;0;56.25134736326449;14035
+./Redexes.v;SplitTypeSplitUnification;0;0;56.25134736326449;14110

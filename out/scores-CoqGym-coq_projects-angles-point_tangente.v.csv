@@ -1,0 +1,23 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Score;Time
+./point_tangente.v;StructuredUnification;1;1;42.61941186009794;55880
+./point_tangente.v;StructuredUnification;1;2;56.29586995848015;55978
+./point_tangente.v;StructuredUnification;1;5;57.2733098219149;56262
+./point_tangente.v;StructuredUnification;2;1;52.015424127831075;56176
+./point_tangente.v;StructuredUnification;2;2;58.26312077754117;56201
+./point_tangente.v;StructuredUnification;2;5;55.83926381146676;56060
+./point_tangente.v;StructuredUnification;5;1;54.75389584048678;55654
+./point_tangente.v;StructuredUnification;5;2;55.706639865692175;55690
+./point_tangente.v;StructuredUnification;5;5;54.304111258979205;55786
+./point_tangente.v;StructuredSplitUnification;1;1;42.61941186009794;55850
+./point_tangente.v;StructuredSplitUnification;1;2;56.29586995848015;55345
+./point_tangente.v;StructuredSplitUnification;1;5;57.2733098219149;54040
+./point_tangente.v;StructuredSplitUnification;2;1;52.015424127831075;53888
+./point_tangente.v;StructuredSplitUnification;2;2;58.26312077754117;54171
+./point_tangente.v;StructuredSplitUnification;2;5;55.83926381146676;53674
+./point_tangente.v;StructuredSplitUnification;5;1;54.75389584048678;53702
+./point_tangente.v;StructuredSplitUnification;5;2;55.706639865692175;53305
+./point_tangente.v;StructuredSplitUnification;5;5;54.304111258979205;53111
+./point_tangente.v;SimpleUnification;0;0;50.205901849902816;53696
+./point_tangente.v;SimpleSplitUnification;0;0;50.205901849902816;54067
+./point_tangente.v;SplitTypeUnification;0;0;50.23277244105856;56579
+./point_tangente.v;SplitTypeSplitUnification;0;0;50.23277244105856;56677

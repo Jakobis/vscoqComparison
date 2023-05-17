@@ -1,0 +1,23 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Score;Time
+./IZF_logic.v;StructuredUnification;1;1;NaN;25
+./IZF_logic.v;StructuredUnification;1;2;NaN;25
+./IZF_logic.v;StructuredUnification;1;5;NaN;26
+./IZF_logic.v;StructuredUnification;2;1;NaN;27
+./IZF_logic.v;StructuredUnification;2;2;NaN;23
+./IZF_logic.v;StructuredUnification;2;5;NaN;23
+./IZF_logic.v;StructuredUnification;5;1;NaN;25
+./IZF_logic.v;StructuredUnification;5;2;NaN;23
+./IZF_logic.v;StructuredUnification;5;5;NaN;20
+./IZF_logic.v;StructuredSplitUnification;1;1;NaN;22
+./IZF_logic.v;StructuredSplitUnification;1;2;NaN;20
+./IZF_logic.v;StructuredSplitUnification;1;5;NaN;20
+./IZF_logic.v;StructuredSplitUnification;2;1;NaN;22
+./IZF_logic.v;StructuredSplitUnification;2;2;NaN;22
+./IZF_logic.v;StructuredSplitUnification;2;5;NaN;21
+./IZF_logic.v;StructuredSplitUnification;5;1;NaN;22
+./IZF_logic.v;StructuredSplitUnification;5;2;NaN;22
+./IZF_logic.v;StructuredSplitUnification;5;5;NaN;22
+./IZF_logic.v;SimpleUnification;0;0;NaN;21
+./IZF_logic.v;SimpleSplitUnification;0;0;NaN;22
+./IZF_logic.v;SplitTypeUnification;0;0;NaN;22
+./IZF_logic.v;SplitTypeSplitUnification;0;0;NaN;24

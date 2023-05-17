@@ -1,0 +1,23 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Score;Time
+./ballot.v;StructuredUnification;1;1;29.168419495849818;237710
+./ballot.v;StructuredUnification;1;2;34.93289834475702;237468
+./ballot.v;StructuredUnification;1;5;42.9608074043712;240607
+./ballot.v;StructuredUnification;2;1;34.226397814074346;238807
+./ballot.v;StructuredUnification;2;2;41.499215917632675;236023
+./ballot.v;StructuredUnification;2;5;45.161708866277564;236155
+./ballot.v;StructuredUnification;5;1;41.18866200274447;235498
+./ballot.v;StructuredUnification;5;2;45.407421574275645;237510
+./ballot.v;StructuredUnification;5;5;46.96471775171682;232174
+./ballot.v;StructuredSplitUnification;1;1;28.789239000130234;226532
+./ballot.v;StructuredSplitUnification;1;2;34.941519829391545;227810
+./ballot.v;StructuredSplitUnification;1;5;43.392355194707335;230368
+./ballot.v;StructuredSplitUnification;2;1;34.18574095126663;234358
+./ballot.v;StructuredSplitUnification;2;2;41.95568802767936;233577
+./ballot.v;StructuredSplitUnification;2;5;45.382478855946005;230510
+./ballot.v;StructuredSplitUnification;5;1;41.476596989921134;253624
+./ballot.v;StructuredSplitUnification;5;2;45.64444088851424;252320
+./ballot.v;StructuredSplitUnification;5;5;46.885548769347515;252216
+./ballot.v;SimpleUnification;0;0;49.35459583475183;270499
+./ballot.v;SimpleSplitUnification;0;0;48.17482208088937;262450
+./ballot.v;SplitTypeUnification;0;0;49.664838619820344;285042
+./ballot.v;SplitTypeSplitUnification;0;0;48.505742197723706;278714

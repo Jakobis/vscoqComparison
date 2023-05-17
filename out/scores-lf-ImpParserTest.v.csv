@@ -1,0 +1,23 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Score;Time
+./ImpParserTest.v;StructuredUnification;1;1;NaN;130
+./ImpParserTest.v;StructuredUnification;1;2;NaN;18
+./ImpParserTest.v;StructuredUnification;1;5;NaN;20
+./ImpParserTest.v;StructuredUnification;2;1;NaN;20
+./ImpParserTest.v;StructuredUnification;2;2;NaN;18
+./ImpParserTest.v;StructuredUnification;2;5;NaN;21
+./ImpParserTest.v;StructuredUnification;5;1;NaN;20
+./ImpParserTest.v;StructuredUnification;5;2;NaN;19
+./ImpParserTest.v;StructuredUnification;5;5;NaN;16
+./ImpParserTest.v;StructuredSplitUnification;1;1;NaN;19
+./ImpParserTest.v;StructuredSplitUnification;1;2;NaN;21
+./ImpParserTest.v;StructuredSplitUnification;1;5;NaN;22
+./ImpParserTest.v;StructuredSplitUnification;2;1;NaN;18
+./ImpParserTest.v;StructuredSplitUnification;2;2;NaN;18
+./ImpParserTest.v;StructuredSplitUnification;2;5;NaN;20
+./ImpParserTest.v;StructuredSplitUnification;5;1;NaN;19
+./ImpParserTest.v;StructuredSplitUnification;5;2;NaN;18
+./ImpParserTest.v;StructuredSplitUnification;5;5;NaN;18
+./ImpParserTest.v;SimpleUnification;0;0;NaN;20
+./ImpParserTest.v;SimpleSplitUnification;0;0;NaN;18
+./ImpParserTest.v;SplitTypeUnification;0;0;NaN;22
+./ImpParserTest.v;SplitTypeSplitUnification;0;0;NaN;19

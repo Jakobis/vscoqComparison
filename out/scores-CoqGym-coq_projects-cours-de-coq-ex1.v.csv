@@ -1,0 +1,23 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Score;Time
+./ex1.v;StructuredUnification;1;1;77.00000000000001;1666
+./ex1.v;StructuredUnification;1;2;77.00000000000001;1654
+./ex1.v;StructuredUnification;1;5;87.50000000000001;1713
+./ex1.v;StructuredUnification;2;1;77.00000000000001;1625
+./ex1.v;StructuredUnification;2;2;81.50000000000001;1626
+./ex1.v;StructuredUnification;2;5;87.50000000000001;1625
+./ex1.v;StructuredUnification;5;1;81.50000000000001;1672
+./ex1.v;StructuredUnification;5;2;81.50000000000001;1666
+./ex1.v;StructuredUnification;5;5;87.50000000000001;1660
+./ex1.v;StructuredSplitUnification;1;1;77.00000000000001;1600
+./ex1.v;StructuredSplitUnification;1;2;77.00000000000001;1633
+./ex1.v;StructuredSplitUnification;1;5;87.50000000000001;1641
+./ex1.v;StructuredSplitUnification;2;1;77.00000000000001;1703
+./ex1.v;StructuredSplitUnification;2;2;81.50000000000001;1617
+./ex1.v;StructuredSplitUnification;2;5;87.50000000000001;1653
+./ex1.v;StructuredSplitUnification;5;1;81.50000000000001;1707
+./ex1.v;StructuredSplitUnification;5;2;81.50000000000001;1643
+./ex1.v;StructuredSplitUnification;5;5;87.50000000000001;1619
+./ex1.v;SimpleUnification;0;0;82;1679
+./ex1.v;SimpleSplitUnification;0;0;82;1615
+./ex1.v;SplitTypeUnification;0;0;82;1640
+./ex1.v;SplitTypeSplitUnification;0;0;82;1696

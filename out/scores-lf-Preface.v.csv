@@ -1,0 +1,23 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Score;Time
+./Preface.v;StructuredUnification;1;1;NaN;30
+./Preface.v;StructuredUnification;1;2;NaN;34
+./Preface.v;StructuredUnification;1;5;NaN;28
+./Preface.v;StructuredUnification;2;1;NaN;25
+./Preface.v;StructuredUnification;2;2;NaN;29
+./Preface.v;StructuredUnification;2;5;NaN;26
+./Preface.v;StructuredUnification;5;1;NaN;31
+./Preface.v;StructuredUnification;5;2;NaN;28
+./Preface.v;StructuredUnification;5;5;NaN;37
+./Preface.v;StructuredSplitUnification;1;1;NaN;34
+./Preface.v;StructuredSplitUnification;1;2;NaN;32
+./Preface.v;StructuredSplitUnification;1;5;NaN;28
+./Preface.v;StructuredSplitUnification;2;1;NaN;29
+./Preface.v;StructuredSplitUnification;2;2;NaN;24
+./Preface.v;StructuredSplitUnification;2;5;NaN;25
+./Preface.v;StructuredSplitUnification;5;1;NaN;40
+./Preface.v;StructuredSplitUnification;5;2;NaN;28
+./Preface.v;StructuredSplitUnification;5;5;NaN;28
+./Preface.v;SimpleUnification;0;0;NaN;32
+./Preface.v;SimpleSplitUnification;0;0;NaN;23
+./Preface.v;SplitTypeUnification;0;0;NaN;24
+./Preface.v;SplitTypeSplitUnification;0;0;NaN;29

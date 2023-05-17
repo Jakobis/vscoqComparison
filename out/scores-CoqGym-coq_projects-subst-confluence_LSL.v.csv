@@ -1,0 +1,23 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Score;Time
+./confluence_LSL.v;StructuredUnification;1;1;59.43714031567663;6986
+./confluence_LSL.v;StructuredUnification;1;2;88.05772954883642;7211
+./confluence_LSL.v;StructuredUnification;1;5;89.93402473134633;7145
+./confluence_LSL.v;StructuredUnification;2;1;73.97957333580774;7168
+./confluence_LSL.v;StructuredUnification;2;2;90.18360318792722;7059
+./confluence_LSL.v;StructuredUnification;2;5;89.93402473134633;7535
+./confluence_LSL.v;StructuredUnification;5;1;82.83960854442937;7499
+./confluence_LSL.v;StructuredUnification;5;2;90.18360318792722;7098
+./confluence_LSL.v;StructuredUnification;5;5;89.93402473134633;7506
+./confluence_LSL.v;StructuredSplitUnification;1;1;59.43714031567663;7490
+./confluence_LSL.v;StructuredSplitUnification;1;2;88.05772954883642;7236
+./confluence_LSL.v;StructuredSplitUnification;1;5;89.93402473134633;6922
+./confluence_LSL.v;StructuredSplitUnification;2;1;73.97957333580774;7233
+./confluence_LSL.v;StructuredSplitUnification;2;2;90.18360318792722;7482
+./confluence_LSL.v;StructuredSplitUnification;2;5;89.93402473134633;7628
+./confluence_LSL.v;StructuredSplitUnification;5;1;82.83960854442937;7266
+./confluence_LSL.v;StructuredSplitUnification;5;2;90.18360318792722;7370
+./confluence_LSL.v;StructuredSplitUnification;5;5;89.93402473134633;7414
+./confluence_LSL.v;SimpleUnification;0;0;84.92240018803896;7469
+./confluence_LSL.v;SimpleSplitUnification;0;0;84.92240018803896;7024
+./confluence_LSL.v;SplitTypeUnification;0;0;85.18980567723278;7421
+./confluence_LSL.v;SplitTypeSplitUnification;0;0;85.18980567723278;7484

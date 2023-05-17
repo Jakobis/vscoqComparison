@@ -1,0 +1,23 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Score;Time
+./affinity.v;StructuredUnification;1;1;7.690445332797186;2169
+./affinity.v;StructuredUnification;1;2;9.867279838643539;2015
+./affinity.v;StructuredUnification;1;5;13.720276913991583;2063
+./affinity.v;StructuredUnification;2;1;8.561179135135728;2070
+./affinity.v;StructuredUnification;2;2;12.370639520366845;1958
+./affinity.v;StructuredUnification;2;5;13.720276913991583;2056
+./affinity.v;StructuredUnification;5;1;9.758438113351222;1934
+./affinity.v;StructuredUnification;5;2;12.370639520366845;2040
+./affinity.v;StructuredUnification;5;5;13.720276913991583;2055
+./affinity.v;StructuredSplitUnification;1;1;7.690445332797186;1926
+./affinity.v;StructuredSplitUnification;1;2;9.867279838643539;2038
+./affinity.v;StructuredSplitUnification;1;5;13.720276913991583;1981
+./affinity.v;StructuredSplitUnification;2;1;8.561179135135728;2091
+./affinity.v;StructuredSplitUnification;2;2;12.370639520366845;524
+./affinity.v;StructuredSplitUnification;2;5;13.720276913991583;1988
+./affinity.v;StructuredSplitUnification;5;1;9.758438113351222;2048
+./affinity.v;StructuredSplitUnification;5;2;12.370639520366845;2050
+./affinity.v;StructuredSplitUnification;5;5;13.720276913991583;2012
+./affinity.v;SimpleUnification;0;0;7.7780370069610045;2099
+./affinity.v;SimpleSplitUnification;0;0;7.7780370069610045;1952
+./affinity.v;SplitTypeUnification;0;0;12.831921118034284;2269
+./affinity.v;SplitTypeSplitUnification;0;0;12.831921118034284;2116

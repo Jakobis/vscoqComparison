@@ -1,0 +1,23 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Score;Time
+./ImpParser.v;StructuredUnification;1;1;NaN;24
+./ImpParser.v;StructuredUnification;1;2;NaN;24
+./ImpParser.v;StructuredUnification;1;5;NaN;25
+./ImpParser.v;StructuredUnification;2;1;NaN;25
+./ImpParser.v;StructuredUnification;2;2;NaN;27
+./ImpParser.v;StructuredUnification;2;5;NaN;33
+./ImpParser.v;StructuredUnification;5;1;NaN;27
+./ImpParser.v;StructuredUnification;5;2;NaN;26
+./ImpParser.v;StructuredUnification;5;5;NaN;26
+./ImpParser.v;StructuredSplitUnification;1;1;NaN;40
+./ImpParser.v;StructuredSplitUnification;1;2;NaN;43
+./ImpParser.v;StructuredSplitUnification;1;5;NaN;39
+./ImpParser.v;StructuredSplitUnification;2;1;NaN;28
+./ImpParser.v;StructuredSplitUnification;2;2;NaN;30
+./ImpParser.v;StructuredSplitUnification;2;5;NaN;31
+./ImpParser.v;StructuredSplitUnification;5;1;NaN;28
+./ImpParser.v;StructuredSplitUnification;5;2;NaN;37
+./ImpParser.v;StructuredSplitUnification;5;5;NaN;32
+./ImpParser.v;SimpleUnification;0;0;NaN;29
+./ImpParser.v;SimpleSplitUnification;0;0;NaN;29
+./ImpParser.v;SplitTypeUnification;0;0;NaN;28
+./ImpParser.v;SplitTypeSplitUnification;0;0;NaN;32

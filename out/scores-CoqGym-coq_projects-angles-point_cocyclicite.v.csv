@@ -1,0 +1,23 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Score;Time
+./point_cocyclicite.v;StructuredUnification;1;1;44.00739211210992;51535
+./point_cocyclicite.v;StructuredUnification;1;2;56.95022626820487;51655
+./point_cocyclicite.v;StructuredUnification;1;5;58.35946378935417;51728
+./point_cocyclicite.v;StructuredUnification;2;1;52.32583052920364;51628
+./point_cocyclicite.v;StructuredUnification;2;2;59.193507414816;51394
+./point_cocyclicite.v;StructuredUnification;2;5;57.3071048209575;51650
+./point_cocyclicite.v;StructuredUnification;5;1;55.84327591961452;51381
+./point_cocyclicite.v;StructuredUnification;5;2;57.05898220909407;51569
+./point_cocyclicite.v;StructuredUnification;5;5;56.246693804041485;51480
+./point_cocyclicite.v;StructuredSplitUnification;1;1;44.00739211210992;51593
+./point_cocyclicite.v;StructuredSplitUnification;1;2;56.95022626820487;51743
+./point_cocyclicite.v;StructuredSplitUnification;1;5;58.35946378935417;51889
+./point_cocyclicite.v;StructuredSplitUnification;2;1;52.32583052920364;51743
+./point_cocyclicite.v;StructuredSplitUnification;2;2;59.193507414816;51676
+./point_cocyclicite.v;StructuredSplitUnification;2;5;57.3071048209575;51853
+./point_cocyclicite.v;StructuredSplitUnification;5;1;55.84327591961452;51769
+./point_cocyclicite.v;StructuredSplitUnification;5;2;57.05898220909407;51716
+./point_cocyclicite.v;StructuredSplitUnification;5;5;56.246693804041485;51702
+./point_cocyclicite.v;SimpleUnification;0;0;51.01665754506354;52599
+./point_cocyclicite.v;SimpleSplitUnification;0;0;51.01665754506354;52290
+./point_cocyclicite.v;SplitTypeUnification;0;0;51.11109176107037;54595
+./point_cocyclicite.v;SplitTypeSplitUnification;0;0;51.11109176107037;55112

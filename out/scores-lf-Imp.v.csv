@@ -1,0 +1,23 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Score;Time
+./Imp.v;StructuredUnification;1;1;42.322518628472075;225889
+./Imp.v;StructuredUnification;1;2;49.11850994872503;225347
+./Imp.v;StructuredUnification;1;5;58.174145707544824;229366
+./Imp.v;StructuredUnification;2;1;45.636592825386145;225230
+./Imp.v;StructuredUnification;2;2;56.73742777768847;220534
+./Imp.v;StructuredUnification;2;5;57.94948119632267;218607
+./Imp.v;StructuredUnification;5;1;48.2287255833502;207286
+./Imp.v;StructuredUnification;5;2;56.107815009741046;214555
+./Imp.v;StructuredUnification;5;5;57.72121420328495;219504
+./Imp.v;StructuredSplitUnification;1;1;42.52514693750917;212670
+./Imp.v;StructuredSplitUnification;1;2;49.32113825776213;211290
+./Imp.v;StructuredSplitUnification;1;5;58.37677401658192;214197
+./Imp.v;StructuredSplitUnification;2;1;45.839221134423255;210279
+./Imp.v;StructuredSplitUnification;2;2;56.94005608672556;209539
+./Imp.v;StructuredSplitUnification;2;5;58.152109505359775;216090
+./Imp.v;StructuredSplitUnification;5;1;48.43135389238729;215498
+./Imp.v;StructuredSplitUnification;5;2;56.310443318778134;217801
+./Imp.v;StructuredSplitUnification;5;5;57.92384251232207;216241
+./Imp.v;SimpleUnification;0;0;60.00697922843923;231491
+./Imp.v;SimpleSplitUnification;0;0;60.23855443876733;215748
+./Imp.v;SplitTypeUnification;0;0;61.2074433982408;228525
+./Imp.v;SplitTypeSplitUnification;0;0;61.4100717072779;215248

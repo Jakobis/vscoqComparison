@@ -1,0 +1,23 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Score;Time
+./IndPrinciples.v;StructuredUnification;1;1;47.083764121054564;53269
+./IndPrinciples.v;StructuredUnification;1;2;58.13671445019103;52847
+./IndPrinciples.v;StructuredUnification;1;5;59.47361982130317;53147
+./IndPrinciples.v;StructuredUnification;2;1;57.12022930705506;53414
+./IndPrinciples.v;StructuredUnification;2;2;59.56591471975672;53148
+./IndPrinciples.v;StructuredUnification;2;5;58.90877613514765;53668
+./IndPrinciples.v;StructuredUnification;5;1;57.449557053377;53065
+./IndPrinciples.v;StructuredUnification;5;2;58.90877613514765;53095
+./IndPrinciples.v;StructuredUnification;5;5;58.90877613514765;55776
+./IndPrinciples.v;StructuredSplitUnification;1;1;47.54523861332228;54728
+./IndPrinciples.v;StructuredSplitUnification;1;2;58.13671445019103;54347
+./IndPrinciples.v;StructuredSplitUnification;1;5;59.47361982130317;52638
+./IndPrinciples.v;StructuredSplitUnification;2;1;57.12022930705506;52676
+./IndPrinciples.v;StructuredSplitUnification;2;2;59.56591471975672;53429
+./IndPrinciples.v;StructuredSplitUnification;2;5;58.90877613514765;52686
+./IndPrinciples.v;StructuredSplitUnification;5;1;57.449557053377;52179
+./IndPrinciples.v;StructuredSplitUnification;5;2;58.90877613514765;53624
+./IndPrinciples.v;StructuredSplitUnification;5;5;58.90877613514765;53230
+./IndPrinciples.v;SimpleUnification;0;0;59.079979427344675;53265
+./IndPrinciples.v;SimpleSplitUnification;0;0;58.713729830306804;53094
+./IndPrinciples.v;SplitTypeUnification;0;0;59.37504624554988;57006
+./IndPrinciples.v;SplitTypeSplitUnification;0;0;59.09911379914155;56750

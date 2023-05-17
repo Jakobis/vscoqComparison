@@ -1,0 +1,23 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Score;Time
+./basis.v;StructuredUnification;1;1;NaN;24
+./basis.v;StructuredUnification;1;2;NaN;24
+./basis.v;StructuredUnification;1;5;NaN;24
+./basis.v;StructuredUnification;2;1;NaN;30
+./basis.v;StructuredUnification;2;2;NaN;36
+./basis.v;StructuredUnification;2;5;NaN;28
+./basis.v;StructuredUnification;5;1;NaN;23
+./basis.v;StructuredUnification;5;2;NaN;24
+./basis.v;StructuredUnification;5;5;NaN;30
+./basis.v;StructuredSplitUnification;1;1;NaN;28
+./basis.v;StructuredSplitUnification;1;2;NaN;33
+./basis.v;StructuredSplitUnification;1;5;NaN;27
+./basis.v;StructuredSplitUnification;2;1;NaN;29
+./basis.v;StructuredSplitUnification;2;2;NaN;31
+./basis.v;StructuredSplitUnification;2;5;NaN;30
+./basis.v;StructuredSplitUnification;5;1;NaN;25
+./basis.v;StructuredSplitUnification;5;2;NaN;32
+./basis.v;StructuredSplitUnification;5;5;NaN;25
+./basis.v;SimpleUnification;0;0;NaN;25
+./basis.v;SimpleSplitUnification;0;0;NaN;27
+./basis.v;SplitTypeUnification;0;0;NaN;29
+./basis.v;SplitTypeSplitUnification;0;0;NaN;26

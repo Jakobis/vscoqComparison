@@ -1,0 +1,23 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Score;Time
+./determinePC_SL.v;StructuredUnification;1;1;24.082410588585194;54009
+./determinePC_SL.v;StructuredUnification;1;2;30.90745539440786;53568
+./determinePC_SL.v;StructuredUnification;1;5;32.57562124352489;54180
+./determinePC_SL.v;StructuredUnification;2;1;29.264424984420323;53606
+./determinePC_SL.v;StructuredUnification;2;2;31.723755356604176;53486
+./determinePC_SL.v;StructuredUnification;2;5;32.3705615294428;53645
+./determinePC_SL.v;StructuredUnification;5;1;30.692439540731193;54817
+./determinePC_SL.v;StructuredUnification;5;2;32.042270579595275;53977
+./determinePC_SL.v;StructuredUnification;5;5;32.22924736865272;53848
+./determinePC_SL.v;StructuredSplitUnification;1;1;24.082410588585194;54197
+./determinePC_SL.v;StructuredSplitUnification;1;2;30.90745539440786;53965
+./determinePC_SL.v;StructuredSplitUnification;1;5;32.57562124352489;54371
+./determinePC_SL.v;StructuredSplitUnification;2;1;29.264424984420323;54272
+./determinePC_SL.v;StructuredSplitUnification;2;2;31.723755356604176;53865
+./determinePC_SL.v;StructuredSplitUnification;2;5;32.3705615294428;53577
+./determinePC_SL.v;StructuredSplitUnification;5;1;30.692439540731193;54310
+./determinePC_SL.v;StructuredSplitUnification;5;2;32.042270579595275;54966
+./determinePC_SL.v;StructuredSplitUnification;5;5;32.22924736865272;54731
+./determinePC_SL.v;SimpleUnification;0;0;35.41947537903574;55041
+./determinePC_SL.v;SimpleSplitUnification;0;0;35.41947537903574;56243
+./determinePC_SL.v;SplitTypeUnification;0;0;36.73578251998572;59080
+./determinePC_SL.v;SplitTypeSplitUnification;0;0;36.73578251998572;58551

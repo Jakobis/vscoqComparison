@@ -1,0 +1,23 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Score;Time
+./inversionSL.v;StructuredUnification;1;1;33.08029303851726;1253
+./inversionSL.v;StructuredUnification;1;2;33.08029303851726;1207
+./inversionSL.v;StructuredUnification;1;5;33.08029303851726;1231
+./inversionSL.v;StructuredUnification;2;1;32.26282393792872;1231
+./inversionSL.v;StructuredUnification;2;2;32.26282393792872;1197
+./inversionSL.v;StructuredUnification;2;5;32.26282393792872;1239
+./inversionSL.v;StructuredUnification;5;1;32.26282393792872;1224
+./inversionSL.v;StructuredUnification;5;2;32.26282393792872;1321
+./inversionSL.v;StructuredUnification;5;5;32.26282393792872;1282
+./inversionSL.v;StructuredSplitUnification;1;1;33.08029303851726;1206
+./inversionSL.v;StructuredSplitUnification;1;2;33.08029303851726;1241
+./inversionSL.v;StructuredSplitUnification;1;5;33.08029303851726;1229
+./inversionSL.v;StructuredSplitUnification;2;1;32.26282393792872;1306
+./inversionSL.v;StructuredSplitUnification;2;2;32.26282393792872;1253
+./inversionSL.v;StructuredSplitUnification;2;5;32.26282393792872;1212
+./inversionSL.v;StructuredSplitUnification;5;1;32.26282393792872;1312
+./inversionSL.v;StructuredSplitUnification;5;2;32.26282393792872;1294
+./inversionSL.v;StructuredSplitUnification;5;5;32.26282393792872;1194
+./inversionSL.v;SimpleUnification;0;0;62.117119430226374;1269
+./inversionSL.v;SimpleSplitUnification;0;0;62.117119430226374;1294
+./inversionSL.v;SplitTypeUnification;0;0;62.117119430226374;1381
+./inversionSL.v;SplitTypeSplitUnification;0;0;62.117119430226374;1296

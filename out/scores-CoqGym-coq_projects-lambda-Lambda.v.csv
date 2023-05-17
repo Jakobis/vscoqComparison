@@ -1,0 +1,23 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Score;Time
+./Lambda.v;StructuredUnification;1;1;NaN;21
+./Lambda.v;StructuredUnification;1;2;NaN;20
+./Lambda.v;StructuredUnification;1;5;NaN;21
+./Lambda.v;StructuredUnification;2;1;NaN;24
+./Lambda.v;StructuredUnification;2;2;NaN;22
+./Lambda.v;StructuredUnification;2;5;NaN;22
+./Lambda.v;StructuredUnification;5;1;NaN;20
+./Lambda.v;StructuredUnification;5;2;NaN;20
+./Lambda.v;StructuredUnification;5;5;NaN;22
+./Lambda.v;StructuredSplitUnification;1;1;NaN;24
+./Lambda.v;StructuredSplitUnification;1;2;NaN;25
+./Lambda.v;StructuredSplitUnification;1;5;NaN;20
+./Lambda.v;StructuredSplitUnification;2;1;NaN;20
+./Lambda.v;StructuredSplitUnification;2;2;NaN;19
+./Lambda.v;StructuredSplitUnification;2;5;NaN;20
+./Lambda.v;StructuredSplitUnification;5;1;NaN;19
+./Lambda.v;StructuredSplitUnification;5;2;NaN;19
+./Lambda.v;StructuredSplitUnification;5;5;NaN;19
+./Lambda.v;SimpleUnification;0;0;NaN;19
+./Lambda.v;SimpleSplitUnification;0;0;NaN;21
+./Lambda.v;SplitTypeUnification;0;0;NaN;19
+./Lambda.v;SplitTypeSplitUnification;0;0;NaN;21

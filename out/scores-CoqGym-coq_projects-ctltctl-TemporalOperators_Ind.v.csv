@@ -1,0 +1,23 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Score;Time
+./TemporalOperators_Ind.v;StructuredUnification;1;1;7.579630776612017;23862
+./TemporalOperators_Ind.v;StructuredUnification;1;2;18.77354940794622;23608
+./TemporalOperators_Ind.v;StructuredUnification;1;5;23.795952347146446;23718
+./TemporalOperators_Ind.v;StructuredUnification;2;1;12.433437436146644;23727
+./TemporalOperators_Ind.v;StructuredUnification;2;2;20.6849129560932;23375
+./TemporalOperators_Ind.v;StructuredUnification;2;5;23.795952347146446;23023
+./TemporalOperators_Ind.v;StructuredUnification;5;1;12.670253331918122;23085
+./TemporalOperators_Ind.v;StructuredUnification;5;2;20.6849129560932;23121
+./TemporalOperators_Ind.v;StructuredUnification;5;5;23.795952347146446;23431
+./TemporalOperators_Ind.v;StructuredSplitUnification;1;1;7.579630776612017;23641
+./TemporalOperators_Ind.v;StructuredSplitUnification;1;2;18.77354940794622;23807
+./TemporalOperators_Ind.v;StructuredSplitUnification;1;5;23.795952347146446;23055
+./TemporalOperators_Ind.v;StructuredSplitUnification;2;1;12.433437436146644;23704
+./TemporalOperators_Ind.v;StructuredSplitUnification;2;2;20.6849129560932;22950
+./TemporalOperators_Ind.v;StructuredSplitUnification;2;5;23.795952347146446;23027
+./TemporalOperators_Ind.v;StructuredSplitUnification;5;1;12.670253331918122;23108
+./TemporalOperators_Ind.v;StructuredSplitUnification;5;2;20.6849129560932;23503
+./TemporalOperators_Ind.v;StructuredSplitUnification;5;5;23.795952347146446;23431
+./TemporalOperators_Ind.v;SimpleUnification;0;0;17.951910109830315;22985
+./TemporalOperators_Ind.v;SimpleSplitUnification;0;0;17.951910109830315;22940
+./TemporalOperators_Ind.v;SplitTypeUnification;0;0;23.673910892309895;23855
+./TemporalOperators_Ind.v;SplitTypeSplitUnification;0;0;23.673910892309895;23683

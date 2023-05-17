@@ -1,0 +1,23 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Score;Time
+./resoudPC_SL.v;StructuredUnification;1;1;27.911756424724963;15654
+./resoudPC_SL.v;StructuredUnification;1;2;27.94536784179471;15743
+./resoudPC_SL.v;StructuredUnification;1;5;27.94536784179471;15449
+./resoudPC_SL.v;StructuredUnification;2;1;27.94536784179471;15433
+./resoudPC_SL.v;StructuredUnification;2;2;27.94536784179471;15437
+./resoudPC_SL.v;StructuredUnification;2;5;27.94536784179471;15393
+./resoudPC_SL.v;StructuredUnification;5;1;27.94536784179471;15494
+./resoudPC_SL.v;StructuredUnification;5;2;27.94536784179471;15554
+./resoudPC_SL.v;StructuredUnification;5;5;27.94536784179471;15508
+./resoudPC_SL.v;StructuredSplitUnification;1;1;27.911756424724963;15730
+./resoudPC_SL.v;StructuredSplitUnification;1;2;27.94536784179471;15414
+./resoudPC_SL.v;StructuredSplitUnification;1;5;27.94536784179471;15845
+./resoudPC_SL.v;StructuredSplitUnification;2;1;27.94536784179471;15206
+./resoudPC_SL.v;StructuredSplitUnification;2;2;27.94536784179471;15547
+./resoudPC_SL.v;StructuredSplitUnification;2;5;27.94536784179471;15490
+./resoudPC_SL.v;StructuredSplitUnification;5;1;27.94536784179471;15565
+./resoudPC_SL.v;StructuredSplitUnification;5;2;27.94536784179471;15386
+./resoudPC_SL.v;StructuredSplitUnification;5;5;27.94536784179471;15567
+./resoudPC_SL.v;SimpleUnification;0;0;30.353997791473645;15912
+./resoudPC_SL.v;SimpleSplitUnification;0;0;30.353997791473645;16020
+./resoudPC_SL.v;SplitTypeUnification;0;0;29.905529547442285;17397
+./resoudPC_SL.v;SplitTypeSplitUnification;0;0;29.905529547442285;17607

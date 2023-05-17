@@ -1,0 +1,23 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Score;Time
+./Equipollence.v;StructuredUnification;1;1;NaN;34
+./Equipollence.v;StructuredUnification;1;2;NaN;38
+./Equipollence.v;StructuredUnification;1;5;NaN;31
+./Equipollence.v;StructuredUnification;2;1;NaN;33
+./Equipollence.v;StructuredUnification;2;2;NaN;38
+./Equipollence.v;StructuredUnification;2;5;NaN;28
+./Equipollence.v;StructuredUnification;5;1;NaN;24
+./Equipollence.v;StructuredUnification;5;2;NaN;30
+./Equipollence.v;StructuredUnification;5;5;NaN;26
+./Equipollence.v;StructuredSplitUnification;1;1;NaN;26
+./Equipollence.v;StructuredSplitUnification;1;2;NaN;32
+./Equipollence.v;StructuredSplitUnification;1;5;NaN;22
+./Equipollence.v;StructuredSplitUnification;2;1;NaN;23
+./Equipollence.v;StructuredSplitUnification;2;2;NaN;23
+./Equipollence.v;StructuredSplitUnification;2;5;NaN;33
+./Equipollence.v;StructuredSplitUnification;5;1;NaN;37
+./Equipollence.v;StructuredSplitUnification;5;2;NaN;27
+./Equipollence.v;StructuredSplitUnification;5;5;NaN;22
+./Equipollence.v;SimpleUnification;0;0;NaN;25
+./Equipollence.v;SimpleSplitUnification;0;0;NaN;31
+./Equipollence.v;SplitTypeUnification;0;0;NaN;35
+./Equipollence.v;SplitTypeSplitUnification;0;0;NaN;33

@@ -1,0 +1,23 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Score;Time
+./Rem.v;StructuredUnification;1;1;43.31569917521662;4495
+./Rem.v;StructuredUnification;1;2;52.867386616399045;4187
+./Rem.v;StructuredUnification;1;5;55.236478985323146;3896
+./Rem.v;StructuredUnification;2;1;49.580784486099716;4113
+./Rem.v;StructuredUnification;2;2;54.57915855926328;4360
+./Rem.v;StructuredUnification;2;5;55.236478985323146;3971
+./Rem.v;StructuredUnification;5;1;51.29255642896394;4422
+./Rem.v;StructuredUnification;5;2;54.57915855926328;4192
+./Rem.v;StructuredUnification;5;5;55.236478985323146;4314
+./Rem.v;StructuredSplitUnification;1;1;43.31569917521662;4003
+./Rem.v;StructuredSplitUnification;1;2;52.867386616399045;4545
+./Rem.v;StructuredSplitUnification;1;5;55.236478985323146;4339
+./Rem.v;StructuredSplitUnification;2;1;49.580784486099716;4269
+./Rem.v;StructuredSplitUnification;2;2;54.57915855926328;4462
+./Rem.v;StructuredSplitUnification;2;5;55.236478985323146;4210
+./Rem.v;StructuredSplitUnification;5;1;51.29255642896394;4347
+./Rem.v;StructuredSplitUnification;5;2;54.57915855926328;4145
+./Rem.v;StructuredSplitUnification;5;5;55.236478985323146;4489
+./Rem.v;SimpleUnification;0;0;55.12692558097984;4280
+./Rem.v;SimpleSplitUnification;0;0;55.12692558097984;4608
+./Rem.v;SplitTypeUnification;0;0;55.12692558097984;4454
+./Rem.v;SplitTypeSplitUnification;0;0;55.12692558097984;4496

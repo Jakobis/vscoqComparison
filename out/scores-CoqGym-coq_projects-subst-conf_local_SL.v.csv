@@ -1,0 +1,23 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Score;Time
+./conf_local_SL.v;StructuredUnification;1;1;31.078206740174007;14453
+./conf_local_SL.v;StructuredUnification;1;2;31.078206740174007;13411
+./conf_local_SL.v;StructuredUnification;1;5;31.078206740174007;13710
+./conf_local_SL.v;StructuredUnification;2;1;31.078206740174007;13717
+./conf_local_SL.v;StructuredUnification;2;2;31.078206740174007;13531
+./conf_local_SL.v;StructuredUnification;2;5;31.078206740174007;13366
+./conf_local_SL.v;StructuredUnification;5;1;31.078206740174007;13100
+./conf_local_SL.v;StructuredUnification;5;2;31.078206740174007;13649
+./conf_local_SL.v;StructuredUnification;5;5;31.078206740174007;11917
+./conf_local_SL.v;StructuredSplitUnification;1;1;31.078206740174007;13279
+./conf_local_SL.v;StructuredSplitUnification;1;2;31.078206740174007;13530
+./conf_local_SL.v;StructuredSplitUnification;1;5;31.078206740174007;13721
+./conf_local_SL.v;StructuredSplitUnification;2;1;31.078206740174007;13300
+./conf_local_SL.v;StructuredSplitUnification;2;2;31.078206740174007;13448
+./conf_local_SL.v;StructuredSplitUnification;2;5;31.078206740174007;13424
+./conf_local_SL.v;StructuredSplitUnification;5;1;31.078206740174007;13420
+./conf_local_SL.v;StructuredSplitUnification;5;2;31.078206740174007;13157
+./conf_local_SL.v;StructuredSplitUnification;5;5;31.078206740174007;13478
+./conf_local_SL.v;SimpleUnification;0;0;32.91310162630423;13516
+./conf_local_SL.v;SimpleSplitUnification;0;0;32.91310162630423;13692
+./conf_local_SL.v;SplitTypeUnification;0;0;34.89513155034024;14521
+./conf_local_SL.v;SplitTypeSplitUnification;0;0;34.89513155034024;13981

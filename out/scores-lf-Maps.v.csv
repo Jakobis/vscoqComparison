@@ -1,0 +1,23 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Score;Time
+./Maps.v;StructuredUnification;1;1;59.737478693913225;27136
+./Maps.v;StructuredUnification;1;2;65.68513296682984;27351
+./Maps.v;StructuredUnification;1;5;77.45516031536944;27760
+./Maps.v;StructuredUnification;2;1;72.48650218758262;26798
+./Maps.v;StructuredUnification;2;2;77.82502973441326;27096
+./Maps.v;StructuredUnification;2;5;77.35678267607737;27022
+./Maps.v;StructuredUnification;5;1;75.9554732791845;26754
+./Maps.v;StructuredUnification;5;2;76.99644597401921;27268
+./Maps.v;StructuredUnification;5;5;76.76689814900438;26910
+./Maps.v;StructuredSplitUnification;1;1;59.737478693913225;27047
+./Maps.v;StructuredSplitUnification;1;2;65.68513296682984;26388
+./Maps.v;StructuredSplitUnification;1;5;77.45516031536944;26970
+./Maps.v;StructuredSplitUnification;2;1;72.48650218758262;26425
+./Maps.v;StructuredSplitUnification;2;2;77.82502973441326;26543
+./Maps.v;StructuredSplitUnification;2;5;77.35678267607737;26478
+./Maps.v;StructuredSplitUnification;5;1;75.9554732791845;25864
+./Maps.v;StructuredSplitUnification;5;2;76.99644597401921;26634
+./Maps.v;StructuredSplitUnification;5;5;76.76689814900438;26465
+./Maps.v;SimpleUnification;0;0;53.813484543241294;27538
+./Maps.v;SimpleSplitUnification;0;0;53.813484543241294;27439
+./Maps.v;SplitTypeUnification;0;0;71.27535376026525;28537
+./Maps.v;SplitTypeSplitUnification;0;0;71.27535376026525;28616

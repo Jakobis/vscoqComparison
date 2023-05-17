@@ -1,0 +1,23 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Score;Time
+./DepMapImplementation.v;StructuredUnification;1;1;33.36566345812509;1267817
+./DepMapImplementation.v;StructuredUnification;1;2;41.87857440327746;1208228
+./DepMapImplementation.v;StructuredUnification;1;5;46.032262788709346;1203971
+./DepMapImplementation.v;StructuredUnification;2;1;43.06870051240051;1217329
+./DepMapImplementation.v;StructuredUnification;2;2;45.29302024014501;1184942
+./DepMapImplementation.v;StructuredUnification;2;5;47.86039078343691;1125957
+./DepMapImplementation.v;StructuredUnification;5;1;45.190891432081095;1101267
+./DepMapImplementation.v;StructuredUnification;5;2;47.86845291386122;1076259
+./DepMapImplementation.v;StructuredUnification;5;5;48.586413527650876;1024628
+./DepMapImplementation.v;StructuredSplitUnification;1;1;33.35378727850007;909619
+./DepMapImplementation.v;StructuredSplitUnification;1;2;41.90772262610845;892605
+./DepMapImplementation.v;StructuredSplitUnification;1;5;46.0787219185974;887316
+./DepMapImplementation.v;StructuredSplitUnification;2;1;43.06934548531981;886462
+./DepMapImplementation.v;StructuredSplitUnification;2;2;45.30191640044379;892487
+./DepMapImplementation.v;StructuredSplitUnification;2;5;47.879049035525746;892209
+./DepMapImplementation.v;StructuredSplitUnification;5;1;45.17253371301753;894054
+./DepMapImplementation.v;StructuredSplitUnification;5;2;47.87112025926838;889296
+./DepMapImplementation.v;StructuredSplitUnification;5;5;48.592442108289966;893505
+./DepMapImplementation.v;SimpleUnification;0;0;48.01970871381279;842811
+./DepMapImplementation.v;SimpleSplitUnification;0;0;48.076423042381485;833298
+./DepMapImplementation.v;SplitTypeUnification;0;0;49.95780252371974;851410
+./DepMapImplementation.v;SplitTypeSplitUnification;0;0;50.02171866562066;853805

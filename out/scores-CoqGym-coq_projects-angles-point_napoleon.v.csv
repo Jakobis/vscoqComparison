@@ -1,0 +1,23 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Score;Time
+./point_napoleon.v;StructuredUnification;1;1;50.53137485882241;34354
+./point_napoleon.v;StructuredUnification;1;2;61.98952748897161;34523
+./point_napoleon.v;StructuredUnification;1;5;65.32080650743305;34065
+./point_napoleon.v;StructuredUnification;2;1;59.53471635778412;34748
+./point_napoleon.v;StructuredUnification;2;2;66.0820666931241;34433
+./point_napoleon.v;StructuredUnification;2;5;63.1599975041903;33950
+./point_napoleon.v;StructuredUnification;5;1;61.71494979905218;33562
+./point_napoleon.v;StructuredUnification;5;2;62.78946163217406;33604
+./point_napoleon.v;StructuredUnification;5;5;62.25119672267964;34141
+./point_napoleon.v;StructuredSplitUnification;1;1;50.53137485882241;34575
+./point_napoleon.v;StructuredSplitUnification;1;2;61.98952748897161;33928
+./point_napoleon.v;StructuredSplitUnification;1;5;65.32080650743305;33452
+./point_napoleon.v;StructuredSplitUnification;2;1;59.53471635778412;34227
+./point_napoleon.v;StructuredSplitUnification;2;2;66.0820666931241;33590
+./point_napoleon.v;StructuredSplitUnification;2;5;63.1599975041903;33757
+./point_napoleon.v;StructuredSplitUnification;5;1;61.71494979905218;33958
+./point_napoleon.v;StructuredSplitUnification;5;2;62.78946163217406;34280
+./point_napoleon.v;StructuredSplitUnification;5;5;62.25119672267964;34315
+./point_napoleon.v;SimpleUnification;0;0;56.51137816727804;34833
+./point_napoleon.v;SimpleSplitUnification;0;0;56.51137816727804;34529
+./point_napoleon.v;SplitTypeUnification;0;0;56.87828824872388;36395
+./point_napoleon.v;SplitTypeSplitUnification;0;0;56.87828824872388;36019

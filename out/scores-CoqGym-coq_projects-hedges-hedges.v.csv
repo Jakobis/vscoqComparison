@@ -1,0 +1,23 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Score;Time
+./hedges.v;StructuredUnification;1;1;50.351465601650304;469107
+./hedges.v;StructuredUnification;1;2;61.04556524075173;461334
+./hedges.v;StructuredUnification;1;5;67.41723047869613;462257
+./hedges.v;StructuredUnification;2;1;57.87530180849203;428598
+./hedges.v;StructuredUnification;2;2;65.98594939663066;432945
+./hedges.v;StructuredUnification;2;5;67.2440853095801;432219
+./hedges.v;StructuredUnification;5;1;60.10839856150613;428319
+./hedges.v;StructuredUnification;5;2;65.74222979250764;437464
+./hedges.v;StructuredUnification;5;5;67.19299304836397;440844
+./hedges.v;StructuredSplitUnification;1;1;50.351465601650304;439077
+./hedges.v;StructuredSplitUnification;1;2;61.04556524075173;426076
+./hedges.v;StructuredSplitUnification;1;5;67.41723047869613;391075
+./hedges.v;StructuredSplitUnification;2;1;57.87530180849203;380454
+./hedges.v;StructuredSplitUnification;2;2;65.98594939663066;378583
+./hedges.v;StructuredSplitUnification;2;5;67.2440853095801;366984
+./hedges.v;StructuredSplitUnification;5;1;60.10839856150613;359503
+./hedges.v;StructuredSplitUnification;5;2;65.74222979250764;364050
+./hedges.v;StructuredSplitUnification;5;5;67.19299304836397;364653
+./hedges.v;SimpleUnification;0;0;64.62895864097217;365864
+./hedges.v;SimpleSplitUnification;0;0;64.62895864097217;368428
+./hedges.v;SplitTypeUnification;0;0;64.65356430071483;377455
+./hedges.v;SplitTypeSplitUnification;0;0;64.65356430071483;379582

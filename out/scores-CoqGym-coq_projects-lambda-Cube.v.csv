@@ -1,0 +1,23 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Score;Time
+./Cube.v;StructuredUnification;1;1;42.9670361015623;49053
+./Cube.v;StructuredUnification;1;2;62.005674512951394;49378
+./Cube.v;StructuredUnification;1;5;78.74173272279104;48968
+./Cube.v;StructuredUnification;2;1;52.01020219812885;48832
+./Cube.v;StructuredUnification;2;2;73.72581400471238;49304
+./Cube.v;StructuredUnification;2;5;78.71245422401438;49435
+./Cube.v;StructuredUnification;5;1;62.047442028676244;49077
+./Cube.v;StructuredUnification;5;2;73.69653550593571;48829
+./Cube.v;StructuredUnification;5;5;78.676303062236;48852
+./Cube.v;StructuredSplitUnification;1;1;42.9670361015623;48093
+./Cube.v;StructuredSplitUnification;1;2;62.005674512951394;48305
+./Cube.v;StructuredSplitUnification;1;5;78.74173272279104;48899
+./Cube.v;StructuredSplitUnification;2;1;52.01020219812885;49471
+./Cube.v;StructuredSplitUnification;2;2;73.72581400471238;48809
+./Cube.v;StructuredSplitUnification;2;5;78.71245422401438;48624
+./Cube.v;StructuredSplitUnification;5;1;62.047442028676244;49222
+./Cube.v;StructuredSplitUnification;5;2;73.69653550593571;49843
+./Cube.v;StructuredSplitUnification;5;5;78.676303062236;48561
+./Cube.v;SimpleUnification;0;0;67.30737936835233;49095
+./Cube.v;SimpleSplitUnification;0;0;67.30737936835233;48821
+./Cube.v;SplitTypeUnification;0;0;74.00766695512199;50245
+./Cube.v;SplitTypeSplitUnification;0;0;74.00766695512199;50573

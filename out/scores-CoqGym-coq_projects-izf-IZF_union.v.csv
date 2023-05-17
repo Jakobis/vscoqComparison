@@ -1,0 +1,23 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Score;Time
+./IZF_union.v;StructuredUnification;1;1;29.365879185347143;5618
+./IZF_union.v;StructuredUnification;1;2;31.92153337262879;5581
+./IZF_union.v;StructuredUnification;1;5;40.98765345882293;5615
+./IZF_union.v;StructuredUnification;2;1;33.27144451687633;5598
+./IZF_union.v;StructuredUnification;2;2;40.78008216874679;5639
+./IZF_union.v;StructuredUnification;2;5;46.68729185025198;5515
+./IZF_union.v;StructuredUnification;5;1;38.49488599511683;5529
+./IZF_union.v;StructuredUnification;5;2;45.131263301085916;5534
+./IZF_union.v;StructuredUnification;5;5;47.513335627821775;5544
+./IZF_union.v;StructuredSplitUnification;1;1;29.365879185347143;5575
+./IZF_union.v;StructuredSplitUnification;1;2;31.92153337262879;5555
+./IZF_union.v;StructuredSplitUnification;1;5;40.98765345882293;5586
+./IZF_union.v;StructuredSplitUnification;2;1;33.27144451687633;5559
+./IZF_union.v;StructuredSplitUnification;2;2;40.78008216874679;5568
+./IZF_union.v;StructuredSplitUnification;2;5;46.68729185025198;5639
+./IZF_union.v;StructuredSplitUnification;5;1;38.49488599511683;5574
+./IZF_union.v;StructuredSplitUnification;5;2;45.131263301085916;5660
+./IZF_union.v;StructuredSplitUnification;5;5;47.513335627821775;5582
+./IZF_union.v;SimpleUnification;0;0;44.32663868319831;5694
+./IZF_union.v;SimpleSplitUnification;0;0;44.32663868319831;5716
+./IZF_union.v;SplitTypeUnification;0;0;46.412252860252075;6047
+./IZF_union.v;SplitTypeSplitUnification;0;0;46.412252860252075;6044

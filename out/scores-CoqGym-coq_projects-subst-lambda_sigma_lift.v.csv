@@ -1,0 +1,23 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Score;Time
+./lambda_sigma_lift.v;StructuredUnification;1;1;37.89632080264942;4078
+./lambda_sigma_lift.v;StructuredUnification;1;2;36.948535822647955;3993
+./lambda_sigma_lift.v;StructuredUnification;1;5;36.316679169313645;3941
+./lambda_sigma_lift.v;StructuredUnification;2;1;37.138092818648246;3943
+./lambda_sigma_lift.v;StructuredUnification;2;2;36.948535822647955;3980
+./lambda_sigma_lift.v;StructuredUnification;2;5;36.316679169313645;3984
+./lambda_sigma_lift.v;StructuredUnification;5;1;36.948535822647955;4217
+./lambda_sigma_lift.v;StructuredUnification;5;2;36.948535822647955;4133
+./lambda_sigma_lift.v;StructuredUnification;5;5;36.316679169313645;4009
+./lambda_sigma_lift.v;StructuredSplitUnification;1;1;37.89632080264942;4185
+./lambda_sigma_lift.v;StructuredSplitUnification;1;2;36.948535822647955;4253
+./lambda_sigma_lift.v;StructuredSplitUnification;1;5;36.316679169313645;4186
+./lambda_sigma_lift.v;StructuredSplitUnification;2;1;37.138092818648246;4079
+./lambda_sigma_lift.v;StructuredSplitUnification;2;2;36.948535822647955;3951
+./lambda_sigma_lift.v;StructuredSplitUnification;2;5;36.316679169313645;4007
+./lambda_sigma_lift.v;StructuredSplitUnification;5;1;36.948535822647955;3866
+./lambda_sigma_lift.v;StructuredSplitUnification;5;2;36.948535822647955;4091
+./lambda_sigma_lift.v;StructuredSplitUnification;5;5;36.316679169313645;4149
+./lambda_sigma_lift.v;SimpleUnification;0;0;24.840582703129265;4101
+./lambda_sigma_lift.v;SimpleSplitUnification;0;0;24.840582703129265;4044
+./lambda_sigma_lift.v;SplitTypeUnification;0;0;24.840582703129265;4564
+./lambda_sigma_lift.v;SplitTypeSplitUnification;0;0;24.840582703129265;4397

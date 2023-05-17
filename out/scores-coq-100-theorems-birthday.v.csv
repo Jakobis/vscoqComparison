@@ -1,0 +1,23 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Score;Time
+./birthday.v;StructuredUnification;1;1;31.73975314055043;90660
+./birthday.v;StructuredUnification;1;2;36.4645368708093;89470
+./birthday.v;StructuredUnification;1;5;41.43993661537675;89420
+./birthday.v;StructuredUnification;2;1;34.59656634503923;91237
+./birthday.v;StructuredUnification;2;2;39.82193450370243;90414
+./birthday.v;StructuredUnification;2;5;42.32559707544484;89447
+./birthday.v;StructuredUnification;5;1;39.732993706814185;91254
+./birthday.v;StructuredUnification;5;2;42.73796822487787;91727
+./birthday.v;StructuredUnification;5;5;43.54833541730071;88482
+./birthday.v;StructuredSplitUnification;1;1;32.179486065095986;89586
+./birthday.v;StructuredSplitUnification;1;2;36.4645368708093;90648
+./birthday.v;StructuredSplitUnification;1;5;41.43993661537675;90271
+./birthday.v;StructuredSplitUnification;2;1;34.59656634503923;90947
+./birthday.v;StructuredSplitUnification;2;2;39.82193450370243;91044
+./birthday.v;StructuredSplitUnification;2;5;42.32559707544484;88948
+./birthday.v;StructuredSplitUnification;5;1;39.732993706814185;90468
+./birthday.v;StructuredSplitUnification;5;2;42.73796822487787;90333
+./birthday.v;StructuredSplitUnification;5;5;43.54833541730071;89567
+./birthday.v;SimpleUnification;0;0;49.65349066869284;94631
+./birthday.v;SimpleSplitUnification;0;0;49.65349066869284;96643
+./birthday.v;SplitTypeUnification;0;0;49.48850125243715;102622
+./birthday.v;SplitTypeSplitUnification;0;0;49.48850125243715;102712

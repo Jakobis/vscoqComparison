@@ -1,0 +1,23 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Score;Time
+./Mini_ML.v;StructuredUnification;1;1;31.960907518867682;26801
+./Mini_ML.v;StructuredUnification;1;2;39.97185455447451;26583
+./Mini_ML.v;StructuredUnification;1;5;46.59434115319653;26632
+./Mini_ML.v;StructuredUnification;2;1;38.70291605361592;26738
+./Mini_ML.v;StructuredUnification;2;2;46.08371416565397;26697
+./Mini_ML.v;StructuredUnification;2;5;46.59007209338428;26491
+./Mini_ML.v;StructuredUnification;5;1;42.618028164741936;26761
+./Mini_ML.v;StructuredUnification;5;2;46.07818019923069;26641
+./Mini_ML.v;StructuredUnification;5;5;46.59007209338428;26965
+./Mini_ML.v;StructuredSplitUnification;1;1;32.12692651156615;26527
+./Mini_ML.v;StructuredSplitUnification;1;2;39.97185455447451;26313
+./Mini_ML.v;StructuredSplitUnification;1;5;46.59434115319653;26738
+./Mini_ML.v;StructuredSplitUnification;2;1;38.868935046314384;26745
+./Mini_ML.v;StructuredSplitUnification;2;2;46.08371416565397;26831
+./Mini_ML.v;StructuredSplitUnification;2;5;46.59007209338428;26270
+./Mini_ML.v;StructuredSplitUnification;5;1;42.7840471574404;26106
+./Mini_ML.v;StructuredSplitUnification;5;2;46.07818019923069;26220
+./Mini_ML.v;StructuredSplitUnification;5;5;46.59007209338428;26191
+./Mini_ML.v;SimpleUnification;0;0;41.90580884215633;26857
+./Mini_ML.v;SimpleSplitUnification;0;0;41.90580884215633;27016
+./Mini_ML.v;SplitTypeUnification;0;0;42.73430949627433;28551
+./Mini_ML.v;SplitTypeSplitUnification;0;0;42.73430949627433;29074

@@ -88,7 +88,7 @@ if (existsSync("in/all.in")) {
   tests = JSON.parse(readFileSync("in/all.in").toString()).tests;
 }
 
-const workerCount = Math.floor((cpus().length - 1) / 2);
+const workerCount = Math.min(Math.floor((cpus().length - 1) / 2), tests.length);
 // const workerCount = 3;
 process.chdir("vscode");
 const splitTests = splitInto(tests, workerCount);

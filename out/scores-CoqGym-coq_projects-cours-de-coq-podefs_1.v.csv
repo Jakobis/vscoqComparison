@@ -1,0 +1,23 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Score;Time
+./podefs_1.v;StructuredUnification;1;1;NaN;28
+./podefs_1.v;StructuredUnification;1;2;NaN;29
+./podefs_1.v;StructuredUnification;1;5;NaN;39
+./podefs_1.v;StructuredUnification;2;1;NaN;31
+./podefs_1.v;StructuredUnification;2;2;NaN;26
+./podefs_1.v;StructuredUnification;2;5;NaN;26
+./podefs_1.v;StructuredUnification;5;1;NaN;33
+./podefs_1.v;StructuredUnification;5;2;NaN;36
+./podefs_1.v;StructuredUnification;5;5;NaN;33
+./podefs_1.v;StructuredSplitUnification;1;1;NaN;25
+./podefs_1.v;StructuredSplitUnification;1;2;NaN;25
+./podefs_1.v;StructuredSplitUnification;1;5;NaN;31
+./podefs_1.v;StructuredSplitUnification;2;1;NaN;28
+./podefs_1.v;StructuredSplitUnification;2;2;NaN;26
+./podefs_1.v;StructuredSplitUnification;2;5;NaN;25
+./podefs_1.v;StructuredSplitUnification;5;1;NaN;27
+./podefs_1.v;StructuredSplitUnification;5;2;NaN;21
+./podefs_1.v;StructuredSplitUnification;5;5;NaN;21
+./podefs_1.v;SimpleUnification;0;0;NaN;23
+./podefs_1.v;SimpleSplitUnification;0;0;NaN;25
+./podefs_1.v;SplitTypeUnification;0;0;NaN;28
+./podefs_1.v;SplitTypeSplitUnification;0;0;NaN;27

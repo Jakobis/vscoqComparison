@@ -1,0 +1,23 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Score;Time
+./main.v;StructuredUnification;1;1;NaN;35
+./main.v;StructuredUnification;1;2;NaN;29
+./main.v;StructuredUnification;1;5;NaN;28
+./main.v;StructuredUnification;2;1;NaN;27
+./main.v;StructuredUnification;2;2;NaN;25
+./main.v;StructuredUnification;2;5;NaN;26
+./main.v;StructuredUnification;5;1;NaN;27
+./main.v;StructuredUnification;5;2;NaN;40
+./main.v;StructuredUnification;5;5;NaN;31
+./main.v;StructuredSplitUnification;1;1;NaN;26
+./main.v;StructuredSplitUnification;1;2;NaN;49
+./main.v;StructuredSplitUnification;1;5;NaN;41
+./main.v;StructuredSplitUnification;2;1;NaN;27
+./main.v;StructuredSplitUnification;2;2;NaN;28
+./main.v;StructuredSplitUnification;2;5;NaN;33
+./main.v;StructuredSplitUnification;5;1;NaN;26
+./main.v;StructuredSplitUnification;5;2;NaN;27
+./main.v;StructuredSplitUnification;5;5;NaN;27
+./main.v;SimpleUnification;0;0;NaN;27
+./main.v;SimpleSplitUnification;0;0;NaN;27
+./main.v;SplitTypeUnification;0;0;NaN;34
+./main.v;SplitTypeSplitUnification;0;0;NaN;26

@@ -1,0 +1,23 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Score;Time
+./abp_defs.v;StructuredUnification;1;1;11.76677045870379;9552
+./abp_defs.v;StructuredUnification;1;2;16.955787168309193;8942
+./abp_defs.v;StructuredUnification;1;5;17.946374748472813;9539
+./abp_defs.v;StructuredUnification;2;1;16.955787168309193;9556
+./abp_defs.v;StructuredUnification;2;2;17.946374748472813;8994
+./abp_defs.v;StructuredUnification;2;5;17.946374748472813;9625
+./abp_defs.v;StructuredUnification;5;1;17.946374748472813;9603
+./abp_defs.v;StructuredUnification;5;2;17.946374748472813;8857
+./abp_defs.v;StructuredUnification;5;5;17.946374748472813;8884
+./abp_defs.v;StructuredSplitUnification;1;1;11.76677045870379;9635
+./abp_defs.v;StructuredSplitUnification;1;2;16.955787168309193;9115
+./abp_defs.v;StructuredSplitUnification;1;5;17.946374748472813;9457
+./abp_defs.v;StructuredSplitUnification;2;1;16.955787168309193;9542
+./abp_defs.v;StructuredSplitUnification;2;2;17.946374748472813;9518
+./abp_defs.v;StructuredSplitUnification;2;5;17.946374748472813;8729
+./abp_defs.v;StructuredSplitUnification;5;1;17.946374748472813;9010
+./abp_defs.v;StructuredSplitUnification;5;2;17.946374748472813;9529
+./abp_defs.v;StructuredSplitUnification;5;5;17.946374748472813;9597
+./abp_defs.v;SimpleUnification;0;0;17.946374748472813;9655
+./abp_defs.v;SimpleSplitUnification;0;0;17.946374748472813;9735
+./abp_defs.v;SplitTypeUnification;0;0;17.946374748472813;9435
+./abp_defs.v;SplitTypeSplitUnification;0;0;17.946374748472813;9576

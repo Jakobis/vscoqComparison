@@ -1,0 +1,23 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Score;Time
+./inv1rel4.v;StructuredUnification;1;1;NaN;22
+./inv1rel4.v;StructuredUnification;1;2;NaN;26
+./inv1rel4.v;StructuredUnification;1;5;NaN;23
+./inv1rel4.v;StructuredUnification;2;1;NaN;28
+./inv1rel4.v;StructuredUnification;2;2;NaN;31
+./inv1rel4.v;StructuredUnification;2;5;NaN;28
+./inv1rel4.v;StructuredUnification;5;1;NaN;27
+./inv1rel4.v;StructuredUnification;5;2;NaN;27
+./inv1rel4.v;StructuredUnification;5;5;NaN;28
+./inv1rel4.v;StructuredSplitUnification;1;1;NaN;31
+./inv1rel4.v;StructuredSplitUnification;1;2;NaN;27
+./inv1rel4.v;StructuredSplitUnification;1;5;NaN;27
+./inv1rel4.v;StructuredSplitUnification;2;1;NaN;24
+./inv1rel4.v;StructuredSplitUnification;2;2;NaN;36
+./inv1rel4.v;StructuredSplitUnification;2;5;NaN;26
+./inv1rel4.v;StructuredSplitUnification;5;1;NaN;30
+./inv1rel4.v;StructuredSplitUnification;5;2;NaN;26
+./inv1rel4.v;StructuredSplitUnification;5;5;NaN;27
+./inv1rel4.v;SimpleUnification;0;0;NaN;33
+./inv1rel4.v;SimpleSplitUnification;0;0;NaN;29
+./inv1rel4.v;SplitTypeUnification;0;0;NaN;24
+./inv1rel4.v;SplitTypeSplitUnification;0;0;NaN;26

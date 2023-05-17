@@ -1,0 +1,23 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Score;Time
+./abp_lem1.v;StructuredUnification;1;1;11.56191061282204;61132
+./abp_lem1.v;StructuredUnification;1;2;14.6459488458894;60634
+./abp_lem1.v;StructuredUnification;1;5;18.36082773175977;59440
+./abp_lem1.v;StructuredUnification;2;1;15.216591373200908;60037
+./abp_lem1.v;StructuredUnification;2;2;17.96872173725892;59962
+./abp_lem1.v;StructuredUnification;2;5;18.36915827960373;60695
+./abp_lem1.v;StructuredUnification;5;1;18.406596158307256;60647
+./abp_lem1.v;StructuredUnification;5;2;17.981738218265114;60490
+./abp_lem1.v;StructuredUnification;5;5;18.36082773175977;60570
+./abp_lem1.v;StructuredSplitUnification;1;1;11.56191061282204;60643
+./abp_lem1.v;StructuredSplitUnification;1;2;14.6459488458894;61790
+./abp_lem1.v;StructuredSplitUnification;1;5;18.36082773175977;61529
+./abp_lem1.v;StructuredSplitUnification;2;1;15.216591373200908;60586
+./abp_lem1.v;StructuredSplitUnification;2;2;17.96872173725892;60735
+./abp_lem1.v;StructuredSplitUnification;2;5;18.36915827960373;60360
+./abp_lem1.v;StructuredSplitUnification;5;1;18.406596158307256;60480
+./abp_lem1.v;StructuredSplitUnification;5;2;17.981738218265114;59307
+./abp_lem1.v;StructuredSplitUnification;5;5;18.36082773175977;59580
+./abp_lem1.v;SimpleUnification;0;0;15.995770322880206;61208
+./abp_lem1.v;SimpleSplitUnification;0;0;15.995770322880206;61453
+./abp_lem1.v;SplitTypeUnification;0;0;16.3899837476392;65314
+./abp_lem1.v;SplitTypeSplitUnification;0;0;16.3899837476392;65763

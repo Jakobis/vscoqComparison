@@ -1,0 +1,23 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Score;Time
+./Coqoban_engine.v;StructuredUnification;1;1;41.605839416058394;6209
+./Coqoban_engine.v;StructuredUnification;1;2;89.05109489051095;6217
+./Coqoban_engine.v;StructuredUnification;1;5;89.05109489051095;6240
+./Coqoban_engine.v;StructuredUnification;2;1;89.05109489051095;6216
+./Coqoban_engine.v;StructuredUnification;2;2;89.05109489051095;6191
+./Coqoban_engine.v;StructuredUnification;2;5;89.05109489051095;6253
+./Coqoban_engine.v;StructuredUnification;5;1;45.255474452554736;6255
+./Coqoban_engine.v;StructuredUnification;5;2;89.05109489051095;6183
+./Coqoban_engine.v;StructuredUnification;5;5;89.05109489051095;6224
+./Coqoban_engine.v;StructuredSplitUnification;1;1;41.605839416058394;6253
+./Coqoban_engine.v;StructuredSplitUnification;1;2;89.05109489051095;6249
+./Coqoban_engine.v;StructuredSplitUnification;1;5;89.05109489051095;6238
+./Coqoban_engine.v;StructuredSplitUnification;2;1;89.05109489051095;6210
+./Coqoban_engine.v;StructuredSplitUnification;2;2;89.05109489051095;6238
+./Coqoban_engine.v;StructuredSplitUnification;2;5;89.05109489051095;6210
+./Coqoban_engine.v;StructuredSplitUnification;5;1;45.255474452554736;6204
+./Coqoban_engine.v;StructuredSplitUnification;5;2;89.05109489051095;6206
+./Coqoban_engine.v;StructuredSplitUnification;5;5;89.05109489051095;6194
+./Coqoban_engine.v;SimpleUnification;0;0;52.55474452554745;6251
+./Coqoban_engine.v;SimpleSplitUnification;0;0;52.55474452554745;6206
+./Coqoban_engine.v;SplitTypeUnification;0;0;54.01459854014598;6268
+./Coqoban_engine.v;SplitTypeSplitUnification;0;0;54.01459854014598;6296

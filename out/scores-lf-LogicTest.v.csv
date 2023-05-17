@@ -1,0 +1,23 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Score;Time
+./LogicTest.v;StructuredUnification;1;1;NaN;28
+./LogicTest.v;StructuredUnification;1;2;NaN;33
+./LogicTest.v;StructuredUnification;1;5;NaN;37
+./LogicTest.v;StructuredUnification;2;1;NaN;36
+./LogicTest.v;StructuredUnification;2;2;NaN;30
+./LogicTest.v;StructuredUnification;2;5;NaN;29
+./LogicTest.v;StructuredUnification;5;1;NaN;32
+./LogicTest.v;StructuredUnification;5;2;NaN;29
+./LogicTest.v;StructuredUnification;5;5;NaN;29
+./LogicTest.v;StructuredSplitUnification;1;1;NaN;27
+./LogicTest.v;StructuredSplitUnification;1;2;NaN;31
+./LogicTest.v;StructuredSplitUnification;1;5;NaN;34
+./LogicTest.v;StructuredSplitUnification;2;1;NaN;40
+./LogicTest.v;StructuredSplitUnification;2;2;NaN;26
+./LogicTest.v;StructuredSplitUnification;2;5;NaN;27
+./LogicTest.v;StructuredSplitUnification;5;1;NaN;26
+./LogicTest.v;StructuredSplitUnification;5;2;NaN;29
+./LogicTest.v;StructuredSplitUnification;5;5;NaN;28
+./LogicTest.v;SimpleUnification;0;0;NaN;32
+./LogicTest.v;SimpleSplitUnification;0;0;NaN;27
+./LogicTest.v;SplitTypeUnification;0;0;NaN;25
+./LogicTest.v;SplitTypeSplitUnification;0;0;NaN;31

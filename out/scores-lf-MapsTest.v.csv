@@ -1,0 +1,23 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Score;Time
+./MapsTest.v;StructuredUnification;1;1;NaN;27
+./MapsTest.v;StructuredUnification;1;2;NaN;27
+./MapsTest.v;StructuredUnification;1;5;NaN;28
+./MapsTest.v;StructuredUnification;2;1;NaN;36
+./MapsTest.v;StructuredUnification;2;2;NaN;36
+./MapsTest.v;StructuredUnification;2;5;NaN;32
+./MapsTest.v;StructuredUnification;5;1;NaN;32
+./MapsTest.v;StructuredUnification;5;2;NaN;31
+./MapsTest.v;StructuredUnification;5;5;NaN;32
+./MapsTest.v;StructuredSplitUnification;1;1;NaN;30
+./MapsTest.v;StructuredSplitUnification;1;2;NaN;30
+./MapsTest.v;StructuredSplitUnification;1;5;NaN;33
+./MapsTest.v;StructuredSplitUnification;2;1;NaN;31
+./MapsTest.v;StructuredSplitUnification;2;2;NaN;26
+./MapsTest.v;StructuredSplitUnification;2;5;NaN;30
+./MapsTest.v;StructuredSplitUnification;5;1;NaN;28
+./MapsTest.v;StructuredSplitUnification;5;2;NaN;27
+./MapsTest.v;StructuredSplitUnification;5;5;NaN;23
+./MapsTest.v;SimpleUnification;0;0;NaN;26
+./MapsTest.v;SimpleSplitUnification;0;0;NaN;27
+./MapsTest.v;SplitTypeUnification;0;0;NaN;29
+./MapsTest.v;SplitTypeSplitUnification;0;0;NaN;28

@@ -1,0 +1,23 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Score;Time
+./Setminus_fact.v;StructuredUnification;1;1;41.630623188047096;518
+./Setminus_fact.v;StructuredUnification;1;2;41.630623188047096;473
+./Setminus_fact.v;StructuredUnification;1;5;47.67167520245653;453
+./Setminus_fact.v;StructuredUnification;2;1;41.630623188047096;527
+./Setminus_fact.v;StructuredUnification;2;2;45.474929015398544;454
+./Setminus_fact.v;StructuredUnification;2;5;45.474929015398544;492
+./Setminus_fact.v;StructuredUnification;5;1;45.474929015398544;500
+./Setminus_fact.v;StructuredUnification;5;2;45.474929015398544;529
+./Setminus_fact.v;StructuredUnification;5;5;45.474929015398544;526
+./Setminus_fact.v;StructuredSplitUnification;1;1;41.630623188047096;489
+./Setminus_fact.v;StructuredSplitUnification;1;2;41.630623188047096;562
+./Setminus_fact.v;StructuredSplitUnification;1;5;47.67167520245653;470
+./Setminus_fact.v;StructuredSplitUnification;2;1;41.630623188047096;525
+./Setminus_fact.v;StructuredSplitUnification;2;2;45.474929015398544;507
+./Setminus_fact.v;StructuredSplitUnification;2;5;45.474929015398544;490
+./Setminus_fact.v;StructuredSplitUnification;5;1;45.474929015398544;524
+./Setminus_fact.v;StructuredSplitUnification;5;2;45.474929015398544;489
+./Setminus_fact.v;StructuredSplitUnification;5;5;45.474929015398544;534
+./Setminus_fact.v;SimpleUnification;0;0;48.550373677279715;476
+./Setminus_fact.v;SimpleSplitUnification;0;0;48.550373677279715;514
+./Setminus_fact.v;SplitTypeUnification;0;0;48.550373677279715;535
+./Setminus_fact.v;SplitTypeSplitUnification;0;0;48.550373677279715;544

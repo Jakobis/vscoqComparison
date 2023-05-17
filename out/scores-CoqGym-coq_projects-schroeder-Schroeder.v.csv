@@ -1,0 +1,23 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Score;Time
+./Schroeder.v;StructuredUnification;1;1;47.95366640287133;15994
+./Schroeder.v;StructuredUnification;1;2;58.419265948734854;16525
+./Schroeder.v;StructuredUnification;1;5;76.13189135020852;16052
+./Schroeder.v;StructuredUnification;2;1;57.43774697940477;16388
+./Schroeder.v;StructuredUnification;2;2;73.19404367236228;16083
+./Schroeder.v;StructuredUnification;2;5;81.24259982632725;15703
+./Schroeder.v;StructuredUnification;5;1;66.67278594936697;15799
+./Schroeder.v;StructuredUnification;5;2;76.36392847485189;15639
+./Schroeder.v;StructuredUnification;5;5;80.95783268469432;15775
+./Schroeder.v;StructuredSplitUnification;1;1;47.95366640287133;16318
+./Schroeder.v;StructuredSplitUnification;1;2;58.419265948734854;16165
+./Schroeder.v;StructuredSplitUnification;1;5;76.13189135020852;16030
+./Schroeder.v;StructuredSplitUnification;2;1;57.43774697940477;15800
+./Schroeder.v;StructuredSplitUnification;2;2;73.19404367236228;16003
+./Schroeder.v;StructuredSplitUnification;2;5;81.24259982632725;16463
+./Schroeder.v;StructuredSplitUnification;5;1;66.67278594936697;15607
+./Schroeder.v;StructuredSplitUnification;5;2;76.36392847485189;15490
+./Schroeder.v;StructuredSplitUnification;5;5;80.95783268469432;15454
+./Schroeder.v;SimpleUnification;0;0;67.5350703702763;15724
+./Schroeder.v;SimpleSplitUnification;0;0;67.5350703702763;15510
+./Schroeder.v;SplitTypeUnification;0;0;68.92389485015319;16531
+./Schroeder.v;SplitTypeSplitUnification;0;0;68.92389485015319;16443

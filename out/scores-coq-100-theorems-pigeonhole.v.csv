@@ -1,0 +1,23 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Score;Time
+./pigeonhole.v;StructuredUnification;1;1;2.666666666666667;15308
+./pigeonhole.v;StructuredUnification;1;2;2.666666666666667;14257
+./pigeonhole.v;StructuredUnification;1;5;2.666666666666667;14068
+./pigeonhole.v;StructuredUnification;2;1;2.666666666666667;13976
+./pigeonhole.v;StructuredUnification;2;2;2.666666666666667;14008
+./pigeonhole.v;StructuredUnification;2;5;2.666666666666667;14247
+./pigeonhole.v;StructuredUnification;5;1;2.666666666666667;13786
+./pigeonhole.v;StructuredUnification;5;2;2.666666666666667;14011
+./pigeonhole.v;StructuredUnification;5;5;2.666666666666667;13861
+./pigeonhole.v;StructuredSplitUnification;1;1;2.666666666666667;13980
+./pigeonhole.v;StructuredSplitUnification;1;2;2.666666666666667;14402
+./pigeonhole.v;StructuredSplitUnification;1;5;2.666666666666667;14448
+./pigeonhole.v;StructuredSplitUnification;2;1;2.666666666666667;14258
+./pigeonhole.v;StructuredSplitUnification;2;2;2.666666666666667;13921
+./pigeonhole.v;StructuredSplitUnification;2;5;2.666666666666667;14102
+./pigeonhole.v;StructuredSplitUnification;5;1;2.666666666666667;14159
+./pigeonhole.v;StructuredSplitUnification;5;2;2.666666666666667;14407
+./pigeonhole.v;StructuredSplitUnification;5;5;2.666666666666667;14325
+./pigeonhole.v;SimpleUnification;0;0;2.666666666666667;14809
+./pigeonhole.v;SimpleSplitUnification;0;0;2.666666666666667;14491
+./pigeonhole.v;SplitTypeUnification;0;0;2.666666666666667;15494
+./pigeonhole.v;SplitTypeSplitUnification;0;0;2.666666666666667;14998

@@ -1,0 +1,23 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Score;Time
+./DepMap.v;StructuredUnification;1;1;NaN;24
+./DepMap.v;StructuredUnification;1;2;NaN;27
+./DepMap.v;StructuredUnification;1;5;NaN;28
+./DepMap.v;StructuredUnification;2;1;NaN;36
+./DepMap.v;StructuredUnification;2;2;NaN;26
+./DepMap.v;StructuredUnification;2;5;NaN;23
+./DepMap.v;StructuredUnification;5;1;NaN;23
+./DepMap.v;StructuredUnification;5;2;NaN;22
+./DepMap.v;StructuredUnification;5;5;NaN;25
+./DepMap.v;StructuredSplitUnification;1;1;NaN;26
+./DepMap.v;StructuredSplitUnification;1;2;NaN;23
+./DepMap.v;StructuredSplitUnification;1;5;NaN;21
+./DepMap.v;StructuredSplitUnification;2;1;NaN;20
+./DepMap.v;StructuredSplitUnification;2;2;NaN;21
+./DepMap.v;StructuredSplitUnification;2;5;NaN;22
+./DepMap.v;StructuredSplitUnification;5;1;NaN;31
+./DepMap.v;StructuredSplitUnification;5;2;NaN;26
+./DepMap.v;StructuredSplitUnification;5;5;NaN;27
+./DepMap.v;SimpleUnification;0;0;NaN;22
+./DepMap.v;SimpleSplitUnification;0;0;NaN;25
+./DepMap.v;SplitTypeUnification;0;0;NaN;31
+./DepMap.v;SplitTypeSplitUnification;0;0;NaN;34

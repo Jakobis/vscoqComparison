@@ -1,0 +1,23 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Score;Time
+./ExtractionTest.v;StructuredUnification;1;1;NaN;26
+./ExtractionTest.v;StructuredUnification;1;2;NaN;27
+./ExtractionTest.v;StructuredUnification;1;5;NaN;26
+./ExtractionTest.v;StructuredUnification;2;1;NaN;27
+./ExtractionTest.v;StructuredUnification;2;2;NaN;33
+./ExtractionTest.v;StructuredUnification;2;5;NaN;27
+./ExtractionTest.v;StructuredUnification;5;1;NaN;26
+./ExtractionTest.v;StructuredUnification;5;2;NaN;24
+./ExtractionTest.v;StructuredUnification;5;5;NaN;31
+./ExtractionTest.v;StructuredSplitUnification;1;1;NaN;30
+./ExtractionTest.v;StructuredSplitUnification;1;2;NaN;23
+./ExtractionTest.v;StructuredSplitUnification;1;5;NaN;24
+./ExtractionTest.v;StructuredSplitUnification;2;1;NaN;22
+./ExtractionTest.v;StructuredSplitUnification;2;2;NaN;23
+./ExtractionTest.v;StructuredSplitUnification;2;5;NaN;25
+./ExtractionTest.v;StructuredSplitUnification;5;1;NaN;24
+./ExtractionTest.v;StructuredSplitUnification;5;2;NaN;25
+./ExtractionTest.v;StructuredSplitUnification;5;5;NaN;26
+./ExtractionTest.v;SimpleUnification;0;0;NaN;26
+./ExtractionTest.v;SimpleSplitUnification;0;0;NaN;26
+./ExtractionTest.v;SplitTypeUnification;0;0;NaN;30
+./ExtractionTest.v;SplitTypeSplitUnification;0;0;NaN;24

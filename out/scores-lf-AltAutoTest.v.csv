@@ -1,0 +1,23 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Score;Time
+./AltAutoTest.v;StructuredUnification;1;1;NaN;15
+./AltAutoTest.v;StructuredUnification;1;2;NaN;29
+./AltAutoTest.v;StructuredUnification;1;5;NaN;27
+./AltAutoTest.v;StructuredUnification;2;1;NaN;44
+./AltAutoTest.v;StructuredUnification;2;2;NaN;31
+./AltAutoTest.v;StructuredUnification;2;5;NaN;38
+./AltAutoTest.v;StructuredUnification;5;1;NaN;27
+./AltAutoTest.v;StructuredUnification;5;2;NaN;26
+./AltAutoTest.v;StructuredUnification;5;5;NaN;25
+./AltAutoTest.v;StructuredSplitUnification;1;1;NaN;26
+./AltAutoTest.v;StructuredSplitUnification;1;2;NaN;34
+./AltAutoTest.v;StructuredSplitUnification;1;5;NaN;31
+./AltAutoTest.v;StructuredSplitUnification;2;1;NaN;27
+./AltAutoTest.v;StructuredSplitUnification;2;2;NaN;30
+./AltAutoTest.v;StructuredSplitUnification;2;5;NaN;28
+./AltAutoTest.v;StructuredSplitUnification;5;1;NaN;26
+./AltAutoTest.v;StructuredSplitUnification;5;2;NaN;24
+./AltAutoTest.v;StructuredSplitUnification;5;5;NaN;28
+./AltAutoTest.v;SimpleUnification;0;0;NaN;28
+./AltAutoTest.v;SimpleSplitUnification;0;0;NaN;38
+./AltAutoTest.v;SplitTypeUnification;0;0;NaN;29
+./AltAutoTest.v;SplitTypeSplitUnification;0;0;NaN;31

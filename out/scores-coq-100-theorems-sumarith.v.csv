@@ -1,0 +1,23 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Score;Time
+./sumarith.v;StructuredUnification;1;1;28.000000000000004;1083
+./sumarith.v;StructuredUnification;1;2;28.000000000000004;1150
+./sumarith.v;StructuredUnification;1;5;28.000000000000004;1100
+./sumarith.v;StructuredUnification;2;1;28.000000000000004;1078
+./sumarith.v;StructuredUnification;2;2;28.000000000000004;1076
+./sumarith.v;StructuredUnification;2;5;40;1100
+./sumarith.v;StructuredUnification;5;1;28.000000000000004;1130
+./sumarith.v;StructuredUnification;5;2;40;1078
+./sumarith.v;StructuredUnification;5;5;40;1078
+./sumarith.v;StructuredSplitUnification;1;1;28.000000000000004;1078
+./sumarith.v;StructuredSplitUnification;1;2;28.000000000000004;1157
+./sumarith.v;StructuredSplitUnification;1;5;28.000000000000004;1112
+./sumarith.v;StructuredSplitUnification;2;1;28.000000000000004;1070
+./sumarith.v;StructuredSplitUnification;2;2;28.000000000000004;1116
+./sumarith.v;StructuredSplitUnification;2;5;40;1091
+./sumarith.v;StructuredSplitUnification;5;1;28.000000000000004;1130
+./sumarith.v;StructuredSplitUnification;5;2;40;1072
+./sumarith.v;StructuredSplitUnification;5;5;40;1093
+./sumarith.v;SimpleUnification;0;0;88.00000000000001;1135
+./sumarith.v;SimpleSplitUnification;0;0;88.00000000000001;1119
+./sumarith.v;SplitTypeUnification;0;0;88.00000000000001;1212
+./sumarith.v;SplitTypeSplitUnification;0;0;88.00000000000001;1250

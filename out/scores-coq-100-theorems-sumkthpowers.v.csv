@@ -1,0 +1,23 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Score;Time
+./sumkthpowers.v;StructuredUnification;1;1;31.744949274329347;136014
+./sumkthpowers.v;StructuredUnification;1;2;39.845045174149554;129713
+./sumkthpowers.v;StructuredUnification;1;5;49.88413770031121;129144
+./sumkthpowers.v;StructuredUnification;2;1;36.94302554724727;130552
+./sumkthpowers.v;StructuredUnification;2;2;46.80203049919122;129464
+./sumkthpowers.v;StructuredUnification;2;5;49.88348221595507;130888
+./sumkthpowers.v;StructuredUnification;5;1;44.69499611380841;129414
+./sumkthpowers.v;StructuredUnification;5;2;49.8744072040173;129700
+./sumkthpowers.v;StructuredUnification;5;5;50.39270456322392;132573
+./sumkthpowers.v;StructuredSplitUnification;1;1;27.594459521123653;122988
+./sumkthpowers.v;StructuredSplitUnification;1;2;37.54534172876826;122593
+./sumkthpowers.v;StructuredSplitUnification;1;5;48.455615839222936;124183
+./sumkthpowers.v;StructuredSplitUnification;2;1;34.10934358064516;122321
+./sumkthpowers.v;StructuredSplitUnification;2;2;44.382958531265544;123160
+./sumkthpowers.v;StructuredSplitUnification;2;5;48.39840014812082;125635
+./sumkthpowers.v;StructuredSplitUnification;5;1;42.765793699424954;122846
+./sumkthpowers.v;StructuredSplitUnification;5;2;48.387668012256604;125799
+./sumkthpowers.v;StructuredSplitUnification;5;5;48.47302329747137;126101
+./sumkthpowers.v;SimpleUnification;0;0;46.86215449681376;133060
+./sumkthpowers.v;SimpleSplitUnification;0;0;44.41858462788414;130943
+./sumkthpowers.v;SplitTypeUnification;0;0;47.59620227257725;137851
+./sumkthpowers.v;SplitTypeSplitUnification;0;0;47.59620227257725;135767

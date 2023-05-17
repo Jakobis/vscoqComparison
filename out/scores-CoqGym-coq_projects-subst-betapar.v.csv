@@ -1,0 +1,23 @@
+File Name;Algorithm;Ranking Factor;Size Factor;Score;Time
+./betapar.v;StructuredUnification;1;1;40.7883959064749;4187
+./betapar.v;StructuredUnification;1;2;46.510679610594636;4077
+./betapar.v;StructuredUnification;1;5;46.510679610594636;4098
+./betapar.v;StructuredUnification;2;1;42.21896683250483;4023
+./betapar.v;StructuredUnification;2;2;46.510679610594636;4175
+./betapar.v;StructuredUnification;2;5;46.510679610594636;4100
+./betapar.v;StructuredUnification;5;1;42.21896683250483;4230
+./betapar.v;StructuredUnification;5;2;46.510679610594636;4180
+./betapar.v;StructuredUnification;5;5;46.510679610594636;4310
+./betapar.v;StructuredSplitUnification;1;1;40.7883959064749;4490
+./betapar.v;StructuredSplitUnification;1;2;46.510679610594636;4499
+./betapar.v;StructuredSplitUnification;1;5;46.510679610594636;4300
+./betapar.v;StructuredSplitUnification;2;1;42.21896683250483;4282
+./betapar.v;StructuredSplitUnification;2;2;46.510679610594636;4310
+./betapar.v;StructuredSplitUnification;2;5;46.510679610594636;4396
+./betapar.v;StructuredSplitUnification;5;1;42.21896683250483;4203
+./betapar.v;StructuredSplitUnification;5;2;46.510679610594636;4298
+./betapar.v;StructuredSplitUnification;5;5;46.510679610594636;4319
+./betapar.v;SimpleUnification;0;0;63.17133380705178;4527
+./betapar.v;SimpleSplitUnification;0;0;63.17133380705178;4405
+./betapar.v;SplitTypeUnification;0;0;63.996101738895575;4591
+./betapar.v;SplitTypeSplitUnification;0;0;63.996101738895575;4577
