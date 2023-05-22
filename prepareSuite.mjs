@@ -90,10 +90,13 @@ if (existsSync("in/all.in")) {
 
 const workerCount = Math.min(Math.floor((cpus().length - 1) / 2), tests.length);
 // const workerCount = 3;
+const sorter = ({ name: nameA }, { name: nameB }) =>
+  nameA === "IndProp.v" ? -1 : nameB === "IndProp.v" ? 1 : 0;
 process.chdir("vscode");
 const splitTests = splitInto(tests, workerCount);
 for (let i = 0; i < workerCount; i++) {
   /** @type {WorkerData} */
+  splitTests[i].sort(sorter);
   const data = { fullOutFolder, tests: splitTests[i] };
 
   const workerDetailsFile = `../in/${i}.in`;

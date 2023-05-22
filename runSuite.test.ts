@@ -439,6 +439,8 @@ enum RankingAlgorithm {
 	SimpleSplitUnification,
 	SplitTypeUnification,
 	SplitTypeSplitUnification,
+	ShuffleUnification,
+	ShuffleSplitUnification,
 }
 
 type RankingSetup = {
@@ -478,6 +480,8 @@ const rankingAlgorthims = [
 	basic(RankingAlgorithm.SplitTypeUnification),
 	basic(RankingAlgorithm.SplitTypeSplitUnification),
 	basic(RankingAlgorithm.Shuffle),
+	basic(RankingAlgorithm.ShuffleUnification),
+	basic(RankingAlgorithm.ShuffleSplitUnification),
 ];
 
 enum ProofMode {
@@ -622,6 +626,7 @@ async function runTest(
 				ranking,
 				rankingFactor,
 				sizeFactor,
+				enableDiag: false,
 			},
 		});
 
@@ -668,6 +673,8 @@ async function runTest(
 					continue;
 				}
 
+				const OFFSET = 2; // position in editor is 1-indexed, and include space
+
 				// TODO: Determine whether we use word under cursor on backend
 				// as completion provider is invoked on every suggest trigger
 				await new Promise((res) => setTimeout(res, 100));
@@ -685,46 +692,49 @@ async function runTest(
 					"textDocument/completion",
 					params
 				);
+				let didError = false;
 				if (res.error !== undefined) {
 					console.log(
 						`Got Error in file ${uri}:${i + 1}:${
 							tacticEnd + 2
 						} with ${_sentence}. Was: ${res.error}`
 					);
-					continue;
+					didError = true;
 				}
-				// console.log(`Got response for ${_sentence}...`);
 
-				mocks.completionItems.items = res.data.result.items ?? [];
+				mocks.completionItems.items = res.data?.result.items ?? [];
 
 				for (
 					let lemmaPosition = 0;
 					lemmaPosition <= lemma.length;
 					lemmaPosition++
 				) {
-					// Promise which can be resolved when suggestions are done
-					const suggest = new Promise((res) => (suggestResolver.res = res));
+					let resultIndex = -2; // Default is error
+					let topTen: string[] = [];
+					if (!didError) {
+						// Promise which can be resolved when suggestions are done
+						const suggest = new Promise((res) => (suggestResolver.res = res));
 
-					const OFFSET = 2; // position in editor is 1-indexed, and include space
-					mocks.editor.setPosition(
-						new Position(i + 1, tacticEnd + lemmaPosition + OFFSET)
-					);
+						mocks.editor.setPosition(
+							new Position(i + 1, tacticEnd + lemmaPosition + OFFSET)
+						);
 
-					mocks.controller.triggerSuggest();
-					await suggest;
-					type Cast = {
-						_completionModel: (typeof mocks.controller.model)["_completionModel"];
-					};
-					const items =
-						(mocks.controller.model as unknown as Cast)._completionModel
-							?.items ?? [];
-					const topTen = items
-						.slice(0, TOP_RESULTS)
-						.map(({ completion: { insertText } }) => insertText);
+						mocks.controller.triggerSuggest();
+						await suggest;
+						type Cast = {
+							_completionModel: (typeof mocks.controller.model)["_completionModel"];
+						};
+						const items =
+							(mocks.controller.model as unknown as Cast)._completionModel
+								?.items ?? [];
+						topTen = items
+							.slice(0, TOP_RESULTS)
+							.map(({ completion: { insertText } }) => insertText);
 
-					const resultIndex = items.findIndex(
-						({ completion: { insertText } }) => insertText === lemma
-					);
+						resultIndex = items.findIndex(
+							({ completion: { insertText } }) => insertText === lemma
+						);
+					}
 					ranks.increment(lemmaPosition, resultIndex);
 
 					await appendCsv(
