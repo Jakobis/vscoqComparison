@@ -129,35 +129,46 @@ class Queue {
 	// }
 }
 
+type Err = { error: { message: string; timeout?: boolean } };
 async function sendRetry<T extends Record<string, any>>(
 	queue: Queue,
 	...args: Parameters<typeof send>
-): Promise<{ data: T; error: undefined } | { data: undefined; error: string }> {
-	type Err = { error: { message: string } };
-	const timeout = setTimeout(() => {
-		console.log("Request is taking a while...");
-		console.log(
-			queue.partial.slice(0, 300) +
-				queue.partial.slice(queue.partial.length - 300)
-		);
-	}, 10000);
+): Promise<
+	{ data: T; error: undefined } | { data: undefined; error: Err["error"] }
+> {
+	let timeout: NodeJS.Timeout | undefined = undefined;
+	const timeoutPromise = new Promise<Err>((res) => {
+		timeout = setTimeout(() => {
+			console.log("Request is taking a while...");
+			console.log(
+				queue.partial.slice(0, 300) +
+					queue.partial.slice(queue.partial.length - 300)
+			);
+			res({ error: { message: "Took too long", timeout: true } });
+		}, 10000);
+	});
+
 	send(...args);
-	let data = await queue.dequeueSkip<T | Err>();
+	let data = await Promise.race([queue.dequeueSkip<T | Err>(), timeoutPromise]);
 	if ("error" in data) {
+		if (data.error.timeout) {
+			clearTimeout(timeout);
+			return { error: data.error, data: undefined };
+		}
 		await new Promise((res) => setTimeout(res, 200));
 		console.log("retry 1");
 		send(...args);
-		data = await queue.dequeueSkip<T | Err>();
+		data = await queue.dequeueSkip<Awaited<T> | Err>();
 	}
 	if ("error" in data) {
 		await new Promise((res) => setTimeout(res, 400));
 		console.log("retry 2");
 		send(...args);
-		data = await queue.dequeueSkip<T | Err>();
+		data = await queue.dequeueSkip<Awaited<T> | Err>();
 	}
 	if ("error" in data) {
 		clearTimeout(timeout);
-		return { error: data.error.message, data: undefined };
+		return { error: data.error, data: undefined };
 	}
 
 	clearTimeout(timeout);
@@ -576,6 +587,89 @@ suite(`Worker ${process.env.TEST_WORKER_ID}`, async function () {
 	}
 });
 
+async function startVsc({
+	cwd,
+	ranking,
+	rankingFactor,
+	sizeFactor,
+	file,
+	uri,
+}: {
+	cwd: string;
+	ranking: RankingAlgorithm;
+	rankingFactor: number;
+	sizeFactor: number;
+	file: string;
+	uri: string;
+}) {
+	const coqLibPath = process.env.COQLIB ?? "";
+
+	const mocks = createMocks();
+	const vsc = spawn("vscoqtop", ["-bt", "-coqlib", coqLibPath], { cwd });
+	const queue = await new Promise<Queue>((res) => new Queue(res));
+
+	const decoder = new TextDecoder("utf-8");
+
+	vsc.stdout.on("data", (d) => {
+		const decoded = decoder.decode(d).split(/Content-Length: \d+\r?\n\r?\n/);
+		decoded.forEach(queue.enqueue);
+	});
+	// vsc.stderr.on("data", (d) => {
+	// 	console.error(decoder.decode(d));
+	// });
+	vsc.on("exit", (c) =>
+		console.log(
+			`vsc exited for ${RankingAlgorithm[ranking]} on ${file}, code ${c}`
+		)
+	);
+
+	send(vsc, "initialize", {
+		processId: process.pid,
+		rootUri: "file://" + cwd,
+		rootPath: cwd,
+		workspaceFolders: [{ uri: cwd, name: "workspace" }],
+		capabilities: {},
+		initializationOptions: {
+			proof: {
+				delegation: "None",
+				workers: 1,
+				mode: ProofMode.Continuous,
+			},
+			ranking,
+			rankingFactor,
+			sizeFactor,
+			enableDiag: false,
+		},
+	});
+
+	await queue.dequeue(); // initialize
+	await queue.dequeue(); // workspace/configuration
+
+	const contents = readFileSync(cwd + "/" + file, "utf-8");
+	const lines = contents.split("\n");
+
+	// editor.setModel()
+	mocks.model.setValue(contents);
+
+	send(vsc, "textDocument/didOpen", {
+		textDocument: {
+			uri,
+			languageId: "coq",
+			text: contents,
+		},
+	});
+
+	const suggestResolver = { res: (d: unknown) => {} };
+
+	mocks.controller.model.onDidSuggest(() => suggestResolver.res(undefined));
+
+	const dispose = () => {
+		mocks.disposables.dispose();
+		vsc.kill();
+	};
+	return { vsc, mocks, lines, queue, dispose, suggestResolver };
+}
+
 async function runTest(
 	csv: PathOrFileDescriptor,
 	{ ranking, rankingFactor, sizeFactor }: RankingSetup,
@@ -585,75 +679,25 @@ async function runTest(
 ) {
 	console.log(`Running ${RankingAlgorithm[ranking]} on ${file}...`);
 
-	const coqLibPath = process.env.COQLIB ?? "";
-
-	const vsc = spawn("vscoqtop", ["-bt", "-coqlib", coqLibPath], { cwd });
-
-	const mocks = createMocks();
-
 	const startTime = Date.now();
 
+	let dispose = () => {};
+	const vscParams = { cwd, ranking, rankingFactor, sizeFactor, file, uri };
+
 	try {
-		const queue = await new Promise<Queue>((res) => new Queue(res));
-
-		const decoder = new TextDecoder("utf-8");
-
-		vsc.stdout.on("data", (d) => {
-			const decoded = decoder.decode(d).split(/Content-Length: \d+\r?\n\r?\n/);
-			decoded.forEach(queue.enqueue);
-		});
-		// vsc.stderr.on("data", (d) => {
-		// 	console.error(decoder.decode(d));
-		// });
-		vsc.on("exit", (c) =>
-			console.log(
-				`vsc exited for ${RankingAlgorithm[ranking]} on ${file}, code ${c}`
-			)
-		);
-
-		send(vsc, "initialize", {
-			processId: process.pid,
-			rootUri: "file://" + cwd,
-			rootPath: cwd,
-			workspaceFolders: [{ uri: cwd, name: "workspace" }],
-			capabilities: {},
-			initializationOptions: {
-				proof: {
-					delegation: "None",
-					workers: 1,
-					mode: ProofMode.Continuous,
-				},
-				ranking,
-				rankingFactor,
-				sizeFactor,
-				enableDiag: false,
-			},
-		});
-
-		await queue.dequeue(); // initialize
-		await queue.dequeue(); // workspace/configuration
-
-		const contents = readFileSync(cwd + "/" + file, "utf-8");
-		const lines = contents.split("\n");
-
-		// editor.setModel()
-		mocks.model.setValue(contents);
-
-		send(vsc, "textDocument/didOpen", {
-			textDocument: {
-				uri,
-				languageId: "coq",
-				text: contents,
-			},
-		});
+		let {
+			lines,
+			mocks,
+			vsc,
+			queue,
+			dispose: newDispose,
+			suggestResolver,
+		} = await startVsc(vscParams);
+		dispose = newDispose;
 
 		const regex =
 			/(apply|rewrite(?: +(?:->|<-))?) ((?:[^\s.,;]\.[^\s.,;]|[^\s.,;])*)/;
 		const ranks = new DoubleAssocWithDefault<number, number>();
-
-		const suggestResolver = { res: (d: unknown) => {} };
-
-		mocks.controller.model.onDidSuggest(() => suggestResolver.res(undefined));
 
 		const commentLevel = commentLevels(lines);
 
@@ -697,9 +741,18 @@ async function runTest(
 					console.log(
 						`Got Error in file ${uri}:${i + 1}:${
 							tacticEnd + 2
-						} with ${_sentence}. Was: ${res.error}`
+						} with ${_sentence}. Was: ${res.error.message}`
 					);
 					didError = true;
+					if (res.error.timeout) {
+						dispose();
+						const restart = await startVsc(vscParams);
+						vsc = restart.vsc;
+						mocks = restart.mocks;
+						dispose = restart.dispose;
+						queue = restart.queue;
+						suggestResolver = restart.suggestResolver;
+					}
 				}
 
 				mocks.completionItems.items = res.data?.result.items ?? [];
@@ -765,7 +818,6 @@ async function runTest(
 		);
 		return { score: S, time: Date.now() - startTime };
 	} finally {
-		mocks.disposables.dispose();
-		vsc.kill();
+		dispose();
 	}
 }
