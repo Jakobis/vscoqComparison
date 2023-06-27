@@ -439,19 +439,8 @@ function createMocks(id = "coq") {
 }
 
 enum RankingAlgorithm {
-	Basic,
-	Shuffle,
-	SimpleTypeIntersection,
 	SplitTypeIntersection,
-	StructuredTypeEvaluation,
-	StructuredUnification,
 	StructuredSplitUnification,
-	SimpleUnification,
-	SimpleSplitUnification,
-	SplitTypeUnification,
-	SplitTypeSplitUnification,
-	ShuffleUnification,
-	ShuffleSplitUnification,
 }
 
 type RankingSetup = {
@@ -479,20 +468,8 @@ const matrix = (ranking: RankingAlgorithm) =>
 	) satisfies RankingSetup[];
 
 const rankingAlgorthims = [
-	basic(RankingAlgorithm.SimpleTypeIntersection),
 	basic(RankingAlgorithm.SplitTypeIntersection),
-	...matrix(RankingAlgorithm.StructuredTypeEvaluation),
-	...matrix(RankingAlgorithm.StructuredUnification),
-	...matrix(RankingAlgorithm.StructuredSplitUnification),
-	basic(RankingAlgorithm.StructuredTypeEvaluation, 10, 10),
-	basic(RankingAlgorithm.Basic),
-	basic(RankingAlgorithm.SimpleUnification),
-	basic(RankingAlgorithm.SimpleSplitUnification),
-	basic(RankingAlgorithm.SplitTypeUnification),
-	basic(RankingAlgorithm.SplitTypeSplitUnification),
-	basic(RankingAlgorithm.Shuffle),
-	basic(RankingAlgorithm.ShuffleUnification),
-	basic(RankingAlgorithm.ShuffleSplitUnification),
+	basic(RankingAlgorithm.StructuredSplitUnification, 5, 5),
 ];
 
 enum ProofMode {
@@ -536,7 +513,7 @@ suite(`Worker ${process.env.TEST_WORKER_ID}`, async function () {
 					.at(-1)
 					?.match(/[./a-zA-Z_-]+;(\w+);(\d);(\d)/)
 					?.slice(1, 4) ?? ["", "", ""];
-				const rCasted = RankingAlgorithm[r as "Shuffle"];
+				const rCasted = RankingAlgorithm[r as "SplitTypeIntersection"];
 				index =
 					rankingAlgorthims.findIndex(
 						({ ranking, rankingFactor, sizeFactor }) =>
@@ -602,10 +579,10 @@ async function startVsc({
 	file: string;
 	uri: string;
 }) {
-	const coqLibPath = process.env.COQLIB ?? "";
+	const coqLib = process.env.COQLIB ? ["-coqlib", process.env.COQLIB] : [];
 
 	const mocks = createMocks();
-	const vsc = spawn("vscoqtop", ["-bt", "-coqlib", coqLibPath], { cwd });
+	const vsc = spawn("vscoqtop", ["-bt", ...coqLib], { cwd });
 	const queue = await new Promise<Queue>((res) => new Queue(res));
 
 	const decoder = new TextDecoder("utf-8");
@@ -719,10 +696,8 @@ async function runTest(
 
 				const OFFSET = 2; // position in editor is 1-indexed, and include space
 
-				// TODO: Determine whether we use word under cursor on backend
-				// as completion provider is invoked on every suggest trigger
 				await new Promise((res) => setTimeout(res, 100));
-				// TODO: Time this
+				3;
 				// console.log(`Trying ${_sentence}...`);
 				const params = {
 					textDocument: {
