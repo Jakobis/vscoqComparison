@@ -181,8 +181,8 @@ async function appendCsv(
 	csv: PathOrFileDescriptor,
 	file_name: string,
 	{
-		ranking,
-		rankingFactor,
+		algorithm,
+		atomicFactor,
 		sizeFactor,
 	}: RankingSetup | Record<keyof RankingSetup, string | number>,
 	line: number | string,
@@ -202,8 +202,8 @@ async function appendCsv(
 		csv,
 		[
 			file_name,
-			ranking,
-			rankingFactor,
+			algorithm,
+			atomicFactor,
 			sizeFactor,
 			line,
 			character,
@@ -444,26 +444,26 @@ enum RankingAlgorithm {
 }
 
 type RankingSetup = {
-	ranking: RankingAlgorithm;
-	rankingFactor: number;
+	algorithm: RankingAlgorithm;
+	atomicFactor: number;
 	sizeFactor: number;
 };
 
-const basic = (ranking: RankingAlgorithm, rankingFactor = 0, sizeFactor = 0) =>
+const basic = (algorithm: RankingAlgorithm, atomicFactor = 0, sizeFactor = 0) =>
 	({
-		rankingFactor,
+		atomicFactor,
 		sizeFactor,
-		ranking,
+		algorithm,
 	} satisfies RankingSetup);
 
 const MATRIX_DEF = [1, 2, 5];
 
-const matrix = (ranking: RankingAlgorithm) =>
-	MATRIX_DEF.flatMap((rankingFactor) =>
+const matrix = (algorithm: RankingAlgorithm) =>
+	MATRIX_DEF.flatMap((atomicFactor) =>
 		MATRIX_DEF.map((sizeFactor) => ({
-			ranking,
+			algorithm,
 			sizeFactor,
-			rankingFactor,
+			atomicFactor,
 		}))
 	) satisfies RankingSetup[];
 
@@ -516,9 +516,9 @@ suite(`Worker ${process.env.TEST_WORKER_ID}`, async function () {
 				const rCasted = RankingAlgorithm[r as "SplitTypeIntersection"];
 				index =
 					rankingAlgorthims.findIndex(
-						({ ranking, rankingFactor, sizeFactor }) =>
-							ranking === rCasted &&
-							rankingFactor === Number(rf) &&
+						({ algorithm, atomicFactor, sizeFactor }) =>
+							algorithm === rCasted &&
+							atomicFactor === Number(rf) &&
 							sizeFactor === Number(sf)
 					) + 1;
 			}
@@ -532,8 +532,8 @@ suite(`Worker ${process.env.TEST_WORKER_ID}`, async function () {
 					csv,
 					"File Name",
 					{
-						ranking: "Algorithm",
-						rankingFactor: "Ranking Factor",
+						algorithm: "Algorithm",
+						atomicFactor: "Ranking Factor",
 						sizeFactor: "Size Factor",
 					},
 					"Line",
@@ -550,8 +550,8 @@ suite(`Worker ${process.env.TEST_WORKER_ID}`, async function () {
 					const { score, time } = await runTest(csv, suite, file, uri, cwd);
 					await append(
 						scoreCsv,
-						`${file};${RankingAlgorithm[suite.ranking]};${
-							suite.rankingFactor
+						`${file};${RankingAlgorithm[suite.algorithm]};${
+							suite.atomicFactor
 						};${suite.sizeFactor};${score};${time}\n`
 					);
 				} catch (e) {
@@ -566,15 +566,15 @@ suite(`Worker ${process.env.TEST_WORKER_ID}`, async function () {
 
 async function startVsc({
 	cwd,
-	ranking,
-	rankingFactor,
+	algorithm,
+	atomicFactor,
 	sizeFactor,
 	file,
 	uri,
 }: {
 	cwd: string;
-	ranking: RankingAlgorithm;
-	rankingFactor: number;
+	algorithm: RankingAlgorithm;
+	atomicFactor: number;
 	sizeFactor: number;
 	file: string;
 	uri: string;
@@ -596,7 +596,7 @@ async function startVsc({
 	// });
 	vsc.on("exit", (c) =>
 		console.log(
-			`vsc exited for ${RankingAlgorithm[ranking]} on ${file}, code ${c}`
+			`vsc exited for ${RankingAlgorithm[algorithm]} on ${file}, code ${c}`
 		)
 	);
 
@@ -612,9 +612,12 @@ async function startVsc({
 				workers: 1,
 				mode: ProofMode.Continuous,
 			},
-			ranking,
-			rankingFactor,
-			sizeFactor,
+			completion: {
+				unificationLimit: 0,
+				algorithm,
+				atomicFactor,
+				sizeFactor,
+			},
 			enableDiag: false,
 		},
 	});
@@ -649,17 +652,17 @@ async function startVsc({
 
 async function runTest(
 	csv: PathOrFileDescriptor,
-	{ ranking, rankingFactor, sizeFactor }: RankingSetup,
+	{ algorithm, atomicFactor, sizeFactor }: RankingSetup,
 	file: string,
 	uri: string,
 	cwd: string
 ) {
-	console.log(`Running ${RankingAlgorithm[ranking]} on ${file}...`);
+	console.log(`Running ${RankingAlgorithm[algorithm]} on ${file}...`);
 
 	const startTime = Date.now();
 
 	let dispose = () => {};
-	const vscParams = { cwd, ranking, rankingFactor, sizeFactor, file, uri };
+	const vscParams = { cwd, algorithm, atomicFactor, sizeFactor, file, uri };
 
 	try {
 		let {
@@ -697,7 +700,7 @@ async function runTest(
 				const OFFSET = 2; // position in editor is 1-indexed, and include space
 
 				await new Promise((res) => setTimeout(res, 100));
-				3;
+
 				// console.log(`Trying ${_sentence}...`);
 				const params = {
 					textDocument: {
@@ -769,8 +772,8 @@ async function runTest(
 						csv,
 						file,
 						{
-							ranking: RankingAlgorithm[ranking],
-							rankingFactor: rankingFactor || "",
+							algorithm: RankingAlgorithm[algorithm],
+							atomicFactor: atomicFactor || "",
 							sizeFactor: sizeFactor || "",
 						},
 						i + 1,
@@ -787,9 +790,9 @@ async function runTest(
 		const [S, grades] = score(ranks);
 
 		console.log(
-			`${RankingAlgorithm[ranking]} scored ${round(S)}, grades ${JSON.stringify(
-				grades.map((i) => round(i))
-			)}`
+			`${RankingAlgorithm[algorithm]} scored ${round(
+				S
+			)}, grades ${JSON.stringify(grades.map((i) => round(i)))}`
 		);
 		return { score: S, time: Date.now() - startTime };
 	} finally {
