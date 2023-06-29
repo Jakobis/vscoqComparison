@@ -52,17 +52,25 @@ const round = (i: number, ds = 2) => (
 
 let ID = 1;
 type Vsc = { stdin: Writable; stdout: Readable };
-function send(vsc: Vsc, method: unknown, params: unknown) {
+function sendRec(vsc: Vsc, method: unknown, params: unknown) {
+	send(vsc, method, params, { id: ID });
+	return ID++;
+}
+function send(
+	vsc: Vsc,
+	method: unknown,
+	params: unknown,
+	mixin?: Record<string, unknown>
+) {
 	const msg = {
 		jsonrpc: "2.0",
-		id: ID,
 		method: method,
 		params: params,
+		...mixin,
 	};
 	const txt = JSON.stringify(msg);
 	const encoded = Buffer.from(txt, "utf8");
 	vsc.stdin.write(`Content-Length: ${encoded.length}\n\n${encoded}`);
-	return ID++;
 }
 
 type LinkedPromise = { data: unknown; next: Promise<LinkedPromise> };
@@ -130,9 +138,9 @@ class Queue {
 }
 
 type Err = { error: { message: string; timeout?: boolean } };
-async function sendRetry<T extends Record<string, any>>(
+async function sendRetry<T extends { result: Record<string, any> }>(
 	queue: Queue,
-	...args: Parameters<typeof send>
+	...args: Parameters<typeof sendRec>
 ): Promise<
 	{ data: T; error: undefined } | { data: undefined; error: Err["error"] }
 > {
@@ -148,22 +156,22 @@ async function sendRetry<T extends Record<string, any>>(
 		}, 10000);
 	});
 
-	send(...args);
+	sendRec(...args);
 	let data = await Promise.race([queue.dequeueSkip<T | Err>(), timeoutPromise]);
-	if ("error" in data) {
-		if (data.error.timeout) {
+	if ("error" in data || !data.result) {
+		if ("error" in data && data.error.timeout) {
 			clearTimeout(timeout);
 			return { error: data.error, data: undefined };
 		}
 		await new Promise((res) => setTimeout(res, 200));
 		console.log("retry 1");
-		send(...args);
+		sendRec(...args);
 		data = await queue.dequeueSkip<Awaited<T> | Err>();
 	}
-	if ("error" in data) {
+	if ("error" in data || !data.result) {
 		await new Promise((res) => setTimeout(res, 400));
 		console.log("retry 2");
-		send(...args);
+		sendRec(...args);
 		data = await queue.dequeueSkip<Awaited<T> | Err>();
 	}
 	if ("error" in data) {
@@ -172,6 +180,9 @@ async function sendRetry<T extends Record<string, any>>(
 	}
 
 	clearTimeout(timeout);
+	if (!data.result) {
+		return { error: { message: "Data was null!" }, data: undefined };
+	}
 	return { data, error: undefined };
 }
 
@@ -456,16 +467,16 @@ const basic = (algorithm: RankingAlgorithm, atomicFactor = 0, sizeFactor = 0) =>
 		algorithm,
 	} satisfies RankingSetup);
 
-const MATRIX_DEF = [1, 2, 5];
+// const MATRIX_DEF = [1, 2, 5];
 
-const matrix = (algorithm: RankingAlgorithm) =>
-	MATRIX_DEF.flatMap((atomicFactor) =>
-		MATRIX_DEF.map((sizeFactor) => ({
-			algorithm,
-			sizeFactor,
-			atomicFactor,
-		}))
-	) satisfies RankingSetup[];
+// const matrix = (algorithm: RankingAlgorithm) =>
+// 	MATRIX_DEF.flatMap((atomicFactor) =>
+// 		MATRIX_DEF.map((sizeFactor) => ({
+// 			algorithm,
+// 			sizeFactor,
+// 			atomicFactor,
+// 		}))
+// 	) satisfies RankingSetup[];
 
 const rankingAlgorthims = [
 	basic(RankingAlgorithm.SplitTypeIntersection),
@@ -579,10 +590,20 @@ async function startVsc({
 	file: string;
 	uri: string;
 }) {
-	const coqLib = process.env.COQLIB ? ["-coqlib", process.env.COQLIB] : [];
+	const coqLib =
+		process.env.COQLIB || true
+			? [
+					"-coqlib",
+					"/nix/store/zikadxl7k18288cahr99xl9xzbyp9f53-coq-dev/lib/coq",
+			  ]
+			: [];
 
 	const mocks = createMocks();
-	const vsc = spawn("vscoqtop", ["-bt", ...coqLib], { cwd });
+	const vsc = spawn(
+		"/home/monner/Projects/vscoq/language-server/_build/install/default/bin/vscoqtop",
+		["-bt", ...coqLib],
+		{ cwd }
+	);
 	const queue = await new Promise<Queue>((res) => new Queue(res));
 
 	const decoder = new TextDecoder("utf-8");
@@ -600,28 +621,30 @@ async function startVsc({
 		)
 	);
 
-	send(vsc, "initialize", {
+	sendRec(vsc, "initialize", {
 		processId: process.pid,
 		rootUri: "file://" + cwd,
 		rootPath: cwd,
 		workspaceFolders: [{ uri: cwd, name: "workspace" }],
 		capabilities: {},
 		initializationOptions: {
+			goals: { display: "List" },
 			proof: {
 				delegation: "None",
 				workers: 1,
 				mode: ProofMode.Continuous,
 			},
 			completion: {
-				unificationLimit: 0,
+				unificationLimit: 10000,
 				algorithm,
 				atomicFactor,
 				sizeFactor,
 			},
-			enableDiag: false,
+			enableDiagnostics: false,
 		},
 	});
 
+	send(vsc, "initialized", {});
 	await queue.dequeue(); // initialize
 	await queue.dequeue(); // workspace/configuration
 
@@ -635,6 +658,7 @@ async function startVsc({
 		textDocument: {
 			uri,
 			languageId: "coq",
+			version: 1,
 			text: contents,
 		},
 	});
@@ -707,6 +731,7 @@ async function runTest(
 						uri,
 					},
 					position: { line: i, character: tacticEnd },
+					context: { triggerKind: 1 },
 				};
 				const res = await sendRetry<{ result: { items: [] } }>(
 					queue,
